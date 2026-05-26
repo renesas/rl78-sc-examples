@@ -45,8 +45,9 @@ The examples of how to find projects is shown below.<br>
 1. Obtain the project using one of the following methods.
 
 - **Downloading a ZIP file**  
-   Open the ZIP file of the project you want to use on GitHub and download it using the Download raw file button (highlighted in red in the image).<br>
-   <img width="936" height="337" alt="image" src="https://github.com/user-attachments/assets/9a7b986f-c2b3-43e4-933a-8b15bf8165ed" />
+  Find the latest release for the device or category you want to use from GitHub Releases. <br>
+Download the ZIP file from the Assets section and obtain the required project.<br>
+<img width="720" height="210" alt="image" src="https://github.com/user-attachments/assets/d2503727-a5cc-4f85-a4ee-79a0e60b879c" />
 
 - **Cloning the repository**  
   Clone this repository using Git.<br>
