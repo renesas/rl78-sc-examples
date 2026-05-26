@@ -1,0 +1,29 @@
+# example_projects/series_map.yml
+# Device key -> series directory
+
+# ---- G2x series ----
+g22: g2x
+g23: g2x
+g24: g2x
+
+# ---- G1x series ----
+g10: g1x
+g11: g1x
+g12: g1x
+g13: g1x
+g14: g1x
+g15: g1x
+g16: g1x
+
+# ---- L series ----
+l12: lxx
+l13: lxx
+l23: lxx
+
+# ---- I series ----
+i1a: i1x
+i1b: i1x
+i1c: i1x
+
+# ---- H series ----
+h1d: h1d

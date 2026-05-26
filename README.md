@@ -1,2 +1,75 @@
-# rl78-sc-examples
-Example projects for Renesas RL78 MCU family based on Smart Configurator
+# RL78 Examples based on Smart Configurator 
+日本語版は[こちら](./READMEJP.md)
+ <br>
+## Overview
+This repository provides the example projects for Renesas RL78 MCU family based on Smart Configurator.
+ <br>
+ <br>
+
+## Repository content
+### Example projects
+Example Projects (EPs) focus on understanding individual peripheral functions through simple and isolated examples. <br>
+They provide sample code for basic peripheral functions to help users learn how each peripheral operates.<br>
+
+**Examples**: Interval Timer, UART, AD converter, etc.
+ <br>
+ <br>
+ 
+### Application projects
+Practical implementations based on Application Notes and real-world use cases, <br>
+providing sample code to demonstrate how the concepts are applied in actual systems. <br>
+
+**Examples**: Flash Programmer, Capacitive Touch, Safety Function, etc.
+ <br>
+ <br>
+ 
+## How to use the projects
+### How to find projects
+The examples of how to find projects is shown below.<br>
+ <br>
+ 
+#### If you want to evaluate a timer on the RL78/G13:
+1. Select [example_project](./example_project).
+2. Select the device series directory (`rl78_g1x`).
+3. Select the target device directory (`rl78_g13`).
+4. Select a timer-related sample project.<br>
+   Multiple timer samples are provided, so choose the one that best fits your intended use case.
+
+#### If you want to use serial-programming project:
+1. Select [application_project](./application_project).
+2. Select the category directory (`programmer`).
+3. Select an implementation directory depending on your environment or use case. <br>
+   Refer to the README in each directory and choose the project that matches the application you want to implement.
+
+### Quick start
+1. Obtain the project using one of the following methods.
+
+- **Downloading a ZIP file**  
+   Open the ZIP file of the project you want to use on GitHub and download it using the Download raw file button (highlighted in red in the image).<br>
+   <img width="936" height="337" alt="image" src="https://github.com/user-attachments/assets/9a7b986f-c2b3-43e4-933a-8b15bf8165ed" />
+
+- **Cloning the repository**  
+  Clone this repository using Git.<br>
+  e2studio (IDE) includes Git functionality, so you can also perform the clone operation directly within e2studio.<br>
+  <img width="511" height="543" alt="image" src="https://github.com/user-attachments/assets/65b45fa6-403d-4d6f-9b80-eb9d889fec83" />
+
+2. Install the required softwareand build hardware configuration by referring to the README file.
+3. Import the project into the IDE and start operation.<br>
+   You can use any of the following IDEs.
+   - [CS+](https://www.renesas.com/en/software-tool/cs)
+   - [e2studio](https://www.renesas.com/en/software-tool/e2-studio)
+   - [IAREW](https://www.iar.com/embedded-development-tools)
+ 
+## Target devices
+- RL78/G1x
+- RL78/G2x
+- RL78/Lxx
+- RL78/I1x
+- RL78/H1D
+ 
+## Links
+- RL78 Auto：
+- RL78 Software：
+- RL78 Product Page：https://www.renesas.com
+- RL78 Arduino：https://github.com/renesas/Arduino/wiki
+ 

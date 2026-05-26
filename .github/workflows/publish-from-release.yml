@@ -1,0 +1,225 @@
+name: Publish from Release Assets (rl78-sc-examples)
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install tools (yq for YAML parsing)
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y jq python3
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Download all release assets (zip only) [via API]
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p _inbox
+
+          python3 - <<'PY'
+          import json, os, subprocess, pathlib, sys
+
+          with open(os.environ["GITHUB_EVENT_PATH"], "r", encoding="utf-8") as f:
+              ev = json.load(f)
+
+          assets = ev.get("release", {}).get("assets", [])
+          zips = [a for a in assets if a.get("name","").lower().endswith(".zip")]
+
+          if not zips:
+              print("No .zip assets found in this release.")
+              sys.exit(0)
+
+          out = pathlib.Path("_inbox")
+          out.mkdir(exist_ok=True)
+
+          repo = ev["repository"]["full_name"]
+
+          for a in zips:
+              asset_id = a["id"]
+              name = a["name"]
+              dest = out / name
+
+              print(f"Downloading asset via API: {name} (id={asset_id})")
+
+              subprocess.check_call([
+                  "curl", "-L", "-f",
+                  "-H", f"Authorization: Bearer {os.environ['GH_TOKEN']}",
+                  "-H", "Accept: application/octet-stream",
+                  "-o", str(dest),
+                  f"https://api.github.com/repos/{repo}/releases/assets/{asset_id}"
+              ])
+          PY
+
+      - name: Process zips (Application/Example) + validate + extract
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          import os, re, shutil, zipfile, pathlib, subprocess, json, sys
+
+          ROOT = pathlib.Path(".").resolve()
+          INBOX = ROOT / "_inbox"
+
+          if not INBOX.exists():
+              print("No inbox folder. Nothing to process.")
+              sys.exit(0)
+
+          def is_zip_safe(z: zipfile.ZipFile):
+              bad = []
+              for n in z.namelist():
+                  if n.startswith("/") or n.startswith("\\"):
+                      bad.append(n)
+                  if ".." in pathlib.PurePosixPath(n).parts:
+                      bad.append(n)
+              return bad
+
+          def extract_zip_to(zip_path: pathlib.Path, dest_dir: pathlib.Path):
+              dest_dir.mkdir(parents=True, exist_ok=True)
+              with zipfile.ZipFile(zip_path, "r") as z:
+                  bad = is_zip_safe(z)
+                  if bad:
+                      raise RuntimeError(f"Unsafe zip paths in {zip_path.name}: {bad[:10]}")
+                  z.extractall(dest_dir)
+
+          def clean_dir(d: pathlib.Path):
+              if d.exists():
+                  shutil.rmtree(d)
+
+          def require_readmes(project_dir: pathlib.Path):
+              md = project_dir / "README.md"
+              jp = project_dir / "READMEJP.md"
+              if not md.exists() or not jp.exists():
+                  raise RuntimeError(f"Missing README files in {project_dir}. Need README.md and READMEJP.md")
+
+          # series map
+          MAP_FILE = ROOT / "example_projects" / "series_map.yml"
+          if not MAP_FILE.exists():
+              raise RuntimeError("example_projects/series_map.yml not found.")
+
+          series_map_json = subprocess.check_output(["yq","-o=json",".", str(MAP_FILE)], text=True)
+          series_map = json.loads(series_map_json)
+
+          def series_from_device_key(device_key: str) -> str:
+              s = series_map.get(device_key)
+              if not s:
+                  raise RuntimeError(f"Device key '{device_key}' is not defined in series_map.yml")
+              return s
+
+          outer_zips = sorted(INBOX.glob("*.zip"))
+          if not outer_zips:
+              print("No zip files found.")
+              sys.exit(0)
+
+          errors = []
+
+          for outer in outer_zips:
+              try:
+                  name = outer.name
+                  is_example = name.lower().startswith("rl78")
+                  print(f"\n=== Processing: {name} (example={is_example}) ===")
+
+                  work = ROOT / "_work" / outer.stem
+                  clean_dir(work)
+                  work.mkdir(parents=True, exist_ok=True)
+
+                  extract_zip_to(outer, work)
+
+                  # 2nd-level zip only
+                  nested = sorted(work.glob("*.zip"))
+                  deep_nested = [p for p in work.rglob("*.zip") if p not in nested]
+                  if deep_nested:
+                      print("3rd-level zip detected (or deeper). Showing up to 10:")
+                      for p in deep_nested[:10]:
+                          print(" -", p.relative_to(work))
+                      raise RuntimeError("Zip nesting deeper than 2 levels is not allowed.")
+
+                  if not nested:
+                      raise RuntimeError("No 2nd-level zip found directly under the outer zip.")
+
+                  if is_example:
+                      m = re.match(r"^rl78_([a-z0-9]+)\.zip$", name.lower())
+                      if not m:
+                          raise RuntimeError("Example outer zip must be rl78_<device>.zip (e.g., rl78_g23.zip)")
+
+                      device_key = m.group(1)
+                      series = series_from_device_key(device_key)
+                      series_dir = f"rl78_{series}"
+                      device_name = outer.stem  # rl78_g23
+
+                      base = ROOT / "example_projects" / series_dir / device_name
+                      base.mkdir(parents=True, exist_ok=True)
+
+                      for proj_zip in nested:
+                          target = base / proj_zip.stem
+                          clean_dir(target)
+                          extract_zip_to(proj_zip, target)
+                          require_readmes(target)
+
+                  else:
+                      # Application category zip must NOT include 'rl78'
+                      if "rl78" in name.lower():
+                          raise RuntimeError("Application zip must NOT include 'rl78' in filename.")
+
+                      category = outer.stem
+                      category_dir = ROOT / "application_projects" / category
+                      if not category_dir.exists():
+                          raise RuntimeError(f"Category folder not found: application_projects/{category}")
+
+                      for proj_zip in nested:
+                          target = category_dir / proj_zip.stem
+                          clean_dir(target)
+                          extract_zip_to(proj_zip, target)
+                          require_readmes(target)
+
+                  print(f"OK: {name}")
+
+              except Exception as e:
+                  print(f"ERROR: {outer.name}: {e}")
+                  errors.append(f"{outer.name}: {e}")
+
+          if errors:
+              print("\n=== Summary errors ===")
+              for e in errors:
+                  print(" -", e)
+              sys.exit(1)     
+              
+          import shutil
+          
+          for d in [ROOT / "_inbox", ROOT / "_work"]:
+              if d.exists():
+                  shutil.rmtree(d)
+                  
+          PY
+
+      - name: Create Pull Request with changes
+        uses: peter-evans/create-pull-request@v8
+        with:
+          commit-message: "chore(publish): import release assets"
+          title: "chore(publish): import release assets"
+          body: |
+            This PR was generated automatically from GitHub Release assets.
+
+            Rules:
+            - Example: rl78_<device>.zip -> example_projects/<series>/<device>/<project>/
+            - Application: <category>.zip -> application_projects/<category>/<project>/
+            - ZIP nesting: max 2 levels
+            - README.md and READMEJP.md are required
+            - Existing folders are overwritten (clean then extract)
+          branch: "automation/publish-from-release"
+          base: main
+          delete-branch: true
