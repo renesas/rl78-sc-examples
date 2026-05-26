@@ -15,7 +15,7 @@ They provide sample code for basic peripheral functions to help users learn how 
  <br>
  <br>
  
-### Application projects
+### Application projects (Coming soon)
 Practical implementations based on Application Notes and real-world use cases, <br>
 providing sample code to demonstrate how the concepts are applied in actual systems. <br>
 
@@ -34,12 +34,6 @@ The examples of how to find projects is shown below.<br>
 3. Select the target device directory (`rl78_g13`).
 4. Select a timer-related sample project.<br>
    Multiple timer samples are provided, so choose the one that best fits your intended use case.
-
-#### If you want to use serial-programming project:
-1. Select [application_project](./application_project).
-2. Select the category directory (`programmer`).
-3. Select an implementation directory depending on your environment or use case. <br>
-   Refer to the README in each directory and choose the project that matches the application you want to implement.
 
 ### Quick start
 1. Obtain the project using one of the following methods.
@@ -61,15 +55,15 @@ The examples of how to find projects is shown below.<br>
    - [IAREW](https://www.iar.com/embedded-development-tools)
  
 ## Target devices
-- RL78/G1x
+- RL78/G1x (Coming soon)
 - RL78/G2x
-- RL78/Lxx
-- RL78/I1x
-- RL78/H1D
+- RL78/Lxx (Coming soon)
+- RL78/I1x (Coming soon)
+- RL78/H1D (Coming soon)
  
 ## Links
-- RL78 Auto：
-- RL78 Software：
+- RL78 Auto：Coming soon
+- RL78 Software：Coming soon
 - RL78 Product Page：https://www.renesas.com
 - RL78 Arduino：https://github.com/renesas/Arduino/wiki
  
