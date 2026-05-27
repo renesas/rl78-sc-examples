@@ -10,54 +10,14 @@ English page is [here](./README.md).<br>
  <br>
  
 ## 目次
-- [RL78/G1x](#rl78g1x)
 - [RL78/G2x](#rl78g2x)
-- [RL78/I1x](#rl78i1x)
-- [RL78/Lxx](#rl78lxx)
-- [RL78/H1D](#rl78h1d)
-
-## RL78/G1x
-
-### RL78/G10
-| カテゴリ | フォルダ | 概要 |
-|---|---|---|
-| ADC | [AD Conversion](./rl78_g1x/rl78_g10/ad_conversion) |  |
-| ADC | [Software Trigger and Sequential Conversion Modes](./rl78_g1x/rl78_g10/software_trigger_and_sequential_conversion_modes) |  |
-
-### RL78/G11
-| カテゴリ | フォルダ | 概要 |
-|---|---|---|
-| ADC | [Software Trigger and Sequential Conversion Modes](./rl78_g1x/rl78_g11/software_trigger_and_sequential_conversion_modes) |  |
-
-### RL78/G12
-| カテゴリ | フォルダ | 概要 |
-|---|---|---|
-| ADC | [Software Trigger and Sequential Conversion Modes](./rl78_g1x/rl78_g12/software_trigger_and_sequential_conversion_modes) |  |
-
-### RL78/G13
-| カテゴリ | フォルダ | 概要 |
-|---|---|---|
-| ADC | [Software Trigger and Sequential Conversion Modes](./rl78_g1x/rl78_g13/software_trigger_and_sequential_conversion_modes) | |
-| ADC | [ADC in One Repeat Mode](./rl78_g1x/rl78_g13/adc_in_one_repeat_mode) |  |
-| ADC | [ADC in One Shot Mode](./rl78_g1x/rl78_g13/adc_in_one_shot_mode) | |
-| ADC | [ADC in Repeat Mode](./rl78_g1x/rl78_g13/adc_in_repeat_mode) |  |
-
-### RL78/G13A
-
-
-### RL78/G14
-
-### RL78/G15
-
-
-### RL78/G16
-
-
-### RL78/G1A
 
 ## RL78/G2x
 
 ### RL78/G22
+| カテゴリ | フォルダ | 概要 |
+|---|---|---|
+
 
 ### RL78/G23
 | カテゴリ | フォルダ | 概要 |
@@ -80,9 +40,3 @@ English page is [here](./README.md).<br>
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g2x/rl78_g24/pulse_interval_measurement_width) | RL78/G24 pulse interval measurement (width) example |
 | TAU | [PWM Output](./rl78_g2x/rl78_g24/pwm_output) | RL78/G24 PWM output example |
 | Timer | [32-bit Interval Timer](./rl78_g2x/rl78_g24/32-bit_interval_timer) | RL78/G24 32-bit interval timer example |
-
-## RL78/I1x
-
-## RL78/Lxx
-
-## RL78/H1D
