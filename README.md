@@ -16,8 +16,8 @@ They provide sample code for basic peripheral functions to help users learn how 
  <br>
  
 ### Application projects (Coming soon)
-Practical implementations based on Application Notes and real-world use cases, <br>
-providing sample code to demonstrate how the concepts are applied in actual systems. <br>
+Application Projects (APs) focus on practical implementations based on Application Notes and use cases. <br>
+They provide sample code to demonstrate how the concepts are applied in actual systems. <br>
 
 **Examples**: Flash Programmer, Capacitive Touch, Safety Function, etc.
  <br>
@@ -28,10 +28,10 @@ providing sample code to demonstrate how the concepts are applied in actual syst
 The examples of how to find projects is shown below.<br>
  <br>
  
-#### If you want to evaluate a timer on the RL78/G13:
+#### If you want to evaluate a timer on the RL78/G23:
 1. Select [example_project](./example_project).
-2. Select the device series directory (`rl78_g1x`).
-3. Select the target device directory (`rl78_g13`).
+2. Select the device series directory (`rl78_g2x`).
+3. Select the target device directory (`rl78_g23`).
 4. Select a timer-related sample project.<br>
    Multiple timer samples are provided, so choose the one that best fits your intended use case.
 
