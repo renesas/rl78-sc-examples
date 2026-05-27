@@ -38,7 +38,9 @@ Application Projects (AP) は、アプリケーションノートおよび実ユ
 1. 以下のいずれかの方法でプロジェクトを取得してください。
 
 - **zip ファイルをダウンロードする場合**  
-
+GitHub Releases から、使用したいデバイスまたはカテゴリの最新リリースノートを見つけてください。
+Assets セクションから ZIP ファイルをダウンロードし、必要なプロジェクトを取得してください。
+<img width="720" height="210" alt="image" src="https://github.com/user-attachments/assets/d2503727-a5cc-4f85-a4ee-79a0e60b879c" />
 
 - **リポジトリをクローンする場合**  
   Git を使用して本リポジトリを clone します。<br>
