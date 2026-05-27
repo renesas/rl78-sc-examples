@@ -14,6 +14,9 @@ This README.md introduces the projects available for each RL78 device.
 - [RL78/G2x](#rl78g2x)
 
 ## RL78/G2x
+- [RL78/G22](#rl78g22)
+- [RL78/G23](#rl78g23)
+- [RL78/G24](#rl78g24)
 
 ### RL78/G22
 | Peripheral | Folder | Description |
