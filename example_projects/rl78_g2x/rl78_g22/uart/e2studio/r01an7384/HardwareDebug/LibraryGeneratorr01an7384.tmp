@@ -1,0 +1,5 @@
+-MAKEUD_LBG="C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\HardwareDebug\r01an7384_lbg.ud" 
+-cpu=S3 
+-output=r01an7384.lib 
+-nologo 
+-lang=c99

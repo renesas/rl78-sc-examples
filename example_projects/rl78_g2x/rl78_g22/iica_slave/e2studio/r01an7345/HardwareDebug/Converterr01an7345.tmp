@@ -1,0 +1,6 @@
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_I2C\I2C_slave\r01an7345xx\workspace\e2studio\r01an7345\HardwareDebug\\r01an7345_c.ud" 
+-form=stype 
+-output="r01an7345.mot" 
+-byte_count=10 
+-nomessage 
+-nologo

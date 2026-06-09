@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration.1598217658">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration.1598217658" moduleId="org.eclipse.cdt.core.settings" name="HardwareDebug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.renesas.core.RenesasCompilerAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.core.buildRunnerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo">
+				<option id="toolchain.id" value="Renesas_CCRL"/>
+				<option id="toolchain.version" value="v1.13.00"/>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.boardInfo">
+				<option id="board.id" value="RL78G22_FastPrototypingBoard"/>
+				<option id="board.name" value="RL78G22_FastPrototypingBoard"/>
+				<option id="board.device" value="R7F102GGExFB"/>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="abs" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="Debug on hardware" id="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration.1598217658" name="HardwareDebug" parent="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration">
+					<folderInfo id="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.configuration.1598217658." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.toolChain.1745742168" name="Renesas CCRL Toolchain" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.hardwaredebug.toolChain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform.1975058182" isAbstract="false" name="targetPlatform" osList="win32" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/r01an7489}/HardwareDebug" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder.861208559" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm.517400023" name="SMS Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.option.hasSMSAsm.785001344" name="Has SMS Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.option.hasSMSAsm" value="true" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.option.include.1091843587" name="インクルード・ファイルを検索するフォルダ (-I)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.option.include" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/general}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_pincfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_PORT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL012}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_INTC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL001}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL013}&quot;"/>
+								</option>
+								<inputType id="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.inputType.1752313798" name="SMS Assembler Input" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.smsasm.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp.1218447448" name="DSP Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.noDebugInfo.2019649948" name="デバッグ情報を出力する (-no_debug_info)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.noDebugInfo" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection.1430289043" name="DSPソース内で定義したセクション名 (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa.1610914045" name="FAA Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.noDebugInfo.1582213685" name="デバッグ情報を出力する (-no_debug_info)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.noDebugInfo" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.hasDSP.1988140609" name="Has DSP" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.hasDSP" value="false" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection.2103012458" name="DSPソース内で定義したセクション名 (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.common.524023437" name="Common" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.common">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand.199139350" name="Device Command" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand" value="R7F102GGE" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.655223839" name="CPUコアの種別 (-cpu)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu" value="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.s3" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName.295746142" name="Device name" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName" value="R7F102GGExFB" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily.622775660" name="Device Family" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily" value="RL78 - G22" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp.1863371152" name="Has DSP" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp" value="false" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa.1277812033" name="Has FAA" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa" value="false" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasSMSAsm.674248267" name="Has SMS Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasSMSAsm" value="true" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion.184518789" name="ミラー先領域のアドレス範囲 (-asmopt=-mirror_region)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion" value="F2000,FEEFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cmd.console.1149832463" name="サブコマンド・ファイルの内容をコンソールに出力する" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cmd.console" value="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cmd.console.OFF" valueType="enumerated"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler.294344842" name="Compiler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore.1166244938" name="追加するオプション（すべての指定オプションの前に追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter.642573455" name="追加するオプション（すべての指定オプションの後ろに追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.1588553323" name="日本語/中国語のコメント、文字列の文字コード(-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.utf8" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.OinlineSize.2052383205" name="関数サイズの最大増加率 (-Oinline_size)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.OinlineSize" value="" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I.38529994" name="インクルード・ファイルを検索するフォルダ (-I)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/general}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_pincfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_PORT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL012}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_INTC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL001}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL013}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.langFileC.659910947" name="Cソース・ファイルの言語規格 (-lang)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.langFileC" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.langFileC.c99" valueType="enumerated"/>
+								<inputType id="Base.Compiler.ccrl.C.inputType.118362478" name="Compiler InputType" superClass="Base.Compiler.ccrl.C.inputType"/>
+								<inputType id="Base.Compiler.ccrl.Cpp.inputType.2025708373" name="Compiler Input CPP" superClass="Base.Compiler.ccrl.Cpp.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler.251017005" name="Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g.2112265136" name="デバッグ情報を出力する (-g)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore.1440455203" name="追加するオプション（すべての指定オプションの前に追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter.1316775243" name="追加するオプション（すべての指定オプションの後ろに追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.120844596" name="日本語/中国語のコメント、文字列の文字コード (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet" value="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.utf8" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.I.1190209777" name="インクルード・ファイルを検索するフォルダ (-I)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.I" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/general}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_pincfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/r_bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_PORT}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL012}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_INTC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL001}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL000}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/smc_gen/Config_ITL013}&quot;"/>
+								</option>
+								<inputType id="Base.Assembler.ccrl.inputType.1445550357" name="Assembler InputType" superClass="Base.Assembler.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker.1301933537" name="Linker" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue.1109568446" name="メモリ領域 (-debug_monitor=&lt;start address&gt;-&lt;end address&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue" value="0FE00-0FFFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue.559133737" name="ユーザ・オプション・バイト値 (-user_opt_byte=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue" value="EFFEE8" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue.1908617735" name="オンチップ・デバッグ制御値 (-ocdbg=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue" value="85" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn.67515351" name="可変ベクタ・テーブルに指定するベクタ番号とアドレス (-vectn)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo.611617932" name="コピーライトを表示しない (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore.246038140" name="追加するオプション（すべての指定オプションの前に追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter.1237923583" name="追加するオプション（すべての指定オプションの後ろに追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.standardLibrary.1555638393" name="標準・数学ライブラリを使用する (-library)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.standardLibrary" value="false" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList.373770212" name="なし(リンク順序のリスト)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\r01an7489.lib&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.runtimeLibrary.1262020948" name="ランタイム・ライブラリを使用する (-library)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.runtimeLibrary" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.symbol.1264688854" name="シンボル情報を出力する (-show=symbol)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.symbol" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor.1525467083" name="OCDモニタのメモリ領域を確保する (-debug_monitor)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte.1614641182" name="オプション・バイト領域のユーザ・オプション・バイトに値を設定する (-user_opt_byte)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.securityID.576629749" name="セキュリティID値 (-security_id)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.securityID" value="00000000000000000000" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg.1183183597" name="オプションバイト領域のオンチップ・デバッグ・オプション・バイトに値を設定する (-ocdbg)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.c99Library.1678806077" name="C99版ライブラリを使用する (-library)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.c99Library" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.rrm.648713896" name="RRM／DMM機能用ワーク領域を確保する (-rrm)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.rrm" value="true" valueType="boolean"/>
+								<inputType id="Base.Linker.ccrl.inputType.632093697" name="Linker InputType" superClass="Base.Linker.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian.104133699" name="Library Generator" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian">
+								<option id="com.renesas.cdt.ccrl.librarian.option.oinlineSize.619984928" name="インライン展開コード・サイズの最大増加率 (-Oinline_size)" superClass="com.renesas.cdt.ccrl.librarian.option.oinlineSize" value="" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.librarian.option.generateCStandard.8502071" name="ライブラリ・ジェネレータでC標準ライブラリを生成する" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.librarian.option.generateCStandard" value="com.renesas.cdt.managedbuild.renesas.ccrl.librarian.option.generateCStandard.yesOnly" valueType="enumerated"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter.2050531811" name="Converter" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo.632593096" name="コピーライトを表示しない (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore.74490868" name="追加するオプション（すべての指定オプションの前に追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter.1774863671" name="追加するオプション（すべての指定オプションの後ろに追加）" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile.809490146" name="ロード・モジュール・コンバータを実行する" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile" value="true" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="r01an7489.com.renesas.cdt.managedbuild.renesas.ccrl.projectType.1846513194" name="実行可能" projectType="com.renesas.cdt.managedbuild.renesas.ccrl.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.renesas.cdt.managedbuild.renesas.core.extendc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.renesas.cdt.managedbuild.renesas.core.extendc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.renesas.cdt.managedbuild.renesas.core.extendcpp"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.renesas.cdt.managedbuild.renesas.core.extendcpp"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

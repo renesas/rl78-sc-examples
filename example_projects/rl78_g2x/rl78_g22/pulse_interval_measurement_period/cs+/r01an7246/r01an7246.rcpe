@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MicomToolCommonProjectFile Version="1.00">
+  <CreatorType Name="CubeSuite+" Version="V8.11.00  [30 Nov 2023]" />
+  <Placeholders>
+    <PlaceholderPrefix>%</PlaceholderPrefix>
+    <PlaceholderPostfix>%</PlaceholderPostfix>
+  </Placeholders>
+  <Project Name="r01an7246" Type="Application">
+    <Files>
+      <Path>main.c</Path>
+      <Category Name="Smart Configurator">
+        <Category Name="Config_TAU0_0">
+          <Path>src\smc_gen\Config_TAU0_0\Config_TAU0_0.c</Path>
+          <Path>src\smc_gen\Config_TAU0_0\Config_TAU0_0.h</Path>
+          <Path>src\smc_gen\Config_TAU0_0\Config_TAU0_0_user.c</Path>
+        </Category>
+        <Category Name="general">
+          <Path>src\smc_gen\general\r_cg_macrodriver.h</Path>
+          <Path>src\smc_gen\general\r_cg_systeminit.c</Path>
+          <Path>src\smc_gen\general\r_cg_tau.h</Path>
+          <Path>src\smc_gen\general\r_cg_tau_common.c</Path>
+          <Path>src\smc_gen\general\r_cg_tau_common.h</Path>
+          <Path>src\smc_gen\general\r_cg_userdefine.h</Path>
+          <Path>src\smc_gen\general\r_smc_entry.h</Path>
+          <Path>src\smc_gen\general\r_cg_lvd.h</Path>
+          <Path>src\smc_gen\general\r_cg_lvd_common.c</Path>
+          <Path>src\smc_gen\general\r_cg_lvd_common.h</Path>
+          <Path>src\smc_gen\general\r_cg_lvd_common_user.c</Path>
+        </Category>
+        <Category Name="r_bsp">
+          <Path>src\smc_gen\r_bsp\platform.h</Path>
+          <Path>src\smc_gen\r_bsp\readme.txt</Path>
+          <Category Name="board">
+            <Category Name="generic_rl78_g22">
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference.h</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_ccrl.inc</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_iccrl.inc</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_llvm.inc</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_init.c</Path>
+              <Path>src\smc_gen\r_bsp\board\generic_rl78_g22\stkinit.asm</Path>
+            </Category>
+          </Category>
+          <Category Name="doc">
+            <Category Name="en">
+              <Path>src\smc_gen\r_bsp\doc\en\r01an5522ej0161-rl78-bsp.pdf</Path>
+            </Category>
+            <Category Name="ja">
+              <Path>src\smc_gen\r_bsp\doc\ja\r01an5522jj0161-rl78-bsp.pdf</Path>
+            </Category>
+          </Category>
+          <Category Name="mcu">
+            <Category Name="all">
+              <Path>src\smc_gen\r_bsp\mcu\all\cstart.asm</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\fsp_common_api.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.asm</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_fsp_error.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\all\r_rtos.h</Path>
+            </Category>
+            <Category Name="rl78_g22">
+              <Path>src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.c</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.h</Path>
+              <Path>src\smc_gen\r_bsp\mcu\rl78_g22\mcu_info.h</Path>
+              <Category Name="register_access">
+                <Category Name="ccrl">
+                  <Path>src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl\iodefine.h</Path>
+                </Category>
+              </Category>
+            </Category>
+          </Category>
+        </Category>
+        <Category Name="r_config">
+          <Path>src\smc_gen\r_config\r_bsp_config.h</Path>
+          <Path>src\smc_gen\r_config\r_bsp_config.inc</Path>
+        </Category>
+        <Category Name="r_pincfg">
+          <Path>src\smc_gen\r_pincfg\Pin.c</Path>
+          <Path>src\smc_gen\r_pincfg\Pin.h</Path>
+        </Category>
+      </Category>
+    </Files>
+    <DebugOptions>
+      <DebugTool>Simulator</DebugTool>
+      <ConnectSettings>
+        <MainClock>4000000</MainClock>
+      </ConnectSettings>
+      <DebugToolSettings />
+    </DebugOptions>
+    <Device Series="RL78">R7F102GGExFB</Device>
+    <BuildOptions Name="CC-RL" Version="V1.13.00">
+      <BuildMode Name="DefaultBuild" Active="True">
+        <LinkOrder>
+          <Path>DefaultBuild\main.obj</Path>
+          <Path>DefaultBuild\Config_TAU0_0.obj</Path>
+          <Path>DefaultBuild\Config_TAU0_0_user.obj</Path>
+          <Path>DefaultBuild\r_cg_systeminit.obj</Path>
+          <Path>DefaultBuild\r_cg_tau_common.obj</Path>
+          <Path>DefaultBuild\hdwinit.obj</Path>
+          <Path>DefaultBuild\r_bsp_init.obj</Path>
+          <Path>DefaultBuild\stkinit.obj</Path>
+          <Path>DefaultBuild\cstart.obj</Path>
+          <Path>DefaultBuild\r_bsp_common.obj</Path>
+          <Path>DefaultBuild\r_bsp_common_ccrl.obj</Path>
+          <Path>DefaultBuild\mcu_clocks.obj</Path>
+          <Path>DefaultBuild\Pin.obj</Path>
+          <Path>DefaultBuild\r_cg_lvd_common.obj</Path>
+          <Path>DefaultBuild\r_cg_lvd_common_user.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>src\smc_gen\r_pincfg</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_config</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\rl78_g22</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\mcu\all</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp\board\generic_rl78_g22</IncludePathForC>
+          <IncludePathForC>src\smc_gen\r_bsp</IncludePathForC>
+          <IncludePathForC>src\smc_gen\general</IncludePathForC>
+          <IncludePathForC>src\smc_gen\Config_TAU0_0</IncludePathForC>
+          <IncludePathForAsm>src\smc_gen\r_config</IncludePathForAsm>
+          <IncludePathForAsm>src\smc_gen\r_bsp\board\generic_rl78_g22</IncludePathForAsm>
+        </CommonOptions>
+        <GeneralOptions>
+          <SimultaneouslyBuild>False</SimultaneouslyBuild>
+        </GeneralOptions>
+        <CompileOptions>
+          <Option>-cpu=S3</Option>
+          <Option>-obj_path=%BuildModeName%</Option>
+          <Option>-dev=%MicomToolPath%\Device\RL78\Devicefile\DR7F102GGE.DVF</Option>
+          <Option>-g</Option>
+          <Option>-g_line</Option>
+          <Option>-I src\smc_gen\r_pincfg</Option>
+          <Option>-I src\smc_gen\r_config</Option>
+          <Option>-I src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl</Option>
+          <Option>-I src\smc_gen\r_bsp\mcu\rl78_g22</Option>
+          <Option>-I src\smc_gen\r_bsp\mcu\all</Option>
+          <Option>-I src\smc_gen\r_bsp\board\generic_rl78_g22</Option>
+          <Option>-I src\smc_gen\r_bsp</Option>
+          <Option>-I src\smc_gen\general</Option>
+          <Option>-I src\smc_gen\Config_TAU0_0</Option>
+          <Option>-lang=c99</Option>
+          <Option>-c</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-cpu=S3</Option>
+          <Option>-obj_path=%BuildModeName%</Option>
+          <Option>-dev=%MicomToolPath%\Device\RL78\Devicefile\DR7F102GGE.DVF</Option>
+          <Option>-g</Option>
+          <Option>-I src\smc_gen\r_config</Option>
+          <Option>-I src\smc_gen\r_bsp\board\generic_rl78_g22</Option>
+          <Option>-c</Option>
+        </AssembleOptions>
+        <SmsAssembleOptions>
+          <Option>-o %BuildModeName%</Option>
+          <Option>-character_set=none</Option>
+        </SmsAssembleOptions>
+        <LinkOptions>
+          <Option>-SECURITY_ID=00000000000000000000</Option>
+          <Option>-DEVICE=%MicomToolPath%\Device\RL78\Devicefile\DR7F102GGE.DVF</Option>
+          <Option>-DEBug</Option>
+          <Option>-NOCOmpress</Option>
+          <Option>-NOOPtimize</Option>
+          <Option>-OUtput=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-LIBrary=%MicomToolPath%\CC-RL\V1.13.00\lib\rl78em4s99.lib</Option>
+          <Option>-LIBrary=%MicomToolPath%\CC-RL\V1.13.00\lib\malloc_n.lib</Option>
+          <Option>-LIBrary=%MicomToolPath%\CC-RL\V1.13.00\lib\rl78em4r.lib</Option>
+          <Option>-OCDBG=85</Option>
+          <Option>-DEBUG_MONITOR=0FF00-0FFFF</Option>
+          <Option>-USER_OPT_BYTE=EFFEE8</Option>
+          <Option>-LISt=%BuildModeName%\%ProjectName%.map</Option>
+          <Option>-AUTO_SECTION_LAYOUT</Option>
+          <Option>-ROm=.data=.dataR</Option>
+          <Option>-ROm=.sdata=.sdataR</Option>
+          <Option>-NOMessage</Option>
+          <Option>-MEMory=High</Option>
+          <Option>-NOLOgo</Option>
+          <Option>-END</Option>
+          <Option>-Input=%BuildModeName%\%ProjectName%.abs</Option>
+          <Option>-DEVICE=%MicomToolPath%\Device\RL78\Devicefile\DR7F102GGE.DVF</Option>
+          <Option>-OUtput=%BuildModeName%\%ProjectName%.mot</Option>
+          <Option>-FOrm=Stype</Option>
+          <Option>-NOMessage</Option>
+          <Option>-EXIt</Option>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <GenerateMode>None</GenerateMode>
+        </LibraryGenerateOptions>
+        <IOHeaderGenerationOptions>
+          <Option>-df=%MicomToolPath%\Device\RL78\Devicefile\DR7F102GGE.DVF</Option>
+          <Option>-o=%ProjectDir%\iodefine.h</Option>
+          <Option>-f</Option>
+          <UpdateIOMode>None</UpdateIOMode>
+        </IOHeaderGenerationOptions>
+      </BuildMode>
+    </BuildOptions>
+    <Extension_SmcCodePartRL78>
+      <CodeGeneratorData></CodeGeneratorData>
+      <GenerateFileFolder>C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_palse_width\r01an7246xx\Workspace\CS+\r01an7246</GenerateFileFolder>
+      <SCFGFile>r01an7246.scfg</SCFGFile>
+      <SmcExePath>C:\Program Files (x86)\Renesas Electronics\SmartConfigurator\RL78\eclipse\SmartConfigurator.exe</SmcExePath>
+      <CodeGeneratorFilesGuid>183a2a13-b1c0-4a1f-ac8d-8247ab7af5a5</CodeGeneratorFilesGuid>
+    </Extension_SmcCodePartRL78>
+  </Project>
+</MicomToolCommonProjectFile>

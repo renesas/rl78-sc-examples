@@ -1,0 +1,8 @@
+LaunchTargetManager/configs/r01an6640\ HardwareDebug=null\:---
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/name=\u30ED\u30FC\u30AB\u30EB
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/os=win32
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:r01an6640\ HardwareDebug/activeLaunchMode=debug
+com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:r01an6640\ HardwareDebug/activeLaunchTarget=null\:---
+configDescList=com.renesas.cdt.launch.dsf.launching.gdbLocalLaunchDescriptorType\:r01an6640 HardwareDebug
+eclipse.preferences.version=1

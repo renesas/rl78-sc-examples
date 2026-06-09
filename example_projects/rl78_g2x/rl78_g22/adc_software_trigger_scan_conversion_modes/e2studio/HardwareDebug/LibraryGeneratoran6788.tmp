@@ -1,0 +1,5 @@
+-MAKEUD_LBG="C:\Users\a5089302\Desktop\e2studio\an6788\HardwareDebug\an6788_lbg.ud" 
+-cpu=S3 
+-output=an6788.lib 
+-nologo 
+-lang=c99

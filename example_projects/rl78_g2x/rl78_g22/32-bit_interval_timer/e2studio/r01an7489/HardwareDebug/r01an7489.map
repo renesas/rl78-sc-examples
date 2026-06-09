@@ -1,0 +1,419 @@
+Renesas Optimizing Linker (W3.06.00 )             18-Sep-2024 12:03:52
+
+*** Options ***
+
+-subcommand=Linkerr01an7489.tmp
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\HardwareDebug/r01an7489_l.ud" 
+-device="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF" 
+-list 
+-show=symbol 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=0FE00-0FFFF 
+-user_opt_byte=EFFEE8 
+-ocdbg=85 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an7489.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC_user.obj"
+-input=".\src/smc_gen/Config_ITL000\Config_ITL000.obj"
+-input=".\src/smc_gen/Config_ITL000\Config_ITL000_user.obj"
+-input=".\src/smc_gen/Config_ITL001\Config_ITL001.obj"
+-input=".\src/smc_gen/Config_ITL001\Config_ITL001_user.obj"
+-input=".\src/smc_gen/Config_ITL012\Config_ITL012.obj"
+-input=".\src/smc_gen/Config_ITL012\Config_ITL012_user.obj"
+-input=".\src/smc_gen/Config_ITL013\Config_ITL013.obj"
+-input=".\src/smc_gen/Config_ITL013\Config_ITL013_user.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/general\r_cg_itl_common.obj"
+-input=".\src/smc_gen/general\r_cg_itl_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g22\mcu_clocks.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library=".\r01an7489.lib"
+-output="r01an7489.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  000000ab        2a   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  00000285       1ae   1
+.textf
+                                  00000286  000006e5       460   1
+.const
+                                  00002000  0000204f        50   2
+.monitor2
+                                  0000fe00  0000ffff       200   1
+.bss
+                                  000fef00  000fef00         0   2
+.dataR
+                                  000fef00  000fef29        2a   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=.vect
+FILE=rlink_generates_04
+                                  00000000  0000007f        80
+
+SECTION=.data
+FILE=.\src\r01an7489.obj
+                                  00000082  000000ab        2a
+
+SECTION=.option_byte
+FILE=rlink_generates_01
+                                  000000c0  000000c3         4
+
+SECTION=.security_id
+FILE=rlink_generates_03
+                                  000000c4  000000cd         a
+
+SECTION=.monitor1
+FILE=rlink_generates_02
+                                  000000ce  000000d7         a
+
+SECTION=.text
+FILE=.\src\smc_gen\r_bsp\mcu\all\cstart.obj
+                                  000000d8  0000014e        77
+  _start
+                                  000000d8         0   entry,g         * 
+  _exit
+                                  0000014c         0   none ,g         * 
+  _atexit
+                                  0000014e         0   none ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.obj
+                                  0000014f  0000015a         c
+  _delay_wait
+                                  0000014f         0   none ,g         * 
+  loop
+                                  0000014f         0   none ,l         * 
+  check
+                                  00000156         0   none ,l         * 
+  _exit
+                                  0000015a         0   none ,l         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC_user.obj
+                                  0000015b  0000021f        c5
+  _r_Config_INTC_intp0_interrupt@1
+                                  0000015b        c5   func ,l         * 
+FILE=.\src\smc_gen\general\r_cg_itl_common_user.obj
+                                  00000220  00000285        66
+  _r_itl_interrupt@1
+                                  00000220        66   func ,l         * 
+
+SECTION=.textf
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\stkinit.obj
+                                  00000286  000002c9        44
+  _stkinit
+                                  00000286         0   none ,g         * 
+  LSTINIT1
+                                  00000294         0   none ,l         * 
+  LSTINIT2
+                                  000002be         0   none ,l         * 
+  LSTINIT3
+                                  000002c9         0   none ,l         * 
+FILE=.\src\r01an7489.obj
+                                  000002ca  000002ec        23
+  _main
+                                  000002ca         7   func ,g         * 
+  _UserInit
+                                  000002d1        1c   func ,g         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC.obj
+                                  000002ed  00000318        2c
+  _R_Config_INTC_Create
+                                  000002ed        1e   func ,g         * 
+  _R_Config_INTC_INTP0_Start
+                                  0000030b         7   func ,g         * 
+  _R_Config_INTC_INTP0_Stop
+                                  00000312         7   func ,g         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC_user.obj
+                                  00000319  00000319         1
+  _R_Config_INTC_Create_UserInit
+                                  00000319         1   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL000\Config_ITL000.obj
+                                  0000031a  00000390        77
+  _R_Config_ITL000_Create
+                                  0000031a        3f   func ,g         * 
+  _R_Config_ITL000_Start
+                                  00000359        12   func ,g         * 
+  _R_Config_ITL000_Stop
+                                  0000036b        12   func ,g         * 
+  _R_Config_ITL000_Set_OperationMode
+                                  0000037d        14   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL000\Config_ITL000_user.obj
+                                  00000391  000003ac        1c
+  _R_Config_ITL000_Create_UserInit
+                                  00000391         1   func ,g         * 
+  _R_Config_ITL000_Callback_Shared_Interrupt
+                                  00000392        1b   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL001\Config_ITL001.obj
+                                  000003ad  00000425        79
+  _R_Config_ITL001_Create
+                                  000003ad        41   func ,g         * 
+  _R_Config_ITL001_Start
+                                  000003ee        12   func ,g         * 
+  _R_Config_ITL001_Stop
+                                  00000400        12   func ,g         * 
+  _R_Config_ITL001_Set_OperationMode
+                                  00000412        14   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL001\Config_ITL001_user.obj
+                                  00000426  00000441        1c
+  _R_Config_ITL001_Create_UserInit
+                                  00000426         1   func ,g         * 
+  _R_Config_ITL001_Callback_Shared_Interrupt
+                                  00000427        1b   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL012\Config_ITL012.obj
+                                  00000442  000004ba        79
+  _R_Config_ITL012_Create
+                                  00000442        41   func ,g         * 
+  _R_Config_ITL012_Start
+                                  00000483        12   func ,g         * 
+  _R_Config_ITL012_Stop
+                                  00000495        12   func ,g         * 
+  _R_Config_ITL012_Set_OperationMode
+                                  000004a7        14   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL012\Config_ITL012_user.obj
+                                  000004bb  000004d6        1c
+  _R_Config_ITL012_Create_UserInit
+                                  000004bb         1   func ,g         * 
+  _R_Config_ITL012_Callback_Shared_Interrupt
+                                  000004bc        1b   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL013\Config_ITL013.obj
+                                  000004d7  0000054f        79
+  _R_Config_ITL013_Create
+                                  000004d7        41   func ,g         * 
+  _R_Config_ITL013_Start
+                                  00000518        12   func ,g         * 
+  _R_Config_ITL013_Stop
+                                  0000052a        12   func ,g         * 
+  _R_Config_ITL013_Set_OperationMode
+                                  0000053c        14   func ,g         * 
+FILE=.\src\smc_gen\Config_ITL013\Config_ITL013_user.obj
+                                  00000550  0000056b        1c
+  _R_Config_ITL013_Create_UserInit
+                                  00000550         1   func ,g         * 
+  _R_Config_ITL013_Callback_Shared_Interrupt
+                                  00000551        1b   func ,g         * 
+FILE=.\src\smc_gen\Config_PORT\Config_PORT.obj
+                                  0000056c  00000592        27
+  _R_Config_PORT_Create
+                                  0000056c        23   func ,g         * 
+  _R_Config_PORT_ReadPmnValues
+                                  0000058f         4   func ,g         * 
+FILE=.\src\smc_gen\Config_PORT\Config_PORT_user.obj
+                                  00000593  00000593         1
+  _R_Config_PORT_Create_UserInit
+                                  00000593         1   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_itl_common.obj
+                                  00000594  000005ca        37
+  _R_ITL_Create
+                                  00000594        15   func ,g         * 
+  _R_ITL_Start_Interrupt
+                                  000005a9         7   func ,g         * 
+  _R_ITL_Stop_Interrupt
+                                  000005b0         7   func ,g         * 
+  _R_ITL_Set_PowerOn
+                                  000005b7         5   func ,g         * 
+  _R_ITL_Set_PowerOff
+                                  000005bc         5   func ,g         * 
+  _R_ITL_Set_Reset
+                                  000005c1         5   func ,g         * 
+  _R_ITL_Release_Reset
+                                  000005c6         5   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_systeminit.obj
+                                  000005cb  000005e6        1c
+  _R_Systeminit
+                                  000005cb        1c   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.obj
+                                  000005e7  000005fc        16
+  _hdwinit
+                                  000005e7         d   func ,g         * 
+  _output_ports_configure@1
+                                  000005f4         2   func ,l         * 
+  _interrupts_configure@1
+                                  000005f6         2   func ,l         * 
+  _peripheral_modules_enable@1
+                                  000005f8         5   func ,l         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_init.obj
+                                  000005fd  00000609         d
+  _bsp_init_system
+                                  000005fd         8   func ,g         * 
+  _bsp_init_hardware
+                                  00000605         5   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common.obj
+                                  0000060a  0000060e         5
+  _R_BSP_GetFclkFreqHz
+                                  0000060a         5   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.obj
+                                  0000060f  000006dd        cf
+  _get_fclk_freq_hz
+                                  0000060f        71   func ,g         * 
+  _mcu_clock_setup
+                                  00000680        5e   func ,g         * 
+FILE=.\src\smc_gen\r_pincfg\Pin.obj
+                                  000006de  000006e5         8
+  _R_Pins_Create
+                                  000006de         8   func ,g         * 
+
+SECTION=.const
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.obj
+                                  00002000  0000204f        50
+  _g_fih_hz
+                                  00002000        40   data ,g         * 
+  _g_fim_hz
+                                  00002040        10   data ,g         * 
+
+SECTION=.monitor2
+FILE=rlink_generates_02
+                                  0000fe00  0000ffff       200
+
+SECTION=.dataR
+FILE=.\src\r01an7489.obj
+                                  000fef00  000fef29        2a
+  _g_transition_status
+                                  000fef00         2   data ,g         * 
+  _g_itldiv_table
+                                  000fef02        20   data ,g         * 
+  _g_inttm00_counter
+                                  000fef22         2   data ,g         * 
+  _g_inttm01_counter
+                                  000fef24         2   data ,g         * 
+  _g_inttm02_counter
+                                  000fef26         2   data ,g         * 
+  _g_inttm03_counter
+                                  000fef28         2   data ,g         * 
+
+Absolute value symbols
+FILE=rlink_generates_05
+  __s.textf
+                                  00000286         0   none ,g         * 
+  __e.textf
+                                  000006e6         0   none ,g         * 
+  __s.text
+                                  000000d8         0   none ,g         * 
+  __e.text
+                                  00000286         0   none ,g         * 
+  __s.const
+                                  00002000         0   none ,g         * 
+  __e.const
+                                  00002050         0   none ,g         * 
+  __s.constf
+                                  00000080         0   none ,g         * 
+  __e.constf
+                                  00000080         0   none ,g         * 
+  __s.data
+                                  00000082         0   none ,g         * 
+  __e.data
+                                  000000ac         0   none ,g         * 
+  __s.sdata
+                                  00000080         0   none ,g         * 
+  __e.sdata
+                                  00000080         0   none ,g         * 
+  __s.bss
+                                  000fef00         0   none ,g         * 
+  __e.bss
+                                  000fef00         0   none ,g         * 
+  __s.sbss
+                                  000ffe20         0   none ,g         * 
+  __e.sbss
+                                  000ffe20         0   none ,g         * 
+  __s.dataR
+                                  000fef00         0   none ,g         * 
+  __e.dataR
+                                  000fef2a         0   none ,g         * 
+  __s.sdataR
+                                  000ffe20         0   none ,g         * 
+  __e.sdataR
+                                  000ffe20         0   none ,g         * 
+  __s.init_array
+                                  00000080         0   none ,g         * 
+  __e.init_array
+                                  00000080         0   none ,g         * 
+  __s.RLIB
+                                  000000c4         0   none ,g         * 
+  __e.RLIB
+                                  000000c4         0   none ,g         * 
+  __s.SLIB
+                                  000000c4         0   none ,g         * 
+  __e.SLIB
+                                  000000c4         0   none ,g         * 
+  __s.option_byte
+                                  000000c0         0   none ,g         * 
+  __e.option_byte
+                                  000000c4         0   none ,g         * 
+  __s.monitor1
+                                  000000ce         0   none ,g         * 
+  __e.monitor1
+                                  000000d8         0   none ,g         * 
+  __s.monitor2
+                                  0000fe00         0   none ,g         * 
+  __e.monitor2
+                                  00010000         0   none ,g         * 
+  __s.security_id
+                                  000000c4         0   none ,g         * 
+  __e.security_id
+                                  000000ce         0   none ,g         * 
+  __s.vect
+                                  00000000         0   none ,g         * 
+  __e.vect
+                                  00000080         0   none ,g         * 
+  __RAM_ADDR_START
+                                  000fef00         0   none ,g         * 
+  __RAM_ADDR_END
+                                  000ffee0         0   none ,g         * 
+  __STACK_ADDR_START
+                                  000ffe20         0   none ,g         * 
+  __STACK_ADDR_END
+                                  000fef2a         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

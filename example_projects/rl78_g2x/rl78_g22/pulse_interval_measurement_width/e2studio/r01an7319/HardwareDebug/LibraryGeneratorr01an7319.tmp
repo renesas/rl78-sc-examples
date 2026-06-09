@@ -1,0 +1,5 @@
+-MAKEUD_LBG="C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_palse_width\r01an7319xx\Workspace\e2studio\r01an7319\HardwareDebug\r01an7319_lbg.ud" 
+-cpu=S3 
+-output=r01an7319.lib 
+-nologo 
+-lang=c99

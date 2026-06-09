@@ -1,0 +1,6 @@
+-MAKEUD="C:\Users\a5089302\Desktop\e2studio\an6788\HardwareDebug\\an6788_c.ud" 
+-form=stype 
+-output="an6788.mot" 
+-byte_count=10 
+-nomessage 
+-nologo

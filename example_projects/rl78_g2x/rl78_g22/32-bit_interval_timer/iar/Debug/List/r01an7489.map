@@ -1,0 +1,667 @@
+###############################################################################
+#
+# IAR ELF Linker V5.10.3.2716/W64 for RL78                18/Sep/2024  12:22:13
+# Copyright 2011-2023 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Exe\r01an7489.out
+#    Map file     =
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\List\r01an7489.map
+#    Command line =
+#        -f
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Exe\r01an7489.out.rsp
+#        (C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_INTC\Config_INTC.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_INTC\Config_INTC_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL000\Config_ITL000.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL000\Config_ITL000_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL001\Config_ITL001.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL001\Config_ITL001_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL012\Config_ITL012.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL012\Config_ITL012_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL013\Config_ITL013.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL013\Config_ITL013_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_PORT\Config_PORT.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_PORT\Config_PORT_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all\cstartup.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\main.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_pincfg\Pin.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all\r_bsp_common.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all\r_bsp_common_iar.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_init.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_itl_common.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_itl_common_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_lvd_common.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_lvd_common_user.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_systeminit.o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g22\vecttbl.o
+#        --no_out_extension -o
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Exe\r01an7489.out
+#        --config_def __RESERVE_OCD_ROM=1 --config_def
+#        __RESERVE_OCD_TRACE_RAM=0 --config_def __RESERVE_HOTPLUGIN_RAM=0 --map
+#        C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\List\r01an7489.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\rl78\config\lnkr7f102gge.icf" --config_def _STACK_SIZE=128
+#        --config_def _NEAR_HEAP_SIZE=256 --config_def _FAR_HEAP_SIZE=4096
+#        --config_def _HUGE_HEAP_SIZE=0 --define_symbol _NEAR_CONST_LOCATION=0
+#        --config_def _NEAR_CONST_LOCATION_START=0x2000 --config_def
+#        _NEAR_CONST_LOCATION_SIZE=0xCF00 --redirect ?UC_DIV_L01=HWDIV_8_8_8
+#        --redirect ?UC_MOD_L01=HWMOD_8_8_8 --redirect ?SC_DIV_L01=HWSDIV_8_8_8
+#        --redirect ?SC_MOD_L01=HWSMOD_8_8_8 --redirect
+#        ?SI_DIV_L02=HWSDIV_16_16_16 --redirect ?SI_MOD_L02=HWSMOD_16_16_16
+#        --redirect ?SL_DIV_L03=HWSDIV_32_32_32 --redirect
+#        ?SL_MOD_L03=HWSMOD_32_32_32 --redirect __Mul64=HWMUL_64_64_64
+#        --redirect __Divs64=HWSDIV_64_64_64 --redirect __Divu64=HWDIV_64_64_64
+#        --redirect __Mods64=HWSMOD_64_64_64 --redirect __Modu64=HWMOD_64_64_64
+#        --vfe --entry __iar_program_start --debug_lib --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__calling_convention       = v2
+__code_model               = near
+__core                     = s3
+__data_model               = near
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__dlib_version             = 6
+__double_size              = 32
+__far_rt_calls             = false
+__near_const               = rom0
+__rt_version               = 2
+
+
+*******************************************************************************
+*** RESERVED RANGES
+***
+
+Ranges reserved by mirroring and reserve directives:
+
+      From        To    Size
+      ----        --    ----
+    0xfe00    0xffff   0x200
+  0xf'2000  0xf'eeff  0xcf00
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"RESET":
+       place at address 0x0 { ro section .reset };
+"VECTOR":
+       place at address 0x4 { ro section .intvec };
+define block OPT_BYTE
+   with size = 4 { R_OPT_BYTE, ro section .option_byte, ro section OPTBYTE };
+"A2":  place at address 0xc0 { block OPT_BYTE };
+define block SECUR_ID
+   with size = 10 { R_SECUR_ID, ro section .security_id, ro section SECUID };
+"A3":  place at address 0xc4 { block SECUR_ID };
+"ROMNEAR":
+       place in [from 0xd8 to 0xffff] { R_TEXT, ro section .text };
+define block INIT_ARRAY
+   with fixed order, alignment = 2 {
+      ro section .preinit_array, ro section .init_array };
+define block INIT_ARRAY_TLS
+   with fixed order, alignment = 2 {
+      ro section .preinit_array_tls, ro section .init_array_tls };
+define block MIRROR_AREA { };
+"ROMFAR":
+       place in [from 0xd8 to 0xffff] {
+          block INIT_ARRAY, block INIT_ARRAY_TLS, block MIRROR_AREA,
+          R_TEXTF_UNIT64KP, ro section .textf_unit64kp, ro section .constf,
+          ro section .switchf, ro };
+"ROMHUGE":
+       place in [from 0xd8 to 0xffff] {
+          ro section .consth, R_TEXTF, ro section .textf };
+define block NEAR_HEAP with size = 256, alignment = 2 { };
+define block CSTACK with size = 128, alignment = 2 { rw section CSTACK };
+"RAMNEAR":
+       place in [from 0xf'ef00 to 0xf'fe1f] {
+          block NEAR_HEAP, block CSTACK, zi section .iar.dynexit, R_DATA,
+          rw section .data, R_BSS, rw section .bss*, rw };
+"SADDRMEM":
+       place in [from 0xf'fe20 to 0xf'fedf] {
+          rw section .sdata, R_SDATA, rw section .sbss*, R_SBSS,
+          rw section .wrkseg };
+reserve region "OCD ROM area" = [from 0xfe00 to 0xffff];
+initialize by copy with simple ranges {
+   rw, R_DATA, R_BSS, R_DATAF, R_BSSF, R_SDATA, R_SBSS };
+
+No sections matched the following patterns:
+
+  R_BSS                          in "RAMNEAR"
+  R_BSSF                         in "RAMFAR"
+  R_CALLT0                       in "CALLT"
+  R_DATA                         in "RAMNEAR"
+  R_DATAF                        in "RAMFAR"
+  R_OPT_BYTE                     in block OPT_BYTE
+  R_SBSS                         in "SADDRMEM"
+  R_SDATA                        in "SADDRMEM"
+  R_SECUR_ID                     in block SECUR_ID
+  R_TEXT                         in "ROMNEAR"
+  R_TEXTF                        in "ROMHUGE"
+  R_TEXTF_UNIT64KP               in "ROMFAR"
+  ro R_CONST_init                in "MIRROR"
+  ro section .callt0             in "CALLT"
+  ro section .const              in "MIRROR"
+  ro section .constf             in "ROMFAR"
+  ro section .consth             in "ROMHUGE"
+  ro section .init_array         in block INIT_ARRAY
+  ro section .init_array_tls     in block INIT_ARRAY_TLS
+  ro section .option_byte        in block OPT_BYTE
+  ro section .preinit_array      in block INIT_ARRAY
+  ro section .preinit_array_tls  in block INIT_ARRAY_TLS
+  ro section .security_id        in block SECUR_ID
+  ro section .switch             in "MIRROR"
+  ro section .switchf            in "ROMFAR"
+  ro section .textf_unit64kp     in "ROMFAR"
+  rw section .bss_unit64kp       in "RAMFAR"
+  rw section .bssf*              in "RAMFAR"
+  rw section .data_unit64kp      in "RAMFAR"
+  rw section .dataf              in "RAMFAR"
+  rw section .hbss*              in "RAMHUGE"
+  rw section .hdata              in "RAMHUGE"
+  rw section .sbss*              in "SADDRMEM"
+  rw section .sdata              in "SADDRMEM"
+  zi section .iar.dynexit        in "RAMNEAR"
+
+
+  Section            Kind      Address   Size  Object
+  -------            ----      -------   ----  ------
+"RESET":                                  0x2
+  .reset             const         0x0    0x2  interrupt_vector.o [14]
+                                 - 0x2    0x2
+
+"VECTOR":                                0x7c
+  .intvec            const         0x4   0x7c  interrupt_vector.o [14]
+                                - 0x80   0x7c
+
+"A2":                                     0x4
+  OPT_BYTE                        0xc0    0x4  <Block>
+    OPTBYTE          const        0xc0    0x1  vecttbl.o [11]
+    OPTBYTE          const        0xc1    0x1  vecttbl.o [11]
+    OPTBYTE          const        0xc2    0x1  vecttbl.o [11]
+    OPTBYTE          const        0xc3    0x1  vecttbl.o [11]
+                                - 0xc4    0x4
+
+"A3":                                     0xa
+  SECUR_ID                        0xc4    0xa  <Block>
+    SECUID           const        0xc4    0xa  vecttbl.o [11]
+                                - 0xce    0xa
+
+"ROMNEAR":                              0x4ef
+  .text              ro code      0xd8   0xc8  Config_INTC_user.o [2]
+  .text              ro code     0x1a0   0x73  mcu_clocks.o [11]
+  .text              ro code     0x213   0x58  r_cg_itl_common_user.o [8]
+  .text              ro code     0x26b   0x4a  Config_ITL001.o [4]
+  .text              ro code     0x2b5   0x4a  Config_ITL013.o [6]
+  .text              ro code     0x2ff   0x48  Config_ITL012.o [5]
+  .text              ro code     0x347   0x47  Config_ITL000.o [3]
+  .text              ro code     0x38e   0x40  cstartup.o [10]
+  .text              ro code     0x3ce   0x3a  Config_ITL000_user.o [3]
+  .text              ro code     0x408   0x3a  Config_ITL001_user.o [4]
+  .text              ro code     0x442   0x3a  Config_ITL012_user.o [5]
+  .text              ro code     0x47c   0x3a  Config_ITL013_user.o [6]
+  .text              ro code     0x4b6   0x27  Config_PORT.o [7]
+  .text              ro code     0x4dd   0x24  main.o [1]
+  .text              ro code     0x501   0x21  Config_INTC.o [2]
+  .text              ro code     0x522   0x1f  r_cg_itl_common.o [8]
+  .text              ro code     0x541   0x1a  r_cg_systeminit.o [8]
+  .text              ro code     0x55b   0x16  hdwinit.o [9]
+  .text              ro code     0x571   0x13  default_handler.o [14]
+  .text              ro code     0x584   0x11  __dbg_xxexit.o [13]
+  .text              ro code     0x595    0xc  r_bsp_init.o [9]
+  .text              ro code     0x5a1    0xc  l02.o [14]
+  .text              ro code     0x5ad    0xa  __dbg_abort.o [13]
+  .text              ro code     0x5b7    0x5  cexit.o [14]
+  .text              ro code     0x5bc    0x4  low_level_init.o [14]
+  .text              ro code     0x5c0    0x3  exit.o [14]
+  .text              ro code     0x5c3    0x3  __dbg_break.o [13]
+  .text              ro code     0x5c6    0x1  Config_PORT_user.o [7]
+                               - 0x5c7  0x4ef
+
+"ROMFAR":                                0x43
+  Initializer bytes  const       0x5c7   0x2a  <for RAMNEAR-1>
+  .iar.init_table    const       0x5f2    0xc  - Linker created -
+  CODE               ro code     0x5fe    0xc  r_bsp_common_iar.o [10]
+                               - 0x60a   0x43
+
+"ROMHUGE":                               0x9d
+  .textf             ro code     0x60a   0x5c  near_copy_init.o [14]
+  .textf             ro code     0x666   0x41  data_init.o [14]
+                               - 0x6a7   0x9d
+
+Absolute sections, part 1 of 24:          0x1
+  .bss.noinit        uninit   0xf'0034    0x1  Config_PORT.o [7]
+                            - 0xf'0035    0x1
+
+Absolute sections, part 2 of 24:          0x1
+  .bss.noinit        uninit   0xf'0051    0x1  Config_PORT.o [7]
+                            - 0xf'0052    0x1
+
+Absolute sections, part 3 of 24:          0x2
+  .bss.noinit        uninit   0xf'0077    0x1  r_bsp_init.o [9]
+  .bss.noinit        uninit   0xf'0078    0x1  hdwinit.o [9]
+                            - 0xf'0079    0x2
+
+Absolute sections, part 4 of 24:          0x1
+  .bss.noinit        uninit   0xf'00a8    0x1  mcu_clocks.o [11]
+                            - 0xf'00a9    0x1
+
+Absolute sections, part 5 of 24:          0x1
+  .bss.noinit        uninit   0xf'00f1    0x1  r_cg_systeminit.o [8]
+                            - 0xf'00f2    0x1
+
+Absolute sections, part 6 of 24:          0x1
+  .bss.noinit        uninit   0xf'00f3    0x1  mcu_clocks.o [11]
+                            - 0xf'00f4    0x1
+
+Absolute sections, part 7 of 24:          0x2
+  .bss.noinit        uninit   0xf'00fa    0x1  r_cg_itl_common.o [8]
+  .bss.noinit        uninit   0xf'00fb    0x1  r_cg_itl_common.o [8]
+                            - 0xf'00fc    0x2
+
+Absolute sections, part 8 of 24:          0x1
+  .bss.noinit        uninit   0xf'0215    0x1  mcu_clocks.o [11]
+                            - 0xf'0216    0x1
+
+Absolute sections, part 9 of 24:          0x1
+  .bss.noinit        uninit   0xf'0261    0x1  Config_PORT.o [7]
+                            - 0xf'0262    0x1
+
+Absolute sections, part 10 of 24:         0x1
+  .bss.noinit        uninit   0xf'0263    0x1  Config_PORT.o [7]
+                            - 0xf'0264    0x1
+
+Absolute sections, part 11 of 24:         0x1
+  .bss.noinit        uninit   0xf'026d    0x1  Config_INTC.o [2]
+                            - 0xf'026e    0x1
+
+Absolute sections, part 12 of 24:         0x1
+  .bss.noinit        uninit   0xf'02b1    0x1  Config_PORT.o [7]
+                            - 0xf'02b2    0x1
+
+Absolute sections, part 13 of 24:         0x4
+  .bss.noinit        uninit   0xf'0360    0x2  Config_ITL000.o [3]
+  .bss.noinit        uninit   0xf'0362    0x2  Config_ITL012.o [5]
+                            - 0xf'0364    0x4
+
+Absolute sections, part 14 of 24:         0x4
+  .bss.noinit        uninit   0xf'0366    0x1  Config_INTC_user.o [2]
+  .bss.noinit        uninit   0xf'0367    0x1  Config_ITL000.o [3]
+  .bss.noinit        uninit   0xf'0368    0x1  Config_INTC_user.o [2]
+  .bss.noinit        uninit   0xf'0369    0x1  Config_INTC_user.o [2]
+                            - 0xf'036a    0x4
+
+Absolute sections, part 15 of 24:         0x2
+  .bss.noinit        uninit   0xf'036b    0x1  Config_INTC_user.o [2]
+  .bss.noinit        uninit   0xf'036c    0x1  Config_INTC_user.o [2]
+                            - 0xf'036d    0x2
+
+"RAMNEAR":                               0xaa
+  RAMNEAR-1                   0xf'ef00   0x2a  <Init block>
+    .data            inited   0xf'ef00   0x20  main.o [1]
+    .bss             inited   0xf'ef20    0x2  main.o [1]
+    .bss             inited   0xf'ef22    0x2  main.o [1]
+    .bss             inited   0xf'ef24    0x2  main.o [1]
+    .bss             inited   0xf'ef26    0x2  main.o [1]
+    .bss             inited   0xf'ef28    0x2  main.o [1]
+  CSTACK                      0xf'ef2a   0x80  <Block>
+    CSTACK           rw data  0xf'ef2a    0x0  cstartup.o [10]
+    CSTACK           uninit   0xf'ef2a   0x80  <Block tail>
+                            - 0xf'efaa   0xaa
+
+"SADDRMEM":                               0x0
+  .wrkseg            rw data  0xf'fe20    0x0  cstartup.o [10]
+
+Absolute sections, part 16 of 24:         0x1
+  .sbss.noinit       uninit   0xf'ff01    0x1  Config_ITL000_user.o [3]
+                            - 0xf'ff02    0x1
+
+Absolute sections, part 17 of 24:         0x2
+  .sbss.noinit       uninit   0xf'ff03    0x1  Config_ITL013_user.o [6]
+  .sbss.noinit       uninit   0xf'ff04    0x1  Config_ITL012_user.o [5]
+                            - 0xf'ff05    0x2
+
+Absolute sections, part 18 of 24:         0x1
+  .sbss.noinit       uninit   0xf'ff0d    0x1  Config_INTC_user.o [2]
+                            - 0xf'ff0e    0x1
+
+Absolute sections, part 19 of 24:         0x1
+  .bss.noinit        uninit   0xf'ff21    0x1  Config_PORT.o [7]
+                            - 0xf'ff22    0x1
+
+Absolute sections, part 20 of 24:         0x2
+  .bss.noinit        uninit   0xf'ff23    0x1  Config_PORT.o [7]
+  .bss.noinit        uninit   0xf'ff24    0x1  Config_PORT.o [7]
+                            - 0xf'ff25    0x2
+
+Absolute sections, part 21 of 24:         0x2
+  .bss.noinit        uninit   0xf'ff38    0x1  Config_INTC.o [2]
+  .bss.noinit        uninit   0xf'ff39    0x1  Config_INTC.o [2]
+                            - 0xf'ff3a    0x2
+
+Absolute sections, part 22 of 24:         0x2
+  .bss.noinit        uninit   0xf'ffa0    0x1  mcu_clocks.o [11]
+  .bss.noinit        uninit   0xf'ffa1    0x1  mcu_clocks.o [11]
+                            - 0xf'ffa2    0x2
+
+Absolute sections, part 23 of 24:         0x1
+  .bss.noinit        uninit   0xf'ffa4    0x1  mcu_clocks.o [11]
+                            - 0xf'ffa5    0x1
+
+Absolute sections, part 24 of 24:        0x10
+  .bss.noinit        uninit   0xf'ffe0    0x2  Config_INTC.o [2]
+  .bss.noinit        uninit   0xf'ffe2    0x2  Config_ITL000.o [3]
+  .bss.noinit        uninit   0xf'ffe4    0x2  Config_INTC.o [2]
+  .bss.noinit        uninit   0xf'ffe6    0x2  Config_ITL000.o [3]
+  .bss.noinit        uninit   0xf'ffe8    0x2  Config_INTC.o [2]
+  .bss.noinit        uninit   0xf'ffea    0x2  Config_ITL000.o [3]
+  .bss.noinit        uninit   0xf'ffec    0x2  Config_INTC.o [2]
+  .bss.noinit        uninit   0xf'ffee    0x2  Config_ITL000.o [3]
+                            - 0xf'fff0   0x10
+
+Unused ranges:
+
+      From        To    Size
+      ----        --    ----
+     0x6a7    0xfdff  0xf759
+  0xf'efaa  0xf'fe1f   0xe76
+  0xf'fe20  0xf'fedf    0xc0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Copy (___iar_copy_init_near2)
+    1 source range, total size 0x2a:
+             0x5c7  0x2a
+    1 destination range, total size 0x2a:
+          0xf'ef00  0x2a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  rw data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------------
+    Total:
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj: [1]
+    main.o                       36       42       42
+    ----------------------------------------------------------
+    Total:                       36       42       42
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_INTC: [2]
+    Config_INTC.o                33                         11
+    Config_INTC_user.o          200                          6
+    ----------------------------------------------------------
+    Total:                      233                         17
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL000: [3]
+    Config_ITL000.o              71                         11
+    Config_ITL000_user.o         58                          1
+    ----------------------------------------------------------
+    Total:                      129                         12
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL001: [4]
+    Config_ITL001.o              74
+    Config_ITL001_user.o         58
+    ----------------------------------------------------------
+    Total:                      132
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL012: [5]
+    Config_ITL012.o              72                          2
+    Config_ITL012_user.o         58                          1
+    ----------------------------------------------------------
+    Total:                      130                          3
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL013: [6]
+    Config_ITL013.o              74
+    Config_ITL013_user.o         58                          1
+    ----------------------------------------------------------
+    Total:                      132                          1
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_PORT: [7]
+    Config_PORT.o                39                          8
+    Config_PORT_user.o            1
+    ----------------------------------------------------------
+    Total:                       40                          8
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general: [8]
+    r_cg_itl_common.o            31                          2
+    r_cg_itl_common_user.o       88
+    r_cg_systeminit.o            26                          1
+    ----------------------------------------------------------
+    Total:                      145                          3
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g22: [9]
+    hdwinit.o                    22                          1
+    r_bsp_init.o                 12                          1
+    ----------------------------------------------------------
+    Total:                       34                          2
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all: [10]
+    cstartup.o                   64
+    r_bsp_common_iar.o           12
+    ----------------------------------------------------------
+    Total:                       76
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g22: [11]
+    mcu_clocks.o                115                          6
+    vecttbl.o                             14
+    ----------------------------------------------------------
+    Total:                      115       14                 6
+
+C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_pincfg: [12]
+    ----------------------------------------------------------
+    Total:
+
+dbgrlnnf23nd.a: [13]
+    __dbg_abort.o                10
+    __dbg_break.o                 3
+    __dbg_xxexit.o               17
+    ----------------------------------------------------------
+    Total:                       30
+
+dlrlnnf23n.a: [14]
+    cexit.o                       5
+    data_init.o                  65
+    default_handler.o            19
+    exit.o                        3
+    interrupt_vector.o                   126
+    l02.o                        12
+    low_level_init.o              4
+    near_copy_init.o             92
+    ----------------------------------------------------------
+    Total:                      200      126
+
+    Gaps                                   1
+    Linker created                        12      128
+--------------------------------------------------------------
+    Grand Total:              1'432      195      170       52
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+.iar.init_table$$Base      0x5f2         --   Gb  - Linker created -
+.iar.init_table$$Limit     0x5fe         --   Gb  - Linker created -
+?SI_CMP_L02                0x5a1        Code  Gb  l02.o [14]
+@cend                      0x3ce        Code  Gb  cstartup.o [10]
+@cstart                    0x38e        Code  Gb  cstartup.o [10]
+CSTACK$$Base            0xf'ef2a         --   Gb  - Linker created -
+CSTACK$$Limit           0xf'efaa         --   Gb  - Linker created -
+OPT_BYTE$$Base              0xc0         --   Gb  - Linker created -
+OPT_BYTE$$Limit             0xc4         --   Gb  - Linker created -
+Region$$Table$$Base        0x5f2         --   Gb  - Linker created -
+Region$$Table$$Limit       0x5fe         --   Gb  - Linker created -
+SECUR_ID$$Base              0xc4         --   Gb  - Linker created -
+SECUR_ID$$Limit             0xce         --   Gb  - Linker created -
+_NEAR_CONST_LOCATION {Abs}
+                             0x0        Data  Gb  <internal module>
+_R_Config_INTC_Create      0x501  0x1a  Code  Gb  Config_INTC.o [2]
+_R_Config_INTC_Create_UserInit
+                            0xd8   0x1  Code  Gb  Config_INTC_user.o [2]
+_R_Config_INTC_INTP0_Start
+                           0x51b   0x7  Code  Gb  Config_INTC.o [2]
+_R_Config_ITL000_Callback_Shared_Interrupt
+                           0x3cf  0x39  Code  Gb  Config_ITL000_user.o [3]
+_R_Config_ITL000_Create
+                           0x347  0x47  Code  Gb  Config_ITL000.o [3]
+_R_Config_ITL000_Create_UserInit
+                           0x3ce   0x1  Code  Gb  Config_ITL000_user.o [3]
+_R_Config_ITL001_Callback_Shared_Interrupt
+                           0x409  0x39  Code  Gb  Config_ITL001_user.o [4]
+_R_Config_ITL001_Create
+                           0x26b  0x4a  Code  Gb  Config_ITL001.o [4]
+_R_Config_ITL001_Create_UserInit
+                           0x408   0x1  Code  Gb  Config_ITL001_user.o [4]
+_R_Config_ITL012_Callback_Shared_Interrupt
+                           0x443  0x39  Code  Gb  Config_ITL012_user.o [5]
+_R_Config_ITL012_Create
+                           0x2ff  0x48  Code  Gb  Config_ITL012.o [5]
+_R_Config_ITL012_Create_UserInit
+                           0x442   0x1  Code  Gb  Config_ITL012_user.o [5]
+_R_Config_ITL013_Callback_Shared_Interrupt
+                           0x47d  0x39  Code  Gb  Config_ITL013_user.o [6]
+_R_Config_ITL013_Create
+                           0x2b5  0x4a  Code  Gb  Config_ITL013.o [6]
+_R_Config_ITL013_Create_UserInit
+                           0x47c   0x1  Code  Gb  Config_ITL013_user.o [6]
+_R_Config_PORT_Create      0x4b6  0x27  Code  Gb  Config_PORT.o [7]
+_R_Config_PORT_Create_UserInit
+                           0x5c6   0x1  Code  Gb  Config_PORT_user.o [7]
+_R_ITL_Create              0x522  0x11  Code  Gb  r_cg_itl_common.o [8]
+_R_ITL_Start_Interrupt     0x533   0x7  Code  Gb  r_cg_itl_common.o [8]
+_R_ITL_Stop_Interrupt      0x53a   0x7  Code  Gb  r_cg_itl_common.o [8]
+_R_Systeminit              0x541  0x1a  Code  Gb  r_cg_systeminit.o [8]
+_UserInit                  0x4e5  0x1c  Code  Gb  main.o [1]
+__A_CKC                 0xf'ffa4   0x1  Data  Wk  mcu_clocks.o [11]
+__A_CMC                 0xf'ffa0   0x1  Data  Wk  mcu_clocks.o [11]
+__A_CSC                 0xf'ffa1   0x1  Data  Wk  mcu_clocks.o [11]
+__A_EGN0                0xf'ff39   0x1  Data  Wk  Config_INTC.o [2]
+__A_EGP0                0xf'ff38   0x1  Data  Wk  Config_INTC.o [2]
+__A_HOCODIV             0xf'00a8   0x1  Data  Wk  mcu_clocks.o [11]
+__A_IAWCTL              0xf'0078   0x1  Data  Wk  hdwinit.o [9]
+__A_IF0                 0xf'ffe0   0x2  Data  Wk  Config_INTC.o [2]
+__A_IF1                 0xf'ffe2   0x2  Data  Wk  Config_ITL000.o [3]
+__A_ITLCMP00            0xf'0360   0x2  Data  Wk  Config_ITL000.o [3]
+__A_ITLCMP01            0xf'0362   0x2  Data  Wk  Config_ITL012.o [5]
+__A_ITLCSEL0            0xf'0367   0x1  Data  Wk  Config_ITL000.o [3]
+__A_ITLCTL0             0xf'0366   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_ITLFDIV00           0xf'0368   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_ITLFDIV01           0xf'0369   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_ITLMKF0             0xf'036c   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_ITLS0               0xf'036b   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_MK0                 0xf'ffe4   0x2  Data  Wk  Config_INTC.o [2]
+__A_MK1                 0xf'ffe6   0x2  Data  Wk  Config_ITL000.o [3]
+__A_OSMC                0xf'00f3   0x1  Data  Wk  mcu_clocks.o [11]
+__A_P1                  0xf'ff01   0x1  Data  Wk  Config_ITL000_user.o [3]
+__A_P13                 0xf'ff0d   0x1  Data  Wk  Config_INTC_user.o [2]
+__A_P3                  0xf'ff03   0x1  Data  Wk  Config_ITL013_user.o [6]
+__A_P4                  0xf'ff04   0x1  Data  Wk  Config_ITL012_user.o [5]
+__A_PDIDIS1             0xf'02b1   0x1  Data  Wk  Config_PORT.o [7]
+__A_PER1                0xf'00fa   0x1  Data  Wk  r_cg_itl_common.o [8]
+__A_PIOR                0xf'0077   0x1  Data  Wk  r_bsp_init.o [9]
+__A_PM1                 0xf'ff21   0x1  Data  Wk  Config_PORT.o [7]
+__A_PM3                 0xf'ff23   0x1  Data  Wk  Config_PORT.o [7]
+__A_PM4                 0xf'ff24   0x1  Data  Wk  Config_PORT.o [7]
+__A_PMCT1               0xf'0261   0x1  Data  Wk  Config_PORT.o [7]
+__A_PMCT13              0xf'026d   0x1  Data  Wk  Config_INTC.o [2]
+__A_PMCT3               0xf'0263   0x1  Data  Wk  Config_PORT.o [7]
+__A_POM1                0xf'0051   0x1  Data  Wk  Config_PORT.o [7]
+__A_PR00                0xf'ffe8   0x2  Data  Wk  Config_INTC.o [2]
+__A_PR01                0xf'ffea   0x2  Data  Wk  Config_ITL000.o [3]
+__A_PR10                0xf'ffec   0x2  Data  Wk  Config_INTC.o [2]
+__A_PR11                0xf'ffee   0x2  Data  Wk  Config_ITL000.o [3]
+__A_PRR0                0xf'00f1   0x1  Data  Wk  r_cg_systeminit.o [8]
+__A_PRR1                0xf'00fb   0x1  Data  Wk  r_cg_itl_common.o [8]
+__A_PU4                 0xf'0034   0x1  Data  Wk  Config_PORT.o [7]
+__A_WKUPMD              0xf'0215   0x1  Data  Wk  mcu_clocks.o [11]
+___DebugBreak              0x5c3   0x3  Code  Gb  __dbg_break.o [13]
+___exit                    0x584  0x11  Code  Gb  __dbg_xxexit.o [13]
+___iar_copy_init_near2     0x60a  0x5c  Code  Gb  near_copy_init.o [14]
+___iar_data_init2          0x666  0x41  Code  Gb  data_init.o [14]
+___iar_default_interrupt_handler
+                           0x571  0x13  Code  Lc  default_handler.o [14]
+___interrupt_0x00          0x38e        Code  Gb  cstartup.o [10]
+___interrupt_0x08           0xd9        Code  Gb  Config_INTC_user.o [2]
+___interrupt_0x38          0x213        Code  Gb  r_cg_itl_common_user.o [8]
+___low_level_init          0x5bc        Code  Wk  low_level_init.o [14]
+__exit                     0x5b7        Code  Gb  cexit.o [14]
+__iar_exit_end             0x5bc        Code  Gb  cexit.o [14]
+__iar_program_start        0x38e        Code  Gb  cstartup.o [10]
+__link_file_version_2 {Abs}
+                             0x1        Data  Gb  <internal module>
+__program_end              0x3ce        Code  Gb  cstartup.o [10]
+_abort                     0x5ad   0xa  Code  Gb  __dbg_abort.o [13]
+_bsp_init_hardware         0x59d   0x4  Code  Gb  r_bsp_init.o [9]
+_bsp_init_system           0x595   0x8  Code  Gb  r_bsp_init.o [9]
+_delay_wait                0x5fe        Code  Gb  r_bsp_common_iar.o [10]
+_exit                      0x5c0   0x3  Code  Gb  exit.o [14]
+_g_inttm00_counter      0xf'ef22   0x2  Data  Gb  main.o [1]
+_g_inttm01_counter      0xf'ef24   0x2  Data  Gb  main.o [1]
+_g_inttm02_counter      0xf'ef26   0x2  Data  Gb  main.o [1]
+_g_inttm03_counter      0xf'ef28   0x2  Data  Gb  main.o [1]
+_g_itldiv_table         0xf'ef00  0x20  Data  Gb  main.o [1]
+_g_transition_status    0xf'ef20   0x2  Data  Gb  main.o [1]
+_hdwinit                   0x55b   0xe  Code  Gb  hdwinit.o [9]
+_interrupt_vector_table
+                             0x0        Data  Gb  interrupt_vector.o [14]
+_interrupts_configure      0x56b   0x2  Code  Lc  hdwinit.o [9]
+_main                      0x4dd   0x8  Code  Gb  main.o [1]
+_mcu_clock_setup           0x1a0  0x73  Code  Gb  mcu_clocks.o [11]
+_opbyte0                    0xc0   0x1  Data  Gb  vecttbl.o [11]
+_opbyte1                    0xc1   0x1  Data  Gb  vecttbl.o [11]
+_opbyte2                    0xc2   0x1  Data  Gb  vecttbl.o [11]
+_opbyte3                    0xc3   0x1  Data  Gb  vecttbl.o [11]
+_output_ports_configure
+                           0x569   0x2  Code  Lc  hdwinit.o [9]
+_peripheral_modules_enable
+                           0x56d   0x4  Code  Lc  hdwinit.o [9]
+_r_Config_INTC_intp0_interrupt
+                            0xd9  0xc7  Code  Lc  Config_INTC_user.o [2]
+_r_itl_interrupt           0x213  0x58  Code  Lc  r_cg_itl_common_user.o [8]
+_ramsar_init               0x38e        Code  Gb  cstartup.o [10]
+_secuid                     0xc4   0xa  Data  Gb  vecttbl.o [11]
+
+
+[1] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj
+[2] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_INTC
+[3] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL000
+[4] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL001
+[5] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL012
+[6] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_ITL013
+[7] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\Config_PORT
+[8] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\general
+[9] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g22
+[10] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all
+[11] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g22
+[12] = C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\IAR\Debug\Obj\Renesas_SC\smc_gen\r_pincfg
+[13] = dbgrlnnf23nd.a
+[14] = dlrlnnf23n.a
+
+  1'432 bytes of readonly  code memory
+    195 bytes of readonly  data memory
+    170 bytes of readwrite data memory (+ 52 absolute)
+
+Errors: none
+Warnings: none
