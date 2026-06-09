@@ -1,0 +1,84 @@
+Renesas Optimizing Linker (W3.05.00 )             20-Jun-2024 09:50:36
+
+*** Options ***
+
+-subcommand=Linkerr01an7242.tmp
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_PWM\r01an7242xx\Workapce\e2studio\r01an7242\HardwareDebug/r01an7242_l.ud" 
+-device="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF" 
+-list 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=0FF00-0FFFF 
+-user_opt_byte=EFFEE8 
+-ocdbg=85 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an7242.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/Config_TAU0_0\Config_TAU0_0.obj"
+-input=".\src/smc_gen/Config_TAU0_0\Config_TAU0_0_user.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/general\r_cg_tau_common.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g22\mcu_clocks.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4s99.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4r.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\malloc_n.lib"
+-output="r01an7242.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  00000082         1   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  00000181        aa   1
+.textf
+                                  00000182  000003db       25a   1
+.const
+                                  00002000  0000204f        50   2
+.monitor2
+                                  0000ff00  0000ffff       100   1
+.bss
+                                  000fef00  000fef00         0   2
+.dataR
+                                  000fef00  000fef00         1   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2

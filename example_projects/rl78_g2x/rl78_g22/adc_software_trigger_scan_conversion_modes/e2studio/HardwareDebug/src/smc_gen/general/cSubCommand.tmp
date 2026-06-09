@@ -1,0 +1,13 @@
+-cpu=S3
+-c
+-dev="C:/Users/a5089302/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF"
+-MAKEUD="C:\Users\a5089302\Desktop\e2studio\an6788\HardwareDebug\src\smc_gen\general"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen\r_pincfg"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen\r_bsp"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen\r_config"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen\general"
+-I "C:\Users\a5089302\Desktop\e2studio\an6788\src\smc_gen\Config_ADC"
+-character_set=utf8
+-lang=c99
+-g

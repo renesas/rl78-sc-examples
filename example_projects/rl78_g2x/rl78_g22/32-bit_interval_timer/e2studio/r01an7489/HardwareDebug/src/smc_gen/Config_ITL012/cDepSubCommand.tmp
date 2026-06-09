@@ -1,0 +1,18 @@
+-MM
+-MP
+-cpu=S3
+-dev="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\general"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\r_config"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\r_pincfg"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\r_bsp"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_PORT"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_ITL012"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_INTC"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_ITL001"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_ITL000"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TML32\r01an7489xx\workplace\e2studio\r01an7489\src\smc_gen\Config_ITL013"
+-character_set=utf8
+-lang=c99
+-g

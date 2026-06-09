@@ -1,0 +1,13 @@
+-cpu=S3
+-c
+-dev="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF"
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\HardwareDebug\src\smc_gen\r_bsp\board\generic_rl78_g22"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen\r_bsp"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen\general"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen\r_config"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen\r_pincfg"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\src\smc_gen\Config_UART0"
+-character_set=utf8
+-lang=c99
+-g

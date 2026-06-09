@@ -1,0 +1,282 @@
+品質記録情報
+2022年10月19日 18:47:26
+
+------ ビルド開始(r01an6640-rl78g22-adc, DefaultBuild) ------
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.c -cpu=S3 -o DefaultBuild\hdwinit.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -g_line -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g22 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g22 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_611430fe608e441daf2c1f419081acc8nxdsjn4p.zm3 -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g22\stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g22 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_c1237f5101444da8abb36db8270d9611rmm4kmu4.4lq -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g22 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_ca3f5a11f94b43328a987b69ae21fd83z3pytsjp.kt1 -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\rlink.exe -MAKEUD=DefaultBuild\r01an6640-rl78g22-adc.lk.ud -subcommand=DefaultBuild\r01an6640-rl78g22-adc.clnk
+W0561017:The evaluation period of CC-RL V1 has expired. Please consider purchasing the product.
+W0561017:The evaluation period of CC-RL V1 has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ ビルド終了(エラー:0個, 警告:2個)(r01an6640-rl78g22-adc, DefaultBuild) ------
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.c -cpu=S3 -o DefaultBuild\hdwinit.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -g_line -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g22 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g22 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_ca94d785b71f43ec9e05d23d1736902dlnlgcrxg.jq0 -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g22\stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g22 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_c225095d0341496cbe7d383d749ecebckylxxgzq.rru -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj -dev=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g22 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5116936\AppData\Local\Temp\CSPlusBuildTool_db1147ea245b4b34b93213197579ddd91kk2c02a.5s3 -msg_lang=japanese
+C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\Bin\rlink.exe -MAKEUD=DefaultBuild\r01an6640-rl78g22-adc.lk.ud -subcommand=DefaultBuild\r01an6640-rl78g22-adc.clnk
+W0561017:The evaluation period of CC-RL V1 has expired. Please consider purchasing the product.
+W0561017:The evaluation period of CC-RL V1 has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+
+--- CommandFile 1 ---
+DefaultBuild\r01an6640-rl78g22-adc.clnk :
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\Config_ADC.obj
+-Input=DefaultBuild\Config_ADC_user.obj
+-Input=DefaultBuild\r_cg_ad_common.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\r_bsp_init.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\r_bsp_common.obj
+-Input=DefaultBuild\r_bsp_common_ccrl.obj
+-Input=DefaultBuild\mcu_clocks.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\r01an6640-rl78g22-adc.abs
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\rl78em4s.lib
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\malloc_n.lib
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\rl78em4r.lib
+-OCDBG=84
+-USER_OPT_BYTE=EFFBE8
+-LISt=DefaultBuild\r01an6640-rl78g22-adc.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\r01an6640-rl78g22-adc.abs
+-DEVICE=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF
+-OUtput=DefaultBuild\r01an6640-rl78g22-adc.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+--- CommandFile 2 ---
+DefaultBuild\r01an6640-rl78g22-adc.clnk :
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\Config_ADC.obj
+-Input=DefaultBuild\Config_ADC_user.obj
+-Input=DefaultBuild\r_cg_ad_common.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\r_bsp_init.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\r_bsp_common.obj
+-Input=DefaultBuild\r_bsp_common_ccrl.obj
+-Input=DefaultBuild\mcu_clocks.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\r01an6640-rl78g22-adc.abs
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\rl78em4s.lib
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\malloc_n.lib
+-LIBrary=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\CC-RL\V1.11.00\lib\rl78em4r.lib
+-OCDBG=84
+-USER_OPT_BYTE=EFFBE8
+-LISt=DefaultBuild\r01an6640-rl78g22-adc.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\r01an6640-rl78g22-adc.abs
+-DEVICE=C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC\Device_Custom\RL78\Devicefile\DR7F102GGE.DVF
+-OUtput=DefaultBuild\r01an6640-rl78g22-adc.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\a5116936\Documents\01_my task\t_APN\G22\r01an6640-rl78g22-adc\DefaultBuild\r01an6640-rl78g22-adc.abs: aa56b1eb0209e7353ec4591a0d1ab047f4053598
+C:\Users\a5116936\Documents\01_my task\t_APN\G22\r01an6640-rl78g22-adc\DefaultBuild\r01an6640-rl78g22-adc.mot: e2e53ba0f10a305836487f43bed61343d5856aaf
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 10 Enterprise (-, 10.0.18363, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (528040)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ E8.09.00a  [28 Jun 2022] (RL78/G22)
+*バージョン
+ V9.08.00.02 [13 May 2022]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ 
+*実行場所
+ C:\G22_Tool\RL78_G22_general_CS_plus_alpha_20220629\CS+forCCE8.09.00a\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  250 MB
+ *GDIオブジェクト数
+  1775
+ *USERオブジェクト数
+  1237
+ *開いているファイル
+  1 editors, 1 files, 4 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.02.00.00 [25 Mar 2019]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.08.00.00 [22 Apr 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.02.00.00 [25 Mar 2019]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.06.00.01 [27 May 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.08.00.03 [30 May 2022]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V7.00.00.01 [06 Apr 2018]
+ *アセンブリ・バージョン
+  7.0.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.08.00.03 [23 May 2022]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.12.00.01 [14 Apr 2021]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.44.00.03 [06 Jun 2022]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.18.00.01 [22 Apr 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.08.00.03 [30 May 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.08.00.01 [22 Apr 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\a5116936\Documents\01_my task\t_APN\G22\r01an6640-rl78g22-adc\r01an6640-rl78g22-adc.mtpj
+マイクロコントローラ情報
+ *R7F102GGExFB
+  *ファイル名: バージョン
+   RL78_G22_Custom_Productlist.xml: E1.000006
+   R7F102GGExFB_common.xml: E1.00d.03.XX.XX
+   DR7F102GGE.DVF: E1.00c
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RL
+   * プラグイン(*.dll)のバージョン
+     V8.08.00.03 [03 Jun 2022]
+   * コンパイラ・パッケージのバージョン
+     V1.11.00
+  
+ * SMS Assemblerのバージョン
+   V1.00.00.01 [29 May 2020]
+ 
+
+デバッグ・ツール情報
+ *RL78 シミュレータ
+  Debugger Library V8.08.00.03 [30 May 2022]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.12.00.01 [14 Apr 2021]
+
+

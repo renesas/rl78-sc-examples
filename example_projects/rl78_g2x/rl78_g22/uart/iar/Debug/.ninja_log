@@ -1,0 +1,17 @@
+# ninja log v5
+2	6777	7386677751592604	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/mcu/all/r_bsp_common_iar.o	36281c2bd5170dd9
+3752	6827	7386677752088070	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/mcu/all/cstartup.o	f1b42029a8481931
+3742	8845	7386677772230348	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/Config_UART0/Config_UART0_user.o	dddd17f5258345c3
+3732	8883	7386677772362835	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/Config_UART0/Config_UART0.o	ecd37543caeb5e61
+8849	8963	7386677773423173	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/general/r_cg_lvd_common_user.o	d1aa7a3d7ec75abc
+8887	9015	7386677773937458	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.o	a37644dee50ca201
+8966	9079	7386677774591543	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/general/r_cg_lvd_common.o	c813c00ea10bc907
+9019	9154	7386677775320529	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/main.o	bbd8a40ee64d24fd
+9081	9210	7386677775890520	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.o	fc7208720d343723
+6780	9258	7386677776188048	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/general/r_cg_sau_common.o	4f299f5aa12fb722
+6831	9304	7386677776698205	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/general/r_cg_systeminit.o	be4cf52017c8e7d0
+9156	9324	7386677776935559	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/mcu/all/r_bsp_common.o	4b4d7d522e120208
+9260	9374	7386677777534408	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/mcu/rl78_g22/vecttbl.o	399c4688984c03df
+9306	9417	7386677777967808	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_pincfg/Pin.o	4b904deccb47cf14
+9213	9444	7386677778216978	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Obj/Renesas_SC/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.o	cd99bfd30df3dc75
+9446	12889	7386677812643226	C:/Users/a5134608/Documents/RL78_family/G22/APN/SAU_UART/r01an7384xx/workspace/IAR/Debug/Exe/r01an7384.out	99181e6835eaf9cd

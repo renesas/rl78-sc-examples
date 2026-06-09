@@ -1,0 +1,15 @@
+-asmopt=-MM
+-asmopt=-MP
+-cpu=S3
+-c
+-dev="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\r_pincfg"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\general"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\r_bsp"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\r_config"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\Config_PORT"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\Config_TAU0_0"
+-I "C:\Users\a5134608\Documents\RL78_family\G22\APN\TAU_interval_timer\r01an7239xx\Workspace\e2studio\r01an7239\src\smc_gen\Config_INTC"
+-character_set=utf8
+-g

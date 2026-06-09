@@ -1,0 +1,6 @@
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_UART\r01an7384xx\workspace\e2studio\r01an7384\HardwareDebug\\r01an7384_c.ud" 
+-form=stype 
+-output="r01an7384.mot" 
+-byte_count=10 
+-nomessage 
+-nologo

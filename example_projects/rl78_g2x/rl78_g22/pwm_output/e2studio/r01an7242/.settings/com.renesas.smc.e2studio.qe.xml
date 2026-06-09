@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P12" value="TOOLTxD"/>
+        <Setting id="P11" value="TOOLRxD"/>
+        <Setting id="P16" value="TO01"/>
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P63" value="P63"/>
+        <Setting id="P40" value="TOOL0"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G22"/>
+        <Setting id="Board" value="RL78G22_FastPrototypingBoard (V1.00)"/>
+        <Setting id="PartNo" value="R7F102GGExFB"/>
+        <Setting id="PinCount" value="48"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="1.8"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="Config_TAU0_0" value="CG"/>
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_PORT" value="CG"/>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.pwm" id="Config_TAU0_0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="Operation" value="CK0"/>
+            <Setting id="IntervalValue" value="2"/>
+            <Setting id="IntervalUnit" value="ms"/>
+            <Setting id="MasterIntEnable" value="Enable"/>
+            <Setting id="slavechannel3" value="Disable"/>
+            <Setting id="slavechannel2" value="Disable"/>
+            <Setting id="MasterIntPriority" value="Level3"/>
+            <Setting id="slavechannel1" value="Enable"/>
+            <Setting id="Prescaler" value="FCLK1"/>
+            <Setting id="slavechannel7" value="Disable"/>
+            <Setting id="slavechannel6" value="Disable"/>
+            <Setting id="slavechannel5" value="Disable"/>
+            <Setting id="slavechannel4" value="Disable"/>
+            <Segment id="Slave7">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave1">
+                <Setting id="salveoutputinitial" value="outputinitial1"/>
+                <Setting id="dutyvalue" value="90"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave2">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave5">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave6">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave3">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave4">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="dutyvalue" value="50"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+        </Segment>
+        <Segment component="r_bsp1.61" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_1860"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.port" id="Config_PORT" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="PortModeSetting" value="ReadPmnValues"/>
+            <Segment id="PORT0_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT3_Chan">
+                <Segment id="P30">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P31">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT6_Chan">
+                <Segment id="P61">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P60">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P63">
+                    <Setting id="UseStatus" value="Out"/>
+                    <Setting id="Output1" value="Output1Use"/>
+                </Segment>
+                <Segment id="P62">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT12_Chan">
+                <Segment id="P122">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P121">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P124">
+                    <Setting id="UseStatus" value="Unuse"/>
+                </Segment>
+                <Segment id="P123">
+                    <Setting id="UseStatus" value="Unuse"/>
+                </Segment>
+                <Segment id="P120">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT14_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT0_Chan">
+                <Segment id="P01">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P00">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT6_Check">
+                <Setting id="PortnEnable" value="Enable"/>
+            </Segment>
+            <Segment id="PORT1_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT7_Chan">
+                <Segment id="P70">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P72">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P71">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P74">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P73">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P75">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT2_Chan">
+                <Segment id="P23">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P22">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P25">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P24">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P27">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P26">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P21">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P20">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT4_Chan">
+                <Segment id="P41">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P40">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT5_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT13_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT12_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT4_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT13_Chan">
+                <Segment id="P137">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                </Segment>
+                <Segment id="P130">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT3_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT1_Chan">
+                <Segment id="P12">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P11">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P14">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P13">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P16">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P15">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P17">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P10">
+                    <Setting id="TTLbuffer" value="TTLbufferUnuse"/>
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT5_Chan">
+                <Segment id="P50">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Nch" value="NchUnuse"/>
+                    <Setting id="Inputbuffer" value="InputbufferUnuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P51">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT14_Chan">
+                <Segment id="P147">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P146">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+                <Segment id="P140">
+                    <Setting id="UseStatus" value="Unuse"/>
+                    <Setting id="Pullup" value="PullupUnuse"/>
+                    <Setting id="Output1" value="Output1Unuse"/>
+                </Segment>
+            </Segment>
+            <Segment id="PORT7_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+            <Segment id="PORT2_Check">
+                <Setting id="PortnEnable" value="Disable"/>
+            </Segment>
+        </Segment>
+    </Segment>
+</QE>

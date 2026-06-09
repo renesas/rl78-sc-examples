@@ -1,0 +1,18 @@
+-MM
+-MP
+-o "Smart Configurator/general/r_cg_lvd_common.d" 
+-MT="Smart Configurator/general/r_cg_lvd_common.obj" 
+-MT="Smart Configurator/general/r_cg_lvd_common.d"
+-cpu=S3 
+-dev="C:/Users/MyPC/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_config"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_bsp\mcu\rl78_g22\register_access\ccrl"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_bsp\mcu\rl78_g22"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_bsp\mcu\all"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_bsp\board\generic_rl78_g22"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\r_bsp"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\general"
+-I "C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src\smc_gen\Config_ADC" 
+-lang=c99
+-g
+-Olite 

@@ -1,0 +1,346 @@
+Renesas Optimizing Linker (W3.06.00 )             22-May-2024 18:45:13
+
+*** Options ***
+
+-subcommand=Linkerr01an7345.tmp
+-MAKEUD="C:\Users\a5134608\Documents\RL78_family\G22\APN\SAU_I2C\I2C_slave\r01an7345xx\workspace\e2studio\r01an7345\HardwareDebug/r01an7345_l.ud" 
+-device="C:/Users/a5134608/.eclipse/com.renesas.platform_159243414/DebugComp/RL78/RL78/Common/DR7F102GGE.DVF" 
+-list 
+-show=symbol 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=0FE00-0FFFF 
+-user_opt_byte=EF3AE8 
+-ocdbg=84 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an7345.obj"
+-input=".\src/smc_gen/Config_IICA0\Config_IICA0.obj"
+-input=".\src/smc_gen/Config_IICA0\Config_IICA0_user.obj"
+-input=".\src/smc_gen/general\r_cg_iica_common.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g22\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g22\mcu_clocks.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library=".\r01an7345.lib"
+-output="r01an7345.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.data
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  00000185        ae   1
+.textf
+                                  00000186  00000570       3eb   1
+.const
+                                  00002000  0000204f        50   2
+.monitor2
+                                  0000fe00  0000ffff       200   1
+.bss
+                                  000fef00  000fefa1        a2   2
+.dataR
+                                  000fefa2  000fefa2         0   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=.vect
+FILE=rlink_generates_04
+                                  00000000  0000007f        80
+
+SECTION=.option_byte
+FILE=rlink_generates_01
+                                  000000c0  000000c3         4
+
+SECTION=.security_id
+FILE=rlink_generates_03
+                                  000000c4  000000cd         a
+
+SECTION=.monitor1
+FILE=rlink_generates_02
+                                  000000ce  000000d7         a
+
+SECTION=.text
+FILE=.\src\smc_gen\r_bsp\mcu\all\cstart.obj
+                                  000000d8  0000014e        77
+  _start
+                                  000000d8         0   entry,g         * 
+  _exit
+                                  0000014c         0   none ,g         * 
+  _atexit
+                                  0000014e         0   none ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.obj
+                                  0000014f  0000015a         c
+  _delay_wait
+                                  0000014f         0   none ,g         * 
+  loop
+                                  0000014f         0   none ,l         * 
+  check
+                                  00000156         0   none ,l         * 
+  _exit
+                                  0000015a         0   none ,l         * 
+FILE=.\src\smc_gen\Config_IICA0\Config_IICA0_user.obj
+                                  0000015b  00000185        2b
+  _r_Config_IICA0_interrupt@1
+                                  0000015b        2b   func ,l         * 
+
+SECTION=.textf
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\stkinit.obj
+                                  00000186  000001c9        44
+  _stkinit
+                                  00000186         0   none ,g         * 
+  LSTINIT1
+                                  00000194         0   none ,l         * 
+  LSTINIT2
+                                  000001be         0   none ,l         * 
+  LSTINIT3
+                                  000001c9         0   none ,l         * 
+FILE=.\src\r01an7345.obj
+                                  000001ca  000002fc       133
+  _main
+                                  000001ca        d6   func ,g         * 
+  _R_MAIN_UserInit
+                                  000002a0         4   func ,g         * 
+  _R_Increment_Address
+                                  000002a4        1d   func ,g         * 
+  _R_Command
+                                  000002c1        3c   func ,g         * 
+FILE=.\src\smc_gen\Config_IICA0\Config_IICA0.obj
+                                  000002fd  00000385        89
+  _R_Config_IICA0_Create
+                                  000002fd        58   func ,g         * 
+  _R_Config_IICA0_Stop
+                                  00000355         5   func ,g         * 
+  _R_Config_IICA0_Slave_Send
+                                  0000035a         b   func ,g         * 
+  _R_Config_IICA0_Slave_Receive
+                                  00000365         f   func ,g         * 
+  _R_Config_IICA0_Set_WakeupOn
+                                  00000374         8   func ,g         * 
+  _R_Config_IICA0_Set_WakeupOff
+                                  0000037c         a   func ,g         * 
+FILE=.\src\smc_gen\Config_IICA0\Config_IICA0_user.obj
+                                  00000386  00000450        cb
+  _R_Config_IICA0_Create_UserInit
+                                  00000386         1   func ,g         * 
+  _r_IICA0_slave_handler@1
+                                  00000387        ca   func ,l         * 
+FILE=.\src\smc_gen\general\r_cg_iica_common.obj
+                                  00000451  00000464        14
+  _R_IICA0_Set_PowerOn
+                                  00000451         5   func ,g         * 
+  _R_IICA0_Set_PowerOff
+                                  00000456         5   func ,g         * 
+  _R_IICA0_Set_Reset
+                                  0000045b         5   func ,g         * 
+  _R_IICA0_Release_Reset
+                                  00000460         5   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_systeminit.obj
+                                  00000465  00000478        14
+  _R_Systeminit
+                                  00000465        14   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.obj
+                                  00000479  0000048e        16
+  _hdwinit
+                                  00000479         d   func ,g         * 
+  _output_ports_configure@1
+                                  00000486         2   func ,l         * 
+  _interrupts_configure@1
+                                  00000488         2   func ,l         * 
+  _peripheral_modules_enable@1
+                                  0000048a         5   func ,l         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_init.obj
+                                  0000048f  0000049b         d
+  _bsp_init_system
+                                  0000048f         8   func ,g         * 
+  _bsp_init_hardware
+                                  00000497         5   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common.obj
+                                  0000049c  000004a0         5
+  _R_BSP_GetFclkFreqHz
+                                  0000049c         5   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.obj
+                                  000004a1  0000056f        cf
+  _get_fclk_freq_hz
+                                  000004a1        71   func ,g         * 
+  _mcu_clock_setup
+                                  00000512        5e   func ,g         * 
+FILE=.\src\smc_gen\r_pincfg\Pin.obj
+                                  00000570  00000570         1
+  _R_Pins_Create
+                                  00000570         1   func ,g         * 
+
+SECTION=.const
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.obj
+                                  00002000  0000204f        50
+  _g_fih_hz
+                                  00002000        40   data ,g         * 
+  _g_fim_hz
+                                  00002040        10   data ,g         * 
+
+SECTION=.monitor2
+FILE=rlink_generates_02
+                                  0000fe00  0000ffff       200
+
+SECTION=.bss
+FILE=.\src\r01an7345.obj
+                                  000fef00  000fef90        91
+  _g_rx_data@1
+                                  000fef00        10   data ,l         * 
+  _g_serial_RAM@2
+                                  000fef10        80   data ,l         * 
+  _g_com_stat@3
+                                  000fef90         1   data ,l         * 
+FILE=.\src\smc_gen\Config_IICA0\Config_IICA0.obj
+                                  000fef92  000fef9d         c
+  _g_iica0_slave_status_flag
+                                  000fef92         1   data ,g         * 
+  _gp_iica0_rx_address
+                                  000fef94         2   data ,g         * 
+  _g_iica0_rx_len
+                                  000fef96         2   data ,g         * 
+  _g_iica0_rx_cnt
+                                  000fef98         2   data ,g         * 
+  _gp_iica0_tx_address
+                                  000fef9a         2   data ,g         * 
+  _g_iica0_tx_cnt
+                                  000fef9c         2   data ,g         * 
+FILE=.\src\smc_gen\Config_IICA0\Config_IICA0_user.obj
+                                  000fef9e  000fefa1         4
+  _g_reg_flag
+                                  000fef9e         1   data ,g         * 
+  _g_reg_end_flag
+                                  000fef9f         1   data ,g         * 
+  _g_reg_addr
+                                  000fefa0         2   data ,g         * 
+
+Absolute value symbols
+FILE=rlink_generates_05
+  __s.textf
+                                  00000186         0   none ,g         * 
+  __e.textf
+                                  00000571         0   none ,g         * 
+  __s.text
+                                  000000d8         0   none ,g         * 
+  __e.text
+                                  00000186         0   none ,g         * 
+  __s.const
+                                  00002000         0   none ,g         * 
+  __e.const
+                                  00002050         0   none ,g         * 
+  __s.constf
+                                  00000080         0   none ,g         * 
+  __e.constf
+                                  00000080         0   none ,g         * 
+  __s.data
+                                  00000080         0   none ,g         * 
+  __e.data
+                                  00000080         0   none ,g         * 
+  __s.sdata
+                                  00000080         0   none ,g         * 
+  __e.sdata
+                                  00000080         0   none ,g         * 
+  __s.bss
+                                  000fef00         0   none ,g         * 
+  __e.bss
+                                  000fefa2         0   none ,g         * 
+  __s.sbss
+                                  000ffe20         0   none ,g         * 
+  __e.sbss
+                                  000ffe20         0   none ,g         * 
+  __s.dataR
+                                  000fefa2         0   none ,g         * 
+  __e.dataR
+                                  000fefa2         0   none ,g         * 
+  __s.sdataR
+                                  000ffe20         0   none ,g         * 
+  __e.sdataR
+                                  000ffe20         0   none ,g         * 
+  __s.init_array
+                                  00000080         0   none ,g         * 
+  __e.init_array
+                                  00000080         0   none ,g         * 
+  __s.RLIB
+                                  000000c4         0   none ,g         * 
+  __e.RLIB
+                                  000000c4         0   none ,g         * 
+  __s.SLIB
+                                  000000c4         0   none ,g         * 
+  __e.SLIB
+                                  000000c4         0   none ,g         * 
+  __s.option_byte
+                                  000000c0         0   none ,g         * 
+  __e.option_byte
+                                  000000c4         0   none ,g         * 
+  __s.monitor1
+                                  000000ce         0   none ,g         * 
+  __e.monitor1
+                                  000000d8         0   none ,g         * 
+  __s.monitor2
+                                  0000fe00         0   none ,g         * 
+  __e.monitor2
+                                  00010000         0   none ,g         * 
+  __s.security_id
+                                  000000c4         0   none ,g         * 
+  __e.security_id
+                                  000000ce         0   none ,g         * 
+  __s.vect
+                                  00000000         0   none ,g         * 
+  __e.vect
+                                  00000080         0   none ,g         * 
+  __RAM_ADDR_START
+                                  000fef00         0   none ,g         * 
+  __RAM_ADDR_END
+                                  000ffee0         0   none ,g         * 
+  __STACK_ADDR_START
+                                  000ffe20         0   none ,g         * 
+  __STACK_ADDR_END
+                                  000fefa2         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO
