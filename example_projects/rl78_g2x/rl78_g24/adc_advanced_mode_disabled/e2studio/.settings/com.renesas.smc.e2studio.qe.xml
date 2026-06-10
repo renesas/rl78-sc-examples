@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P50" value="TOOLRxD"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P51" value="TOOLTxD"/>
+        <Setting id="P21" value="AVREFM"/>
+        <Setting id="P20" value="AVREFP"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G24"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F101GLGxFB"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="2.7"/>
+        <Setting id="FMAIN" value="24000.0"/>
+        <Setting id="FHOCO" value="8000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="2.7"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FTIMER" value="96000.0"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="24000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_ADC" value="CG"/>
+        <Segment component="r_bsp1.60" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_2910"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.ad" id="Config_ADC" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="upperBoundValue" value="255"/>
+            <Setting id="lowerBoundValue" value="0"/>
+            <Setting id="adChannelSelect" value="internalReferenceVoltage"/>
+            <Setting id="vrefNegative" value="avrefm"/>
+            <Setting id="resolution" value="12bits"/>
+            <Setting id="comparatorOperation" value="stop"/>
+            <Setting id="hwTriggerSource" value="inttm01"/>
+            <Setting id="vrefPositive" value="avrefp"/>
+            <Setting id="operationMode" value="oneshotSelect"/>
+            <Setting id="intadPriority" value="Level3"/>
+            <Setting id="intadGenerateCondition" value="betweenUpAndLow"/>
+            <Setting id="intadUsed" value="checked"/>
+            <Setting id="triggerMode" value="softwareNoWait"/>
+            <Setting id="conversionTimeMode" value="normal2"/>
+            <Setting id="conversionTime" value="noWaitSelectNormal2Time6"/>
+        </Segment>
+    </Segment>
+</QE>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P50" value="TOOLRxD"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P51" value="TOOLTxD"/>
+        <Setting id="P21" value="AVREFM"/>
+        <Setting id="P10" value="TRDIOD1"/>
+        <Setting id="P20" value="AVREFP"/>
+        <Setting id="P23" value="ANI3"/>
+        <Setting id="P12" value="TRDIOB1"/>
+        <Setting id="P22" value="ANI2"/>
+        <Setting id="P11" value="TRDIOC1"/>
+        <Setting id="P25" value="ANI5"/>
+        <Setting id="P14" value="TRDIOD0"/>
+        <Setting id="P24" value="ANI4"/>
+        <Setting id="P13" value="TRDIOA1"/>
+        <Setting id="P16" value="TRDIOC0"/>
+        <Setting id="P15" value="TRDIOB0"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G24"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F101GLGxFB"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="2.7"/>
+        <Setting id="FMAIN" value="48000.0"/>
+        <Setting id="FHOCO" value="8000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="2.7"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FTIMER" value="96000.0"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="48000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_ADC" value="CG"/>
+        <Setting id="Config_TRD0_TRD1" value="CG"/>
+        <Segment component="r_bsp1.60" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_2910"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.ad" id="Config_ADC" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="ADS1Input" value="ANI1"/>
+            <Setting id="ADS1Priority" value="Low"/>
+            <Setting id="ADS2Enable" value="unchecked"/>
+            <Setting id="ADS0Priority" value="Low"/>
+            <Setting id="upperBoundValue" value="255"/>
+            <Setting id="intad3Priority" value="Level3"/>
+            <Setting id="SimultaneousPriority" value="Low"/>
+            <Setting id="ADS3Priority" value="Low"/>
+            <Setting id="vrefNegative" value="avrefm"/>
+            <Setting id="SHTriggerSource" value="TriggerTRD20"/>
+            <Setting id="ADS2Priority" value="Low"/>
+            <Setting id="resolution" value="12bits"/>
+            <Setting id="comparatorOperation" value="stop"/>
+            <Setting id="ADS3TriggerSource" value="TriggerSW"/>
+            <Setting id="vrefPositive" value="avrefp"/>
+            <Setting id="ADS2TriggerSource" value="Trigger32IT"/>
+            <Setting id="SecondSHInput" value="ANI2"/>
+            <Setting id="ADS1TriggerSource" value="TriggerRTC"/>
+            <Setting id="intad3Used" value="checked"/>
+            <Setting id="ADS0TriggerSource" value="TriggerTPU"/>
+            <Setting id="conversionTimeMode" value="normal1"/>
+            <Setting id="samplingClock" value="item20fAD"/>
+            <Setting id="ADS1Enable" value="unchecked"/>
+            <Setting id="intad2Used" value="checked"/>
+            <Setting id="lowerBoundValue" value="0"/>
+            <Setting id="ADS2Input" value="ANI2"/>
+            <Setting id="ADS3Enable" value="checked"/>
+            <Setting id="storeInfoADS0" value="unchecked"/>
+            <Setting id="SimultaneousMode" value="ThreeChan012"/>
+            <Setting id="FirstSHInput" value="ANI4"/>
+            <Setting id="ADS3Input" value="ANI5"/>
+            <Setting id="intadPriority" value="Level3"/>
+            <Setting id="intad1Priority" value="Level3"/>
+            <Setting id="storeInfoADS1" value="unchecked"/>
+            <Setting id="ThirdSHInput" value="ANI3"/>
+            <Setting id="storeInfoADS2" value="unchecked"/>
+            <Setting id="storeInfoADS3" value="unchecked"/>
+            <Setting id="intadGenerateCondition" value="betweenUpAndLow"/>
+            <Setting id="intad1Used" value="checked"/>
+            <Setting id="ADS0Enable" value="unchecked"/>
+            <Setting id="intadUsed" value="checked"/>
+            <Setting id="ADS0Input" value="ANI0"/>
+            <Setting id="conversionTime" value="noWaitSelectNormal1Time5"/>
+            <Setting id="intad2Priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.pwm3" id="Config_TRD0_TRD1" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="normalLevel" value="lowInitial"/>
+            <Setting id="optRD0Thin" value="disable"/>
+            <Setting id="optThinSel" value="ThinSel1"/>
+            <Setting id="optAD0Thin" value="disable"/>
+            <Setting id="priority0" value="Level3"/>
+            <Setting id="priority1" value="Level3"/>
+            <Setting id="optAD1" value="disable"/>
+            <Setting id="optAD0" value="enable"/>
+            <Setting id="clockSource" value="clk"/>
+            <Setting id="optAD1TrgMd" value="up"/>
+            <Setting id="optRD1Thin" value="disable"/>
+            <Setting id="pwm1NormalCutoff" value="disable"/>
+            <Setting id="pwm2CounterCutoff" value="disable"/>
+            <Setting id="pwm3Ct" value="disable"/>
+            <Setting id="initialLevel" value="nonActive"/>
+            <Setting id="pwm3CounterCutoff" value="disable"/>
+            <Setting id="deadTime" value="5"/>
+            <Setting id="INTP0Cutoff" value="disable"/>
+            <Setting id="AD0Tmus" value="us"/>
+            <Setting id="pwmOutput2" value="50"/>
+            <Setting id="pwmOutput1" value="50"/>
+            <Setting id="pwmAct" value="Sym"/>
+            <Setting id="AD1Tm" value="5"/>
+            <Setting id="pwmOutput3" value="50"/>
+            <Setting id="optAD0TrgMd" value="dn"/>
+            <Setting id="AD1Tmus" value="us"/>
+            <Setting id="optAD1Thin" value="disable"/>
+            <Setting id="initialLevelEnable" value="enable"/>
+            <Setting id="deadTimeUnit" value="us"/>
+            <Setting id="opt1stCyc" value="disable"/>
+            <Setting id="count0Operation" value="continue"/>
+            <Setting id="pwmPeriodUnit" value="us"/>
+            <Setting id="pwmPeriod" value="100"/>
+            <Setting id="interruptCompareA0" value="disable"/>
+            <Setting id="interruptCompareA1" value="disable"/>
+            <Setting id="AsyOfset3" value="200"/>
+            <Setting id="clockEdge" value="rising"/>
+            <Setting id="AsyOfset2" value="200"/>
+            <Setting id="AsyOfset1" value="200"/>
+            <Setting id="pwm1CounterCutoff" value="disable"/>
+            <Setting id="pwm2NormalCutoff" value="disable"/>
+            <Setting id="pwm3NormalCutoff" value="disable"/>
+            <Setting id="interruptCompareB1" value="disable"/>
+            <Setting id="interruptCompareB0" value="disable"/>
+            <Setting id="counterLevel" value="lowInitial"/>
+            <Setting id="ELC0Cutoff" value="disable"/>
+            <Setting id="AD0Tm" value="0"/>
+            <Setting id="interruptOverflow1" value="enable"/>
+            <Setting id="count1Operation" value="continue"/>
+        </Segment>
+    </Segment>
+</QE>

@@ -1,0 +1,83 @@
+Renesas Optimizing Linker (W3.05.00 )             04-Sep-2023 18:25:32
+
+*** Options ***
+
+-MAKEUD=r01an6892_trd2_timer.lk.ud
+-subcommand=HardwareDebug\r01an6892_trd2_timer.clnk
+-Input=HardwareDebug\Config_TRD0.obj
+-Input=HardwareDebug\Config_TRD0_user.obj
+-Input=HardwareDebug\r_cg_systeminit.obj
+-Input=HardwareDebug\r_cg_trd_common.obj
+-Input=HardwareDebug\hdwinit.obj
+-Input=HardwareDebug\r_bsp_init.obj
+-Input=HardwareDebug\stkinit.obj
+-Input=HardwareDebug\cstart.obj
+-Input=HardwareDebug\r_bsp_common.obj
+-Input=HardwareDebug\r_bsp_common_ccrl.obj
+-Input=HardwareDebug\mcu_clocks.obj
+-Input=HardwareDebug\Config_PORT.obj
+-Input=HardwareDebug\Config_PORT_user.obj
+-Input=HardwareDebug\r_cg_lvd_common.obj
+-Input=HardwareDebug\r_cg_lvd_common_user.obj
+-Input=HardwareDebug\main.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F101GLG.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=r01an6892_trd2_timer.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s99.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib
+-OCDBG=85
+-DEBUG_MONITOR=1FE00-1FFFF
+-USER_OPT_BYTE=EFFBEA
+-OCDTR
+-ENTry=_start
+-LISt=r01an6892_trd2_timer.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR,.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-exit
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  000000ac        2b   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  000001f3       11c   1
+.textf
+                                  000001f4  00000d32       b3f   1
+.RLIB
+                                  00000d33  00001029       2f7   1
+.const
+                                  00002000  00002127       128   2
+.monitor2
+                                  0001fe00  0001ffff       200   1
+.bss
+                                  000fcf00  000fcf00         1   2
+.dataR
+                                  000fcf02  000fcf2c        2b   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2

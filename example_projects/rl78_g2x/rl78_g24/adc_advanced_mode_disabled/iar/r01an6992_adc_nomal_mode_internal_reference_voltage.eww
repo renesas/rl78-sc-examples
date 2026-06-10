@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\r01an6992_adc_nomal_mode_internal_reference_voltage.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\r01an6992_adc_nomal_mode_scan_mode\r01an6992_adc_nomal_mode_scan_mode.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
