@@ -20,8 +20,8 @@ English page is [here](./README.md).<br>
 ### RL78/G22
 | カテゴリ | フォルダ | 概要 |
 |---|---|---|
-| ADC | [ADC Software Trigger Scan Mode](./rl78_g2x/rl78_g22/adc_software_trigger_scan_conversion_mode) | RL78/G22のA/Dコンバータをソフトウェア・トリガ、スキャンモードで使用するプロジェクトです。|
-| ADC | [ADC Software Trigger Sequential Mode](./rl78_g2x/rl78_g22/adc_software_trigger_sequential_conversion_mode) | RL78/G22のA/Dコンバータをソフトウェア・トリガ、連続変換モードで使用するプロジェクトです。|
+| ADC | [ADC Software Trigger Scan Mode](./rl78_g2x/rl78_g22/adc_software_trigger_scan_conversion_modes) | RL78/G22のA/Dコンバータをソフトウェア・トリガ、スキャンモードで使用するプロジェクトです。|
+| ADC | [ADC Software Trigger Sequential Mode](./rl78_g2x/rl78_g22/adc_software_trigger_sequential_conversion_modes) | RL78/G22のA/Dコンバータをソフトウェア・トリガ、連続変換モードで使用するプロジェクトです。|
 | TAU | [Interval Timer](./rl78_g2x/rl78_g22/interval_timer) | RL78/G22のTAUによるインターバル・タイマ機能を使用するプロジェクトです。 |
 | TAU | [Pulse Interval Measurement (Period)](./rl78_g2x/rl78_g22/pulse_interval_measurement_period) | RL78/G22のTAUによるパルス間隔測定(周期)機能を使用するプロジェクトです。 |
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g2x/rl78_g22/pulse_interval_measurement_width) | RL78/G22のTAUによるパルス間隔測定(幅)機能を使用するプロジェクトです。 |
