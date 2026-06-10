@@ -1,26 +1,26 @@
-# RL78/G22 タイマ・アレイ・ユニット (パルス間隔測定: 幅)
+# RL78/G22 シリアル・アレイ・ユニット (UART 通信)
 
 English page is [here](./README.md)
 
 ## 概要
-本アプリケーションノートでは、RL78/G22のタイマ・アレイ・ユニット（TAU）を用いたパルス幅測定方法を説明します。TI00端子でパルスの立ち上がり・立ち下がり両エッジを検出し、タイマ値をキャプチャすることでハイレベル幅およびロウレベル幅を測定します。エッジ判定に基づいて測定値を分類し、内蔵RAMに格納します。さらに、動作フローやサンプルコードについて詳しく解説しています。
+本アプリケーションノートでは、RL78/G22のシリアル・アレイ・ユニット（SAU）によるUART通信の使用方法について説明します。対向機器から受信するASCII文字を解析し、適切な応答を返す仕組みを示しています。サンプルコードではUART0を用いた送受信および割り込み処理の実装例を紹介しています。さらに、パリティエラーやフレーミングエラー、オーバランエラーへの対応方法も説明しています。
 
 ## 動作確認条件
 | 項目 | バージョン情報 |
 |----|----|
-| CS+ | V8.10.00 |
-| e2studio | V2023-10 (23.10.0) |
-| CC-RL | V1.12.01 |
-| IAR | V5.10.1 |
-| SC | V1.7.0 |
-| BSP | V1.60 |
+| CS+ | V8.11.00 |
+| e2 studio | V2024-04 |
+| CC-RL | V1.13.01 |
+| IAR Embedded Workbench | V5.10.1 |
+| IAR Compiler | V5.10.1 |
+| Smart Configurator | V1.10.0 |
+| BSP | V1.6.2 |
 
 ## ハードウェア構成
-- RL78/G22 Fast Prototyping Board
-- 外部パルス信号源
+- RL78/G22-48p Fast Prototyping Board
 
 ## 適用可能デバイス
 - RL78/G22
 
 ## APNリンク
-[RL78/G22 タイマ・アレイ・ユニット (パルス間隔測定: 幅)](https://www.renesas.com/ja/document/apn/rl78g22-serial-array-unit-uart-communication-rev100)
+[RL78/G22 シリアル・アレイ・ユニット (UART 通信)](https://www.renesas.com/ja/document/apn/rl78g22-serial-array-unit-uart-communication-rev100)
