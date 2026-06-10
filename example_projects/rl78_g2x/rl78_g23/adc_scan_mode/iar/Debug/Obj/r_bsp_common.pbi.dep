@@ -1,0 +1,24 @@
+r_bsp_common.pbi: \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu\all\r_bsp_common.c \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\platform.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp/./board/generic_rl78_g23/r_bsp.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/all/r_bsp_common.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\lib\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.5\rl78\inc\c\stddef.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/all/r_bsp_rl78_compiler.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu\all/r_bsp_common.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_config\r_bsp_config.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/ior7f100g.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/ior7f100g_ext.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/intrinsics.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/rl78_g23/mcu_clocks.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\mcu/rl78_g23/mcu_info.h \
+  C:\Users\a5116936\Documents\01_my\ task\t_AN_RL78G23\ADC_scan\MP\r01an5523xx0101-rl78g23-adc\workspace\IAR\r01an5523\src\smc_gen\r_bsp\board/generic_rl78_g23/hdwinit.h

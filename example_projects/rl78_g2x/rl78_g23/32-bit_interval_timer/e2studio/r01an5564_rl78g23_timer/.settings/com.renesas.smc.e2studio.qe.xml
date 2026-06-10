@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P137" value="INTP0"/>
+        <Setting id="P03" value="P03"/>
+        <Setting id="P02" value="P02"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P43" value="P43"/>
+        <Setting id="P42" value="P42"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G23"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F100GLGxFA"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="1.8"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="VDD" value="1.8"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_INTC" value="CG"/>
+        <Setting id="Config_ITL000" value="CG"/>
+        <Setting id="Config_ITL001" value="CG"/>
+        <Setting id="Config_ITL012" value="CG"/>
+        <Setting id="Config_ITL013" value="CG"/>
+        <Setting id="Config_PORT" value="CG"/>
+    </Segment>
+</QE>

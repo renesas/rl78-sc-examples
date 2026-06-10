@@ -1,0 +1,2176 @@
+﻿<CubeSuiteProject>
+  <ProductVersion>9.09.00.00</ProductVersion>
+  <Class Guid="68f4a651-b9cd-473b-a595-b00447132ffa">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <FormatVersion>2.0</FormatVersion>
+      <FileVersion>9.9</FileVersion>
+      <ProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</ProjectGuid>
+      <ProjectItemGuid>8a4f0c1c-dc7a-404b-bc3c-9478464fd51e</ProjectItemGuid>
+      <FileCategoryGuid>4d0f57f8-4c5c-4725-9a23-1d7ac5828bd5</FileCategoryGuid>
+      <Property>fb98844b-2c27-4275-9804-f6e63e204da0</Property>
+      <ActiveProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</ActiveProjectGuid>
+    </Instance>
+    <Instance Guid="461a87c5-c8c8-4d8f-8223-6451acb8bbe2">
+      <Name>main.c</Name>
+      <Type>File</Type>
+      <RelativePath>main.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>4d0f57f8-4c5c-4725-9a23-1d7ac5828bd5</ParentItem>
+    </Instance>
+    <Instance Guid="6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e">
+      <Name>Smart Configurator</Name>
+      <Type>Category</Type>
+      <ParentItem>4d0f57f8-4c5c-4725-9a23-1d7ac5828bd5</ParentItem>
+    </Instance>
+    <Instance Guid="53d1db6b-df14-413f-9b06-428cbfbe43ec">
+      <Name>Config_INTC</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="a335dd4f-03a0-4020-aaf3-b2461755d4b4">
+      <Name>Config_ITL000</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="9013ae20-b7fd-4be3-8237-4972a3efcdec">
+      <Name>Config_ITL001</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="b7b78500-9743-4273-bf55-30d674d12ede">
+      <Name>Config_ITL012</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="f8df142f-37cb-467c-8beb-68a47d3e5104">
+      <Name>Config_ITL013</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="be881465-0330-478b-849e-aba99cfa2432">
+      <Name>Config_PORT</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5">
+      <Name>general</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="73a1aa87-0cb5-4bec-ba8d-369af819b600">
+      <Name>r_bsp</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="d41ed231-e6e8-4c83-be62-dd3555b1bcd8">
+      <Name>r_config</Name>
+      <Type>Category</Type>
+      <ParentItem>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</ParentItem>
+    </Instance>
+    <Instance Guid="3ebfdd4c-f498-41ff-9677-f4f5cf9ca666">
+      <Name>Config_INTC.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_INTC\Config_INTC.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>53d1db6b-df14-413f-9b06-428cbfbe43ec</ParentItem>
+    </Instance>
+    <Instance Guid="9a9e2905-59a7-42a9-ac8c-167783421d82">
+      <Name>Config_INTC.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_INTC\Config_INTC.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>53d1db6b-df14-413f-9b06-428cbfbe43ec</ParentItem>
+    </Instance>
+    <Instance Guid="9684c7fa-c808-4842-ad92-f4ed774836e6">
+      <Name>Config_INTC_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_INTC\Config_INTC_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>53d1db6b-df14-413f-9b06-428cbfbe43ec</ParentItem>
+    </Instance>
+    <Instance Guid="eda26c87-eac6-48bf-9ec4-bb9cd1737661">
+      <Name>Config_ITL000.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL000\Config_ITL000.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>a335dd4f-03a0-4020-aaf3-b2461755d4b4</ParentItem>
+    </Instance>
+    <Instance Guid="d8f926ef-fc20-476c-982f-d52c56abf297">
+      <Name>Config_ITL000.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL000\Config_ITL000.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>a335dd4f-03a0-4020-aaf3-b2461755d4b4</ParentItem>
+    </Instance>
+    <Instance Guid="e792f821-df2e-4b21-b52e-3704b1d6549d">
+      <Name>Config_ITL000_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL000\Config_ITL000_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>a335dd4f-03a0-4020-aaf3-b2461755d4b4</ParentItem>
+    </Instance>
+    <Instance Guid="f0ae98f2-ed73-46d7-84e9-73564ffb6949">
+      <Name>Config_ITL001.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL001\Config_ITL001.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9013ae20-b7fd-4be3-8237-4972a3efcdec</ParentItem>
+    </Instance>
+    <Instance Guid="787a76d2-fe23-4201-a07c-57f4ea63c328">
+      <Name>Config_ITL001.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL001\Config_ITL001.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9013ae20-b7fd-4be3-8237-4972a3efcdec</ParentItem>
+    </Instance>
+    <Instance Guid="7255e01e-579e-48e2-adbe-9e84a4d17ad8">
+      <Name>Config_ITL001_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL001\Config_ITL001_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9013ae20-b7fd-4be3-8237-4972a3efcdec</ParentItem>
+    </Instance>
+    <Instance Guid="d1dc9fb9-5050-4d3c-be12-a35e04688310">
+      <Name>Config_ITL012.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL012\Config_ITL012.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>b7b78500-9743-4273-bf55-30d674d12ede</ParentItem>
+    </Instance>
+    <Instance Guid="7d5c428f-12ac-4c6f-83c6-d925b4bdcb2f">
+      <Name>Config_ITL012.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL012\Config_ITL012.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>b7b78500-9743-4273-bf55-30d674d12ede</ParentItem>
+    </Instance>
+    <Instance Guid="3c4b21ab-30f8-4685-8075-9a1f087c7d20">
+      <Name>Config_ITL012_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL012\Config_ITL012_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>b7b78500-9743-4273-bf55-30d674d12ede</ParentItem>
+    </Instance>
+    <Instance Guid="a181afe1-9673-4aa6-b3a8-dd16844c33eb">
+      <Name>Config_ITL013.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL013\Config_ITL013.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>f8df142f-37cb-467c-8beb-68a47d3e5104</ParentItem>
+    </Instance>
+    <Instance Guid="2429aa4a-a914-4be8-88df-756f50e87c33">
+      <Name>Config_ITL013.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL013\Config_ITL013.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f8df142f-37cb-467c-8beb-68a47d3e5104</ParentItem>
+    </Instance>
+    <Instance Guid="601799ed-1d93-4494-b5e0-c065e25b4d02">
+      <Name>Config_ITL013_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_ITL013\Config_ITL013_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>f8df142f-37cb-467c-8beb-68a47d3e5104</ParentItem>
+    </Instance>
+    <Instance Guid="3430341b-9938-4d6f-9b3b-c5396a6ed8c0">
+      <Name>Config_PORT.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_PORT\Config_PORT.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>be881465-0330-478b-849e-aba99cfa2432</ParentItem>
+    </Instance>
+    <Instance Guid="d49c0db9-68a2-4b1d-8511-64afd5268a70">
+      <Name>Config_PORT.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_PORT\Config_PORT.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>be881465-0330-478b-849e-aba99cfa2432</ParentItem>
+    </Instance>
+    <Instance Guid="df6ca1a4-a19c-4a27-a7fb-689acf704431">
+      <Name>Config_PORT_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\Config_PORT\Config_PORT_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>be881465-0330-478b-849e-aba99cfa2432</ParentItem>
+    </Instance>
+    <Instance Guid="bc2c2f89-5363-42ef-a384-cf3de7f2c09e">
+      <Name>r_cg_intc.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_intc.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="2c2d0edd-a34c-483a-80bf-949f489510df">
+      <Name>r_cg_itl.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_itl.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="f122285f-5bb8-44bf-9eff-ccd899d593ca">
+      <Name>r_cg_itl_common.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_itl_common.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="97b4fb5a-6c2b-4c1e-ac89-584cf2bf1148">
+      <Name>r_cg_itl_common.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_itl_common.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="48644d1e-6d43-4cff-93e5-469ace19ab33">
+      <Name>r_cg_itl_common_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_itl_common_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="e4708ddc-4653-4338-85de-5b9d09bca01d">
+      <Name>r_cg_macrodriver.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_macrodriver.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="d4177e89-b838-48a3-97ae-df19497d8b75">
+      <Name>r_cg_port.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_port.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="ed4205f8-9854-4ae8-b996-3c6def99df60">
+      <Name>r_cg_systeminit.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_systeminit.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="4b4dc350-c439-432d-a276-04ca20baa034">
+      <Name>r_cg_userdefine.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_userdefine.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="b89afdd4-553b-4ec5-afd7-a331565f2b81">
+      <Name>r_smc_entry.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_smc_entry.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="9f0558ef-055a-4d27-9118-06d37b233edc">
+      <Name>r_cg_lvd.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_lvd.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="9811622b-316e-4529-975e-0fbb0db4fba8">
+      <Name>r_cg_lvd_common.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_lvd_common.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="c88dd754-0684-49bd-aa9a-7c3b40cf9aee">
+      <Name>r_cg_lvd_common.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_lvd_common.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="d16a77ab-d0b1-49dc-bd1f-6e44e80b24fd">
+      <Name>r_cg_lvd_common_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\general\r_cg_lvd_common_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>9ec4f8e5-ff8e-42ce-84a8-238e7e77dce5</ParentItem>
+    </Instance>
+    <Instance Guid="b77b95c6-dd78-4e76-9ae9-67846dca8cca">
+      <Name>platform.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\platform.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>73a1aa87-0cb5-4bec-ba8d-369af819b600</ParentItem>
+    </Instance>
+    <Instance Guid="7e87b484-8959-4faa-8649-def9b940bb16">
+      <Name>readme.txt</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\readme.txt</RelativePath>
+      <TreeImageGuid>0c88f8d6-0d0b-411f-a135-781f4df9bffa</TreeImageGuid>
+      <ParentItem>73a1aa87-0cb5-4bec-ba8d-369af819b600</ParentItem>
+    </Instance>
+    <Instance Guid="f843175f-d887-425c-ae16-8f0c8e5660e5">
+      <Name>board</Name>
+      <Type>Category</Type>
+      <ParentItem>73a1aa87-0cb5-4bec-ba8d-369af819b600</ParentItem>
+    </Instance>
+    <Instance Guid="2a839ac6-00f5-4719-8043-c1bb073f2754">
+      <Name>doc</Name>
+      <Type>Category</Type>
+      <ParentItem>73a1aa87-0cb5-4bec-ba8d-369af819b600</ParentItem>
+    </Instance>
+    <Instance Guid="c80d450e-c6e6-4dd2-93bc-aa2d84d7b30c">
+      <Name>mcu</Name>
+      <Type>Category</Type>
+      <ParentItem>73a1aa87-0cb5-4bec-ba8d-369af819b600</ParentItem>
+    </Instance>
+    <Instance Guid="94a28cf8-6688-4e7d-8100-57fcbdda0f3b">
+      <Name>generic_rl78_g23</Name>
+      <Type>Category</Type>
+      <ParentItem>f843175f-d887-425c-ae16-8f0c8e5660e5</ParentItem>
+    </Instance>
+    <Instance Guid="0c614098-0978-41f0-9fe3-d9e06d6f2432">
+      <Name>hdwinit.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="e43f5e1d-f070-4b08-9d60-bd50e97c7c3a">
+      <Name>hdwinit.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="d95cdd6f-62d5-4915-86b4-e9b21b7b5ac8">
+      <Name>r_bsp.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="afcc6c5d-9e53-4040-9e47-05c17c881ce6">
+      <Name>r_bsp_config_reference.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_config_reference.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="7ba5cfb0-2091-4398-913e-507a9779ae83">
+      <Name>r_bsp_config_reference_ccrl.inc</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_config_reference_ccrl.inc</RelativePath>
+      <TreeImageGuid>b4d23a67-9c5b-4928-b8d4-059c57eafca1</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="cb5ceb19-3353-4388-be14-ed381789d455">
+      <Name>r_bsp_config_reference_iccrl.inc</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_config_reference_iccrl.inc</RelativePath>
+      <TreeImageGuid>b4d23a67-9c5b-4928-b8d4-059c57eafca1</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="4168d314-eff2-4c89-bc5d-dabdf1bbf243">
+      <Name>r_bsp_config_reference_llvm.inc</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_config_reference_llvm.inc</RelativePath>
+      <TreeImageGuid>b4d23a67-9c5b-4928-b8d4-059c57eafca1</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="689d7799-c15b-46a7-aba6-4d2f89ac6c1e">
+      <Name>r_bsp_init.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_init.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="a4b659e6-917b-4a55-848d-261986b6a3e8">
+      <Name>stkinit.asm</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\board\generic_rl78_g23\stkinit.asm</RelativePath>
+      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
+      <ParentItem>94a28cf8-6688-4e7d-8100-57fcbdda0f3b</ParentItem>
+    </Instance>
+    <Instance Guid="90ce2d31-92e7-4384-a797-f099012500d0">
+      <Name>en</Name>
+      <Type>Category</Type>
+      <ParentItem>2a839ac6-00f5-4719-8043-c1bb073f2754</ParentItem>
+    </Instance>
+    <Instance Guid="9faf0a6b-bf59-4ff7-8fe9-adb7813dacad">
+      <Name>ja</Name>
+      <Type>Category</Type>
+      <ParentItem>2a839ac6-00f5-4719-8043-c1bb073f2754</ParentItem>
+    </Instance>
+    <Instance Guid="02f28957-9aab-4451-9d12-f562532d4081">
+      <Name>r01an5522ej0160-rl78-bsp.pdf</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\doc\en\r01an5522ej0160-rl78-bsp.pdf</RelativePath>
+      <ParentItem>90ce2d31-92e7-4384-a797-f099012500d0</ParentItem>
+    </Instance>
+    <Instance Guid="0050fdc2-6453-413f-98b6-f9477210ac63">
+      <Name>r01an5522jj0160-rl78-bsp.pdf</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\doc\ja\r01an5522jj0160-rl78-bsp.pdf</RelativePath>
+      <ParentItem>9faf0a6b-bf59-4ff7-8fe9-adb7813dacad</ParentItem>
+    </Instance>
+    <Instance Guid="f97c8f14-303e-4c9e-888f-d645f402cb6c">
+      <Name>all</Name>
+      <Type>Category</Type>
+      <ParentItem>c80d450e-c6e6-4dd2-93bc-aa2d84d7b30c</ParentItem>
+    </Instance>
+    <Instance Guid="83a26855-d71d-400a-a2c6-b06ace2cf1c9">
+      <Name>rl78_g23</Name>
+      <Type>Category</Type>
+      <ParentItem>c80d450e-c6e6-4dd2-93bc-aa2d84d7b30c</ParentItem>
+    </Instance>
+    <Instance Guid="1abf04e1-9b99-4db4-8687-9459dd54ef92">
+      <Name>cstart.asm</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\cstart.asm</RelativePath>
+      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="5ed310bc-e7a8-4b52-accd-58bef32baf3b">
+      <Name>fsp_common_api.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\fsp_common_api.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="0b6fd060-519b-4003-8b2e-d24dd3ef4dcd">
+      <Name>r_bsp_common.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="8fa1ae91-03ca-4291-81f0-a781b43dc316">
+      <Name>r_bsp_common.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="4a33f66d-8e1f-4d7a-9f26-8cca973238a1">
+      <Name>r_bsp_common_ccrl.asm</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.asm</RelativePath>
+      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="a0593f1a-da2f-4468-94e9-52e2922b9d03">
+      <Name>r_bsp_rl78_compiler.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="34f82ff5-0506-464b-8df4-ccf79d4b8616">
+      <Name>r_fsp_error.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_fsp_error.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="6d193890-872f-4b47-b2a3-bd8de8ad0152">
+      <Name>r_rtos.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\all\r_rtos.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>f97c8f14-303e-4c9e-888f-d645f402cb6c</ParentItem>
+    </Instance>
+    <Instance Guid="6fe0c012-d54d-4837-a43b-0e6dd9b34703">
+      <Name>mcu_clocks.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>83a26855-d71d-400a-a2c6-b06ace2cf1c9</ParentItem>
+    </Instance>
+    <Instance Guid="feb03d89-317c-46c4-8f80-1b149981be58">
+      <Name>mcu_clocks.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>83a26855-d71d-400a-a2c6-b06ace2cf1c9</ParentItem>
+    </Instance>
+    <Instance Guid="95069ab5-c45e-4db7-b768-8ef4fa2cab20">
+      <Name>mcu_info.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\rl78_g23\mcu_info.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>83a26855-d71d-400a-a2c6-b06ace2cf1c9</ParentItem>
+    </Instance>
+    <Instance Guid="45f2bfb5-c3f9-4af7-bf57-8ffcf5a0b80e">
+      <Name>register_access</Name>
+      <Type>Category</Type>
+      <ParentItem>83a26855-d71d-400a-a2c6-b06ace2cf1c9</ParentItem>
+    </Instance>
+    <Instance Guid="639b01f2-6fcb-435a-9650-d07e69f16327">
+      <Name>ccrl</Name>
+      <Type>Category</Type>
+      <ParentItem>45f2bfb5-c3f9-4af7-bf57-8ffcf5a0b80e</ParentItem>
+    </Instance>
+    <Instance Guid="74ded40d-a0c8-4899-8d3a-714aaf2d5b72">
+      <Name>iodefine.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl\iodefine.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>639b01f2-6fcb-435a-9650-d07e69f16327</ParentItem>
+    </Instance>
+    <Instance Guid="ff524a8d-5a6c-4da3-9063-85e3be2d07b1">
+      <Name>r_bsp_config.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_config\r_bsp_config.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>d41ed231-e6e8-4c83-be62-dd3555b1bcd8</ParentItem>
+    </Instance>
+    <Instance Guid="4c9dde18-0034-4bdf-ad87-4d0fed72536e">
+      <Name>r_bsp_config.inc</Name>
+      <Type>File</Type>
+      <RelativePath>src\smc_gen\r_config\r_bsp_config.inc</RelativePath>
+      <TreeImageGuid>b4d23a67-9c5b-4928-b8d4-059c57eafca1</TreeImageGuid>
+      <ParentItem>d41ed231-e6e8-4c83-be62-dd3555b1bcd8</ParentItem>
+    </Instance>
+  </Class>
+  <Class Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
+    <Instance Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
+      <TypeOfStorageOfUserSettings>UserMtudFile</TypeOfStorageOfUserSettings>
+      <UseStandardLicenseOnly>True</UseStandardLicenseOnly>
+      <MemoCount>0</MemoCount>
+    </Instance>
+  </Class>
+  <Class Guid="8fb9c1f6-d351-4d10-8d99-bf5b3015b84c">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <UsingPlatformGuid>7e0c5287-ef5f-48f3-976e-25ba00f1983b</UsingPlatformGuid>
+      <UsingPlatformTypeGuid>13263ec9-6a62-47f4-86ac-58d5c5f60ef7</UsingPlatformTypeGuid>
+    </Instance>
+  </Class>
+  <Class Guid="c325714f-8f51-484b-9e96-b4b59c0fb263">
+    <Instance Guid="c325714f-8f51-484b-9e96-b4b59c0fb263">
+      <DeviceManager>90ee5797-fc0c-48ea-b02f-689179ce9df7</DeviceManager>
+    </Instance>
+  </Class>
+  <Class Guid="90ee5797-fc0c-48ea-b02f-689179ce9df7">
+    <Instance Guid="90ee5797-fc0c-48ea-b02f-689179ce9df7">
+      <DataFormatVersion>1.0</DataFormatVersion>
+    </Instance>
+    <Instance Guid="48a784ef-5532-4564-a0c1-5cb048b777b1">
+      <DeviceName>R7F100GLGxFA</DeviceName>
+      <MemoCount>0</MemoCount>
+    </Instance>
+  </Class>
+  <Class Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
+    <Instance Guid="c3835e31-dea3-4c93-b02b-d2db997f7630">
+      <BuildToolManager>1159186b-b838-4741-8324-8293bf3d5c5f</BuildToolManager>
+    </Instance>
+  </Class>
+  <Class Guid="1159186b-b838-4741-8324-8293bf3d5c5f">
+    <Instance Guid="1159186b-b838-4741-8324-8293bf3d5c5f">
+      <DataFormatVersion>1.4</DataFormatVersion>
+      <BuildModeCount>1</BuildModeCount>
+      <BuildMode0>RABlAGYAYQB1AGwAdABCAHUAaQBsAGQA</BuildMode0>
+      <BatchBuildFlag0>False</BatchBuildFlag0>
+      <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
+      <SourceItemGuid0>eda26c87-eac6-48bf-9ec4-bb9cd1737661</SourceItemGuid0>
+      <SourceItemType0>CSource</SourceItemType0>
+      <SourceItemGuid1>9684c7fa-c808-4842-ad92-f4ed774836e6</SourceItemGuid1>
+      <SourceItemType1>CSource</SourceItemType1>
+      <SourceItemGuid2>461a87c5-c8c8-4d8f-8223-6451acb8bbe2</SourceItemGuid2>
+      <SourceItemType2>CSource</SourceItemType2>
+      <SourceItemGuid3>3ebfdd4c-f498-41ff-9677-f4f5cf9ca666</SourceItemGuid3>
+      <SourceItemType3>CSource</SourceItemType3>
+      <SourceItemGuid4>e792f821-df2e-4b21-b52e-3704b1d6549d</SourceItemGuid4>
+      <SourceItemType4>CSource</SourceItemType4>
+      <SourceItemGuid5>f0ae98f2-ed73-46d7-84e9-73564ffb6949</SourceItemGuid5>
+      <SourceItemType5>CSource</SourceItemType5>
+      <SourceItemGuid6>7255e01e-579e-48e2-adbe-9e84a4d17ad8</SourceItemGuid6>
+      <SourceItemType6>CSource</SourceItemType6>
+      <SourceItemGuid7>d1dc9fb9-5050-4d3c-be12-a35e04688310</SourceItemGuid7>
+      <SourceItemType7>CSource</SourceItemType7>
+      <SourceItemGuid8>3c4b21ab-30f8-4685-8075-9a1f087c7d20</SourceItemGuid8>
+      <SourceItemType8>CSource</SourceItemType8>
+      <SourceItemGuid9>a181afe1-9673-4aa6-b3a8-dd16844c33eb</SourceItemGuid9>
+      <SourceItemType9>CSource</SourceItemType9>
+      <SourceItemGuid10>601799ed-1d93-4494-b5e0-c065e25b4d02</SourceItemGuid10>
+      <SourceItemType10>CSource</SourceItemType10>
+      <SourceItemGuid11>3430341b-9938-4d6f-9b3b-c5396a6ed8c0</SourceItemGuid11>
+      <SourceItemType11>CSource</SourceItemType11>
+      <SourceItemGuid12>df6ca1a4-a19c-4a27-a7fb-689acf704431</SourceItemGuid12>
+      <SourceItemType12>CSource</SourceItemType12>
+      <SourceItemGuid13>f122285f-5bb8-44bf-9eff-ccd899d593ca</SourceItemGuid13>
+      <SourceItemType13>CSource</SourceItemType13>
+      <SourceItemGuid14>48644d1e-6d43-4cff-93e5-469ace19ab33</SourceItemGuid14>
+      <SourceItemType14>CSource</SourceItemType14>
+      <SourceItemGuid15>ed4205f8-9854-4ae8-b996-3c6def99df60</SourceItemGuid15>
+      <SourceItemType15>CSource</SourceItemType15>
+      <SourceItemGuid16>0c614098-0978-41f0-9fe3-d9e06d6f2432</SourceItemGuid16>
+      <SourceItemType16>CSource</SourceItemType16>
+      <SourceItemGuid17>689d7799-c15b-46a7-aba6-4d2f89ac6c1e</SourceItemGuid17>
+      <SourceItemType17>CSource</SourceItemType17>
+      <SourceItemGuid18>a4b659e6-917b-4a55-848d-261986b6a3e8</SourceItemGuid18>
+      <SourceItemType18>AsmSource</SourceItemType18>
+      <SourceItemGuid19>1abf04e1-9b99-4db4-8687-9459dd54ef92</SourceItemGuid19>
+      <SourceItemType19>AsmSource</SourceItemType19>
+      <SourceItemGuid20>0b6fd060-519b-4003-8b2e-d24dd3ef4dcd</SourceItemGuid20>
+      <SourceItemType20>CSource</SourceItemType20>
+      <SourceItemGuid21>4a33f66d-8e1f-4d7a-9f26-8cca973238a1</SourceItemGuid21>
+      <SourceItemType21>AsmSource</SourceItemType21>
+      <SourceItemGuid22>6fe0c012-d54d-4837-a43b-0e6dd9b34703</SourceItemGuid22>
+      <SourceItemType22>CSource</SourceItemType22>
+      <SourceItemGuid23>9811622b-316e-4529-975e-0fbb0db4fba8</SourceItemGuid23>
+      <SourceItemType23>CSource</SourceItemType23>
+      <SourceItemGuid24>d16a77ab-d0b1-49dc-bd1f-6e44e80b24fd</SourceItemGuid24>
+      <SourceItemType24>CSource</SourceItemType24>
+      <SourceItemCount>25</SourceItemCount>
+      <LastDeviceChangedCounter>0</LastDeviceChangedCounter>
+      <LastDeviceNameOnPG>R7F100GLGxFA</LastDeviceNameOnPG>
+      <LastDeviceChangedCounterOnPG>0</LastDeviceChangedCounterOnPG>
+    </Instance>
+    <Instance Guid="6bb7060d-7e24-4135-bd9b-7db166417523">
+      <AsmOptionI-DefaultValue />
+      <BuildMode-DefaultValue>DefaultBuild</BuildMode-DefaultValue>
+      <COptionOsize-DefaultValue>Default</COptionOsize-DefaultValue>
+      <GeneralOptionCpu-DefaultValue>S3</GeneralOptionCpu-DefaultValue>
+      <GeneralOptionDspAsmFolder-DefaultValue />
+      <GeneralOptionErrorFile-DefaultValue>False</GeneralOptionErrorFile-DefaultValue>
+      <GeneralOptionInstalledFolder-DefaultValue />
+      <GeneralOptionMirrorArea-DefaultValue>Maa0</GeneralOptionMirrorArea-DefaultValue>
+      <GeneralOptionNoWarningNum-DefaultValue />
+      <GeneralOptionOutput-DefaultValue>LoadModuleFile</GeneralOptionOutput-DefaultValue>
+      <GeneralOptionSimultaneousBuild-DefaultValue>False</GeneralOptionSimultaneousBuild-DefaultValue>
+      <HexOptionOutput-DefaultValue>True</HexOptionOutput-DefaultValue>
+      <LibOptionForm-DefaultValue>LibraryU</LibOptionForm-DefaultValue>
+      <LinkOptionLibrary-DefaultValue />
+      <Memo-DefaultValue />
+      <OutputMessageFormat-DefaultValue>%TargetFiles%</OutputMessageFormat-DefaultValue>
+      <AsmOptionISystem-DefaultValue />
+      <COptionI-DefaultValue />
+      <CompilerDspAsmVersion-DefaultValue>
+
+0</CompilerDspAsmVersion-DefaultValue>
+      <CompilerVersion-DefaultValue>
+
+0</CompilerVersion-DefaultValue>
+      <FormatBuildOptionList-DefaultValue>%TargetFiles% : %Program% %Options%</FormatBuildOptionList-DefaultValue>
+      <GeneralOptionCref-DefaultValue>False</GeneralOptionCref-DefaultValue>
+      <GeneralOptionEnableParallelBuilding-DefaultValue>True</GeneralOptionEnableParallelBuilding-DefaultValue>
+      <GeneralOptionErrorFolder-DefaultValue>%BuildModeName%</GeneralOptionErrorFolder-DefaultValue>
+      <GeneralOptionUseMda-DefaultValue>mda</GeneralOptionUseMda-DefaultValue>
+      <HexOptionForm-DefaultValue>Stype</HexOptionForm-DefaultValue>
+      <LibOptionOutputFolder-DefaultValue>%BuildModeName%</LibOptionOutputFolder-DefaultValue>
+      <LinkOptionOutputFolder-DefaultValue>%BuildModeName%</LinkOptionOutputFolder-DefaultValue>
+      <LinkOptionSecurityId-DefaultValue>00000000000000000000</LinkOptionSecurityId-DefaultValue>
+      <SetAllBuildModeValue-DefaultValue>False</SetAllBuildModeValue-DefaultValue>
+      <AsmOptionDefine-DefaultValue />
+      <COptionISystem-DefaultValue />
+      <DependencyFileExistCheckingType-DefaultValue>Rebuild</DependencyFileExistCheckingType-DefaultValue>
+      <GeneralOptionErrorFileName-DefaultValue>%ProjectName%.err</GeneralOptionErrorFileName-DefaultValue>
+      <GeneralOptionObjPath-DefaultValue>%BuildModeName%</GeneralOptionObjPath-DefaultValue>
+      <HexOptionOutputFolder-DefaultValue>%BuildModeName%</HexOptionOutputFolder-DefaultValue>
+      <LibOptionOutputFileName-DefaultValue>%ProjectName%.lib</LibOptionOutputFileName-DefaultValue>
+      <LinkOptionFlashSecurityId-DefaultValue>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</LinkOptionFlashSecurityId-DefaultValue>
+      <LinkOptionOutputFileName-DefaultValue>%ProjectName%.abs</LinkOptionOutputFileName-DefaultValue>
+      <TemporaryFolder-DefaultValue />
+      <COptionD-DefaultValue />
+      <GeneralOptionLimitDevice-DefaultValue>Limit</GeneralOptionLimitDevice-DefaultValue>
+      <HexOptionOutputFileName-DefaultValue>%ProjectName%.mot</HexOptionOutputFileName-DefaultValue>
+      <LibOptionLibraryStandard-DefaultValue>False</LibOptionLibraryStandard-DefaultValue>
+      <LinkOptionLibraryStandard-DefaultValue>True</LinkOptionLibraryStandard-DefaultValue>
+      <PreBuildCommands-DefaultValue />
+      <HexOptionDivisionOutputFile-DefaultValue />
+      <LibOptionLibraryStandard2-DefaultValue>None</LibOptionLibraryStandard2-DefaultValue>
+      <LinkOptionLibraryStandard2-DefaultValue>C90</LinkOptionLibraryStandard2-DefaultValue>
+      <PostBuildCommands-DefaultValue />
+      <GeneralOptionOtherAdditionalOptions-DefaultValue />
+      <LibOptionLibraryRuntime-DefaultValue>False</LibOptionLibraryRuntime-DefaultValue>
+      <LinkOptionLibraryRuntime-DefaultValue>True</LinkOptionLibraryRuntime-DefaultValue>
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137729253666887</TimeTagModified--0>
+      <BuildMode-0>DefaultBuild</BuildMode-0>
+      <Memo-0 />
+      <OutputMessageFormat-0>%TargetFiles%</OutputMessageFormat-0>
+      <FormatBuildOptionList-0>%TargetFiles% : %Program% %Options%</FormatBuildOptionList-0>
+      <SetAllBuildModeValue-0>False</SetAllBuildModeValue-0>
+      <PreBuildCommands-0 />
+      <PostBuildCommands-0 />
+      <GeneralOptionCpu-0>S3</GeneralOptionCpu-0>
+      <GeneralOptionErrorFile-0>False</GeneralOptionErrorFile-0>
+      <GeneralOptionMirrorArea-0>Maa0</GeneralOptionMirrorArea-0>
+      <GeneralOptionNoWarningNum-0 />
+      <GeneralOptionOutput-0>LoadModuleFile</GeneralOptionOutput-0>
+      <GeneralOptionSimultaneousBuild-0>False</GeneralOptionSimultaneousBuild-0>
+      <CompilerDspAsmVersion-0>
+
+0</CompilerDspAsmVersion-0>
+      <CompilerVersion-0>
+
+0</CompilerVersion-0>
+      <GeneralOptionCref-0>False</GeneralOptionCref-0>
+      <GeneralOptionEnableParallelBuilding-0>True</GeneralOptionEnableParallelBuilding-0>
+      <GeneralOptionErrorFolder-0>%BuildModeName%</GeneralOptionErrorFolder-0>
+      <GeneralOptionUseMda-0>mda</GeneralOptionUseMda-0>
+      <LinkOptionSecurityId-0>00000000000000000000</LinkOptionSecurityId-0>
+      <DependencyFileExistCheckingType-0>Rebuild</DependencyFileExistCheckingType-0>
+      <GeneralOptionErrorFileName-0>%ProjectName%.err</GeneralOptionErrorFileName-0>
+      <GeneralOptionObjPath-0>%BuildModeName%</GeneralOptionObjPath-0>
+      <LinkOptionFlashSecurityId-0>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</LinkOptionFlashSecurityId-0>
+      <TemporaryFolder-0 />
+      <GeneralOptionLimitDevice-0>Limit</GeneralOptionLimitDevice-0>
+      <GeneralOptionOtherAdditionalOptions-0 />
+      <LastCompilerVersion-0>V1.12.00</LastCompilerVersion-0>
+    </Instance>
+    <Instance Guid="86bebc9e-2f6f-4e72-83c8-8883e6cf6d33">
+      <COptionAnsi-DefaultValue>False</COptionAnsi-DefaultValue>
+      <COptionAsmPath-DefaultValue>False</COptionAsmPath-DefaultValue>
+      <COptionChangeMessageError-DefaultValue>No</COptionChangeMessageError-DefaultValue>
+      <COptionCharacterSet-DefaultValue>Auto</COptionCharacterSet-DefaultValue>
+      <COptionConvertCc-DefaultValue>None</COptionConvertCc-DefaultValue>
+      <COptionDblSize-DefaultValue>True</COptionDblSize-DefaultValue>
+      <COptionG-DefaultValue>True</COptionG-DefaultValue>
+      <COptionI-DefaultValue />
+      <COptionLangC-DefaultValue>None</COptionLangC-DefaultValue>
+      <COptionMOrC-DefaultValue>-c</COptionMOrC-DefaultValue>
+      <COptionMemoryModel-DefaultValue>Auto</COptionMemoryModel-DefaultValue>
+      <COptionMisra-DefaultValue>Misra2012</COptionMisra-DefaultValue>
+      <COptionOenhance-DefaultValue>False</COptionOenhance-DefaultValue>
+      <COptionOsize-DefaultValue>Default</COptionOsize-DefaultValue>
+      <COptionPrnPath-DefaultValue>False</COptionPrnPath-DefaultValue>
+      <COptionStackProtector-DefaultValue>None</COptionStackProtector-DefaultValue>
+      <COptionAsmPathValue-DefaultValue>%BuildModeName%</COptionAsmPathValue-DefaultValue>
+      <COptionChangeMessageErrorNumber-DefaultValue />
+      <COptionFarRom-DefaultValue>False</COptionFarRom-DefaultValue>
+      <COptionGLine-DefaultValue>True</COptionGLine-DefaultValue>
+      <COptionISystem-DefaultValue />
+      <COptionMisra2004-DefaultValue>None</COptionMisra2004-DefaultValue>
+      <COptionPreCompileCommands-DefaultValue />
+      <COptionPrnPathValue-DefaultValue>%BuildModeName%</COptionPrnPathValue-DefaultValue>
+      <COptionSignedChar-DefaultValue>None</COptionSignedChar-DefaultValue>
+      <COptionStrictStd-DefaultValue>False</COptionStrictStd-DefaultValue>
+      <CppOptionCharacterSet-DefaultValue>Utf8</CppOptionCharacterSet-DefaultValue>
+      <CppOptionLangOfCppSourceFile-DefaultValue>Cpp14</CppOptionLangOfCppSourceFile-DefaultValue>
+      <COptionControlFlowIntegrity-DefaultValue>None</COptionControlFlowIntegrity-DefaultValue>
+      <COptionMisra2004RuleFile-DefaultValue />
+      <COptionOdeleteStaticFunc-DefaultValue>None</COptionOdeleteStaticFunc-DefaultValue>
+      <COptionP-DefaultValue>False</COptionP-DefaultValue>
+      <COptionPostCompileCommands-DefaultValue />
+      <COptionPreinclude-DefaultValue />
+      <COptionRefsWithoutDeclaration-DefaultValue>False</COptionRefsWithoutDeclaration-DefaultValue>
+      <COptionSignedBitfield-DefaultValue>None</COptionSignedBitfield-DefaultValue>
+      <COptionD-DefaultValue />
+      <COptionLargeVariable-DefaultValue>False</COptionLargeVariable-DefaultValue>
+      <COptionMisra2004RuleNumberApply-DefaultValue />
+      <COptionOinlineLevel-DefaultValue>FitToOptimization</COptionOinlineLevel-DefaultValue>
+      <COptionOtherAdditionalOptions-DefaultValue />
+      <COptionPack-DefaultValue>False</COptionPack-DefaultValue>
+      <COptionPrepPath-DefaultValue>%BuildModeName%</COptionPrepPath-DefaultValue>
+      <COptionMisra2004RuleNumberIgnore-DefaultValue />
+      <COptionNestComment-DefaultValue>False</COptionNestComment-DefaultValue>
+      <COptionOinlineSize-DefaultValue>100</COptionOinlineSize-DefaultValue>
+      <COptionU-DefaultValue />
+      <COptionVolatile-DefaultValue>False</COptionVolatile-DefaultValue>
+      <COptionMisra2004RuleNumberRequiredAdd-DefaultValue />
+      <COptionOpipeline-DefaultValue>None</COptionOpipeline-DefaultValue>
+      <COptionPreprocessComment-DefaultValue>False</COptionPreprocessComment-DefaultValue>
+      <COptionSwitch-DefaultValue>Auto</COptionSwitch-DefaultValue>
+      <COptionMisra2004RuleNumberRequiredRemove-DefaultValue />
+      <COptionOtailCall-DefaultValue>None</COptionOtailCall-DefaultValue>
+      <COptionPreprocessLine-DefaultValue>False</COptionPreprocessLine-DefaultValue>
+      <COptionUnalignedPointerForCA78K0R-DefaultValue>False</COptionUnalignedPointerForCA78K0R-DefaultValue>
+      <COptionMisra2012-DefaultValue>None</COptionMisra2012-DefaultValue>
+      <COptionOintermodule-DefaultValue>None</COptionOintermodule-DefaultValue>
+      <COptionPassSource-DefaultValue>False</COptionPassSource-DefaultValue>
+      <COptionMergeString-DefaultValue>False</COptionMergeString-DefaultValue>
+      <COptionMisra2012RuleFile-DefaultValue />
+      <COptionOaliasAnsi-DefaultValue>False</COptionOaliasAnsi-DefaultValue>
+      <COptionMisra2012RuleNumberApply-DefaultValue />
+      <COptionOsameCode-DefaultValue>False</COptionOsameCode-DefaultValue>
+      <COptionStuffBSS-DefaultValue>False</COptionStuffBSS-DefaultValue>
+      <COptionMisra2012RuleNumberIgnore-DefaultValue />
+      <COptionOsameCode2-DefaultValue>None</COptionOsameCode2-DefaultValue>
+      <COptionStuffData-DefaultValue>False</COptionStuffData-DefaultValue>
+      <COptionMisra2012RuleNumberRequiredAdd-DefaultValue />
+      <COptionObranchChaining-DefaultValue>None</COptionObranchChaining-DefaultValue>
+      <COptionStuffConst-DefaultValue>False</COptionStuffConst-DefaultValue>
+      <COptionInsertNopWithLabel-DefaultValue>False</COptionInsertNopWithLabel-DefaultValue>
+      <COptionMisra2012RuleNumberRequiredRemove-DefaultValue />
+      <COptionOalign-DefaultValue>None</COptionOalign-DefaultValue>
+      <COptionGoptimize-DefaultValue>False</COptionGoptimize-DefaultValue>
+      <COptionIgnoreFilesMisra-DefaultValue />
+      <COptionInsertNopWithLabelParameters-DefaultValue />
+      <COptionCheckLanguageExtension-DefaultValue>False</COptionCheckLanguageExtension-DefaultValue>
+      <COptionMisraIntermodule-DefaultValue>False</COptionMisraIntermodule-DefaultValue>
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137653919311472</TimeTagModified--0>
+      <COptionAnsi-0>False</COptionAnsi-0>
+      <COptionAsmPath-0>False</COptionAsmPath-0>
+      <COptionChangeMessageError-0>No</COptionChangeMessageError-0>
+      <COptionCharacterSet-0>Auto</COptionCharacterSet-0>
+      <COptionConvertCc-0>None</COptionConvertCc-0>
+      <COptionDblSize-0>True</COptionDblSize-0>
+      <COptionG-0>True</COptionG-0>
+      <COptionI-0>src\smc_gen\r_config
+src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl
+src\smc_gen\r_bsp\mcu\rl78_g23
+src\smc_gen\r_bsp\mcu\all
+src\smc_gen\r_bsp\board\generic_rl78_g23
+src\smc_gen\r_bsp
+src\smc_gen\general
+src\smc_gen\Config_PORT
+src\smc_gen\Config_ITL013
+src\smc_gen\Config_ITL012
+src\smc_gen\Config_ITL001
+src\smc_gen\Config_ITL000
+src\smc_gen\Config_INTC
+</COptionI-0>
+      <COptionLangC-0>C99</COptionLangC-0>
+      <COptionMOrC-0>-c</COptionMOrC-0>
+      <COptionMemoryModel-0>Auto</COptionMemoryModel-0>
+      <COptionMisra-0>Misra2012</COptionMisra-0>
+      <COptionOenhance-0>False</COptionOenhance-0>
+      <COptionOsize-0>AdvancedOlite</COptionOsize-0>
+      <COptionPrnPath-0>False</COptionPrnPath-0>
+      <COptionStackProtector-0>None</COptionStackProtector-0>
+      <COptionAsmPathValue-0>%BuildModeName%</COptionAsmPathValue-0>
+      <COptionChangeMessageErrorNumber-0 />
+      <COptionFarRom-0>False</COptionFarRom-0>
+      <COptionGLine-0>True</COptionGLine-0>
+      <COptionISystem-0 />
+      <COptionMisra2004-0>None</COptionMisra2004-0>
+      <COptionPreCompileCommands-0 />
+      <COptionPrnPathValue-0>%BuildModeName%</COptionPrnPathValue-0>
+      <COptionSignedChar-0>None</COptionSignedChar-0>
+      <COptionStrictStd-0>False</COptionStrictStd-0>
+      <CppOptionCharacterSet-0>Utf8</CppOptionCharacterSet-0>
+      <CppOptionLangOfCppSourceFile-0>Cpp14</CppOptionLangOfCppSourceFile-0>
+      <COptionControlFlowIntegrity-0>None</COptionControlFlowIntegrity-0>
+      <COptionMisra2004RuleFile-0 />
+      <COptionOdeleteStaticFunc-0>None</COptionOdeleteStaticFunc-0>
+      <COptionP-0>False</COptionP-0>
+      <COptionPostCompileCommands-0 />
+      <COptionPreinclude-0 />
+      <COptionRefsWithoutDeclaration-0>False</COptionRefsWithoutDeclaration-0>
+      <COptionSignedBitfield-0>None</COptionSignedBitfield-0>
+      <COptionD-0 />
+      <COptionLargeVariable-0>False</COptionLargeVariable-0>
+      <COptionMisra2004RuleNumberApply-0 />
+      <COptionOinlineLevel-0>FitToOptimization</COptionOinlineLevel-0>
+      <COptionOtherAdditionalOptions-0 />
+      <COptionPack-0>False</COptionPack-0>
+      <COptionPrepPath-0>%BuildModeName%</COptionPrepPath-0>
+      <COptionMisra2004RuleNumberIgnore-0 />
+      <COptionNestComment-0>False</COptionNestComment-0>
+      <COptionOinlineSize-0>100</COptionOinlineSize-0>
+      <COptionU-0 />
+      <COptionVolatile-0>False</COptionVolatile-0>
+      <COptionMisra2004RuleNumberRequiredAdd-0 />
+      <COptionOpipeline-0>None</COptionOpipeline-0>
+      <COptionPreprocessComment-0>False</COptionPreprocessComment-0>
+      <COptionSwitch-0>Auto</COptionSwitch-0>
+      <COptionMisra2004RuleNumberRequiredRemove-0 />
+      <COptionOtailCall-0>None</COptionOtailCall-0>
+      <COptionPreprocessLine-0>False</COptionPreprocessLine-0>
+      <COptionUnalignedPointerForCA78K0R-0>False</COptionUnalignedPointerForCA78K0R-0>
+      <COptionMisra2012-0>None</COptionMisra2012-0>
+      <COptionOintermodule-0>None</COptionOintermodule-0>
+      <COptionPassSource-0>False</COptionPassSource-0>
+      <COptionMergeString-0>False</COptionMergeString-0>
+      <COptionMisra2012RuleFile-0 />
+      <COptionOaliasAnsi-0>False</COptionOaliasAnsi-0>
+      <COptionMisra2012RuleNumberApply-0 />
+      <COptionOsameCode-0>False</COptionOsameCode-0>
+      <COptionStuffBSS-0>False</COptionStuffBSS-0>
+      <COptionMisra2012RuleNumberIgnore-0 />
+      <COptionOsameCode2-0>None</COptionOsameCode2-0>
+      <COptionStuffData-0>False</COptionStuffData-0>
+      <COptionMisra2012RuleNumberRequiredAdd-0 />
+      <COptionObranchChaining-0>None</COptionObranchChaining-0>
+      <COptionStuffConst-0>False</COptionStuffConst-0>
+      <COptionInsertNopWithLabel-0>False</COptionInsertNopWithLabel-0>
+      <COptionMisra2012RuleNumberRequiredRemove-0 />
+      <COptionOalign-0>None</COptionOalign-0>
+      <COptionGoptimize-0>False</COptionGoptimize-0>
+      <COptionIgnoreFilesMisra-0 />
+      <COptionInsertNopWithLabelParameters-0 />
+      <COptionCheckLanguageExtension-0>False</COptionCheckLanguageExtension-0>
+      <COptionMisraIntermodule-0>False</COptionMisraIntermodule-0>
+    </Instance>
+    <Instance Guid="7a176a9a-9fa0-4b5e-9c2d-94265d8d049f">
+      <AsmOptionCharacterSet-DefaultValue>Auto</AsmOptionCharacterSet-DefaultValue>
+      <AsmOptionConvertAsm-DefaultValue>False</AsmOptionConvertAsm-DefaultValue>
+      <AsmOptionG-DefaultValue>True</AsmOptionG-DefaultValue>
+      <AsmOptionGoptimize-DefaultValue>False</AsmOptionGoptimize-DefaultValue>
+      <AsmOptionI-DefaultValue />
+      <AsmOptionMMOrC-DefaultValue>-c</AsmOptionMMOrC-DefaultValue>
+      <AsmOptionPrnPath-DefaultValue>False</AsmOptionPrnPath-DefaultValue>
+      <AsmOptionBaseNumber-DefaultValue>Prefix</AsmOptionBaseNumber-DefaultValue>
+      <AsmOptionISystem-DefaultValue />
+      <AsmOptionPreAssembleCommands-DefaultValue />
+      <AsmOptionPrnPathValue-DefaultValue>%BuildModeName%</AsmOptionPrnPathValue-DefaultValue>
+      <AsmOptionDefine-DefaultValue />
+      <AsmOptionPostAssembleCommands-DefaultValue />
+      <AsmOptionOtherAdditionalOptions-DefaultValue />
+      <AsmOptionUndefine-DefaultValue />
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137726549074238</TimeTagModified--0>
+      <AsmOptionCharacterSet-0>Auto</AsmOptionCharacterSet-0>
+      <AsmOptionConvertAsm-0>False</AsmOptionConvertAsm-0>
+      <AsmOptionG-0>True</AsmOptionG-0>
+      <AsmOptionGoptimize-0>False</AsmOptionGoptimize-0>
+      <AsmOptionI-0>src\smc_gen\r_config
+src\smc_gen\r_bsp\board\generic_rl78_g23
+</AsmOptionI-0>
+      <AsmOptionMMOrC-0>-c</AsmOptionMMOrC-0>
+      <AsmOptionPrnPath-0>False</AsmOptionPrnPath-0>
+      <AsmOptionBaseNumber-0>Prefix</AsmOptionBaseNumber-0>
+      <AsmOptionISystem-0 />
+      <AsmOptionPreAssembleCommands-0 />
+      <AsmOptionPrnPathValue-0>%BuildModeName%</AsmOptionPrnPathValue-0>
+      <AsmOptionDefine-0 />
+      <AsmOptionPostAssembleCommands-0 />
+      <AsmOptionOtherAdditionalOptions-0 />
+      <AsmOptionUndefine-0 />
+    </Instance>
+    <Instance Guid="f9345ca1-8ed4-4d53-b89b-d7ee9698cd54">
+      <SMSAsmOptionCharacterSet-DefaultValue>None</SMSAsmOptionCharacterSet-DefaultValue>
+      <SMSAsmOptionI-DefaultValue />
+      <SMSAsmOptionNoWarning-DefaultValue />
+      <SMSAsmOptionPreSMSAssembleCommands-DefaultValue />
+      <SMSAsmOptionD-DefaultValue />
+      <SMSAsmOptionPostSMSAssembleCommands-DefaultValue />
+      <SMSAsmOptionOtherAdditionalOptions-DefaultValue />
+      <SMSAsmOptionU-DefaultValue />
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137729253306897</TimeTagModified--0>
+      <SMSAsmOptionCharacterSet-0>None</SMSAsmOptionCharacterSet-0>
+      <SMSAsmOptionI-0 />
+      <SMSAsmOptionNoWarning-0 />
+      <SMSAsmOptionPreSMSAssembleCommands-0 />
+      <SMSAsmOptionD-0 />
+      <SMSAsmOptionPostSMSAssembleCommands-0 />
+      <SMSAsmOptionOtherAdditionalOptions-0 />
+      <SMSAsmOptionU-0 />
+    </Instance>
+    <Instance Guid="a9166fef-6885-413b-b164-116661915fd2">
+      <DSPAsmOptionCore-DefaultValue>V2Core</DSPAsmOptionCore-DefaultValue>
+      <DSPAsmOptionI-DefaultValue />
+      <DSPAsmOptionNoDebugInfo-DefaultValue>True</DSPAsmOptionNoDebugInfo-DefaultValue>
+      <DSPAsmOptionOutputAsm-DefaultValue>False</DSPAsmOptionOutputAsm-DefaultValue>
+      <DSPAsmOptionPreDSPAssembleCommands-DefaultValue />
+      <DSPAsmOptionCodeSectionStart-DefaultValue />
+      <DSPAsmOptionOutputVerilog-DefaultValue>False</DSPAsmOptionOutputVerilog-DefaultValue>
+      <DSPAsmOptionPostDSPAssembleCommands-DefaultValue />
+      <DSPAsmOptionTextmacro-DefaultValue />
+      <DSPAsmOptionDataSectionStart-DefaultValue />
+      <DSPAsmOptionDefine-DefaultValue />
+      <DSPAsmOptionList-DefaultValue>False</DSPAsmOptionList-DefaultValue>
+      <DSPAsmOptionOtherAdditionalOptions-DefaultValue />
+      <DSPAsmOptionAllowTextMacroRedefine-DefaultValue>False</DSPAsmOptionAllowTextMacroRedefine-DefaultValue>
+      <DSPAsmOptionLabel-DefaultValue>False</DSPAsmOptionLabel-DefaultValue>
+      <DSPAsmOptionMacroIdentifyExact-DefaultValue>Forward</DSPAsmOptionMacroIdentifyExact-DefaultValue>
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137729253236883</TimeTagModified--0>
+      <DSPAsmOptionCore-0>V2Core</DSPAsmOptionCore-0>
+      <DSPAsmOptionI-0 />
+      <DSPAsmOptionNoDebugInfo-0>True</DSPAsmOptionNoDebugInfo-0>
+      <DSPAsmOptionOutputAsm-0>False</DSPAsmOptionOutputAsm-0>
+      <DSPAsmOptionPreDSPAssembleCommands-0 />
+      <DSPAsmOptionCodeSectionStart-0 />
+      <DSPAsmOptionOutputVerilog-0>False</DSPAsmOptionOutputVerilog-0>
+      <DSPAsmOptionPostDSPAssembleCommands-0 />
+      <DSPAsmOptionTextmacro-0 />
+      <DSPAsmOptionDataSectionStart-0 />
+      <DSPAsmOptionDefine-0 />
+      <DSPAsmOptionList-0>False</DSPAsmOptionList-0>
+      <DSPAsmOptionOtherAdditionalOptions-0 />
+      <DSPAsmOptionAllowTextMacroRedefine-0>False</DSPAsmOptionAllowTextMacroRedefine-0>
+      <DSPAsmOptionLabel-0>False</DSPAsmOptionLabel-0>
+      <DSPAsmOptionMacroIdentifyExact-0>Forward</DSPAsmOptionMacroIdentifyExact-0>
+    </Instance>
+    <Instance Guid="7ec2f657-357c-4418-bb9b-bbb98af0d62c">
+      <LinkOptionAutoSectionLayout-DefaultValue>True</LinkOptionAutoSectionLayout-DefaultValue>
+      <LinkOptionCpu-DefaultValue>False</LinkOptionCpu-DefaultValue>
+      <LinkOptionDebug-DefaultValue>Debug</LinkOptionDebug-DefaultValue>
+      <LinkOptionEntry-DefaultValue>False</LinkOptionEntry-DefaultValue>
+      <LinkOptionInput-DefaultValue />
+      <LinkOptionLibrary-DefaultValue />
+      <LinkOptionListShow-DefaultValue>List</LinkOptionListShow-DefaultValue>
+      <LinkOptionMessage-DefaultValue>False</LinkOptionMessage-DefaultValue>
+      <LinkOptionOcdbg-DefaultValue>True</LinkOptionOcdbg-DefaultValue>
+      <LinkOptionOptimize-DefaultValue>None</LinkOptionOptimize-DefaultValue>
+      <LinkOptionOutputFolder-DefaultValue>%BuildModeName%</LinkOptionOutputFolder-DefaultValue>
+      <LinkOptionStack-DefaultValue>False</LinkOptionStack-DefaultValue>
+      <LinkOptionVfinfo-DefaultValue>False</LinkOptionVfinfo-DefaultValue>
+      <LinkOptionBinary-DefaultValue />
+      <LinkOptionCompress-DefaultValue>False</LinkOptionCompress-DefaultValue>
+      <LinkOptionCpuInformation-DefaultValue />
+      <LinkOptionEntryPoint-DefaultValue />
+      <LinkOptionLibrarySystem-DefaultValue />
+      <LinkOptionMapFileName-DefaultValue>%ProjectName%.map</LinkOptionMapFileName-DefaultValue>
+      <LinkOptionMemory-DefaultValue>False</LinkOptionMemory-DefaultValue>
+      <LinkOptionNoMessageErrorNumber-DefaultValue />
+      <LinkOptionOcdbgValue-DefaultValue />
+      <LinkOptionOptimizeSymbolDelete-DefaultValue>False</LinkOptionOptimizeSymbolDelete-DefaultValue>
+      <LinkOptionOutputFileName-DefaultValue>%ProjectName%.abs</LinkOptionOutputFileName-DefaultValue>
+      <LinkOptionSplitSection-DefaultValue>False</LinkOptionSplitSection-DefaultValue>
+      <LinkOptionVfinfoFolder-DefaultValue>%BuildModeName%</LinkOptionVfinfoFolder-DefaultValue>
+      <LinkOptionCheckDevice-DefaultValue>False</LinkOptionCheckDevice-DefaultValue>
+      <LinkOptionDefine-DefaultValue />
+      <LinkOptionHide-DefaultValue>False</LinkOptionHide-DefaultValue>
+      <LinkOptionLibraryStandard-DefaultValue>True</LinkOptionLibraryStandard-DefaultValue>
+      <LinkOptionMsgUnused-DefaultValue>False</LinkOptionMsgUnused-DefaultValue>
+      <LinkOptionOptimizeSameCode-DefaultValue>False</LinkOptionOptimizeSameCode-DefaultValue>
+      <LinkOptionPadding-DefaultValue>False</LinkOptionPadding-DefaultValue>
+      <LinkOptionSecurityOptByte-DefaultValue>False</LinkOptionSecurityOptByte-DefaultValue>
+      <LinkOptionShowSymbol-DefaultValue>False</LinkOptionShowSymbol-DefaultValue>
+      <LinkOptionStart-DefaultValue />
+      <LinkOptionTotalSize-DefaultValue>False</LinkOptionTotalSize-DefaultValue>
+      <LinkOptionVfinfoFileName-DefaultValue>%ProjectName%_vfi.h</LinkOptionVfinfoFileName-DefaultValue>
+      <LinkOptionChangeMessageInformation-DefaultValue>None</LinkOptionChangeMessageInformation-DefaultValue>
+      <LinkOptionCheck64KOnly-DefaultValue>False</LinkOptionCheck64KOnly-DefaultValue>
+      <LinkOptionFSymbol-DefaultValue />
+      <LinkOptionLibraryStandard2-DefaultValue>C90</LinkOptionLibraryStandard2-DefaultValue>
+      <LinkOptionLogo-DefaultValue>False</LinkOptionLogo-DefaultValue>
+      <LinkOptionSameSize-DefaultValue>1E</LinkOptionSameSize-DefaultValue>
+      <LinkOptionSecurityOptByteValue-DefaultValue />
+      <LinkOptionShowReference-DefaultValue>False</LinkOptionShowReference-DefaultValue>
+      <LinkOptionVectN-DefaultValue />
+      <LinkOptionVfinfoOutputType-DefaultValue />
+      <LinkOptionChangeMessageInformationNumber-DefaultValue />
+      <LinkOptionDebugMonitorSetting-DefaultValue>None</LinkOptionDebugMonitorSetting-DefaultValue>
+      <LinkOptionLibraryLibMalloc-DefaultValue>False</LinkOptionLibraryLibMalloc-DefaultValue>
+      <LinkOptionNoCheckSectionLayout-DefaultValue>False</LinkOptionNoCheckSectionLayout-DefaultValue>
+      <LinkOptionOptimizeBranch-DefaultValue>False</LinkOptionOptimizeBranch-DefaultValue>
+      <LinkOptionPreLinkCommands-DefaultValue />
+      <LinkOptionRom-DefaultValue>.data=.dataR
+.sdata=.sdataR
+</LinkOptionRom-DefaultValue>
+      <LinkOptionShowXreference-DefaultValue>False</LinkOptionShowXreference-DefaultValue>
+      <LinkOptionVect-DefaultValue />
+      <LinkOptionCFI-DefaultValue>False</LinkOptionCFI-DefaultValue>
+      <LinkOptionChangeMessageWarning-DefaultValue>None</LinkOptionChangeMessageWarning-DefaultValue>
+      <LinkOptionDebugMonitor-DefaultValue>1FE00-1FFFF</LinkOptionDebugMonitor-DefaultValue>
+      <LinkOptionDspMemoryArea-DefaultValue>None</LinkOptionDspMemoryArea-DefaultValue>
+      <LinkOptionLibraryRuntime-DefaultValue>True</LinkOptionLibraryRuntime-DefaultValue>
+      <LinkOptionPostLinkCommands-DefaultValue />
+      <LinkOptionShowTotalSize-DefaultValue>False</LinkOptionShowTotalSize-DefaultValue>
+      <LinkOptionSymbolForbid-DefaultValue />
+      <LinkOptionCFIAddFunc-DefaultValue />
+      <LinkOptionChangeMessageWarningNumber-DefaultValue />
+      <LinkOptionOtherAdditionalOptions-DefaultValue />
+      <LinkOptionSameCodeForbid-DefaultValue />
+      <LinkOptionShowVector-DefaultValue>False</LinkOptionShowVector-DefaultValue>
+      <LinkOptionUserOptByte-DefaultValue>True</LinkOptionUserOptByte-DefaultValue>
+      <LinkOptionCFIIgnoreModule-DefaultValue />
+      <LinkOptionChangeMessageError-DefaultValue>None</LinkOptionChangeMessageError-DefaultValue>
+      <LinkOptionSectionForbid-DefaultValue />
+      <LinkOptionShowStruct-DefaultValue>False</LinkOptionShowStruct-DefaultValue>
+      <LinkOptionUserOptByteValue-DefaultValue />
+      <LinkOptionAbsoluteForbid-DefaultValue />
+      <LinkOptionChangeMessageErrorNumber-DefaultValue />
+      <LinkOptionSelf-DefaultValue>None</LinkOptionSelf-DefaultValue>
+      <LinkOptionShowRelocationAttribute-DefaultValue>False</LinkOptionShowRelocationAttribute-DefaultValue>
+      <LinkOptionSplitVect-DefaultValue>False</LinkOptionSplitVect-DefaultValue>
+      <LinkOptionOcdTr-DefaultValue>None</LinkOptionOcdTr-DefaultValue>
+      <LinkOptionShowCFI-DefaultValue>False</LinkOptionShowCFI-DefaultValue>
+      <LinkOptionOcdHpi-DefaultValue>None</LinkOptionOcdHpi-DefaultValue>
+      <LinkOptionRrm-DefaultValue>False</LinkOptionRrm-DefaultValue>
+      <LinkOptionRrmValue-DefaultValue />
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137683402003807</TimeTagModified--0>
+      <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
+      <LinkOptionCpu-0>False</LinkOptionCpu-0>
+      <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
+      <LinkOptionEntry-0>False</LinkOptionEntry-0>
+      <LinkOptionInput-0 />
+      <LinkOptionLibrary-0 />
+      <LinkOptionListShow-0>List</LinkOptionListShow-0>
+      <LinkOptionMessage-0>False</LinkOptionMessage-0>
+      <LinkOptionOcdbg-0>True</LinkOptionOcdbg-0>
+      <LinkOptionOptimize-0>None</LinkOptionOptimize-0>
+      <LinkOptionOutputFolder-0>%BuildModeName%</LinkOptionOutputFolder-0>
+      <LinkOptionStack-0>False</LinkOptionStack-0>
+      <LinkOptionVfinfo-0>False</LinkOptionVfinfo-0>
+      <LinkOptionBinary-0 />
+      <LinkOptionCompress-0>False</LinkOptionCompress-0>
+      <LinkOptionCpuInformation-0 />
+      <LinkOptionEntryPoint-0 />
+      <LinkOptionLibrarySystem-0 />
+      <LinkOptionMapFileName-0>%ProjectName%.map</LinkOptionMapFileName-0>
+      <LinkOptionMemory-0>False</LinkOptionMemory-0>
+      <LinkOptionNoMessageErrorNumber-0 />
+      <LinkOptionOcdbgValue-0>84</LinkOptionOcdbgValue-0>
+      <LinkOptionOptimizeSymbolDelete-0>False</LinkOptionOptimizeSymbolDelete-0>
+      <LinkOptionOutputFileName-0>%ProjectName%.abs</LinkOptionOutputFileName-0>
+      <LinkOptionSplitSection-0>False</LinkOptionSplitSection-0>
+      <LinkOptionVfinfoFolder-0>%BuildModeName%</LinkOptionVfinfoFolder-0>
+      <LinkOptionCheckDevice-0>False</LinkOptionCheckDevice-0>
+      <LinkOptionDefine-0 />
+      <LinkOptionHide-0>False</LinkOptionHide-0>
+      <LinkOptionLibraryStandard-0>True</LinkOptionLibraryStandard-0>
+      <LinkOptionMsgUnused-0>False</LinkOptionMsgUnused-0>
+      <LinkOptionOptimizeSameCode-0>False</LinkOptionOptimizeSameCode-0>
+      <LinkOptionPadding-0>False</LinkOptionPadding-0>
+      <LinkOptionSecurityOptByte-0>False</LinkOptionSecurityOptByte-0>
+      <LinkOptionShowSymbol-0>False</LinkOptionShowSymbol-0>
+      <LinkOptionStart-0 />
+      <LinkOptionTotalSize-0>False</LinkOptionTotalSize-0>
+      <LinkOptionVfinfoFileName-0>%ProjectName%_vfi.h</LinkOptionVfinfoFileName-0>
+      <LinkOptionChangeMessageInformation-0>None</LinkOptionChangeMessageInformation-0>
+      <LinkOptionCheck64KOnly-0>False</LinkOptionCheck64KOnly-0>
+      <LinkOptionFSymbol-0 />
+      <LinkOptionLibraryStandard2-0>C99</LinkOptionLibraryStandard2-0>
+      <LinkOptionLogo-0>False</LinkOptionLogo-0>
+      <LinkOptionSameSize-0>1E</LinkOptionSameSize-0>
+      <LinkOptionSecurityOptByteValue-0 />
+      <LinkOptionShowReference-0>False</LinkOptionShowReference-0>
+      <LinkOptionVectN-0 />
+      <LinkOptionVfinfoOutputType-0 />
+      <LinkOptionChangeMessageInformationNumber-0 />
+      <LinkOptionDebugMonitorSetting-0>YesAddressRange</LinkOptionDebugMonitorSetting-0>
+      <LinkOptionLibraryLibMalloc-0>False</LinkOptionLibraryLibMalloc-0>
+      <LinkOptionNoCheckSectionLayout-0>False</LinkOptionNoCheckSectionLayout-0>
+      <LinkOptionOptimizeBranch-0>False</LinkOptionOptimizeBranch-0>
+      <LinkOptionPreLinkCommands-0 />
+      <LinkOptionRom-0>.data=.dataR
+.sdata=.sdataR
+</LinkOptionRom-0>
+      <LinkOptionShowXreference-0>False</LinkOptionShowXreference-0>
+      <LinkOptionVect-0 />
+      <LinkOptionCFI-0>False</LinkOptionCFI-0>
+      <LinkOptionChangeMessageWarning-0>None</LinkOptionChangeMessageWarning-0>
+      <LinkOptionDebugMonitor-0>1FE00-1FFFF</LinkOptionDebugMonitor-0>
+      <LinkOptionDspMemoryArea-0>None</LinkOptionDspMemoryArea-0>
+      <LinkOptionLibraryRuntime-0>True</LinkOptionLibraryRuntime-0>
+      <LinkOptionPostLinkCommands-0 />
+      <LinkOptionShowTotalSize-0>False</LinkOptionShowTotalSize-0>
+      <LinkOptionSymbolForbid-0 />
+      <LinkOptionCFIAddFunc-0 />
+      <LinkOptionChangeMessageWarningNumber-0 />
+      <LinkOptionOtherAdditionalOptions-0 />
+      <LinkOptionSameCodeForbid-0 />
+      <LinkOptionShowVector-0>False</LinkOptionShowVector-0>
+      <LinkOptionUserOptByte-0>True</LinkOptionUserOptByte-0>
+      <LinkOptionCFIIgnoreModule-0 />
+      <LinkOptionChangeMessageError-0>None</LinkOptionChangeMessageError-0>
+      <LinkOptionSectionForbid-0 />
+      <LinkOptionShowStruct-0>False</LinkOptionShowStruct-0>
+      <LinkOptionUserOptByteValue-0>EFFEE8</LinkOptionUserOptByteValue-0>
+      <LinkOptionAbsoluteForbid-0 />
+      <LinkOptionChangeMessageErrorNumber-0 />
+      <LinkOptionSelf-0>None</LinkOptionSelf-0>
+      <LinkOptionShowRelocationAttribute-0>False</LinkOptionShowRelocationAttribute-0>
+      <LinkOptionSplitVect-0>False</LinkOptionSplitVect-0>
+      <LinkOptionOcdTr-0>OcdTr</LinkOptionOcdTr-0>
+      <LinkOptionShowCFI-0>False</LinkOptionShowCFI-0>
+      <LinkOptionOcdHpi-0>None</LinkOptionOcdHpi-0>
+      <LinkOptionRrm-0>False</LinkOptionRrm-0>
+      <LinkOptionRrmValue-0 />
+    </Instance>
+    <Instance Guid="2584cb35-e8a6-473b-a8f3-b4f7be9e18fa">
+      <HexOptionCheckOutputRomArea-DefaultValue>False</HexOptionCheckOutputRomArea-DefaultValue>
+      <HexOptionCrc-DefaultValue>False</HexOptionCrc-DefaultValue>
+      <HexOptionForm-DefaultValue>Stype</HexOptionForm-DefaultValue>
+      <HexOptionOtherAdditionalOptions-DefaultValue />
+      <HexOptionOutput-DefaultValue>True</HexOptionOutput-DefaultValue>
+      <HexOptionSameLinkMessage-DefaultValue>True</HexOptionSameLinkMessage-DefaultValue>
+      <HexOptionCrcOutputAddress-DefaultValue />
+      <HexOptionMessage-DefaultValue>False</HexOptionMessage-DefaultValue>
+      <HexOptionOutputFolder-DefaultValue>%BuildModeName%</HexOptionOutputFolder-DefaultValue>
+      <HexOptionRecordH-DefaultValue>None</HexOptionRecordH-DefaultValue>
+      <HexOptionCrcCalculationRange-DefaultValue />
+      <HexOptionNoMessageErrorNumber-DefaultValue />
+      <HexOptionOutputFileName-DefaultValue>%ProjectName%.mot</HexOptionOutputFileName-DefaultValue>
+      <HexOptionRecordS-DefaultValue>None</HexOptionRecordS-DefaultValue>
+      <HexOptionChangeMessageInformation-DefaultValue>None</HexOptionChangeMessageInformation-DefaultValue>
+      <HexOptionCrcType-DefaultValue>Msb</HexOptionCrcType-DefaultValue>
+      <HexOptionLoadAddress-DefaultValue />
+      <HexOptionSpace-DefaultValue>None</HexOptionSpace-DefaultValue>
+      <HexOptionChangeMessageInformationNumber-DefaultValue />
+      <HexOptionCrcInitialValue-DefaultValue />
+      <HexOptionDivisionOutputFile-DefaultValue />
+      <HexOptionSpaceValue-DefaultValue>FF</HexOptionSpaceValue-DefaultValue>
+      <HexOptionChangeMessageWarning-DefaultValue>None</HexOptionChangeMessageWarning-DefaultValue>
+      <HexOptionCrcEndian-DefaultValue>Little</HexOptionCrcEndian-DefaultValue>
+      <HexOptionFixRecordLengthAndAlign-DefaultValue>False</HexOptionFixRecordLengthAndAlign-DefaultValue>
+      <HexOptionChangeMessageWarningNumber-DefaultValue />
+      <HexOptionFixRecordLengthAndAlignValue-DefaultValue>1</HexOptionFixRecordLengthAndAlignValue-DefaultValue>
+      <HexOptionChangeMessageError-DefaultValue>None</HexOptionChangeMessageError-DefaultValue>
+      <HexOptionFixRecordLengthAndAlignValue2-DefaultValue>1</HexOptionFixRecordLengthAndAlignValue2-DefaultValue>
+      <HexOptionVerboseCrc-DefaultValue>False</HexOptionVerboseCrc-DefaultValue>
+      <HexOptionByteCount-DefaultValue>False</HexOptionByteCount-DefaultValue>
+      <HexOptionChangeMessageErrorNumber-DefaultValue />
+      <HexOptionByteCountValue-DefaultValue>FF</HexOptionByteCountValue-DefaultValue>
+      <HexOptionEndRecord-DefaultValue>None</HexOptionEndRecord-DefaultValue>
+      <HexOptionS9-DefaultValue>False</HexOptionS9-DefaultValue>
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137729253046898</TimeTagModified--0>
+      <HexOptionCheckOutputRomArea-0>False</HexOptionCheckOutputRomArea-0>
+      <HexOptionCrc-0>False</HexOptionCrc-0>
+      <HexOptionForm-0>Stype</HexOptionForm-0>
+      <HexOptionOtherAdditionalOptions-0 />
+      <HexOptionOutput-0>True</HexOptionOutput-0>
+      <HexOptionSameLinkMessage-0>True</HexOptionSameLinkMessage-0>
+      <HexOptionCrcOutputAddress-0 />
+      <HexOptionMessage-0>False</HexOptionMessage-0>
+      <HexOptionOutputFolder-0>%BuildModeName%</HexOptionOutputFolder-0>
+      <HexOptionRecordH-0>None</HexOptionRecordH-0>
+      <HexOptionCrcCalculationRange-0 />
+      <HexOptionNoMessageErrorNumber-0 />
+      <HexOptionOutputFileName-0>%ProjectName%.mot</HexOptionOutputFileName-0>
+      <HexOptionRecordS-0>None</HexOptionRecordS-0>
+      <HexOptionChangeMessageInformation-0>None</HexOptionChangeMessageInformation-0>
+      <HexOptionCrcType-0>Msb</HexOptionCrcType-0>
+      <HexOptionLoadAddress-0 />
+      <HexOptionSpace-0>None</HexOptionSpace-0>
+      <HexOptionChangeMessageInformationNumber-0 />
+      <HexOptionCrcInitialValue-0 />
+      <HexOptionDivisionOutputFile-0 />
+      <HexOptionSpaceValue-0>FF</HexOptionSpaceValue-0>
+      <HexOptionChangeMessageWarning-0>None</HexOptionChangeMessageWarning-0>
+      <HexOptionCrcEndian-0>Little</HexOptionCrcEndian-0>
+      <HexOptionFixRecordLengthAndAlign-0>False</HexOptionFixRecordLengthAndAlign-0>
+      <HexOptionChangeMessageWarningNumber-0 />
+      <HexOptionFixRecordLengthAndAlignValue-0>1</HexOptionFixRecordLengthAndAlignValue-0>
+      <HexOptionChangeMessageError-0>None</HexOptionChangeMessageError-0>
+      <HexOptionFixRecordLengthAndAlignValue2-0>1</HexOptionFixRecordLengthAndAlignValue2-0>
+      <HexOptionVerboseCrc-0>False</HexOptionVerboseCrc-0>
+      <HexOptionByteCount-0>False</HexOptionByteCount-0>
+      <HexOptionChangeMessageErrorNumber-0 />
+      <HexOptionByteCountValue-0>FF</HexOptionByteCountValue-0>
+      <HexOptionEndRecord-0>None</HexOptionEndRecord-0>
+      <HexOptionS9-0>False</HexOptionS9-0>
+    </Instance>
+    <Instance Guid="d9f6af64-0f1f-4539-839a-90ced78db4f5">
+      <LibOptionDebug-DefaultValue>Debug</LibOptionDebug-DefaultValue>
+      <LibOptionForm-DefaultValue>LibraryU</LibOptionForm-DefaultValue>
+      <LibOptionInput-DefaultValue />
+      <LibOptionLibrary-DefaultValue />
+      <LibOptionListShow-DefaultValue>None</LibOptionListShow-DefaultValue>
+      <LibOptionMemory-DefaultValue>False</LibOptionMemory-DefaultValue>
+      <LibOptionMessage-DefaultValue>False</LibOptionMessage-DefaultValue>
+      <LibOptionBinary-DefaultValue />
+      <LibOptionHide-DefaultValue>False</LibOptionHide-DefaultValue>
+      <LibOptionLibrarySystem-DefaultValue />
+      <LibOptionMapFileName-DefaultValue>%ProjectName%.lbp</LibOptionMapFileName-DefaultValue>
+      <LibOptionNoMessageErrorNumber-DefaultValue />
+      <LibOptionOutputFolder-DefaultValue>%BuildModeName%</LibOptionOutputFolder-DefaultValue>
+      <LibOptionTotalSize-DefaultValue>False</LibOptionTotalSize-DefaultValue>
+      <LibOptionChangeMessageInformation-DefaultValue>None</LibOptionChangeMessageInformation-DefaultValue>
+      <LibOptionLibraryStandard-DefaultValue>False</LibOptionLibraryStandard-DefaultValue>
+      <LibOptionLogo-DefaultValue>False</LibOptionLogo-DefaultValue>
+      <LibOptionOutputFileName-DefaultValue>%ProjectName%.lib</LibOptionOutputFileName-DefaultValue>
+      <LibOptionShowSymbol-DefaultValue>False</LibOptionShowSymbol-DefaultValue>
+      <LibOptionChangeMessageInformationNumber-DefaultValue />
+      <LibOptionLibraryStandard2-DefaultValue>None</LibOptionLibraryStandard2-DefaultValue>
+      <LibOptionPreLibCommands-DefaultValue />
+      <LibOptionShowSection-DefaultValue>False</LibOptionShowSection-DefaultValue>
+      <LibOptionChangeMessageWarning-DefaultValue>None</LibOptionChangeMessageWarning-DefaultValue>
+      <LibOptionLibraryLibMalloc-DefaultValue>False</LibOptionLibraryLibMalloc-DefaultValue>
+      <LibOptionPostLibCommands-DefaultValue />
+      <LibOptionShowXreference-DefaultValue>False</LibOptionShowXreference-DefaultValue>
+      <LibOptionChangeMessageWarningNumber-DefaultValue />
+      <LibOptionLibraryRuntime-DefaultValue>False</LibOptionLibraryRuntime-DefaultValue>
+      <LibOptionOtherAdditionalOptions-DefaultValue />
+      <LibOptionShowTotalSize-DefaultValue>False</LibOptionShowTotalSize-DefaultValue>
+      <LibOptionAllowDuplicateModuleName-DefaultValue>False</LibOptionAllowDuplicateModuleName-DefaultValue>
+      <LibOptionChangeMessageError-DefaultValue>None</LibOptionChangeMessageError-DefaultValue>
+      <LibOptionChangeMessageErrorNumber-DefaultValue />
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137726552486664</TimeTagModified--0>
+      <LibOptionDebug-0>Debug</LibOptionDebug-0>
+      <LibOptionForm-0>LibraryU</LibOptionForm-0>
+      <LibOptionInput-0 />
+      <LibOptionLibrary-0 />
+      <LibOptionListShow-0>None</LibOptionListShow-0>
+      <LibOptionMemory-0>False</LibOptionMemory-0>
+      <LibOptionMessage-0>False</LibOptionMessage-0>
+      <LibOptionBinary-0 />
+      <LibOptionHide-0>False</LibOptionHide-0>
+      <LibOptionLibrarySystem-0 />
+      <LibOptionMapFileName-0>%ProjectName%.lbp</LibOptionMapFileName-0>
+      <LibOptionNoMessageErrorNumber-0 />
+      <LibOptionOutputFolder-0>%BuildModeName%</LibOptionOutputFolder-0>
+      <LibOptionTotalSize-0>False</LibOptionTotalSize-0>
+      <LibOptionChangeMessageInformation-0>None</LibOptionChangeMessageInformation-0>
+      <LibOptionLibraryStandard-0>False</LibOptionLibraryStandard-0>
+      <LibOptionLogo-0>False</LibOptionLogo-0>
+      <LibOptionOutputFileName-0>%ProjectName%.lib</LibOptionOutputFileName-0>
+      <LibOptionShowSymbol-0>False</LibOptionShowSymbol-0>
+      <LibOptionChangeMessageInformationNumber-0 />
+      <LibOptionLibraryStandard2-0>None</LibOptionLibraryStandard2-0>
+      <LibOptionPreLibCommands-0 />
+      <LibOptionShowSection-0>False</LibOptionShowSection-0>
+      <LibOptionChangeMessageWarning-0>None</LibOptionChangeMessageWarning-0>
+      <LibOptionLibraryLibMalloc-0>False</LibOptionLibraryLibMalloc-0>
+      <LibOptionPostLibCommands-0 />
+      <LibOptionShowXreference-0>False</LibOptionShowXreference-0>
+      <LibOptionChangeMessageWarningNumber-0 />
+      <LibOptionLibraryRuntime-0>False</LibOptionLibraryRuntime-0>
+      <LibOptionOtherAdditionalOptions-0 />
+      <LibOptionShowTotalSize-0>False</LibOptionShowTotalSize-0>
+      <LibOptionAllowDuplicateModuleName-0>False</LibOptionAllowDuplicateModuleName-0>
+      <LibOptionChangeMessageError-0>None</LibOptionChangeMessageError-0>
+      <LibOptionChangeMessageErrorNumber-0 />
+    </Instance>
+    <Instance Guid="16548106-2e6e-4942-b67e-c457bdcf1268">
+      <GeneratorOptionUpdateIO-DefaultValue>None</GeneratorOptionUpdateIO-DefaultValue>
+      <GeneratorOtherAdditionalOptions-DefaultValue />
+      <GeneratorOptionLastDevice-DefaultValue>DR7F100GLG.DVF, V1.10</GeneratorOptionLastDevice-DefaultValue>
+      <GeneratorOptionCurrentDevice-DefaultValue>DR7F100GLG.DVF, V1.10</GeneratorOptionCurrentDevice-DefaultValue>
+      <GeneratorOptionOutputBitAccess-DefaultValue>True</GeneratorOptionOutputBitAccess-DefaultValue>
+      <GeneratorOptionUitron-DefaultValue>False</GeneratorOptionUitron-DefaultValue>
+      <GeneratorOptionOutputMISRAC-DefaultValue>False</GeneratorOptionOutputMISRAC-DefaultValue>
+      <GeneratorOptionCa78k0r-DefaultValue>False</GeneratorOptionCa78k0r-DefaultValue>
+      <GeneratorOptionIncludeFileForFAA-DefaultValue>True</GeneratorOptionIncludeFileForFAA-DefaultValue>
+      <IsLockedByUser>False</IsLockedByUser>
+      <TimeTagModified--0>-8585137729252916874</TimeTagModified--0>
+      <GeneratorOptionUpdateIO-0>None</GeneratorOptionUpdateIO-0>
+      <GeneratorOtherAdditionalOptions-0 />
+      <GeneratorOptionLastDevice-0>DR7F100GLG.DVF, V1.10</GeneratorOptionLastDevice-0>
+      <GeneratorOptionCurrentDevice-0>DR7F100GLG.DVF, V1.10</GeneratorOptionCurrentDevice-0>
+      <GeneratorOptionOutputBitAccess-0>True</GeneratorOptionOutputBitAccess-0>
+      <GeneratorOptionUitron-0>False</GeneratorOptionUitron-0>
+      <GeneratorOptionOutputMISRAC-0>False</GeneratorOptionOutputMISRAC-0>
+      <GeneratorOptionCa78k0r-0>False</GeneratorOptionCa78k0r-0>
+      <GeneratorOptionIncludeFileForFAA-0>True</GeneratorOptionIncludeFileForFAA-0>
+    </Instance>
+    <Instance Guid="fc34b590-be0d-47e9-a781-8f382aa132d9">
+      <LinkOrder-0>0</LinkOrder-0>
+    </Instance>
+    <Instance Guid="d1f87fb4-a3e0-4fd3-b6f0-42a3efec6dfb">
+      <LinkOrder-0>1</LinkOrder-0>
+    </Instance>
+    <Instance Guid="461a87c5-c8c8-4d8f-8223-6451acb8bbe2">
+      <LinkOrder-0>2</LinkOrder-0>
+      <ItemAddTime>638234631602470712</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="6b4887b4-31b3-4e81-9ef4-d506bd807a63">
+      <LinkOrder-0>3</LinkOrder-0>
+    </Instance>
+    <Instance Guid="eda26c87-eac6-48bf-9ec4-bb9cd1737661">
+      <ItemAddTime>638234634302971530</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="9684c7fa-c808-4842-ad92-f4ed774836e6">
+      <ItemAddTime>638234634302758311</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="9a9e2905-59a7-42a9-ac8c-167783421d82">
+      <ItemAddTime>638234634302758311</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="3ebfdd4c-f498-41ff-9677-f4f5cf9ca666">
+      <ItemAddTime>638234634302758311</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d8f926ef-fc20-476c-982f-d52c56abf297">
+      <ItemAddTime>638234634302971530</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="e792f821-df2e-4b21-b52e-3704b1d6549d">
+      <ItemAddTime>638234634302971530</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="f0ae98f2-ed73-46d7-84e9-73564ffb6949">
+      <ItemAddTime>638234634303165958</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="787a76d2-fe23-4201-a07c-57f4ea63c328">
+      <ItemAddTime>638234634303165958</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="7255e01e-579e-48e2-adbe-9e84a4d17ad8">
+      <ItemAddTime>638234634303165958</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d1dc9fb9-5050-4d3c-be12-a35e04688310">
+      <ItemAddTime>638234634303371693</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="7d5c428f-12ac-4c6f-83c6-d925b4bdcb2f">
+      <ItemAddTime>638234634303371693</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="3c4b21ab-30f8-4685-8075-9a1f087c7d20">
+      <ItemAddTime>638234634303371693</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="a181afe1-9673-4aa6-b3a8-dd16844c33eb">
+      <ItemAddTime>638234634303575259</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="2429aa4a-a914-4be8-88df-756f50e87c33">
+      <ItemAddTime>638234634303575259</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="601799ed-1d93-4494-b5e0-c065e25b4d02">
+      <ItemAddTime>638234634303575259</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="3430341b-9938-4d6f-9b3b-c5396a6ed8c0">
+      <ItemAddTime>638234634303780691</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d49c0db9-68a2-4b1d-8511-64afd5268a70">
+      <ItemAddTime>638234634303780691</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="df6ca1a4-a19c-4a27-a7fb-689acf704431">
+      <ItemAddTime>638234634303780691</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="bc2c2f89-5363-42ef-a384-cf3de7f2c09e">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="2c2d0edd-a34c-483a-80bf-949f489510df">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="f122285f-5bb8-44bf-9eff-ccd899d593ca">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="97b4fb5a-6c2b-4c1e-ac89-584cf2bf1148">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="48644d1e-6d43-4cff-93e5-469ace19ab33">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>4</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="e4708ddc-4653-4338-85de-5b9d09bca01d">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>5</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d4177e89-b838-48a3-97ae-df19497d8b75">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>6</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="ed4205f8-9854-4ae8-b996-3c6def99df60">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>7</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4b4dc350-c439-432d-a276-04ca20baa034">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>8</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="b89afdd4-553b-4ec5-afd7-a331565f2b81">
+      <ItemAddTime>638234634304027751</ItemAddTime>
+      <ItemAddTimeCount>9</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="b77b95c6-dd78-4e76-9ae9-67846dca8cca">
+      <ItemAddTime>638234634304223987</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="7e87b484-8959-4faa-8649-def9b940bb16">
+      <ItemAddTime>638234634304223987</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="0c614098-0978-41f0-9fe3-d9e06d6f2432">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="e43f5e1d-f070-4b08-9d60-bd50e97c7c3a">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d95cdd6f-62d5-4915-86b4-e9b21b7b5ac8">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="afcc6c5d-9e53-4040-9e47-05c17c881ce6">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="7ba5cfb0-2091-4398-913e-507a9779ae83">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>4</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="cb5ceb19-3353-4388-be14-ed381789d455">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>5</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4168d314-eff2-4c89-bc5d-dabdf1bbf243">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>6</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="689d7799-c15b-46a7-aba6-4d2f89ac6c1e">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>7</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="a4b659e6-917b-4a55-848d-261986b6a3e8">
+      <ItemAddTime>638234634304576644</ItemAddTime>
+      <ItemAddTimeCount>8</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="02f28957-9aab-4451-9d12-f562532d4081">
+      <ItemAddTime>638234634304835154</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="0050fdc2-6453-413f-98b6-f9477210ac63">
+      <ItemAddTime>638234634304880098</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="1abf04e1-9b99-4db4-8687-9459dd54ef92">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="5ed310bc-e7a8-4b52-accd-58bef32baf3b">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="0b6fd060-519b-4003-8b2e-d24dd3ef4dcd">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="8fa1ae91-03ca-4291-81f0-a781b43dc316">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4a33f66d-8e1f-4d7a-9f26-8cca973238a1">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>4</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="a0593f1a-da2f-4468-94e9-52e2922b9d03">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>5</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="34f82ff5-0506-464b-8df4-ccf79d4b8616">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>6</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="6d193890-872f-4b47-b2a3-bd8de8ad0152">
+      <ItemAddTime>638234634305100913</ItemAddTime>
+      <ItemAddTimeCount>7</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="6fe0c012-d54d-4837-a43b-0e6dd9b34703">
+      <ItemAddTime>638234634305306197</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="feb03d89-317c-46c4-8f80-1b149981be58">
+      <ItemAddTime>638234634305306197</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="95069ab5-c45e-4db7-b768-8ef4fa2cab20">
+      <ItemAddTime>638234634305306197</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="74ded40d-a0c8-4899-8d3a-714aaf2d5b72">
+      <ItemAddTime>638234634305500050</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="ff524a8d-5a6c-4da3-9063-85e3be2d07b1">
+      <ItemAddTime>638234634305823134</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4c9dde18-0034-4bdf-ad87-4d0fed72536e">
+      <ItemAddTime>638234634305823134</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="9f0558ef-055a-4d27-9118-06d37b233edc">
+      <ItemAddTime>638234634467744356</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="9811622b-316e-4529-975e-0fbb0db4fba8">
+      <ItemAddTime>638234634467744356</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="c88dd754-0684-49bd-aa9a-7c3b40cf9aee">
+      <ItemAddTime>638234634467744356</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="d16a77ab-d0b1-49dc-bd1f-6e44e80b24fd">
+      <ItemAddTime>638234634467744356</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
+      <TimeTagModified-SourceItem0--0>-8585137726551804278</TimeTagModified-SourceItem0--0>
+      <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
+      <SourceItem0-BuildingTarget-0>True</SourceItem0-BuildingTarget-0>
+      <SourceItem0-IndividualCompileOption-0>False</SourceItem0-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem1--0>-8585137726552007500</TimeTagModified-SourceItem1--0>
+      <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
+      <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
+      <SourceItem1-IndividualCompileOption-0>False</SourceItem1-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem2--0>-8585137729252245093</TimeTagModified-SourceItem2--0>
+      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
+      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
+      <SourceItem2-IndividualCompileOption-0>False</SourceItem2-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem3--0>-8585137726552017497</TimeTagModified-SourceItem3--0>
+      <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
+      <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
+      <SourceItem3-IndividualCompileOption-0>False</SourceItem3-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem4--0>-8585137726551804278</TimeTagModified-SourceItem4--0>
+      <SourceItem4-IsLockedByUser>False</SourceItem4-IsLockedByUser>
+      <SourceItem4-BuildingTarget-0>True</SourceItem4-BuildingTarget-0>
+      <SourceItem4-IndividualCompileOption-0>False</SourceItem4-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem5--0>-8585137726551609850</TimeTagModified-SourceItem5--0>
+      <SourceItem5-IsLockedByUser>False</SourceItem5-IsLockedByUser>
+      <SourceItem5-BuildingTarget-0>True</SourceItem5-BuildingTarget-0>
+      <SourceItem5-IndividualCompileOption-0>False</SourceItem5-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem6--0>-8585137726551609850</TimeTagModified-SourceItem6--0>
+      <SourceItem6-IsLockedByUser>False</SourceItem6-IsLockedByUser>
+      <SourceItem6-BuildingTarget-0>True</SourceItem6-BuildingTarget-0>
+      <SourceItem6-IndividualCompileOption-0>False</SourceItem6-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem7--0>-8585137726551404115</TimeTagModified-SourceItem7--0>
+      <SourceItem7-IsLockedByUser>False</SourceItem7-IsLockedByUser>
+      <SourceItem7-BuildingTarget-0>True</SourceItem7-BuildingTarget-0>
+      <SourceItem7-IndividualCompileOption-0>False</SourceItem7-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem8--0>-8585137726551404115</TimeTagModified-SourceItem8--0>
+      <SourceItem8-IsLockedByUser>False</SourceItem8-IsLockedByUser>
+      <SourceItem8-BuildingTarget-0>True</SourceItem8-BuildingTarget-0>
+      <SourceItem8-IndividualCompileOption-0>False</SourceItem8-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem9--0>-8585137726551200549</TimeTagModified-SourceItem9--0>
+      <SourceItem9-IsLockedByUser>False</SourceItem9-IsLockedByUser>
+      <SourceItem9-BuildingTarget-0>True</SourceItem9-BuildingTarget-0>
+      <SourceItem9-IndividualCompileOption-0>False</SourceItem9-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem10--0>-8585137726551200549</TimeTagModified-SourceItem10--0>
+      <SourceItem10-IsLockedByUser>False</SourceItem10-IsLockedByUser>
+      <SourceItem10-BuildingTarget-0>True</SourceItem10-BuildingTarget-0>
+      <SourceItem10-IndividualCompileOption-0>False</SourceItem10-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem11--0>-8585137726550995117</TimeTagModified-SourceItem11--0>
+      <SourceItem11-IsLockedByUser>False</SourceItem11-IsLockedByUser>
+      <SourceItem11-BuildingTarget-0>True</SourceItem11-BuildingTarget-0>
+      <SourceItem11-IndividualCompileOption-0>False</SourceItem11-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem12--0>-8585137726550995117</TimeTagModified-SourceItem12--0>
+      <SourceItem12-IsLockedByUser>False</SourceItem12-IsLockedByUser>
+      <SourceItem12-BuildingTarget-0>True</SourceItem12-BuildingTarget-0>
+      <SourceItem12-IndividualCompileOption-0>False</SourceItem12-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem13--0>-8585137726550748057</TimeTagModified-SourceItem13--0>
+      <SourceItem13-IsLockedByUser>False</SourceItem13-IsLockedByUser>
+      <SourceItem13-BuildingTarget-0>True</SourceItem13-BuildingTarget-0>
+      <SourceItem13-IndividualCompileOption-0>False</SourceItem13-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem14--0>-8585137726550748057</TimeTagModified-SourceItem14--0>
+      <SourceItem14-IsLockedByUser>False</SourceItem14-IsLockedByUser>
+      <SourceItem14-BuildingTarget-0>True</SourceItem14-BuildingTarget-0>
+      <SourceItem14-IndividualCompileOption-0>False</SourceItem14-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem15--0>-8585137726550748057</TimeTagModified-SourceItem15--0>
+      <SourceItem15-IsLockedByUser>False</SourceItem15-IsLockedByUser>
+      <SourceItem15-BuildingTarget-0>True</SourceItem15-BuildingTarget-0>
+      <SourceItem15-IndividualCompileOption-0>False</SourceItem15-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem16--0>-8585137726550199164</TimeTagModified-SourceItem16--0>
+      <SourceItem16-IsLockedByUser>False</SourceItem16-IsLockedByUser>
+      <SourceItem16-BuildingTarget-0>True</SourceItem16-BuildingTarget-0>
+      <SourceItem16-IndividualCompileOption-0>False</SourceItem16-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem17--0>-8585137726550189169</TimeTagModified-SourceItem17--0>
+      <SourceItem17-IsLockedByUser>False</SourceItem17-IsLockedByUser>
+      <SourceItem17-BuildingTarget-0>True</SourceItem17-BuildingTarget-0>
+      <SourceItem17-IndividualCompileOption-0>False</SourceItem17-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem20--0>-8585137726549674895</TimeTagModified-SourceItem20--0>
+      <SourceItem20-IsLockedByUser>False</SourceItem20-IsLockedByUser>
+      <SourceItem20-BuildingTarget-0>True</SourceItem20-BuildingTarget-0>
+      <SourceItem20-IndividualCompileOption-0>False</SourceItem20-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem22--0>-8585137726549469611</TimeTagModified-SourceItem22--0>
+      <SourceItem22-IsLockedByUser>False</SourceItem22-IsLockedByUser>
+      <SourceItem22-BuildingTarget-0>True</SourceItem22-BuildingTarget-0>
+      <SourceItem22-IndividualCompileOption-0>False</SourceItem22-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem23--0>-8585137726387031452</TimeTagModified-SourceItem23--0>
+      <SourceItem23-IsLockedByUser>False</SourceItem23-IsLockedByUser>
+      <SourceItem23-BuildingTarget-0>True</SourceItem23-BuildingTarget-0>
+      <SourceItem23-IndividualCompileOption-0>False</SourceItem23-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem24--0>-8585137726387031452</TimeTagModified-SourceItem24--0>
+      <SourceItem24-IsLockedByUser>False</SourceItem24-IsLockedByUser>
+      <SourceItem24-BuildingTarget-0>True</SourceItem24-BuildingTarget-0>
+      <SourceItem24-IndividualCompileOption-0>False</SourceItem24-IndividualCompileOption-0>
+    </Instance>
+    <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
+      <TimeTagModified-SourceItem18--0>-8585137726550189169</TimeTagModified-SourceItem18--0>
+      <SourceItem18-IsLockedByUser>False</SourceItem18-IsLockedByUser>
+      <SourceItem18-BuildingTarget-0>True</SourceItem18-BuildingTarget-0>
+      <SourceItem18-IndividualAssembleOption-0>False</SourceItem18-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem19--0>-8585137726549674895</TimeTagModified-SourceItem19--0>
+      <SourceItem19-IsLockedByUser>False</SourceItem19-IsLockedByUser>
+      <SourceItem19-BuildingTarget-0>True</SourceItem19-BuildingTarget-0>
+      <SourceItem19-IndividualAssembleOption-0>False</SourceItem19-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem21--0>-8585137726549674895</TimeTagModified-SourceItem21--0>
+      <SourceItem21-IsLockedByUser>False</SourceItem21-IsLockedByUser>
+      <SourceItem21-BuildingTarget-0>True</SourceItem21-BuildingTarget-0>
+      <SourceItem21-IndividualAssembleOption-0>False</SourceItem21-IndividualAssembleOption-0>
+    </Instance>
+  </Class>
+  <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
+    <Instance Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
+      <IsLibraryMode>False</IsLibraryMode>
+      <StartUpCategoryItem>00000000-0000-0000-0000-000000000000</StartUpCategoryItem>
+    </Instance>
+  </Class>
+  <Class Guid="a29a09ee-92c3-4ce7-9586-a1b058043f92">
+    <Instance Guid="a29a09ee-92c3-4ce7-9586-a1b058043f92">
+      <ProjectGeneratr-GeneratedFile0>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer\main.c</ProjectGeneratr-GeneratedFile0>
+      <ProjectGeneratr-GeneratedFile1>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer\cstart.asm</ProjectGeneratr-GeneratedFile1>
+      <ProjectGeneratr-GeneratedFile2>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer\hdwinit.asm</ProjectGeneratr-GeneratedFile2>
+      <ProjectGeneratr-GeneratedFile3>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer\stkinit.asm</ProjectGeneratr-GeneratedFile3>
+      <ProjectGeneratr-GeneratedFile4>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer\iodefine.h</ProjectGeneratr-GeneratedFile4>
+    </Instance>
+  </Class>
+  <Class Guid="606767c3-4bf3-4e65-90c1-19075517355d">
+    <Instance Guid="606767c3-4bf3-4e65-90c1-19075517355d">
+      <CurrentToolKey>6b3ab0e8-8ba1-402c-ac51-963031a63a4a</CurrentToolKey>
+    </Instance>
+  </Class>
+  <Class Guid="8b5af363-dcc2-48e6-919c-6cdb80d50173">
+    <Instance Guid="8b5af363-dcc2-48e6-919c-6cdb80d50173">
+      <DataFormatVersionPlugin>1.0</DataFormatVersionPlugin>
+      <DataFormatVersionDebugger>1.0</DataFormatVersionDebugger>
+    </Instance>
+  </Class>
+  <Class Guid="9a065877-3b93-453c-9b72-940c69f10716">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <SubDebugger>00000000-0000-0000-0000-000000000000</SubDebugger>
+    </Instance>
+  </Class>
+  <Class Guid="52e1ea47-4c41-4f6c-b81e-9caa42437088">
+    <Instance Guid="a30e3860-379f-401e-950c-b6fcb80d6a09">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R7F100GLGxFA</DeviceName>
+      <DebuggerProperty-EssentialProperty-Memory-InternalRomSize>128</DebuggerProperty-EssentialProperty-Memory-InternalRomSize>
+      <DebuggerProperty-EssentialProperty-Memory-InternalRamSize>16384</DebuggerProperty-EssentialProperty-Memory-InternalRamSize>
+      <DebuggerProperty-EssentialProperty-Clock-MainClockFrequency>4000</DebuggerProperty-EssentialProperty-Clock-MainClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-SubClockFrequency>32768</DebuggerProperty-EssentialProperty-Clock-SubClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-SelectTimerTraceClockFrequency>SelectCpuClockFrequency</DebuggerProperty-EssentialProperty-Clock-SelectTimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-UnitOfTimerTraceClockFrequency>MHz</DebuggerProperty-EssentialProperty-Clock-UnitOfTimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-TimerTraceClockFrequency>4000000</DebuggerProperty-EssentialProperty-Clock-TimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Configuration-UseSimulatorConfigurationFile>No</DebuggerProperty-EssentialProperty-Configuration-UseSimulatorConfigurationFile>
+      <DebuggerProperty-EssentialProperty-Configuration-SimulatorConfigurationFile />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>1</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DebuggerGuid />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\r01an5564-rl78g23-timer.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>LoadModuleFile</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>Auto</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>
+      <DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>True</DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>False</DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>
+      <DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>SuspendEvent</DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>
+      <DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>True</DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>XwBtAGEAaQBuAA==</DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>500</DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>
+      <DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>True</DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>
+      <DebuggerProperty-DownloadProperty-Download-FaaCodeSectionName />
+      <DebuggerProperty-DownloadProperty-Download-FaaDodeSectionName />
+      <DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>No</DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>
+      <DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>500</DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>Yes</DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>500</DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>
+      <DebuggerProperty-OptionalProperty-AfterExecution>No</DebuggerProperty-OptionalProperty-AfterExecution>
+      <DebuggerProperty-OptionalProperty-Trace-UseTrace>No</DebuggerProperty-OptionalProperty-Trace-UseTrace>
+      <DebuggerProperty-OptionalProperty-Trace-ClearTraceMemory>Yes</DebuggerProperty-OptionalProperty-Trace-ClearTraceMemory>
+      <DebuggerProperty-OptionalProperty-Trace-TraceMode>Free</DebuggerProperty-OptionalProperty-Trace-TraceMode>
+      <DebuggerProperty-OptionalProperty-Trace-AddUptimeTag>No</DebuggerProperty-OptionalProperty-Trace-AddUptimeTag>
+      <DebuggerProperty-OptionalProperty-Trace-TraceMemorySize>4096</DebuggerProperty-OptionalProperty-Trace-TraceMemorySize>
+      <DebuggerProperty-OptionalProperty-Timer-UseTimer>No</DebuggerProperty-OptionalProperty-Timer-UseTimer>
+      <DebuggerProperty-OptionalProperty-Coverage-UseCoverage>No</DebuggerProperty-OptionalProperty-Coverage-UseCoverage>
+      <DebuggerProperty-OptionalProperty-Coverage-ReuseCoverageData>No</DebuggerProperty-OptionalProperty-Coverage-ReuseCoverageData>
+      <DebuggerProperty-OptionalProperty-VirtualBoard-UseVirtualBoard>False</DebuggerProperty-OptionalProperty-VirtualBoard-UseVirtualBoard>
+      <DebuggerProperty-OptionalProperty-SimulatorGUI-DisplaySimulatorGui>Yes</DebuggerProperty-OptionalProperty-SimulatorGUI-DisplaySimulatorGui>
+      <DebuggerProperty-OptionalProperty-SimulatorGUI-SimulatorGuiOnTop>Yes</DebuggerProperty-OptionalProperty-SimulatorGUI-SimulatorGuiOnTop>
+      <DebuggerProperty-OptionalProperty-Step-SectionSkipStep>False</DebuggerProperty-OptionalProperty-Step-SectionSkipStep>
+      <DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>0</DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Reset-Length>0</DebuggerProperty-HookProperty-HookTransaction-Reset-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Going-Length>0</DebuggerProperty-HookProperty-HookTransaction-Going-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+    </Instance>
+    <Instance Guid="b3648f00-5ee1-44bd-9fb9-d35fbaeed535">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R7F100GLGxFA</DeviceName>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Length>10</DebuggerProperty-EssentialProperty-Flash-IdCode-Length>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code0>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code0>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code1>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code1>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code2>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code2>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code3>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code3>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code4>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code4>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code5>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code5>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code6>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code6>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code7>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code7>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code8>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code8>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code9>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code9>
+      <DebuggerProperty-EssentialProperty-Flash-PermitFlashProgramming>Yes</DebuggerProperty-EssentialProperty-Flash-PermitFlashProgramming>
+      <DebuggerProperty-EssentialProperty-Flash-ForceEraseChip>No</DebuggerProperty-EssentialProperty-Flash-ForceEraseChip>
+      <DebuggerProperty-EssentialProperty-Flash-UseLowVoltageFlashMode>Yes</DebuggerProperty-EssentialProperty-Flash-UseLowVoltageFlashMode>
+      <DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>False</DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>
+      <DebuggerProperty-EssentialProperty-Clock-MainClockForOCD>0</DebuggerProperty-EssentialProperty-Clock-MainClockForOCD>
+      <DebuggerProperty-EssentialProperty-Clock-SubClockForOCD>0</DebuggerProperty-EssentialProperty-Clock-SubClockForOCD>
+      <DebuggerProperty-EssentialProperty-Clock-MonitorClock>System</DebuggerProperty-EssentialProperty-Clock-MonitorClock>
+      <DebuggerProperty-EssentialProperty-TargetConnect-TargetSupplyPower>Yes</DebuggerProperty-EssentialProperty-TargetConnect-TargetSupplyPower>
+      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>1</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DebuggerGuid />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\r01an5564-rl78g23-timer.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>LoadModuleFile</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>Auto</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>
+      <DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>True</DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>
+      <DebuggerProperty-DownloadProperty-Download-DownloadMode>SpeedPriority</DebuggerProperty-DownloadProperty-Download-DownloadMode>
+      <DebuggerProperty-DownloadProperty-Download-MonitorOverwrite>Yes</DebuggerProperty-DownloadProperty-Download-MonitorOverwrite>
+      <DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>False</DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>
+      <DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>SuspendEvent</DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>
+      <DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>True</DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>XwBtAGEAaQBuAA==</DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>500</DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>
+      <DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>True</DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>
+      <DebuggerProperty-DownloadProperty-Download-FaaCodeSectionName />
+      <DebuggerProperty-DownloadProperty-Download-FaaDodeSectionName />
+      <DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>No</DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>
+      <DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>500</DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>
+      <DebuggerProperty-OptionalProperty-Memory-VerifyCheck>Yes</DebuggerProperty-OptionalProperty-Memory-VerifyCheck>
+      <DebuggerProperty-OptionalProperty-AccessMemory-PermitToStopAndRead>No</DebuggerProperty-OptionalProperty-AccessMemory-PermitToStopAndRead>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>Yes</DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>500</DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>
+      <DebuggerProperty-OptionalProperty-Break-BreakpointPriority>SoftwareBreak</DebuggerProperty-OptionalProperty-Break-BreakpointPriority>
+      <DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Trace-UseTrace>No</DebuggerProperty-OptionalProperty-Trace-UseTrace>
+      <DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>Nonstop</DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>
+      <DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>No</DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>
+      <DebuggerProperty-OptionalProperty-PinMask-InternalResetMask>No</DebuggerProperty-OptionalProperty-PinMask-InternalResetMask>
+      <DebuggerProperty-OptionalProperty-Step-SectionSkipStep>False</DebuggerProperty-OptionalProperty-Step-SectionSkipStep>
+      <DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>0</DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-InputSignal>RisingEdge</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-InputSignal>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-InputSignal>RisingEdge</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-InputSignal>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-PulseWidth>1</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-PulseWidth>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-PulseWidth>1</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-PulseWidth>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Reset-Length>0</DebuggerProperty-HookProperty-HookTransaction-Reset-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Going-Length>0</DebuggerProperty-HookProperty-HookTransaction-Going-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+    </Instance>
+  </Class>
+  <Class Guid="932085a2-9361-4df9-a3f7-12e6de7681a8">
+    <Instance Guid="932085a2-9361-4df9-a3f7-12e6de7681a8">
+      <DebugToolManager>3b1bb1d4-663c-43be-8a08-0eece7cfa18b</DebugToolManager>
+    </Instance>
+  </Class>
+  <Class Guid="104fc540-14b6-4fb9-bd7a-0d4844b95028">
+    <Instance Guid="00000000-0000-0000-0000-000000000000">
+      <SubDebugger>6b3ab0e8-8ba1-402c-ac51-963031a63a4a</SubDebugger>
+    </Instance>
+  </Class>
+  <Class Guid="e4df8d71-236e-4af2-aaea-56345a08da25">
+    <Instance Guid="a30e3860-379f-401e-950c-b6fcb80d6a09">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R7F100GLGxFA</DeviceName>
+      <DebuggerProperty-EssentialProperty-Memory-InternalRomSize>128</DebuggerProperty-EssentialProperty-Memory-InternalRomSize>
+      <DebuggerProperty-EssentialProperty-Memory-InternalRamSize>16384</DebuggerProperty-EssentialProperty-Memory-InternalRamSize>
+      <DebuggerProperty-EssentialProperty-Clock-MainClockFrequency>4000</DebuggerProperty-EssentialProperty-Clock-MainClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-SubClockFrequency>32768</DebuggerProperty-EssentialProperty-Clock-SubClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-SelectTimerTraceClockFrequency>SelectCpuClockFrequency</DebuggerProperty-EssentialProperty-Clock-SelectTimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-UnitOfTimerTraceClockFrequency>MHz</DebuggerProperty-EssentialProperty-Clock-UnitOfTimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Clock-TimerTraceClockFrequency>4000000</DebuggerProperty-EssentialProperty-Clock-TimerTraceClockFrequency>
+      <DebuggerProperty-EssentialProperty-Configuration-UseSimulatorConfigurationFile>No</DebuggerProperty-EssentialProperty-Configuration-UseSimulatorConfigurationFile>
+      <DebuggerProperty-EssentialProperty-Configuration-SimulatorConfigurationFile />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>1</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DebuggerGuid />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\r01an5564-rl78g23-timer.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>LoadModuleFile</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>Auto</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>
+      <DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>True</DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>False</DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>
+      <DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>SuspendEvent</DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>
+      <DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>True</DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>XwBtAGEAaQBuAA==</DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>500</DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>
+      <DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>True</DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>
+      <DebuggerProperty-DownloadProperty-Download-FaaCodeSectionName />
+      <DebuggerProperty-DownloadProperty-Download-FaaDodeSectionName />
+      <DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>No</DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>
+      <DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>500</DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>Yes</DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>500</DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>
+      <DebuggerProperty-OptionalProperty-AfterExecution>No</DebuggerProperty-OptionalProperty-AfterExecution>
+      <DebuggerProperty-OptionalProperty-Trace-UseTrace>No</DebuggerProperty-OptionalProperty-Trace-UseTrace>
+      <DebuggerProperty-OptionalProperty-Trace-ClearTraceMemory>Yes</DebuggerProperty-OptionalProperty-Trace-ClearTraceMemory>
+      <DebuggerProperty-OptionalProperty-Trace-TraceMode>Free</DebuggerProperty-OptionalProperty-Trace-TraceMode>
+      <DebuggerProperty-OptionalProperty-Trace-AddUptimeTag>No</DebuggerProperty-OptionalProperty-Trace-AddUptimeTag>
+      <DebuggerProperty-OptionalProperty-Trace-TraceMemorySize>4096</DebuggerProperty-OptionalProperty-Trace-TraceMemorySize>
+      <DebuggerProperty-OptionalProperty-Timer-UseTimer>No</DebuggerProperty-OptionalProperty-Timer-UseTimer>
+      <DebuggerProperty-OptionalProperty-Coverage-UseCoverage>No</DebuggerProperty-OptionalProperty-Coverage-UseCoverage>
+      <DebuggerProperty-OptionalProperty-Coverage-ReuseCoverageData>No</DebuggerProperty-OptionalProperty-Coverage-ReuseCoverageData>
+      <DebuggerProperty-OptionalProperty-VirtualBoard-UseVirtualBoard>False</DebuggerProperty-OptionalProperty-VirtualBoard-UseVirtualBoard>
+      <DebuggerProperty-OptionalProperty-SimulatorGUI-DisplaySimulatorGui>Yes</DebuggerProperty-OptionalProperty-SimulatorGUI-DisplaySimulatorGui>
+      <DebuggerProperty-OptionalProperty-SimulatorGUI-SimulatorGuiOnTop>Yes</DebuggerProperty-OptionalProperty-SimulatorGUI-SimulatorGuiOnTop>
+      <DebuggerProperty-OptionalProperty-Step-SectionSkipStep>False</DebuggerProperty-OptionalProperty-Step-SectionSkipStep>
+      <DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>0</DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Reset-Length>0</DebuggerProperty-HookProperty-HookTransaction-Reset-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Going-Length>0</DebuggerProperty-HookProperty-HookTransaction-Going-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+    </Instance>
+    <Instance Guid="b3648f00-5ee1-44bd-9fb9-d35fbaeed535">
+      <DeviceChangedCounter>0</DeviceChangedCounter>
+      <DeviceName>R7F100GLGxFA</DeviceName>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Length>10</DebuggerProperty-EssentialProperty-Flash-IdCode-Length>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code0>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code0>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code1>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code1>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code2>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code2>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code3>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code3>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code4>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code4>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code5>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code5>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code6>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code6>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code7>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code7>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code8>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code8>
+      <DebuggerProperty-EssentialProperty-Flash-IdCode-Code9>0</DebuggerProperty-EssentialProperty-Flash-IdCode-Code9>
+      <DebuggerProperty-EssentialProperty-Flash-PermitFlashProgramming>Yes</DebuggerProperty-EssentialProperty-Flash-PermitFlashProgramming>
+      <DebuggerProperty-EssentialProperty-Flash-ForceEraseChip>No</DebuggerProperty-EssentialProperty-Flash-ForceEraseChip>
+      <DebuggerProperty-EssentialProperty-Flash-UseLowVoltageFlashMode>Yes</DebuggerProperty-EssentialProperty-Flash-UseLowVoltageFlashMode>
+      <DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>False</DebuggerProperty-EssentialProperty-Flash-FlashSelfProgramming>
+      <DebuggerProperty-EssentialProperty-Clock-MainClockForOCD>0</DebuggerProperty-EssentialProperty-Clock-MainClockForOCD>
+      <DebuggerProperty-EssentialProperty-Clock-SubClockForOCD>0</DebuggerProperty-EssentialProperty-Clock-SubClockForOCD>
+      <DebuggerProperty-EssentialProperty-Clock-MonitorClock>System</DebuggerProperty-EssentialProperty-Clock-MonitorClock>
+      <DebuggerProperty-EssentialProperty-TargetConnect-TargetSupplyPower>Yes</DebuggerProperty-EssentialProperty-TargetConnect-TargetSupplyPower>
+      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>1</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-Length>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DebuggerGuid />
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>b0ebacb5-1297-4085-979f-7cdc3e48a2ca</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\r01an5564-rl78g23-timer.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>LoadModuleFile</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>Auto</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-StartAddress>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-ObjectDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-SymbolDownload>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>False</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-UsePicPirodPidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PicOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PirodOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-PidOffset>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-GenerateInformationForInputCompletion>
+      <DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>True</DebuggerProperty-DownloadProperty-DebugInformation-CpuReset>
+      <DebuggerProperty-DownloadProperty-Download-DownloadMode>SpeedPriority</DebuggerProperty-DownloadProperty-Download-DownloadMode>
+      <DebuggerProperty-DownloadProperty-Download-MonitorOverwrite>Yes</DebuggerProperty-DownloadProperty-Download-MonitorOverwrite>
+      <DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>False</DebuggerProperty-DownloadProperty-DebugInformation-FlashErase>
+      <DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>SuspendEvent</DebuggerProperty-DownloadProperty-DebugInformation-EventCorrection>
+      <DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>True</DebuggerProperty-DownloadProperty-DebugInformation-SkipStartup>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>XwBtAGEAaQBuAA==</DebuggerProperty-DownloadProperty-DebugInformation-MainSymbol>
+      <DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>500</DebuggerProperty-DownloadProperty-DebugInformation-MaxLoaderMemorySize>
+      <DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>True</DebuggerProperty-DownloadProperty-None-DefaultDownloadItemSupported>
+      <DebuggerProperty-DownloadProperty-Download-FaaCodeSectionName />
+      <DebuggerProperty-DownloadProperty-Download-FaaDodeSectionName />
+      <DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>No</DebuggerProperty-OptionalProperty-Register-UpdateDisplayInExecutionForPC>
+      <DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>500</DebuggerProperty-OptionalProperty-Register-UpdateIntervalForPC>
+      <DebuggerProperty-OptionalProperty-Memory-VerifyCheck>Yes</DebuggerProperty-OptionalProperty-Memory-VerifyCheck>
+      <DebuggerProperty-OptionalProperty-AccessMemory-PermitToStopAndRead>No</DebuggerProperty-OptionalProperty-AccessMemory-PermitToStopAndRead>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>Yes</DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>
+      <DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>500</DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>
+      <DebuggerProperty-OptionalProperty-Break-BreakpointPriority>SoftwareBreak</DebuggerProperty-OptionalProperty-Break-BreakpointPriority>
+      <DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Trace-UseTrace>No</DebuggerProperty-OptionalProperty-Trace-UseTrace>
+      <DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>Nonstop</DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>
+      <DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>No</DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>
+      <DebuggerProperty-OptionalProperty-PinMask-InternalResetMask>No</DebuggerProperty-OptionalProperty-PinMask-InternalResetMask>
+      <DebuggerProperty-OptionalProperty-Step-SectionSkipStep>False</DebuggerProperty-OptionalProperty-Step-SectionSkipStep>
+      <DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>0</DebuggerProperty-OptionalProperty-Step-SelectSectionList-Length>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-InputSignal>RisingEdge</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem0-InputSignal>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-InputSignal>RisingEdge</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerInputItemList-ExternalTriggerInputItem1-InputSignal>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-PulseWidth>1</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem0-PulseWidth>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-IsUse>False</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-IsUse>
+      <DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-PulseWidth>1</DebuggerProperty-OptionalProperty-ExpansionInterface-ExternalTriggerOutputItemList-ExternalTriggerOutputItem1-PulseWidth>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloading-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>0</DebuggerProperty-HookProperty-HookTransaction-Downloaded-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Reset-Length>0</DebuggerProperty-HookProperty-HookTransaction-Reset-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Going-Length>0</DebuggerProperty-HookProperty-HookTransaction-Going-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
+      <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
+    </Instance>
+  </Class>
+  <Class Guid="100f3761-3d7e-4559-b1d8-375a0c7bf682">
+    <Instance Guid="100f3761-3d7e-4559-b1d8-375a0c7bf682">
+      <ProgramAnalyzeToolManager>7d577131-4ec1-4e88-968d-89381f6c178a</ProgramAnalyzeToolManager>
+    </Instance>
+  </Class>
+  <Class Guid="7d577131-4ec1-4e88-968d-89381f6c178a">
+    <Instance Guid="7d577131-4ec1-4e88-968d-89381f6c178a">
+      <FormatVersion>1.1</FormatVersion>
+    </Instance>
+    <Instance Guid="ccb786f6-b5fc-409c-93bf-105835d48f8f">
+      <AccumulateResultOfAnalysis>False</AccumulateResultOfAnalysis>
+      <CompulsorilyOutputCrossReferenceFile>False</CompulsorilyOutputCrossReferenceFile>
+      <CompulsorilyEnableDebugToolFunctions>False</CompulsorilyEnableDebugToolFunctions>
+      <IncludePrototypeDeclaration>True</IncludePrototypeDeclaration>
+      <RefreshAtProgramStop>Yes</RefreshAtProgramStop>
+      <UnitOfTime>Nanosecond</UnitOfTime>
+      <DelimitsArgumentsByNewLine>False</DelimitsArgumentsByNewLine>
+      <DisplayRegisterForVariableList>False</DisplayRegisterForVariableList>
+      <DisplayFunctionWithoutDefinition>False</DisplayFunctionWithoutDefinition>
+      <ForceOutputFunctionInformation>False</ForceOutputFunctionInformation>
+      <FreeMemoryWhenAllPanelClose>False</FreeMemoryWhenAllPanelClose>
+      <AskWhetherCancelTheResultByOutOfMemory>True</AskWhetherCancelTheResultByOutOfMemory>
+      <AnalyzeFilesSelectionType>FilesNotToAnalyze</AnalyzeFilesSelectionType>
+      <AnalyzeNotTargetFilesCount>0</AnalyzeNotTargetFilesCount>
+      <TraceAnalysisTargetPE>All</TraceAnalysisTargetPE>
+      <ImportFilesCount>0</ImportFilesCount>
+      <IsExportAutomatically>False</IsExportAutomatically>
+      <ExportFunctionFileName>%ProjectName%.mtfl</ExportFunctionFileName>
+      <ExportVariableFileName>%ProjectName%.mtvl</ExportVariableFileName>
+      <NumberOfFunctionDisplayingInExecutionTimeChart>10</NumberOfFunctionDisplayingInExecutionTimeChart>
+    </Instance>
+    <Instance Guid="4c245ffc-f465-4fbf-8655-108a8a1468e0">
+      <AnalysisMethod>RealtimeSampling</AnalysisMethod>
+      <AnalysisChartDataFileName />
+      <StartStopRealTimeSampling>Synchronized</StartStopRealTimeSampling>
+      <AutoAdjustForValueAndTime>AtProgramStop</AutoAdjustForValueAndTime>
+      <AutoAdjustNumberOfPoints>20</AutoAdjustNumberOfPoints>
+      <TimePerGrid>1000000</TimePerGrid>
+      <ChartType>LineChart</ChartType>
+      <SpecifyForegroundColorAndBackgroundColor>False</SpecifyForegroundColorAndBackgroundColor>
+      <CursorAColor>PaleGreen</CursorAColor>
+      <CursorBColor>PaleTurquoise</CursorBColor>
+      <Zoom1Color>40ff0a4f</Zoom1Color>
+      <Zoom2Color>405be416</Zoom2Color>
+      <Zoom3Color>40056def</Zoom3Color>
+      <Zoom4Color>40ff541c</Zoom4Color>
+      <UseTriggerFunction>False</UseTriggerFunction>
+      <TriggerMode>Auto</TriggerMode>
+      <TriggerSource>Channel01</TriggerSource>
+      <TriggerLevel>0</TriggerLevel>
+      <TriggerEdgeDirection>Rising</TriggerEdgeDirection>
+      <TriggerPosition>0</TriggerPosition>
+      <TriggerMarkColor>Orange</TriggerMarkColor>
+      <SamplingInterval>10</SamplingInterval>
+      <DataCollectionChannel>None</DataCollectionChannel>
+      <ChannelVariableName1 />
+      <ChannelVariableName2 />
+      <ChannelVariableName3 />
+      <ChannelVariableName4 />
+      <ChannelVariableName5 />
+      <ChannelVariableName6 />
+      <ChannelVariableName7 />
+      <ChannelVariableName8 />
+      <ChannelVariableName9 />
+      <ChannelVariableName10 />
+      <ChannelVariableName11 />
+      <ChannelVariableName12 />
+      <ChannelVariableName13 />
+      <ChannelVariableName14 />
+      <ChannelVariableName15 />
+      <ChannelVariableName16 />
+      <ChannelVariableType1>Auto</ChannelVariableType1>
+      <ChannelVariableType2>Auto</ChannelVariableType2>
+      <ChannelVariableType3>Auto</ChannelVariableType3>
+      <ChannelVariableType4>Auto</ChannelVariableType4>
+      <ChannelVariableType5>Auto</ChannelVariableType5>
+      <ChannelVariableType6>Auto</ChannelVariableType6>
+      <ChannelVariableType7>Auto</ChannelVariableType7>
+      <ChannelVariableType8>Auto</ChannelVariableType8>
+      <ChannelVariableType9>Auto</ChannelVariableType9>
+      <ChannelVariableType10>Auto</ChannelVariableType10>
+      <ChannelVariableType11>Auto</ChannelVariableType11>
+      <ChannelVariableType12>Auto</ChannelVariableType12>
+      <ChannelVariableType13>Auto</ChannelVariableType13>
+      <ChannelVariableType14>Auto</ChannelVariableType14>
+      <ChannelVariableType15>Auto</ChannelVariableType15>
+      <ChannelVariableType16>Auto</ChannelVariableType16>
+      <ChannelValuePerGrid1>25.5</ChannelValuePerGrid1>
+      <ChannelValuePerGrid2>25.5</ChannelValuePerGrid2>
+      <ChannelValuePerGrid3>25.5</ChannelValuePerGrid3>
+      <ChannelValuePerGrid4>25.5</ChannelValuePerGrid4>
+      <ChannelValuePerGrid5>25.5</ChannelValuePerGrid5>
+      <ChannelValuePerGrid6>25.5</ChannelValuePerGrid6>
+      <ChannelValuePerGrid7>25.5</ChannelValuePerGrid7>
+      <ChannelValuePerGrid8>25.5</ChannelValuePerGrid8>
+      <ChannelValuePerGrid9>25.5</ChannelValuePerGrid9>
+      <ChannelValuePerGrid10>25.5</ChannelValuePerGrid10>
+      <ChannelValuePerGrid11>25.5</ChannelValuePerGrid11>
+      <ChannelValuePerGrid12>25.5</ChannelValuePerGrid12>
+      <ChannelValuePerGrid13>25.5</ChannelValuePerGrid13>
+      <ChannelValuePerGrid14>25.5</ChannelValuePerGrid14>
+      <ChannelValuePerGrid15>25.5</ChannelValuePerGrid15>
+      <ChannelValuePerGrid16>25.5</ChannelValuePerGrid16>
+      <ChannelValueOffset1>0</ChannelValueOffset1>
+      <ChannelValueOffset2>0</ChannelValueOffset2>
+      <ChannelValueOffset3>0</ChannelValueOffset3>
+      <ChannelValueOffset4>0</ChannelValueOffset4>
+      <ChannelValueOffset5>0</ChannelValueOffset5>
+      <ChannelValueOffset6>0</ChannelValueOffset6>
+      <ChannelValueOffset7>0</ChannelValueOffset7>
+      <ChannelValueOffset8>0</ChannelValueOffset8>
+      <ChannelValueOffset9>0</ChannelValueOffset9>
+      <ChannelValueOffset10>0</ChannelValueOffset10>
+      <ChannelValueOffset11>0</ChannelValueOffset11>
+      <ChannelValueOffset12>0</ChannelValueOffset12>
+      <ChannelValueOffset13>0</ChannelValueOffset13>
+      <ChannelValueOffset14>0</ChannelValueOffset14>
+      <ChannelValueOffset15>0</ChannelValueOffset15>
+      <ChannelValueOffset16>0</ChannelValueOffset16>
+      <ChannelColor1>c0ff0a4f</ChannelColor1>
+      <ChannelColor2>c05be416</ChannelColor2>
+      <ChannelColor3>c0056dff</ChannelColor3>
+      <ChannelColor4>c0ff541c</ChannelColor4>
+      <ChannelColor5>c04fc1ff</ChannelColor5>
+      <ChannelColor6>c0a932ff</ChannelColor6>
+      <ChannelColor7>c0ffd91c</ChannelColor7>
+      <ChannelColor8>c0ff30a5</ChannelColor8>
+      <ChannelColor9>c0bee02f</ChannelColor9>
+      <ChannelColor10>c05510ff</ChannelColor10>
+      <ChannelColor11>c0ff97e4</ChannelColor11>
+      <ChannelColor12>c0913a37</ChannelColor12>
+      <ChannelColor13>c0c68e15</ChannelColor13>
+      <ChannelColor14>c0317f0c</ChannelColor14>
+      <ChannelColor15>c060493e</ChannelColor15>
+      <ChannelColor16>c072808e</ChannelColor16>
+    </Instance>
+  </Class>
+  <Class Guid="5f091d5c-bde7-4b49-be6a-b6f95d1227f7">
+    <Instance Guid="5f091d5c-bde7-4b49-be6a-b6f95d1227f7">
+      <SmcCodePartRL78Manager>4d843d40-b00f-4fff-b0c0-ffd1a818b9a3</SmcCodePartRL78Manager>
+    </Instance>
+  </Class>
+  <Class Guid="4d843d40-b00f-4fff-b0c0-ffd1a818b9a3">
+    <Instance Guid="4d843d40-b00f-4fff-b0c0-ffd1a818b9a3">
+      <GenerateFileFolder>C:\Users\a5090549\Desktop\r01an5564-rl78g23-timer</GenerateFileFolder>
+      <SmcExePath>C:\Program Files (x86)\Renesas Electronics\SmartConfigurator\RL78\eclipse\SmartConfigurator.exe</SmcExePath>
+      <CodeGeneratorFilesGuid>6ea0b94e-29f3-43ba-b6f3-4a0acec9c85e</CodeGeneratorFilesGuid>
+      <SCFGFile>r01an5564-rl78g23-timer.scfg</SCFGFile>
+    </Instance>
+  </Class>
+</CubeSuiteProject>

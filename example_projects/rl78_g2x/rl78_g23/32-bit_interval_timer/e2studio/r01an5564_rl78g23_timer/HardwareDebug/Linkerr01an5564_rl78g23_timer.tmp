@@ -1,0 +1,46 @@
+-MAKEUD=C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5564_rl78g23_timer\HardwareDebug/r01an5564_rl78g23_timer_l.ud
+-device="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-list="r01an5564_rl78g23_timer.map"
+-nooptimize
+-entry=_start
+-auto_section_layout
+-security_id=00000000000000000000
+-debug_monitor=1FE00-1FFFF
+-user_opt_byte=EFFEE8
+-ocdbg=84
+-ocdtr
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an5564_rl78g23_timer.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC_user.obj"
+-input=".\src/smc_gen/Config_ITL000\Config_ITL000.obj"
+-input=".\src/smc_gen/Config_ITL000\Config_ITL000_user.obj"
+-input=".\src/smc_gen/Config_ITL001\Config_ITL001.obj"
+-input=".\src/smc_gen/Config_ITL001\Config_ITL001_user.obj"
+-input=".\src/smc_gen/Config_ITL012\Config_ITL012.obj"
+-input=".\src/smc_gen/Config_ITL012\Config_ITL012_user.obj"
+-input=".\src/smc_gen/Config_ITL013\Config_ITL013.obj"
+-input=".\src/smc_gen/Config_ITL013\Config_ITL013_user.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/general\r_cg_itl_common.obj"
+-input=".\src/smc_gen/general\r_cg_itl_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g23\mcu_clocks.obj"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\rl78em4s99.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\rl78em4r.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\malloc_n.lib"
+-output="r01an5564_rl78g23_timer.abs"
+-debug
+-nocompress
+-memory=high
+-rom=.data=.dataR,.sdata=.sdataR
+-nomessage
+-nologo

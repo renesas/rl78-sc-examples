@@ -1,0 +1,568 @@
+###############################################################################
+#
+# IAR ELF Linker V4.21.1.2409/W32 for RL78                01/Jun/2021  16:35:41
+# Copyright 2011-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\a5089302\Desktop\IAR\Debug\Exe\r01an5598_rl78g23_uarta.out
+#    Map file     =
+#        C:\Users\a5089302\Desktop\IAR\Debug\List\r01an5598_rl78g23_uarta.map
+#    Command line =
+#        -f C:\Users\a5089302\AppData\Local\Temp\EW2F3C.tmp
+#        (C:\Users\a5089302\Desktop\IAR\Debug\Obj\Config_PORT.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\Config_PORT_user.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\Config_UARTA0.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\Config_UARTA0_user.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\cstartup.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\hdwinit.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\LibReplacement.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\main.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\mcu_clocks.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\r_bsp_common.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\r_bsp_init.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\r_cg_systeminit.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\r_cg_uarta_common.o
+#        C:\Users\a5089302\Desktop\IAR\Debug\Obj\vecttbl.o --no_out_extension
+#        -o C:\Users\a5089302\Desktop\IAR\Debug\Exe\r01an5598_rl78g23_uarta.out
+#        --config_def __RESERVE_OCD_ROM=1 --config_def
+#        __RESERVE_OCD_TRACE_RAM=0 --config_def __RESERVE_HOTPLUGIN_RAM=0 --map
+#        C:\Users\a5089302\Desktop\IAR\Debug\List\r01an5598_rl78g23_uarta.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.5\rl78\config\lnkr7f100glg.icf" --config_def _STACK_SIZE=128
+#        --config_def _NEAR_HEAP_SIZE=256 --config_def _FAR_HEAP_SIZE=4096
+#        --config_def _HUGE_HEAP_SIZE=0 --define_symbol _NEAR_CONST_LOCATION=0
+#        --config_def _NEAR_CONST_LOCATION_START=0x3000 --config_def
+#        _NEAR_CONST_LOCATION_SIZE=0x8F00 --redirect ?UC_DIV_L01=HWDIV_8_8_8
+#        --redirect ?UC_MOD_L01=HWMOD_8_8_8 --redirect ?SC_DIV_L01=HWSDIV_8_8_8
+#        --redirect ?SC_MOD_L01=HWSMOD_8_8_8 --redirect
+#        ?SI_DIV_L02=HWSDIV_16_16_16 --redirect ?SI_MOD_L02=HWSMOD_16_16_16
+#        --redirect ?SL_DIV_L03=HWSDIV_32_32_32 --redirect
+#        ?SL_MOD_L03=HWSMOD_32_32_32 --vfe --entry __iar_program_start
+#        --debug_lib --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__calling_convention       = v2
+__code_model               = near
+__core                     = s3
+__data_model               = near
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__dlib_version             = 6
+__double_size              = 32
+__far_rt_calls             = false
+__near_const               = rom0
+__rt_version               = 2
+
+
+*******************************************************************************
+*** RESERVED RANGES
+***
+
+Ranges reserved by mirroring and reserve directives:
+
+      From        To    Size
+      ----        --    ----
+  0x1'fe00  0x1'ffff   0x200
+  0xf'3000  0xf'beff  0x8f00
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"RESET":
+       place at address 0x0 { ro section .reset };
+"VECTOR":
+       place at address 0x4 { ro section .intvec };
+define block OPT_BYTE
+   with size = 4 { R_OPT_BYTE, ro section .option_byte, ro section OPTBYTE };
+"A2":  place at address 0xc0 { block OPT_BYTE };
+"MIRROR":
+       place in [from 0x3000 to 0xbeff] with mirroring to 0xf'3000 {
+          ro R_CONST_init, ro section .const, ro section .switch };
+"ROMNEAR":
+       place in [from 0xd8 to 0xffff] { R_TEXT, ro section .text };
+define block INIT_ARRAY
+   with fixed order, alignment = 2 {
+      ro section .preinit_array, ro section .init_array };
+define block INIT_ARRAY_TLS
+   with fixed order, alignment = 2 {
+      ro section .preinit_array_tls, ro section .init_array_tls };
+"ROMFAR":
+       place in [from 0xd8 to 0xffff] |
+                [from 0x1'0000 to 0x1'ffff] {
+          block INIT_ARRAY, block INIT_ARRAY_TLS, R_TEXTF_UNIT64KP,
+          ro section .textf_unit64kp, ro section .constf, ro section .switchf,
+          ro };
+"ROMHUGE":
+       place in [from 0xd8 to 0x1'ffff] {
+          ro section .consth, R_TEXTF, ro section .textf };
+define block NEAR_HEAP with size = 256, alignment = 2 { };
+define block CSTACK with size = 128, alignment = 2 { rw section CSTACK };
+"RAMNEAR":
+       place in [from 0xf'bf00 to 0xf'fe1f] {
+          block NEAR_HEAP, block CSTACK, zi section .iar.dynexit, R_DATA,
+          rw section .data, R_BSS, rw section .bss*, rw };
+"SADDRMEM":
+       place in [from 0xf'fe20 to 0xf'fedf] {
+          rw section .sdata, R_SDATA, rw section .sbss*, R_SBSS,
+          rw section .wrkseg };
+reserve region "OCD ROM area" = [from 0x1'fe00 to 0x1'ffff];
+
+No sections matched the following patterns:
+
+  R_BSS                          in "RAMNEAR"
+  R_BSSF                         in "RAMFAR"
+  R_CALLT0                       in "CALLT"
+  R_DATA                         in "RAMNEAR"
+  R_DATAF                        in "RAMFAR"
+  R_OPT_BYTE                     in block OPT_BYTE
+  R_SBSS                         in "SADDRMEM"
+  R_SDATA                        in "SADDRMEM"
+  R_SECUR_ID                     in block SECUR_ID
+  R_TEXT                         in "ROMNEAR"
+  R_TEXTF                        in "ROMHUGE"
+  R_TEXTF_UNIT64KP               in "ROMFAR"
+  ro R_CONST_init                in "MIRROR"
+  ro section .callt0             in "CALLT"
+  ro section .constf             in "ROMFAR"
+  ro section .consth             in "ROMHUGE"
+  ro section .init_array         in block INIT_ARRAY
+  ro section .init_array_tls     in block INIT_ARRAY_TLS
+  ro section .option_byte        in block OPT_BYTE
+  ro section .preinit_array      in block INIT_ARRAY
+  ro section .preinit_array_tls  in block INIT_ARRAY_TLS
+  ro section .security_id        in block SECUR_ID
+  ro section .switch             in "MIRROR"
+  ro section .switchf            in "ROMFAR"
+  ro section .textf_unit64kp     in "ROMFAR"
+  ro section SECUID              in block SECUR_ID
+  rw section .bss_unit64kp       in "RAMFAR"
+  rw section .bssf*              in "RAMFAR"
+  rw section .data               in "RAMNEAR"
+  rw section .data_unit64kp      in "RAMFAR"
+  rw section .dataf              in "RAMFAR"
+  rw section .hbss*              in "RAMHUGE"
+  rw section .hdata              in "RAMHUGE"
+  rw section .sbss*              in "SADDRMEM"
+  rw section .sdata              in "SADDRMEM"
+  zi section .iar.dynexit        in "RAMNEAR"
+
+
+  Section          Kind      Address   Size  Object
+  -------          ----      -------   ----  ------
+"RESET":                                0x2
+  .reset           const         0x0    0x2  interrupt_vector.o [3]
+                               - 0x2    0x2
+
+"VECTOR":                              0x7c
+  .intvec          const         0x4   0x7c  interrupt_vector.o [3]
+                              - 0x80   0x7c
+
+"A2":                                   0x4
+  OPT_BYTE                      0xc0    0x4  <Block>
+    OPTBYTE        const        0xc0    0x1  vecttbl.o [1]
+    OPTBYTE        const        0xc1    0x1  vecttbl.o [1]
+    OPTBYTE        const        0xc2    0x1  vecttbl.o [1]
+    OPTBYTE        const        0xc3    0x1  vecttbl.o [1]
+                              - 0xc4    0x4
+
+"MIRROR":                              0x18
+  .const           const      0x3000    0x4  main.o [1]
+  .const           const      0x3004    0x4  main.o [1]
+  .const           const      0x3008    0x4  main.o [1]
+  .const           const      0x300c    0x4  main.o [1]
+  .const           const      0x3010    0x4  main.o [1]
+  .const           const      0x3014    0x4  main.o [1]
+                            - 0x3018   0x18
+
+"ROMNEAR":                            0x3c7
+  .text            ro code    0x3018   0xf5  Config_UARTA0.o [1]
+  .text            ro code    0x310d   0xd5  Config_UARTA0_user.o [1]
+  .text            ro code    0x31e2   0xc8  main.o [1]
+  .text            ro code    0x32aa   0x60  mcu_clocks.o [1]
+  .text            ro code    0x330a   0x40  cstartup.o [1]
+  .text            ro code    0x334a   0x17  r_cg_systeminit.o [1]
+  .text            ro code    0x3361   0x16  Config_PORT.o [1]
+  .text            ro code    0x3377   0x16  hdwinit.o [1]
+  .text            ro code    0x338d   0x13  default_handler.o [3]
+  .text            ro code    0x33a0   0x11  __dbg_xxexit.o [2]
+  .text            ro code    0x33b1    0xc  r_bsp_init.o [1]
+  .text            ro code    0x33bd    0xa  __dbg_abort.o [2]
+  .text            ro code    0x33c7    0x8  r_cg_uarta_common.o [1]
+  .text            ro code    0x33cf    0x5  cexit.o [3]
+  .text            ro code    0x33d4    0x4  low_level_init.o [3]
+  .text            ro code    0x33d8    0x3  exit.o [3]
+  .text            ro code    0x33db    0x3  __dbg_break.o [2]
+  .text            ro code    0x33de    0x1  Config_PORT_user.o [1]
+                            - 0x33df  0x3c7
+
+"ROMFAR":                               0x8
+  .iar.init_table  const      0x33e0    0x8  - Linker created -
+                            - 0x33e8    0x8
+
+"ROMHUGE":                             0x66
+  .textf           ro code    0x33e8   0x41  data_init.o [3]
+  .textf           ro code    0x3429   0x25  near_zero_init.o [3]
+                            - 0x344e   0x66
+
+Absolute sections, part 1 of 24:        0x1
+  .bss.noinit      uninit   0xf'0055    0x1  Config_PORT.o [1]
+                          - 0xf'0056    0x1
+
+Absolute sections, part 2 of 24:        0x2
+  .bss.noinit      uninit   0xf'0077    0x1  r_bsp_init.o [1]
+  .bss.noinit      uninit   0xf'0078    0x1  hdwinit.o [1]
+                          - 0xf'0079    0x2
+
+Absolute sections, part 3 of 24:        0x1
+  .bss.noinit      uninit   0xf'00a8    0x1  mcu_clocks.o [1]
+                          - 0xf'00a9    0x1
+
+Absolute sections, part 4 of 24:        0x1
+  .bss.noinit      uninit   0xf'00f1    0x1  r_cg_systeminit.o [1]
+                          - 0xf'00f2    0x1
+
+Absolute sections, part 5 of 24:        0x1
+  .bss.noinit      uninit   0xf'00f3    0x1  mcu_clocks.o [1]
+                          - 0xf'00f4    0x1
+
+Absolute sections, part 6 of 24:        0x2
+  .bss.noinit      uninit   0xf'00fa    0x1  r_cg_uarta_common.o [1]
+  .bss.noinit      uninit   0xf'00fb    0x1  r_cg_systeminit.o [1]
+                          - 0xf'00fc    0x2
+
+Absolute sections, part 7 of 24:        0x1
+  .bss.noinit      uninit   0xf'0215    0x1  mcu_clocks.o [1]
+                          - 0xf'0216    0x1
+
+Absolute sections, part 8 of 24:        0x1
+  .bss.noinit      uninit   0xf'0260    0x1  Config_UARTA0.o [1]
+                          - 0xf'0261    0x1
+
+Absolute sections, part 9 of 24:        0x1
+  .bss.noinit      uninit   0xf'0265    0x1  Config_PORT.o [1]
+                          - 0xf'0266    0x1
+
+Absolute sections, part 10 of 24:       0x1
+  .bss.noinit      uninit   0xf'0267    0x1  Config_UARTA0.o [1]
+                          - 0xf'0268    0x1
+
+Absolute sections, part 11 of 24:       0x1
+  .bss.noinit      uninit   0xf'0285    0x1  Config_PORT.o [1]
+                          - 0xf'0286    0x1
+
+Absolute sections, part 12 of 24:       0x1
+  .bss.noinit      uninit   0xf'02ab    0x1  Config_UARTA0.o [1]
+                          - 0xf'02ac    0x1
+
+Absolute sections, part 13 of 24:       0x7
+  .bss.noinit      uninit   0xf'0300    0x1  Config_UARTA0_user.o [1]
+  .bss.noinit      uninit   0xf'0301    0x1  Config_UARTA0_user.o [1]
+  .bss.noinit      uninit   0xf'0302    0x1  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'0303    0x1  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'0304    0x1  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'0305    0x1  Config_UARTA0_user.o [1]
+  .bss.noinit      uninit   0xf'0306    0x1  Config_UARTA0_user.o [1]
+                          - 0xf'0307    0x7
+
+Absolute sections, part 14 of 24:       0x1
+  .bss.noinit      uninit   0xf'0310    0x1  Config_UARTA0.o [1]
+                          - 0xf'0311    0x1
+
+"RAMNEAR", part 1 of 2:                0x80
+  CSTACK                    0xf'bf00   0x80  <Block>
+    CSTACK         rw data  0xf'bf00    0x0  cstartup.o [1]
+    CSTACK         uninit   0xf'bf00   0x80  <Block tail>
+                          - 0xf'bf80   0x80
+
+"RAMNEAR", part 2 of 2:                 0xe
+  .bss             zero     0xf'bf80    0x2  Config_UARTA0.o [1]
+  .bss             zero     0xf'bf82    0x2  Config_UARTA0.o [1]
+  .bss             zero     0xf'bf84    0x2  Config_UARTA0.o [1]
+  .bss             zero     0xf'bf86    0x2  Config_UARTA0.o [1]
+  .bss             zero     0xf'bf88    0x2  Config_UARTA0.o [1]
+  .bss             zero     0xf'bf8a    0x2  main.o [1]
+  .bss             zero     0xf'bf8c    0x1  main.o [1]
+  .bss             zero     0xf'bf8d    0x1  main.o [1]
+                          - 0xf'bf8e    0xe
+
+"SADDRMEM":                             0x0
+  .wrkseg          rw data  0xf'fe20    0x0  cstartup.o [1]
+
+Absolute sections, part 15 of 24:       0x1
+  .sbss.noinit     uninit   0xf'ff00    0x1  Config_UARTA0.o [1]
+                          - 0xf'ff01    0x1
+
+Absolute sections, part 16 of 24:       0x1
+  .sbss.noinit     uninit   0xf'ff05    0x1  Config_PORT.o [1]
+                          - 0xf'ff06    0x1
+
+Absolute sections, part 17 of 24:       0x1
+  .sbss.noinit     uninit   0xf'ff07    0x1  Config_UARTA0.o [1]
+                          - 0xf'ff08    0x1
+
+Absolute sections, part 18 of 24:       0x1
+  .bss.noinit      uninit   0xf'ff20    0x1  Config_UARTA0.o [1]
+                          - 0xf'ff21    0x1
+
+Absolute sections, part 19 of 24:       0x1
+  .bss.noinit      uninit   0xf'ff25    0x1  Config_PORT.o [1]
+                          - 0xf'ff26    0x1
+
+Absolute sections, part 20 of 24:       0x1
+  .bss.noinit      uninit   0xf'ff27    0x1  Config_UARTA0.o [1]
+                          - 0xf'ff28    0x1
+
+Absolute sections, part 21 of 24:       0x2
+  .bss.noinit      uninit   0xf'ffa0    0x1  mcu_clocks.o [1]
+  .bss.noinit      uninit   0xf'ffa1    0x1  mcu_clocks.o [1]
+                          - 0xf'ffa2    0x2
+
+Absolute sections, part 22 of 24:       0x1
+  .bss.noinit      uninit   0xf'ffa4    0x1  mcu_clocks.o [1]
+                          - 0xf'ffa5    0x1
+
+Absolute sections, part 23 of 24:       0x1
+  .bss.noinit      uninit   0xf'ffa7    0x1  mcu_clocks.o [1]
+                          - 0xf'ffa8    0x1
+
+Absolute sections, part 24 of 24:      0x10
+  .bss.noinit      uninit   0xf'ffd0    0x2  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'ffd2    0x2  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'ffd4    0x2  main.o [1]
+  .bss.noinit      uninit   0xf'ffd6    0x2  main.o [1]
+  .bss.noinit      uninit   0xf'ffd8    0x2  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'ffda    0x2  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'ffdc    0x2  Config_UARTA0.o [1]
+  .bss.noinit      uninit   0xf'ffde    0x2  Config_UARTA0.o [1]
+                          - 0xf'ffe0   0x10
+
+Unused ranges:
+
+      From        To      Size
+      ----        --      ----
+      0xd8    0x2fff    0x2f28
+    0x33df    0x33df       0x1
+    0x344e  0x1'fdff  0x1'c9b2
+  0xf'bf8e  0xf'fe1f    0x3e92
+  0xf'fe20  0xf'fedf      0xc0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (___iar_zero_init_near2)
+    1 destination range, total size 0xe:
+          0xf'bf80   0xe
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  ro data  rw data  rw data
+                                                      (abs)
+    ------                -------  -------  -------  -------
+command line/config:
+    --------------------------------------------------------
+    Total:
+
+C:\Users\a5089302\Desktop\IAR\Debug\Obj: [1]
+    Config_PORT.o              22                          5
+    Config_PORT_user.o          1
+    Config_UARTA0.o           245                10       23
+    Config_UARTA0_user.o      213                          4
+    cstartup.o                 64
+    hdwinit.o                  22                          1
+    main.o                    200       24        4        4
+    mcu_clocks.o               96                          7
+    r_bsp_init.o               12                          1
+    r_cg_systeminit.o          23                          2
+    r_cg_uarta_common.o         8                          1
+    vecttbl.o                            4
+    --------------------------------------------------------
+    Total:                    906       28       14       48
+
+dbgrlnnf23nd.a: [2]
+    __dbg_abort.o              10
+    __dbg_break.o               3
+    __dbg_xxexit.o             17
+    --------------------------------------------------------
+    Total:                     30
+
+dlrlnnf23n.a: [3]
+    cexit.o                     5
+    data_init.o                65
+    default_handler.o          19
+    exit.o                      3
+    interrupt_vector.o                 126
+    low_level_init.o            4
+    near_zero_init.o           37
+    --------------------------------------------------------
+    Total:                    133      126
+
+    Linker created                       8      128
+------------------------------------------------------------
+    Grand Total:            1'069      162      142       48
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+.iar.init_table$$Base     0x33e0         --   Gb  - Linker created -
+.iar.init_table$$Limit    0x33e8         --   Gb  - Linker created -
+@cend                     0x334a        Code  Gb  cstartup.o [1]
+@cstart                   0x330a        Code  Gb  cstartup.o [1]
+CSTACK$$Base            0xf'bf00         --   Gb  - Linker created -
+CSTACK$$Limit           0xf'bf80         --   Gb  - Linker created -
+OPT_BYTE$$Base              0xc0         --   Gb  - Linker created -
+OPT_BYTE$$Limit             0xc4         --   Gb  - Linker created -
+Region$$Table$$Base       0x33e0         --   Gb  - Linker created -
+Region$$Table$$Limit      0x33e8         --   Gb  - Linker created -
+_NEAR_CONST_LOCATION {Abs}
+                             0x0        Data  Gb  <internal module>
+_R_Config_PORT_Create     0x3361  0x16  Code  Gb  Config_PORT.o [1]
+_R_Config_PORT_Create_UserInit
+                          0x33de   0x1  Code  Gb  Config_PORT_user.o [1]
+_R_Config_UARTA0_Create
+                          0x3018  0x5f  Code  Gb  Config_UARTA0.o [1]
+_R_Config_UARTA0_Create_UserInit
+                          0x310d   0x1  Code  Gb  Config_UARTA0_user.o [1]
+_R_Config_UARTA0_Receive
+                          0x30ed  0x20  Code  Gb  Config_UARTA0.o [1]
+_R_Config_UARTA0_Send     0x30aa  0x43  Code  Gb  Config_UARTA0.o [1]
+_R_Config_UARTA0_Send_Polling
+                          0x31aa  0x38  Code  Gb  Config_UARTA0_user.o [1]
+_R_Config_UARTA0_Start    0x3077  0x33  Code  Gb  Config_UARTA0.o [1]
+_R_MAIN_UserInit          0x32a6   0x4  Code  Gb  main.o [1]
+_R_Systeminit             0x334a  0x17  Code  Gb  r_cg_systeminit.o [1]
+_R_UARTA_Create           0x33c7   0x8  Code  Gb  r_cg_uarta_common.o [1]
+__A_ASCTA0              0xf'0306   0x1  Data  Gb  Config_UARTA0_user.o [1]
+__A_ASIMA00             0xf'0302   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_ASIMA01             0xf'0303   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_ASISA0              0xf'0305   0x1  Data  Gb  Config_UARTA0_user.o [1]
+__A_BRGCA0              0xf'0304   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_CKC                 0xf'ffa4   0x1  Data  Gb  mcu_clocks.o [1]
+__A_CKSEL               0xf'ffa7   0x1  Data  Gb  mcu_clocks.o [1]
+__A_CMC                 0xf'ffa0   0x1  Data  Gb  mcu_clocks.o [1]
+__A_CSC                 0xf'ffa1   0x1  Data  Gb  mcu_clocks.o [1]
+__A_HOCODIV             0xf'00a8   0x1  Data  Gb  mcu_clocks.o [1]
+__A_IAWCTL              0xf'0078   0x1  Data  Gb  hdwinit.o [1]
+__A_IF2                 0xf'ffd0   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_IF3                 0xf'ffd2   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_MK2                 0xf'ffd4   0x2  Data  Gb  main.o [1]
+__A_MK3                 0xf'ffd6   0x2  Data  Gb  main.o [1]
+__A_OSMC                0xf'00f3   0x1  Data  Gb  mcu_clocks.o [1]
+__A_P0                  0xf'ff00   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_P5                  0xf'ff05   0x1  Data  Gb  Config_PORT.o [1]
+__A_P7                  0xf'ff07   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_PER1                0xf'00fa   0x1  Data  Gb  r_cg_uarta_common.o [1]
+__A_PFOE1               0xf'02ab   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_PIOR                0xf'0077   0x1  Data  Gb  r_bsp_init.o [1]
+__A_PM0                 0xf'ff20   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_PM5                 0xf'ff25   0x1  Data  Gb  Config_PORT.o [1]
+__A_PM7                 0xf'ff27   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_PMCE5               0xf'0285   0x1  Data  Gb  Config_PORT.o [1]
+__A_PMCT0               0xf'0260   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_PMCT5               0xf'0265   0x1  Data  Gb  Config_PORT.o [1]
+__A_PMCT7               0xf'0267   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_POM5                0xf'0055   0x1  Data  Gb  Config_PORT.o [1]
+__A_PR02                0xf'ffd8   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_PR03                0xf'ffda   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_PR12                0xf'ffdc   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_PR13                0xf'ffde   0x2  Data  Gb  Config_UARTA0.o [1]
+__A_PRR0                0xf'00f1   0x1  Data  Gb  r_cg_systeminit.o [1]
+__A_PRR1                0xf'00fb   0x1  Data  Gb  r_cg_systeminit.o [1]
+__A_RXBA0               0xf'0301   0x1  Data  Gb  Config_UARTA0_user.o [1]
+__A_TXBA0               0xf'0300   0x1  Data  Gb  Config_UARTA0_user.o [1]
+__A_UTA0CK              0xf'0310   0x1  Data  Gb  Config_UARTA0.o [1]
+__A_WKUPMD              0xf'0215   0x1  Data  Gb  mcu_clocks.o [1]
+___DebugBreak             0x33db   0x3  Code  Gb  __dbg_break.o [2]
+___exit                   0x33a0  0x11  Code  Gb  __dbg_xxexit.o [2]
+___iar_data_init2         0x33e8  0x41  Code  Gb  data_init.o [3]
+___iar_default_interrupt_handler
+                          0x338d  0x13  Code  Lc  default_handler.o [3]
+___iar_zero_init_near2    0x3429  0x25  Code  Gb  near_zero_init.o [3]
+___interrupt_0x00         0x330a        Code  Gb  cstartup.o [1]
+___interrupt_0x58         0x3167        Code  Gb  Config_UARTA0_user.o [1]
+___interrupt_0x6A         0x311b        Code  Gb  Config_UARTA0_user.o [1]
+___interrupt_0x6C         0x312e        Code  Gb  Config_UARTA0_user.o [1]
+___low_level_init         0x33d4        Code  Wk  low_level_init.o [3]
+__exit                    0x33cf        Code  Gb  cexit.o [3]
+__iar_exit_end            0x33d4        Code  Gb  cexit.o [3]
+__iar_program_start       0x330a        Code  Gb  cstartup.o [1]
+__link_file_version_2 {Abs}
+                             0x1        Data  Gb  <internal module>
+__program_end             0x334a        Code  Gb  cstartup.o [1]
+_abort                    0x33bd   0xa  Code  Gb  __dbg_abort.o [2]
+_bsp_init_hardware        0x33b9   0x4  Code  Gb  r_bsp_init.o [1]
+_bsp_init_system          0x33b1   0x8  Code  Gb  r_bsp_init.o [1]
+_exit                     0x33d8   0x3  Code  Gb  exit.o [3]
+_g_messageFE            0xf'300c   0x4  Data  Lc  main.o [1]
+_g_messageOE            0xf'3014   0x4  Data  Lc  main.o [1]
+_g_messageOK            0xf'3000   0x4  Data  Lc  main.o [1]
+_g_messagePE            0xf'3010   0x4  Data  Lc  main.o [1]
+_g_messageUC            0xf'3008   0x4  Data  Lc  main.o [1]
+_g_messageok            0xf'3004   0x4  Data  Lc  main.o [1]
+_g_uarta0_rx_buffer     0xf'bf8c   0x1  Data  Gb  main.o [1]
+_g_uarta0_rx_error      0xf'bf8d   0x1  Data  Gb  main.o [1]
+_g_uarta0_rx_num        0xf'bf84   0x2  Data  Gb  Config_UARTA0.o [1]
+_g_uarta0_rx_total_num  0xf'bf80   0x2  Data  Gb  Config_UARTA0.o [1]
+_g_uarta0_tx_count      0xf'bf88   0x2  Data  Gb  Config_UARTA0.o [1]
+_g_uarta0_tx_end        0xf'bf8a   0x2  Data  Gb  main.o [1]
+_gp_uarta0_rx_address   0xf'bf82   0x2  Data  Gb  Config_UARTA0.o [1]
+_gp_uarta0_tx_address   0xf'bf86   0x2  Data  Gb  Config_UARTA0.o [1]
+_hdwinit                  0x3377   0xe  Code  Gb  hdwinit.o [1]
+_interrupt_vector_table
+                             0x0        Data  Gb  interrupt_vector.o [3]
+_interrupts_configure     0x3387   0x2  Code  Lc  hdwinit.o [1]
+_main                     0x31e2  0xc4  Code  Gb  main.o [1]
+_mcu_clock_setup          0x32aa  0x60  Code  Gb  mcu_clocks.o [1]
+_opbyte0                    0xc0   0x1  Data  Gb  vecttbl.o [1]
+_opbyte1                    0xc1   0x1  Data  Gb  vecttbl.o [1]
+_opbyte2                    0xc2   0x1  Data  Gb  vecttbl.o [1]
+_opbyte3                    0xc3   0x1  Data  Gb  vecttbl.o [1]
+_output_ports_configure
+                          0x3385   0x2  Code  Lc  hdwinit.o [1]
+_peripheral_modules_enable
+                          0x3389   0x4  Code  Lc  hdwinit.o [1]
+_r_Config_UARTA0_callback_error
+                          0x3117   0x4  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_callback_receiveend
+                          0x3113   0x4  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_callback_sendend
+                          0x310e   0x5  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_interrupt_error
+                          0x3167  0x21  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_interrupt_receive
+                          0x312e  0x39  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_interrupt_send
+                          0x311b  0x13  Code  Lc  Config_UARTA0_user.o [1]
+_r_Config_UARTA0_send_1byte
+                          0x3188  0x22  Code  Lc  Config_UARTA0_user.o [1]
+
+
+[1] = C:\Users\a5089302\Desktop\IAR\Debug\Obj
+[2] = dbgrlnnf23nd.a
+[3] = dlrlnnf23n.a
+
+  1'069 bytes of readonly  code memory
+    162 bytes of readonly  data memory
+    142 bytes of readwrite data memory (+ 48 absolute)
+
+Errors: none
+Warnings: none

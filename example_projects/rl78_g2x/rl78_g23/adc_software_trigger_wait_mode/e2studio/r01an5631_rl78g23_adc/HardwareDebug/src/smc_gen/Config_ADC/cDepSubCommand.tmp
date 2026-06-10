@@ -1,0 +1,12 @@
+-MM
+-MP
+-cpu=S3 
+-dev="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5631_rl78g23_adc\src\smc_gen\general"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5631_rl78g23_adc\src\smc_gen\r_bsp"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5631_rl78g23_adc\src\smc_gen\r_config"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5631_rl78g23_adc\src\smc_gen\Config_ADC" 
+-character_set=utf8
+-lang=c99
+-g
+-Olite
