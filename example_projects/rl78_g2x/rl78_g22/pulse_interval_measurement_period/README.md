@@ -1,26 +1,27 @@
-# RL78/G22 Serial Array Unit (UART Communication)
+# RL78/G22 Timer Array Unit (Pulse Interval Measurement: Period)
 
 日本語版は[こちら](./READMEJP.md)
 
 ## Overview
-This application note explains how to use UART communication through the serial array unit (SAU) on the RL78/G22. The system receives ASCII characters from a counterpart device and analyzes them to generate responses. The sample program demonstrates transmission and reception using UART0 with interrupt handling. It also shows how to manage errors such as parity, framing, and overrun by responding with specific messages.
+This application note explains how to measure pulse intervals using the Timer Array Unit (TAU) on RL78/G22. The TAU detects valid edges on the timer input pin and captures timer count values to calculate pulse intervals. The measured results are stored in on-chip RAM. The document provides operation details, timing behavior, and sample code for implementation.
 
 ## Software/Tool Version
 | Software/Tool | Version |
 |----|----|
-| CS+ (IDE) | V8.11.00 |
-| e2studio (IDE) | V2024-04 |
-| CC-RL (C compiler) | V1.13.01 |
+| CS+ (IDE) | V8.10.00 |
+| e2 studio (IDE) | V2023-10 (23.10.0) |
+| CC-RL (C compiler) | V1.12.01 |
 | IAR Embedded Workbench | V5.10.1 |
 | IAR Compiler | V5.10.1 |
-| Smart Configurator | V1.10.0 |
-| BSP | V1.6.2 |
+| Smart Configurator | V1.7.0 |
+| BSP | V1.60 |
 
 ## Hardware Configuration
-- RL78/G22-48p Fast Prototyping Board
+- RL78/G22 Fast Prototyping Board
+- External pulse signal source
 
 ## Applicable Devices
 - RL78/G22
 
 ## Link of APN
-[RL78/G22 Serial Array Unit (UART Communication)](https://www.renesas.com/en/document/apn/rl78g22-timer-array-unit-pulse-interval-measurementperiod-rev101)
+[RL78/G22 Timer Array Unit (Pulse Interval Measurement: Period)](https://www.renesas.com/en/document/apn/rl78g22-timer-array-unit-pulse-interval-measurementperiod-rev101)

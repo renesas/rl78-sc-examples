@@ -1,25 +1,27 @@
-# RL78/G22 シリアル・アレイ・ユニット (UART 通信)
+# RL78/G22 タイマ・アレイ・ユニット (パルス間隔測定: 周期)
 
 English page is [here](./README.md)
 
 ## 概要
-本アプリケーションノートでは、RL78/G22のシリアル・アレイ・ユニット（SAU）によるUART通信の使用方法について説明します。対向機器から受信するASCII文字を解析し、適切な応答を返す仕組みを示しています。サンプルコードではUART0を用いた送受信および割り込み処理の実装例を紹介しています。さらに、パリティエラーやフレーミングエラー、オーバランエラーへの対応方法も説明しています。
+本アプリケーションノートでは、RL78/G22のタイマ・アレイ・ユニット（TAU）を用いたパルス間隔測定方法を説明します。タイマ入力端子で有効エッジを検出し、そのときのカウント値をキャプチャしてパルス間隔を算出します。測定結果は内蔵RAMに格納されます。動作手順や処理フロー、サンプルコードについて詳しく解説しています。
 
 ## 動作確認条件
 | 項目 | バージョン情報 |
 |----|----|
-| CS+ | V8.11.00 |
-| e2studio | V2024-04 |
-| CC-RL | V1.13.01 |
-| IAR | V5.10.1 |
-| SC | V1.10.0 |
-| BSP | V1.6.2 |
+| CS+ | V8.10.00 |
+| e2 studio | V2023-10 (23.10.0) |
+| CC-RL | V1.12.01 |
+| IAR Embedded Workbench | V5.10.1 |
+| IAR Compiler | V5.10.1 |
+| Smart Configurator | V1.7.0 |
+| BSP | V1.60 |
 
 ## ハードウェア構成
-- RL78/G22-48p Fast Prototyping Board
+- RL78/G22 Fast Prototyping Board
+- 外部パルス信号源
 
 ## 適用可能デバイス
 - RL78/G22
 
 ## APNリンク
-[RL78/G22 シリアル・アレイ・ユニット (UART 通信)](https://www.renesas.com/ja/document/apn/rl78g22-timer-array-unit-pulse-interval-measurementperiod-rev101)
+[RL78/G22 タイマ・アレイ・ユニット (パルス間隔測定: 周期)](https://www.renesas.com/ja/document/apn/rl78g22-timer-array-unit-pulse-interval-measurementperiod-rev101)
