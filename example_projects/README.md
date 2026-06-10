@@ -57,7 +57,7 @@ This README.md introduces the projects available for each RL78 device.
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g2x/rl78_g24/pulse_interval_measurement_width) | RL78/G24 pulse interval measurement (width) example |
 | TAU | [PWM Output](./rl78_g2x/rl78_g24/pwm_output) | RL78/G24 PWM output example |
 | Timer | [32-bit Interval Timer](./rl78_g2x/rl78_g24/32-bit_interval_timer) | RL78/G24 32-bit interval timer example |
-| Timer | [Timer RD2 Input Capture Function and Output Compare Function](./rl78_g2x/rl78_g24/timer_rd2_input_capture_function_output_compare_function) | RL78/G24 Timer rd2 input capture function and output compare function example |
+| Timer | [Timer RD2 Input Capture Function and Output Compare Function](./rl78_g2x/rl78_g24/timer_rd2_input_capture_function_output_compare_function) | RL78/G24 Timer RD2 input capture function and output compare function example |
 | Timer | [Timer RD2 Timer Mode PWM Function](./rl78_g2x/rl78_g24/timer_rd2_timer_mode_pwm_function) | RL78/G24 Timer RD2 timer mode PWM function example |
 | Timer | [Timer RG2 Buffer Operation PWM Mode](./rl78_g2x/rl78_g24/timer_rg2_buffer_operation_pwm_mode) | RL78/G24 Timer RG2 buffer operation PWM mode example |
 | Timer | [Timer RG2 Phase Counting Mode](./rl78_g2x/rl78_g24/timer_rg2_phase_counting_mode) | RL78/G24 Timer RG2 phase counting mode example |
