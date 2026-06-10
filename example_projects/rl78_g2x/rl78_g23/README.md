@@ -2,7 +2,7 @@
 日本語版は[こちら](./READMEJP.md)<br>
 
 This directory provides example projects for the RL78/G23.<br>
-For details on how to use each project and the required software and hardware, please refer to the Wiki or the README in each project folder.
+For details on how to use each project and the required software and hardware, please refer to the APN or the README in each project folder.
  <br>
 
 ## Mapping Table
