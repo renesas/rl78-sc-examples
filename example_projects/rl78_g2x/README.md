@@ -4,8 +4,8 @@
 ## RL78/G22
 | Peripheral | Folder | Description |
 |---|---|---|
-| ADC | [ADC Software Trigger Scan Mode](./rl78_g22/adc_software_trigger_scan_conversion_mode) | RL78/G22 ADC software trigger and scan conversion modes example |
-| ADC | [ADC Software Trigger Sequential Mode](./rl78_g22/adc_software_trigger_sequential_conversion_mode) | RL78/G22 ADC software trigger and sequential conversion modes example |
+| ADC | [ADC Software Trigger Scan Mode](./rl78_g22/adc_software_trigger_scan_conversion_modes) | RL78/G22 ADC software trigger and scan conversion modes example |
+| ADC | [ADC Software Trigger Sequential Mode](./rl78_g22/adc_software_trigger_sequential_conversion_modes) | RL78/G22 ADC software trigger and sequential conversion modes example |
 | TAU | [Interval Timer](./rl78_g22/interval_timer) | RL78/G22 interval timer example |
 | TAU | [Pulse Interval Measurement (Period)](./rl78_g22/pulse_interval_measurement_period) | RL78/G22 pulse interval measurement (period) example |
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g22/pulse_interval_measurement_width) | RL78/G22 pulse interval measurement (width) example |
