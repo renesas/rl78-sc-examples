@@ -50,8 +50,8 @@ This README.md introduces the projects available for each RL78 device.
 ### RL78/G24
 | Peripheral | Folder | Description |
 |---|---|---|
-| ADC |  | RL78/G24 Advanced mode enabled example |
-| ADC |  | RL78/G24 Advanced mode disabled example |
+| ADC |  | RL78/G24 ADC Advanced mode enabled example |
+| ADC |  | RL78/G24 ADC Advanced mode disabled example |
 | TAU | [Interval Timer](./rl78_g2x/rl78_g24/interval_timer) | RL78/G24 interval timer example |
 | TAU | [Pulse Interval Measurement (Period)](./rl78_g2x/rl78_g24/pulse_interval_measurement_period) | RL78/G24 pulse interval measurement (period) example |
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g2x/rl78_g24/pulse_interval_measurement_width) | RL78/G24 pulse interval measurement (width) example |
