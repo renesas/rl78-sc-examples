@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MicomToolCommonProjectFile Version="1.00">
+  <CreatorType Name="e2studio" Version=""/>
+  <Placeholders>
+    <PlaceholderPrefix>${</PlaceholderPrefix>
+    <PlaceholderPostfix>}</PlaceholderPostfix>
+  </Placeholders>
+  <Project Name="r01an6992_adc_nomal_mode_internal_reference_voltage" Type="Application">
+    <Files>
+      <Category Name="src">
+        <Path>src\main.c</Path>
+        <Category Name="smc_gen">
+          <Category Name="Config_ADC">
+            <Path>src\smc_gen\Config_ADC\Config_ADC.c</Path>
+            <Path>src\smc_gen\Config_ADC\Config_ADC.h</Path>
+            <Path>src\smc_gen\Config_ADC\Config_ADC_user.c</Path>
+          </Category>
+          <Category Name="general">
+            <Path>src\smc_gen\general\r_cg_ad.h</Path>
+            <Path>src\smc_gen\general\r_cg_ad_common.c</Path>
+            <Path>src\smc_gen\general\r_cg_ad_common.h</Path>
+            <Path>src\smc_gen\general\r_cg_lvd.h</Path>
+            <Path>src\smc_gen\general\r_cg_lvd_common.c</Path>
+            <Path>src\smc_gen\general\r_cg_lvd_common.h</Path>
+            <Path>src\smc_gen\general\r_cg_lvd_common_user.c</Path>
+            <Path>src\smc_gen\general\r_cg_macrodriver.h</Path>
+            <Path>src\smc_gen\general\r_cg_systeminit.c</Path>
+            <Path>src\smc_gen\general\r_cg_userdefine.h</Path>
+            <Path>src\smc_gen\general\r_smc_entry.h</Path>
+          </Category>
+          <Category Name="r_bsp">
+            <Path>src\smc_gen\r_bsp\platform.h</Path>
+            <Path>src\smc_gen\r_bsp\readme.txt</Path>
+            <Category Name="board">
+              <Category Name="generic_rl78_g24">
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\hdwinit.c</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\hdwinit.h</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp.h</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp_config_reference.h</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp_config_reference_ccrl.inc</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp_config_reference_iccrl.inc</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp_config_reference_llvm.inc</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\r_bsp_init.c</Path>
+                <Path>src\smc_gen\r_bsp\board\generic_rl78_g24\stkinit.asm</Path>
+              </Category>
+            </Category>
+            <Category Name="doc">
+              <Category Name="en">
+                <Path>src\smc_gen\r_bsp\doc\en\r01an5522ej0160-rl78-bsp.pdf</Path>
+              </Category>
+              <Category Name="ja">
+                <Path>src\smc_gen\r_bsp\doc\ja\r01an5522jj0160-rl78-bsp.pdf</Path>
+              </Category>
+            </Category>
+            <Category Name="mcu">
+              <Category Name="all">
+                <Path>src\smc_gen\r_bsp\mcu\all\cstart.asm</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\fsp_common_api.h</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.asm</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_fsp_error.h</Path>
+                <Path>src\smc_gen\r_bsp\mcu\all\r_rtos.h</Path>
+              </Category>
+              <Category Name="rl78_g24">
+                <Path>src\smc_gen\r_bsp\mcu\rl78_g24\mcu_clocks.c</Path>
+                <Path>src\smc_gen\r_bsp\mcu\rl78_g24\mcu_clocks.h</Path>
+                <Path>src\smc_gen\r_bsp\mcu\rl78_g24\mcu_info.h</Path>
+                <Category Name="register_access">
+                  <Category Name="ccrl">
+                    <Path>src\smc_gen\r_bsp\mcu\rl78_g24\register_access\ccrl\iodefine.h</Path>
+                  </Category>
+                </Category>
+              </Category>
+            </Category>
+          </Category>
+          <Category Name="r_config">
+            <Path>src\smc_gen\r_config\r_bsp_config.h</Path>
+            <Path>src\smc_gen\r_config\r_bsp_config.inc</Path>
+          </Category>
+          <Category Name="r_pincfg">
+            <Path>src\smc_gen\r_pincfg\Pin.h</Path>
+          </Category>
+        </Category>
+      </Category>
+    </Files>
+    <Device Category="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.s3" Series="RL78">R7F101GLGxFB</Device>
+    <BuildOptions Name="CC-RL" Version="v1.12.01">
+      <BuildMode Active="True" Name="HardwareDebug">
+        <GeneralOptions/>
+        <CompileOptions>
+          <Option>-cpu=S3</Option>
+          <Option>-c</Option>
+          <Option>-dev="C:/Users/hmU13131/.eclipse/com.renesas.platform_1297214930/DebugComp/RL78/RL78/Common/DR7F101GLG.DVF"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\general"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_bsp"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_config"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_pincfg"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\Config_ADC"</Option>
+          <Option>-character_set=utf8</Option>
+          <Option>-g</Option>
+          <Option>-o ${workspace_loc}\${ProjName}/${ConfigName}</Option>
+          <Option>-lang=c99</Option>
+        </CompileOptions>
+        <AssembleOptions>
+          <Option>-cpu=S3</Option>
+          <Option>-c</Option>
+          <Option>-dev="C:/Users/hmU13131/.eclipse/com.renesas.platform_1297214930/DebugComp/RL78/RL78/Common/DR7F101GLG.DVF"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\general"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_bsp"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_config"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\r_pincfg"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen"</Option>
+          <Option>-I "${ProjDirPath}\src\smc_gen\Config_ADC"</Option>
+          <Option>-character_set=utf8</Option>
+          <Option>-g</Option>
+          <Option>-o "${ProjDirPath}/${ConfigName}"</Option>
+        </AssembleOptions>
+        <LinkOptions>
+          <Option>-device="C:/Users/hmU13131/.eclipse/com.renesas.platform_1297214930/DebugComp/RL78/RL78/Common/DR7F101GLG.DVF"</Option>
+          <Option>-list=${ProjName}.map</Option>
+          <Option>-nooptimize</Option>
+          <Option>-entry=_start</Option>
+          <Option>-auto_section_layout</Option>
+          <Option>-security_id=00000000000000000000</Option>
+          <Option>-debug_monitor=1FE00-1FFFF</Option>
+          <Option>-user_opt_byte=EFFBEA</Option>
+          <Option>-ocdbg=85</Option>
+          <Option>-ocdtr</Option>
+          <Option>-output="${ProjName}.abs"</Option>
+          <Option>-debug</Option>
+          <Option>-nocompress</Option>
+          <Option>-memory=high</Option>
+          <Option>-rom=.data=.dataR,.sdata=.sdataR</Option>
+          <Option>-nomessage</Option>
+          <Option>-nologo</Option>
+          <Option>-library="C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s99.lib"</Option>
+          <Option>-library="C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib"</Option>
+          <PreLinker>Auto</PreLinker>
+        </LinkOptions>
+        <LibraryGenerateOptions>
+          <GenerateMode>BuildOptionChanged</GenerateMode>
+        </LibraryGenerateOptions>
+        <LinkOrder>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/board/generic_rl78_g24\stkinit.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/mcu/all\cstart.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj</Path>
+          <Path>HardwareDebug\src\main.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/Config_ADC\Config_ADC.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/Config_ADC\Config_ADC_user.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/general\r_cg_ad_common.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/general\r_cg_lvd_common.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/general\r_cg_lvd_common_user.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/general\r_cg_systeminit.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/board/generic_rl78_g24\hdwinit.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/board/generic_rl78_g24\r_bsp_init.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj</Path>
+          <Path>HardwareDebug\src/smc_gen/r_bsp/mcu/rl78_g24\mcu_clocks.obj</Path>
+        </LinkOrder>
+        <CommonOptions>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen\general"</IncludePathForC>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen\r_bsp"</IncludePathForC>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen\r_config"</IncludePathForC>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen\r_pincfg"</IncludePathForC>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen"</IncludePathForC>
+          <IncludePathForC>"${ProjDirPath}\src\smc_gen\Config_ADC"</IncludePathForC>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen\general"</IncludePathForAsm>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen\r_bsp"</IncludePathForAsm>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen\r_config"</IncludePathForAsm>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen\r_pincfg"</IncludePathForAsm>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen"</IncludePathForAsm>
+          <IncludePathForAsm>"${ProjDirPath}\src\smc_gen\Config_ADC"</IncludePathForAsm>
+        </CommonOptions>
+      </BuildMode>
+    </BuildOptions>
+  </Project>
+</MicomToolCommonProjectFile>
