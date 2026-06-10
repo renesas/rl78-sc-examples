@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<smc>
+    <general version="2.0.0.0">
+        <configuration active="true" id="com.renesas.smc.toolchain.ccrl.configuration.release">
+            <property id="com.renesas.smc.service.project.buildArtefactType" values="com.renesas.smc.service.project.buildArtefactType.exe"/>
+            <property id="com.renesas.smc.service.project.buildType" values="com.renesas.smc.service.project.buildType.release"/>
+            <toolchain id="com.renesas.smc.toolchain.ccrl.toolchain.ccrl">
+                <option id="com.renesas.smc.toolchain.option.language" key="com.renesas.smc.toolchain.option.language.c"/>
+                <option id="com.renesas.smc.toolchain.option.buildArtefactType" key="com.renesas.smc.toolchain.option.buildArtefactType.exe"/>
+            </toolchain>
+        </configuration>
+        <platform id="R7F100GLGxFB"/>
+        <option id="board" value="user_board"/>
+    </general>
+    <tool id="Clock">
+        <option enabled="true" id="operationModeComb" selection="hsmainmode5">
+            <item id="hsmainmode3"/>
+            <item id="hsmainmode4"/>
+            <item id="hsmainmode5"/>
+            <item id="hsmainmode"/>
+            <item id="hsmainmode1"/>
+            <item id="hsmainmode2"/>
+            <item id="lsmainmode3"/>
+            <item id="lsmainmode4"/>
+            <item id="lsmainmode5"/>
+            <item id="lsmainmode"/>
+            <item id="lsmainmode1"/>
+            <item id="lsmainmode2"/>
+            <item id="lpmainmode2"/>
+            <item id="lpmainmode"/>
+        </option>
+        <option enabled="true" id="evddValueRange" selection="range3">
+            <item id="range1"/>
+            <item id="range2"/>
+            <item id="range5"/>
+            <item id="range3"/>
+            <item id="range4"/>
+        </option>
+        <option enabled="true" id="highSpeedOCOenable" selection="hococlock_fihp">
+            <item id="hococlock_fihp"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="true" id="hsocofrequency" selection="frq32">
+            <item id="frq32"/>
+            <item id="frq24"/>
+            <item id="frq16"/>
+            <item id="frq12"/>
+            <item id="frq8"/>
+            <item id="frq6"/>
+            <item id="frq4"/>
+            <item id="frq3"/>
+            <item id="frq2"/>
+            <item id="frq1"/>
+        </option>
+        <option enabled="true" id="fhocostartsetting" selection="Normal">
+            <item id="Normal"/>
+            <item id="Highspeed"/>
+        </option>
+        <option enabled="true" id="msocoenable" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="msocofrequency" selection="frq4">
+            <item id="frq4"/>
+            <item id="frq2"/>
+            <item id="frq1"/>
+        </option>
+        <option enabled="true" id="hssclockenable" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="cmbhssoperation" selection="x1oscillation">
+            <item id="x1oscillation"/>
+            <item id="externalclock"/>
+        </option>
+        <option enabled="false" id="cmbhsstabletime" selection="18">
+            <item id="8" input="" value="51.2"/>
+            <item id="9" input="" value="102.4"/>
+            <item id="10" input="" value="204.8"/>
+            <item id="11" input="" value="409.6"/>
+            <item id="13" input="" value="1638.4"/>
+            <item id="15" input="" value="6553.6"/>
+            <item id="17" input="" value="26214.4"/>
+            <item id="18" input="" value="52428.8"/>
+        </option>
+        <option enabled="false" id="hssfrequency" selection="textinputitem">
+            <item id="textinputitem" input="5" value="5"/>
+        </option>
+        <option enabled="false" id="fmxdivider" selection="comboBox1-1">
+            <item id="comboBox1-1"/>
+            <item id="comboBox1-2"/>
+            <item id="comboBox1-4"/>
+            <item id="comboBox1-8"/>
+            <item id="comboBox1-16"/>
+        </option>
+        <option enabled="true" id="focoswitcher" selection="hococlock_focoswitcher">
+            <item id="hococlock_focoswitcher" input="" value="32"/>
+            <item id="mococlock_focoswitcher" input="" value="4"/>
+        </option>
+        <option enabled="true" id="fmainswitcher" selection="focoswitcher_fmainswitcher">
+            <item id="focoswitcher_fmainswitcher" input="" value="32"/>
+            <item id="hssclock_fmainswitcher" input="" value="5"/>
+        </option>
+        <option enabled="true" id="fihp" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32"/>
+        </option>
+        <option enabled="true" id="fmain" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32"/>
+        </option>
+        <option enabled="false" id="fimp" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="4"/>
+        </option>
+        <option enabled="false" id="fmxp" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="5"/>
+        </option>
+        <option enabled="true" id="fil" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="false" id="fsxr" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="fclkswitcher" selection="fmainswitcher_fclkswitcher">
+            <item id="fmainswitcher_fclkswitcher" input="" value="32000"/>
+            <item id="fsxlswitcher_fclkswitcher" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="fclk" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32000"/>
+        </option>
+        <option enabled="true" id="fsxlswitcher" selection="lococlock_fsxlswitcher">
+            <item id="lococlock_fsxlswitcher" input="" value="32.768"/>
+            <item id="subclock_fsxlswitcher" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="fsxl" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="enablesubClock" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+        <option enabled="false" id="cmbsuboperation" selection="xt1oscillation">
+            <item id="xt1oscillation"/>
+            <item id="externalclock"/>
+        </option>
+        <option enabled="false" id="lblsubmode" selection="low">
+            <item id="low"/>
+            <item id="normal"/>
+            <item id="ultralow"/>
+            <item id="low3"/>
+        </option>
+        <option enabled="false" id="subclockmode" selection="enable">
+            <item id="enable"/>
+            <item id="stop"/>
+        </option>
+        <option enabled="false" id="subfrequency" selection="textoutputitem">
+            <item id="textoutputitem" input="" value="32.768"/>
+        </option>
+        <option enabled="true" id="chkReset" selection="uncheck">
+            <item id="check"/>
+            <item id="uncheck"/>
+        </option>
+    </tool>
+    <tool id="Interrupt">
+        <Item bank="0" id="WDT_INTWDTI" priority="3"/>
+        <Item bank="0" id="LVD_INTLVI" priority="3"/>
+        <Item bank="0" id="INTC_INTP0" priority="3"/>
+        <Item bank="0" id="INTC_INTP1" priority="3"/>
+        <Item bank="0" id="INTC_INTP2" priority="3"/>
+        <Item bank="0" id="INTC_INTP3" priority="3"/>
+        <Item bank="0" id="INTC_INTP4" priority="3"/>
+        <Item bank="0" id="INTC_INTP5" priority="3"/>
+        <Item bank="0" id="SAU1_INTST2" priority="3"/>
+        <Item bank="0" id="SAU1_INTCSI20" priority="3"/>
+        <Item bank="0" id="SAU1_INTIIC20" priority="3"/>
+        <Item bank="0" id="SAU1_INTSR2" priority="3"/>
+        <Item bank="0" id="SAU1_INTCSI21" priority="3"/>
+        <Item bank="0" id="SAU1_INTIIC21" priority="3"/>
+        <Item bank="0" id="SAU1_INTSRE2" priority="3"/>
+        <Item bank="0" id="ELCL_INTELCL" priority="3"/>
+        <Item bank="0" id="SMS_INTSMSE" priority="3"/>
+        <Item bank="0" id="SAU0_INTST0" priority="3"/>
+        <Item bank="0" id="SAU0_INTCSI00" priority="3"/>
+        <Item bank="0" id="SAU0_INTIIC00" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM00" priority="3"/>
+        <Item bank="0" id="SAU0_INTSRE0" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM01H" priority="3"/>
+        <Item bank="0" id="SAU0_INTST1" priority="3"/>
+        <Item bank="0" id="SAU0_INTCSI10" priority="3"/>
+        <Item bank="0" id="SAU0_INTIIC10" priority="3"/>
+        <Item bank="0" id="SAU0_INTSR1" priority="3"/>
+        <Item bank="0" id="SAU0_INTCSI11" priority="3"/>
+        <Item bank="0" id="SAU0_INTIIC11" priority="3"/>
+        <Item bank="0" id="SAU0_INTSRE1" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM03H" priority="3"/>
+        <Item bank="0" id="IICA_INTIICA0" priority="3"/>
+        <Item bank="0" id="SAU0_INTSR0" priority="3"/>
+        <Item bank="0" id="SAU0_INTCSI01" priority="3"/>
+        <Item bank="0" id="SAU0_INTIIC01" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM01" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM02" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM03" priority="3"/>
+        <Item bank="0" id="ADC_INTAD" priority="3"/>
+        <Item bank="0" id="RTC_INTRTC" priority="3"/>
+        <Item bank="0" id="ITL_INTITL" priority="3"/>
+        <Item bank="0" id="KR_INTKR" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM04" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM05" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM06" priority="3"/>
+        <Item bank="0" id="TAU0_INTTM07" priority="3"/>
+        <Item bank="0" id="INTC_INTP6" priority="3"/>
+        <Item bank="0" id="INTC_INTP7" priority="3"/>
+        <Item bank="0" id="INTC_INTP8" priority="3"/>
+        <Item bank="0" id="INTC_INTP9" priority="3"/>
+        <Item bank="0" id="-_INTFL" priority="3"/>
+        <Item bank="0" id="INTC_INTP10" priority="3"/>
+        <Item bank="0" id="COMP_INTCMP0" priority="3"/>
+        <Item bank="0" id="INTC_INTP11" priority="3"/>
+        <Item bank="0" id="COMP_INTCMP1" priority="3"/>
+        <Item bank="0" id="UARTA_INTURE0" priority="3"/>
+        <Item bank="0" id="UARTA_INTURE1" priority="3"/>
+        <Item bank="0" id="CTSU_INTCTSUWR" priority="3"/>
+        <Item bank="0" id="IICA_INTIICA1" priority="3"/>
+        <Item bank="0" id="CTSU_INTCTSURD" priority="3"/>
+        <Item bank="0" id="CTSU_INTCTSUFN" priority="3"/>
+        <Item bank="0" id="REMC_INTREMC" priority="3"/>
+        <Item bank="0" id="UARTA_INTUT0" priority="3"/>
+        <Item bank="0" id="UARTA_INTUR0" priority="3"/>
+        <Item bank="0" id="UARTA_INTUT1" priority="3"/>
+        <Item bank="0" id="UARTA_INTUR1" priority="3"/>
+    </tool>
+    <tool id="Pins" version="1.0.1.0">
+        <pinItem allocation="5" comments="" direction="None" id="TOOL0" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="52" comments="" direction="None" id="ANI4" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="51" comments="" direction="None" id="ANI5" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="54" comments="" direction="None" id="ANI2" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+        <pinItem allocation="53" comments="" direction="None" id="ANI3" isUsedBySoftware="true" locked="false" operationMode="" status="0"/>
+    </tool>
+    <tool id="Summary" version="1.0.0.0">
+        <option id="com.renesas.smc.code.path" value="src\smc_gen"/>
+        <option id="com.renesas.smc.code.type" value="Normal Folder"/>
+    </tool>
+    <tool id="SWComponent" version="1.0.0.0">
+        <configuration inuse="true" name="r_bsp">
+            <component description="依存モジュール: なし&#10;The r_bsp package provides a foundation for code to be built on top of. It provides startup code, iodefines, and MCU information for different boards. There are 2 folders that make up the r_bsp package. The 'mcu' folder contains files that are common to a MCU group. These files provide functionality such as easy register access, CPU functions, and a file named 'mcu_info.h' for each MCU group. The 'mcu_info.h' file has information about the MCU on the board and is configured based on the information given in r_bsp_config.h. The information in 'mcu_info.h' is used to help configure Renesas middleware that uses the r_bsp package. The 'board' folder has a folder with startup code for each supported board.  Which MCU and board is chosen is decided by the settings in 'platform.h'. The user can choose which board they are using by uncommenting the include path that applies to their board. For example, if you are using the RSK+RX64M then you would uncomment the #include &quot;./board/generic_rx64m/r_bsp.h&quot; include path. Users are encouraged to add their own boards to the 'board' directory. BSPs are configured by using the r_bsp_config.h file. Each board will have a reference configuration file named r_bsp_config_reference.h. The user should copy this file to their project, rename it to r_bsp_config.h, and use the options inside the file to configure the BSP for their project." detailDescription="Board Support Packages. - v1.00" display="r_bsp" id="r_bsp1.00" version="1.00">
+                <gridItem id="BSP_CFG_STARTUP_DISABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_RAM_GUARD_FUNC" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_PORT_FUNCTION_GUARD" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_INT_FUNCTION_GUARD" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_CHIP_STATE_CTRL_GUARD" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_CONFIGURATOR_SELECT" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_API_FUNCTIONS_DISABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_PARAM_CHECKING_ENABLE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_WAKEUP_MODE" selectedIndex="1"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" selectedIndex="my_sw_warmstart_prec_function"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" selectedIndex="my_sw_warmstart_postc_function"/>
+                <gridItem id="BSP_CFG_WDT_REFRESH_ENABLE" selectedIndex="0"/>
+                <gridItem id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" selectedIndex="my_sw_wdt_refresh_init_function"/>
+                <gridItem id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" selectedIndex="my_sw_wdt_refresh_setting_function"/>
+            </component>
+            <source description="RL78 Software Integration System" display="RL78 Software Integration System" id="com.renesas.smc.tools.swcomponent.rl78.sis.source"/>
+            <source description="RL78 Software Integration System" display="RL78 Software Integration System" id="com.renesas.smc.tools.swcomponent.rl78.sis.source"/>
+        </configuration>
+        <configuration apiMode="FULL_API" id="9ff4d446-59eb-40fc-b8d6-76a577a91b7a" inuse="true" name="Config_ADC">
+            <allocatable id="ADC">
+                <osocket id="ADCConversionMode" value="ContinuousScan"/>
+                <osocket id="ADCTriggerMode" value="SoftwareNoWait"/>
+                <osocket id="ADCVREFPlus" value="VDD"/>
+                <isocket id="fCLK" selection="Clock.tool_clock_fCLK" value="3.2E7"/>
+                <isocket id="fCLK_MAX" selection="Clock.tool_clock_fCLK_MAX" value="3.2E7"/>
+                <isocket id="vddRange" selection="Clock.tool_clock_vddRange" value="2.4~5.5"/>
+                <option enabled="true" id="comparatorOperation" selection="stop">
+                    <item id="stop" input="" vlaue="0"/>
+                    <item id="operation" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="resolution" selection="12bits">
+                    <item id="10bits" input="" vlaue="0"/>
+                    <item id="8bits" input="" vlaue="0"/>
+                    <item id="12bits" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="vrefPositive" selection="vdd">
+                    <item id="avrefp" input="" vlaue="0"/>
+                    <item id="internalReferenceVoltage" input="" vlaue="0"/>
+                    <item id="vdd" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="vrefNegative" selection="vss">
+                    <item id="vss" input="" vlaue="0"/>
+                    <item id="avrefm" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="triggerMode" selection="softwareNoWait">
+                    <item id="softwareNoWait" input="" vlaue="0"/>
+                    <item id="softwareWait" input="" vlaue="0"/>
+                    <item id="hardwareNoWait" input="" vlaue="0"/>
+                    <item id="hardwareWait" input="" vlaue="0"/>
+                </option>
+                <option enabled="false" id="hwTriggerSource" selection="inttm01">
+                    <item id="inttm01" input="" vlaue="0"/>
+                    <item id="intrtc" input="" vlaue="0"/>
+                    <item id="intitl" input="" vlaue="0"/>
+                    <item id="elclEvent" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="operationMode" selection="continuousScan">
+                    <item id="continuousScan" input="" vlaue="0"/>
+                    <item id="oneshotSelect" input="" vlaue="0"/>
+                    <item id="oneshotScan" input="" vlaue="0"/>
+                    <item id="continuousSelect" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="adChannelSelect" selection="ani2to5">
+                    <item id="ani0" input="" vlaue="0"/>
+                    <item id="ani1" input="" vlaue="0"/>
+                    <item id="ani2" input="" vlaue="0"/>
+                    <item id="ani3" input="" vlaue="0"/>
+                    <item id="ani4" input="" vlaue="0"/>
+                    <item id="ani5" input="" vlaue="0"/>
+                    <item id="ani6" input="" vlaue="0"/>
+                    <item id="ani7" input="" vlaue="0"/>
+                    <item id="ani16" input="" vlaue="0"/>
+                    <item id="ani17" input="" vlaue="0"/>
+                    <item id="ani18" input="" vlaue="0"/>
+                    <item id="ani19" input="" vlaue="0"/>
+                    <item id="tscap" input="" vlaue="0"/>
+                    <item id="temperatureSensor" input="" vlaue="0"/>
+                    <item id="internalReferenceVoltage" input="" vlaue="0"/>
+                    <item id="ani0to3" input="" vlaue="0"/>
+                    <item id="ani1to4" input="" vlaue="0"/>
+                    <item id="ani2to5" input="" vlaue="0"/>
+                    <item id="ani3to6" input="" vlaue="0"/>
+                    <item id="ani4to7" input="" vlaue="0"/>
+                    <item id="ani5to8" input="" vlaue="0"/>
+                    <item id="ani6to9" input="" vlaue="0"/>
+                    <item id="ani7to10" input="" vlaue="0"/>
+                    <item id="ani8to11" input="" vlaue="0"/>
+                    <item id="ani9to12" input="" vlaue="0"/>
+                    <item id="ani10to13" input="" vlaue="0"/>
+                    <item id="ani11to14" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="conversionTimeMode" selection="normal1">
+                    <item id="normal1" input="" vlaue="0"/>
+                    <item id="normal2" input="" vlaue="0"/>
+                    <item id="lowVoltage1" input="" vlaue="0"/>
+                    <item id="lowVoltage2" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="conversionTime" selection="noWaitScanNormal1Time6">
+                    <item id="noWaitSelectNormal1Time1" input="32" vlaue="2112"/>
+                    <item id="noWaitSelectNormal1Time2" input="16" vlaue="1056"/>
+                    <item id="noWaitSelectNormal1Time3" input="8" vlaue="528"/>
+                    <item id="noWaitSelectNormal1Time4" input="4" vlaue="264"/>
+                    <item id="noWaitSelectNormal1Time5" input="2" vlaue="132"/>
+                    <item id="noWaitSelectNormal1Time6" input="1" vlaue="66"/>
+                    <item id="noWaitSelectNormal2Time1" input="32" vlaue="5856"/>
+                    <item id="noWaitSelectNormal2Time2" input="16" vlaue="2928"/>
+                    <item id="noWaitSelectNormal2Time3" input="8" vlaue="1464"/>
+                    <item id="noWaitSelectNormal2Time4" input="4" vlaue="732"/>
+                    <item id="noWaitSelectNormal2Time5" input="2" vlaue="366"/>
+                    <item id="noWaitSelectNormal2Time6" input="1" vlaue="183"/>
+                    <item id="noWaitSelectLowVoltage1Time1" input="32" vlaue="2624"/>
+                    <item id="noWaitSelectLowVoltage1Time2" input="16" vlaue="1312"/>
+                    <item id="noWaitSelectLowVoltage1Time3" input="8" vlaue="656"/>
+                    <item id="noWaitSelectLowVoltage1Time4" input="4" vlaue="328"/>
+                    <item id="noWaitSelectLowVoltage1Time5" input="2" vlaue="164"/>
+                    <item id="noWaitSelectLowVoltage1Time6" input="1" vlaue="82"/>
+                    <item id="noWaitSelectLowVoltage2Time1" input="32" vlaue="3488"/>
+                    <item id="noWaitSelectLowVoltage2Time2" input="16" vlaue="1744"/>
+                    <item id="noWaitSelectLowVoltage2Time3" input="8" vlaue="872"/>
+                    <item id="noWaitSelectLowVoltage2Time4" input="4" vlaue="436"/>
+                    <item id="noWaitSelectLowVoltage2Time5" input="2" vlaue="218"/>
+                    <item id="noWaitSelectLowVoltage2Time6" input="1" vlaue="109"/>
+                    <item id="waitSelectNormal1Time1" input="32" vlaue="2304"/>
+                    <item id="waitSelectNormal1Time2" input="16" vlaue="1152"/>
+                    <item id="waitSelectNormal1Time3" input="8" vlaue="592"/>
+                    <item id="waitSelectNormal1Time4" input="4" vlaue="312"/>
+                    <item id="waitSelectNormal1Time5" input="2" vlaue="172"/>
+                    <item id="waitSelectNormal1Time6" input="1" vlaue="102"/>
+                    <item id="waitSelectNormal1Time7" input="4" vlaue="288"/>
+                    <item id="waitSelectNormal1Time8" input="2" vlaue="144"/>
+                    <item id="waitSelectNormal1Time9" input="1" vlaue="74"/>
+                    <item id="waitSelectNormal2Time1" input="32" vlaue="6048"/>
+                    <item id="waitSelectNormal2Time2" input="16" vlaue="3024"/>
+                    <item id="waitSelectNormal2Time3" input="8" vlaue="1528"/>
+                    <item id="waitSelectNormal2Time4" input="4" vlaue="780"/>
+                    <item id="waitSelectNormal2Time5" input="2" vlaue="406"/>
+                    <item id="waitSelectNormal2Time6" input="1" vlaue="219"/>
+                    <item id="waitSelectNormal2Time7" input="4" vlaue="756"/>
+                    <item id="waitSelectNormal2Time8" input="2" vlaue="378"/>
+                    <item id="waitSelectNormal2Time9" input="1" vlaue="191"/>
+                    <item id="waitSelectLowVoltage1Time1" input="32" vlaue="2816"/>
+                    <item id="waitSelectLowVoltage1Time2" input="16" vlaue="1408"/>
+                    <item id="waitSelectLowVoltage1Time3" input="8" vlaue="720"/>
+                    <item id="waitSelectLowVoltage1Time4" input="4" vlaue="376"/>
+                    <item id="waitSelectLowVoltage1Time5" input="2" vlaue="204"/>
+                    <item id="waitSelectLowVoltage1Time6" input="1" vlaue="118"/>
+                    <item id="waitSelectLowVoltage1Time7" input="4" vlaue="352"/>
+                    <item id="waitSelectLowVoltage1Time8" input="2" vlaue="176"/>
+                    <item id="waitSelectLowVoltage1Time9" input="1" vlaue="90"/>
+                    <item id="waitSelectLowVoltage2Time1" input="32" vlaue="3680"/>
+                    <item id="waitSelectLowVoltage2Time2" input="16" vlaue="1840"/>
+                    <item id="waitSelectLowVoltage2Time3" input="8" vlaue="936"/>
+                    <item id="waitSelectLowVoltage2Time4" input="4" vlaue="484"/>
+                    <item id="waitSelectLowVoltage2Time5" input="2" vlaue="258"/>
+                    <item id="waitSelectLowVoltage2Time6" input="1" vlaue="145"/>
+                    <item id="waitSelectLowVoltage2Time7" input="4" vlaue="460"/>
+                    <item id="waitSelectLowVoltage2Time8" input="2" vlaue="230"/>
+                    <item id="waitSelectLowVoltage2Time9" input="1" vlaue="117"/>
+                    <item id="noWaitScanNormal1Time1" input="32" vlaue="8256"/>
+                    <item id="noWaitScanNormal1Time2" input="16" vlaue="4128"/>
+                    <item id="noWaitScanNormal1Time3" input="8" vlaue="2064"/>
+                    <item id="noWaitScanNormal1Time4" input="4" vlaue="1032"/>
+                    <item id="noWaitScanNormal1Time5" input="2" vlaue="516"/>
+                    <item id="noWaitScanNormal1Time6" input="1" vlaue="258"/>
+                    <item id="noWaitScanNormal2Time1" input="32" vlaue="23232"/>
+                    <item id="noWaitScanNormal2Time2" input="16" vlaue="11616"/>
+                    <item id="noWaitScanNormal2Time3" input="8" vlaue="5808"/>
+                    <item id="noWaitScanNormal2Time4" input="4" vlaue="2904"/>
+                    <item id="noWaitScanNormal2Time5" input="2" vlaue="1452"/>
+                    <item id="noWaitScanNormal2Time6" input="1" vlaue="726"/>
+                    <item id="noWaitScanLowVoltage1Time1" input="32" vlaue="10304"/>
+                    <item id="noWaitScanLowVoltage1Time2" input="16" vlaue="5152"/>
+                    <item id="noWaitScanLowVoltage1Time3" input="8" vlaue="2576"/>
+                    <item id="noWaitScanLowVoltage1Time4" input="4" vlaue="1288"/>
+                    <item id="noWaitScanLowVoltage1Time5" input="2" vlaue="644"/>
+                    <item id="noWaitScanLowVoltage1Time6" input="1" vlaue="322"/>
+                    <item id="noWaitScanLowVoltage2Time1" input="32" vlaue="13760"/>
+                    <item id="noWaitScanLowVoltage2Time2" input="16" vlaue="6880"/>
+                    <item id="noWaitScanLowVoltage2Time3" input="8" vlaue="3440"/>
+                    <item id="noWaitScanLowVoltage2Time4" input="4" vlaue="1720"/>
+                    <item id="noWaitScanLowVoltage2Time5" input="2" vlaue="860"/>
+                    <item id="noWaitScanLowVoltage2Time6" input="1" vlaue="430"/>
+                    <item id="waitScanNormal1Time1" input="32" vlaue="8448"/>
+                    <item id="waitScanNormal1Time2" input="16" vlaue="4224"/>
+                    <item id="waitScanNormal1Time3" input="8" vlaue="2128"/>
+                    <item id="waitScanNormal1Time4" input="4" vlaue="1080"/>
+                    <item id="waitScanNormal1Time5" input="2" vlaue="556"/>
+                    <item id="waitScanNormal1Time6" input="1" vlaue="294"/>
+                    <item id="waitScanNormal1Time7" input="4" vlaue="1056"/>
+                    <item id="waitScanNormal1Time8" input="2" vlaue="528"/>
+                    <item id="waitScanNormal1Time9" input="1" vlaue="266"/>
+                    <item id="waitScanNormal2Time1" input="32" vlaue="23424"/>
+                    <item id="waitScanNormal2Time2" input="16" vlaue="11712"/>
+                    <item id="waitScanNormal2Time3" input="8" vlaue="5872"/>
+                    <item id="waitScanNormal2Time4" input="4" vlaue="2952"/>
+                    <item id="waitScanNormal2Time5" input="2" vlaue="1492"/>
+                    <item id="waitScanNormal2Time6" input="1" vlaue="762"/>
+                    <item id="waitScanNormal2Time7" input="4" vlaue="2928"/>
+                    <item id="waitScanNormal2Time8" input="2" vlaue="1464"/>
+                    <item id="waitScanNormal2Time9" input="1" vlaue="734"/>
+                    <item id="waitScanLowVoltage1Time1" input="32" vlaue="10496"/>
+                    <item id="waitScanLowVoltage1Time2" input="16" vlaue="5248"/>
+                    <item id="waitScanLowVoltage1Time3" input="8" vlaue="2640"/>
+                    <item id="waitScanLowVoltage1Time4" input="4" vlaue="1336"/>
+                    <item id="waitScanLowVoltage1Time5" input="2" vlaue="684"/>
+                    <item id="waitScanLowVoltage1Time6" input="1" vlaue="358"/>
+                    <item id="waitScanLowVoltage1Time7" input="4" vlaue="1312"/>
+                    <item id="waitScanLowVoltage1Time8" input="2" vlaue="656"/>
+                    <item id="waitScanLowVoltage1Time9" input="1" vlaue="330"/>
+                    <item id="waitScanLowVoltage2Time1" input="32" vlaue="13952"/>
+                    <item id="waitScanLowVoltage2Time2" input="16" vlaue="6976"/>
+                    <item id="waitScanLowVoltage2Time3" input="8" vlaue="3504"/>
+                    <item id="waitScanLowVoltage2Time4" input="4" vlaue="1768"/>
+                    <item id="waitScanLowVoltage2Time5" input="2" vlaue="900"/>
+                    <item id="waitScanLowVoltage2Time6" input="1" vlaue="466"/>
+                    <item id="waitScanLowVoltage2Time7" input="4" vlaue="1744"/>
+                    <item id="waitScanLowVoltage2Time8" input="2" vlaue="872"/>
+                    <item id="waitScanLowVoltage2Time9" input="1" vlaue="438"/>
+                </option>
+                <option enabled="true" id="intadGenerateCondition" selection="betweenUpAndLow">
+                    <item id="betweenUpAndLow" input="" vlaue="0"/>
+                    <item id="beyondUpAndLow" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="upperBoundValue" selection="upperValue">
+                    <item id="upperValue" input="255" vlaue="255"/>
+                </option>
+                <option enabled="true" id="lowerBoundValue" selection="lowerValue">
+                    <item id="lowerValue" input="0" vlaue="0"/>
+                </option>
+                <option enabled="true" id="intadUsed" selection="checked">
+                    <item id="checked" input="" vlaue="0"/>
+                    <item id="unchecked" input="" vlaue="0"/>
+                </option>
+                <option enabled="true" id="intadPriority" selection="Level3">
+                    <item id="Level0" input="" vlaue="0"/>
+                    <item id="Level1" input="" vlaue="0"/>
+                    <item id="Level2" input="" vlaue="0"/>
+                    <item id="Level3" input="" vlaue="0"/>
+                </option>
+            </allocatable>
+            <component description="アナログ-デジタル(A/D)変換回路は、アナログ入力をデジタル信号に変換する機能です。" detailDescription="" display="A/Dコンバータ" id="com.renesas.smc.tools.swcomponent.codegenerator.rl78.ad" version="1.4.1"/>
+            <allocator channelLevel0="" channelLevel1="" channelLevel2="" channelLevel3="" channelLevel4="" channelLevel5="" description="アナログ-デジタル(A/D)変換回路は、アナログ入力をデジタル信号に変換する機能です。" display="ADC" id="com.renesas.smc.tools.swcomponent.codegenerator.rl78.ad.g23AD" type="">
+                <context/>
+            </allocator>
+            <source description="コード生成に対応したコンポーネントは、設定に応じた周辺ドライバのコードを小さなコードサイズで出力します。" display="コード生成" id="com.renesas.smc.tools.swcomponent.codegenerator.source"/>
+        </configuration>
+    </tool>
+    <tool id="System">
+        <section id="ocd">
+            <option enabled="true" id="operation" selection="useEmulate">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="useEmulate"/>
+                <item enabled="true" id="useUART"/>
+            </option>
+            <option enabled="true" id="Emulator" selection="E2lite">
+                <item enabled="true" id="E2"/>
+                <item enabled="true" id="E2lite"/>
+            </option>
+            <option enabled="true" id="pseudo" selection="used">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="used"/>
+            </option>
+            <option enabled="true" id="startstopfunction" selection="unused">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="used"/>
+            </option>
+            <option enabled="false" id="monitor" selection="unused">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="used"/>
+            </option>
+            <option enabled="true" id="trace" selection="used">
+                <item enabled="true" id="unused"/>
+                <item enabled="true" id="used"/>
+            </option>
+            <option enabled="true" id="enableSecurityId" selection="checked">
+                <item enabled="true" id="checked"/>
+                <item enabled="true" id="unchecked"/>
+            </option>
+            <option enabled="true" id="securityId" selection="input">
+                <item enabled="true" id="input" input="0x00000000000000000000" value="0"/>
+            </option>
+            <option enabled="true" id="authentication" selection="erase">
+                <item enabled="true" id="notErase"/>
+                <item enabled="true" id="erase"/>
+            </option>
+        </section>
+    </tool>
+</smc>

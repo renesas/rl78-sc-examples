@@ -1,0 +1,281 @@
+品質記録情報
+2023年10月2日 14:22:20
+
+------ ビルド開始(r01an5631-rl78g23-adc, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\general\r_cg_ad_common.c -cpu=S3 -o DefaultBuild\r_cg_ad_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_40f6bc437da047f9bb038e6238e332b0151pn5oo.yw5 -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\Config_ADC\Config_ADC.c -cpu=S3 -o DefaultBuild\Config_ADC.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_77fcfdbd93ab496290a5e4e82e435e7bfvyp4g3g.so2 -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe main.c -cpu=S3 -o DefaultBuild\main.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_641dd18cb1d4491a8e3b6c298bdee6c722joyoa4.ggq -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\general\r_cg_systeminit.c -cpu=S3 -o DefaultBuild\r_cg_systeminit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_7cacfbce5f68415ebf750d276ac3da91rp5sjncy.xce -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\Config_ADC\Config_ADC_user.c -cpu=S3 -o DefaultBuild\Config_ADC_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_74c0111b959941018c4b1f637fd89772sp4peonk.w2e -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\general\r_cg_lvd_common.c -cpu=S3 -o DefaultBuild\r_cg_lvd_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_148c1491028643bdb0a2f51632c7576dtglxwcga.sku -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\general\r_cg_lvd_common_user.c -cpu=S3 -o DefaultBuild\r_cg_lvd_common_user.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_ae40c38a85dd44c4b3ff8fe638b55651u1ht3y5w.wrf -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.c -cpu=S3 -o DefaultBuild\hdwinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_a54188dc001e41f1afe10f5beb01660cyqv0gwi4.kcd -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\r_bsp_common.c -cpu=S3 -o DefaultBuild\r_bsp_common.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_628ec5ca9e73434788f581b088990f8eryj110kj.j3o -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_init.c -cpu=S3 -o DefaultBuild\r_bsp_init.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_438fb2ccfce54e58a721f13eb05d82c8w4phbj3o.1yt -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.c -cpu=S3 -o DefaultBuild\mcu_clocks.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -g_line -Olite -I src\smc_gen\r_config -I src\smc_gen\r_bsp\mcu\rl78_g23\register_access\ccrl -I src\smc_gen\r_bsp\mcu\rl78_g23 -I src\smc_gen\r_bsp\mcu\all -I src\smc_gen\r_bsp\board\generic_rl78_g23 -I src\smc_gen\r_bsp -I src\smc_gen\general -I src\smc_gen\Config_ADC -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_62c811e49fef46b89a414af320b521ba2n5usyqr.oer -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\board\generic_rl78_g23\stkinit.asm -cpu=S3 -o DefaultBuild\stkinit.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g23 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_1fe66e3ce04c424dab977942bf954f00cpwv3522.vv3 -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\cstart.asm -cpu=S3 -o DefaultBuild\cstart.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g23 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_e8577ea1f01f4a10b9e19f0a705858df1xyv3g3x.nhy -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\ccrl.exe src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.asm -cpu=S3 -o DefaultBuild\r_bsp_common_ccrl.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF" -g -I src\smc_gen\r_config -I src\smc_gen\r_bsp\board\generic_rl78_g23 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\a5090549\AppData\Local\Temp\CSPlusBuildTool_94dd6c4dd30440e6ae71aa905f73305a4otbysry.xfd -msg_lang=japanese
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\Bin\rlink.exe -MAKEUD=DefaultBuild\r01an5631-rl78g23-adc.lk.ud -subcommand=DefaultBuild\r01an5631-rl78g23-adc.clnk
+Renesas Optimizing Linker Completed
+------ ビルド終了(エラー:0個, 警告:0個)(r01an5631-rl78g23-adc, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\r01an5631-rl78g23-adc.clnk :
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\Config_ADC.obj
+-Input=DefaultBuild\Config_ADC_user.obj
+-Input=DefaultBuild\r_cg_ad_common.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\r_bsp_init.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\r_bsp_common.obj
+-Input=DefaultBuild\r_bsp_common_ccrl.obj
+-Input=DefaultBuild\mcu_clocks.obj
+-Input=DefaultBuild\r_cg_lvd_common.obj
+-Input=DefaultBuild\r_cg_lvd_common_user.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\r01an5631-rl78g23-adc.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4s99.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=1FE00-1FFFF
+-USER_OPT_BYTE=EFFEE8
+-OCDTR
+-LISt=DefaultBuild\r01an5631-rl78g23-adc.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\r01an5631-rl78g23-adc.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF
+-OUtput=DefaultBuild\r01an5631-rl78g23-adc.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5631-rl78g23-adc\DefaultBuild\r01an5631-rl78g23-adc.abs: 6a40078cd1f036f13bc657d7f0c4190d48f8b8bb
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5631-rl78g23-adc\DefaultBuild\r01an5631-rl78g23-adc.mot: 7c946a51228eb277bb4700d181cfc29823377d38
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 10 Enterprise (-, 10.0.19044, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (528372)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ V8.09.00  [12 Dec 2022]
+*バージョン
+ V9.09.00.06 [12 Dec 2022]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ Compiler Professional V1 for RL78 (CC-RL) ノードロック・ライセンス(permanent); 
+*実行場所
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  202 MB
+ *GDIオブジェクト数
+  1951
+ *USERオブジェクト数
+  918
+ *開いているファイル
+  2 editors, 2 files, 8 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.09.00.01 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.07.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.09.00.01 [18 Oct 2022]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.12.00.01 [14 Apr 2021]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.45.00.03 [22 Nov 2022]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.19.00.01 [24 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+RL78用スマート・コンフィグレータ通信プラグイン
+ *バージョン
+  V1.00.05.04 [01 Mar 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  SmcCodePartRL78.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.03.00.02 [29 Oct 2018]
+ *アセンブリ・バージョン
+  1.13.6.20
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.09.00.01 [18 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5631-rl78g23-adc\r01an5631-rl78g23-adc.mtpj
+マイクロコントローラ情報
+ *R7F100GLGxFA
+  *ファイル名: バージョン
+   RL78_Productlist.xml: V8.090001
+   R7F100GLGxFA_common.xml: V1.10.00.XX.XX
+   DR7F100GLG.DVF: V1.10
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RL
+   * プラグイン(*.dll)のバージョン
+     V8.09.00.03 [04 Nov 2022]
+   * コンパイラ・パッケージのバージョン
+     V1.12.00
+  
+ * SMS Assemblerのバージョン
+   V1.00.00.01 [29 May 2020]
+ 
+
+デバッグ・ツール情報
+ *RL78 E2 Lite
+  Debugger Library V8.09.00.03 [24 Nov 2022]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.12.00.01 [14 Apr 2021]
+
+ *スマート・コンフィグレータ
+ *なし
+
+

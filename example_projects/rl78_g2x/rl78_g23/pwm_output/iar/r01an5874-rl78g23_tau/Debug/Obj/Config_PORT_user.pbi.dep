@@ -1,0 +1,25 @@
+Config_PORT_user.pbi: \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\Config_PORT\Config_PORT_user.c \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\general\r_cg_macrodriver.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\platform.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp/./board/generic_rl78_g23/r_bsp.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/all/r_bsp_common.h \
+  D:\IAREW_RL78\rl78\inc\c\stdint.h D:\IAREW_RL78\rl78\inc\c\ycheck.h \
+  D:\IAREW_RL78\rl78\inc\c\yvals.h \
+  D:\IAREW_RL78\rl78\inc\c\DLib_Defaults.h \
+  D:\IAREW_RL78\rl78\lib\DLib_Config_Normal.h \
+  D:\IAREW_RL78\rl78\inc\DLib_Product.h \
+  D:\IAREW_RL78\rl78\inc\c\stdbool.h D:\IAREW_RL78\rl78\inc\c\stdio.h \
+  D:\IAREW_RL78\rl78\inc\c\ysizet.h D:\IAREW_RL78\rl78\inc\c\stddef.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/all/r_bsp_rl78_compiler.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_config\r_bsp_config.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/ior7f100g.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/ior7f100g_ext.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/rl78_g23/register_access/iccrl/intrinsics.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/rl78_g23/mcu_clocks.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\mcu/rl78_g23/mcu_info.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\r_bsp\board/generic_rl78_g23/hdwinit.h \
+  D:\IAREW_RL78\rl78\inc\intrinsics.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\general\r_cg_userdefine.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\Config_PORT/Config_PORT.h \
+  C:\Users\a5089346\Desktop\r01an5874xx0100-rl78g23-tau\Workspace\IAR\r01an5874-rl78g23_tau\src\smc_gen\general\r_cg_port.h

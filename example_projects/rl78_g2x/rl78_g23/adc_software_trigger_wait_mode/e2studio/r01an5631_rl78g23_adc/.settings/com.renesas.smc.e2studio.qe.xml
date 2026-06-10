@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P22" value="ANI2"/>
+        <Setting id="P40" value="TOOL0"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G23"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F100GLGxFA"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="1.8"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="VDD" value="1.8"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_ADC" value="CG"/>
+    </Segment>
+</QE>

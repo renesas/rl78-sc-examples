@@ -1,0 +1,13 @@
+–Ø—j“ú, 3ŒŽ 30, 2023, 14:18:50
+
+<Compiler package version>
+Renesas_CCRL: v1.12.00 -> Renesas_CCRL: v1.12.00
+
+<IDE version>
+CubeSuite+: V8.09.00  [12 Dec 2022]
+
+<Removed options(DefaultBuild)>
+ (Compiler Options)
+-g_line
+
+

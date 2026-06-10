@@ -1,0 +1,54 @@
+#Generating source browse information for project r01an5564-rl78g23-timer
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build Config_INTC.pbi : index Config_INTC.xcl
+build Config_INTC_user.pbi : index Config_INTC_user.xcl
+build Config_ITL000.pbi : index Config_ITL000.xcl
+build Config_ITL000_user.pbi : index Config_ITL000_user.xcl
+build Config_ITL001.pbi : index Config_ITL001.xcl
+build Config_ITL001_user.pbi : index Config_ITL001_user.xcl
+build Config_ITL012.pbi : index Config_ITL012.xcl
+build Config_ITL012_user.pbi : index Config_ITL012_user.xcl
+build Config_ITL013.pbi : index Config_ITL013.xcl
+build Config_ITL013_user.pbi : index Config_ITL013_user.xcl
+build Config_PORT.pbi : index Config_PORT.xcl
+build Config_PORT_user.pbi : index Config_PORT_user.xcl
+build r_cg_itl_common.pbi : index r_cg_itl_common.xcl
+build r_cg_itl_common_user.pbi : index r_cg_itl_common_user.xcl
+build r_cg_lvd_common.pbi : index r_cg_lvd_common.xcl
+build r_cg_lvd_common_user.pbi : index r_cg_lvd_common_user.xcl
+build r_cg_systeminit.pbi : index r_cg_systeminit.xcl
+build hdwinit.pbi : index hdwinit.xcl
+build r_bsp_init.pbi : index r_bsp_init.xcl
+build r_bsp_common.pbi : index r_bsp_common.xcl
+build mcu_clocks.pbi : index mcu_clocks.xcl
+build vecttbl.pbi : index vecttbl.xcl
+build main.pbi : index main.xcl
+build r01an5564-rl78g23-timer_part0.pbi : link Config_INTC.pbi Config_INTC_user.pbi Config_ITL000.pbi Config_ITL000_user.pbi Config_ITL001.pbi
+build r01an5564-rl78g23-timer_part1.pbi : link Config_ITL001_user.pbi Config_ITL012.pbi Config_ITL012_user.pbi Config_ITL013.pbi Config_ITL013_user.pbi
+build r01an5564-rl78g23-timer_part2.pbi : link Config_PORT.pbi Config_PORT_user.pbi r_cg_itl_common.pbi r_cg_itl_common_user.pbi r_cg_lvd_common.pbi
+build r01an5564-rl78g23-timer_part3.pbi : link r_cg_lvd_common_user.pbi r_cg_systeminit.pbi hdwinit.pbi r_bsp_init.pbi r_bsp_common.pbi
+build r01an5564-rl78g23-timer_part4.pbi : link mcu_clocks.pbi vecttbl.pbi main.pbi
+build r01an5564-rl78g23-timer.pbd : link r01an5564-rl78g23-timer_part0.pbi r01an5564-rl78g23-timer_part1.pbi r01an5564-rl78g23-timer_part2.pbi r01an5564-rl78g23-timer_part3.pbi r01an5564-rl78g23-timer_part4.pbi
+build r01an5564-rl78g23-timer.pbw : browsedata r01an5564-rl78g23-timer.pbd
+
+
