@@ -34,14 +34,7 @@ English page is [here](./README.md).<br>
 |---|---|---|
 | ADC | [ADC Advanced Mode Enaled](./rl78_g2x/rl78_g24/adc_advanced_mode_enabled) | RL78/G24のA/Dコンバータをアドバンスド・モードONで使用するプロジェクトです。 |
 | ADC | [ADC Advanced Mode disaled](./rl78_g2x/rl78_g24/adc_advanced_mode_disabled) | RL78/G24のA/Dコンバータをアドバンスド・モードOFFで使用するプロジェクトです。 |
-| TAU | [Interval Timer](./rl78_g2x/rl78_g24/interval_timer) | RL78/G24のTAUによるインターバル・タイマ機能を使用するプロジェクトです。 |
-| TAU | [Pulse Interval Measurement (Period)](./rl78_g2x/rl78_g24/pulse_interval_measurement_period) | RL78/G24のTAUによるパルス間隔測定(周期)機能を使用するプロジェクトです。 |
-| TAU | [Pulse Interval Measurement (Width)](./rl78_g2x/rl78_g24/pulse_interval_measurement_width) | RL78/G24のTAUによるパルス間隔測定(幅)機能を使用するプロジェクトです。 |
-| TAU | [PWM Output](./rl78_g2x/rl78_g24/pwm_output) | RL78/G24のTAUによるPWM出力機能を使用するプロジェクトです。 |
-| Timer | [32-bit Interval Timer](./rl78_g2x/rl78_g24/32-bit_interval_timer) | RL78/G24の32ビット・インターバル・タイマを使用するプロジェクトです。 |
 | Timer | [Timer RD2 Input Capture Function and Output Compare Function](./rl78_g2x/rl78_g24/timer_rd2_input_capture_function_output_compare_function) | RL78/G24のタイマRD2をタイマモード(インプットキャプチャ機能とアウトプットコンペア機能の併用)で使用するプロジェクトです。 |
 | Timer | [Timer RD2 Timer Mode PWM Function](./rl78_g2x/rl78_g24/timer_rd2_timer_mode_pwm_function) | RL78/G24のタイマRD2をタイマモード(PWM機能)で使用するプロジェクトです。 |
 | Timer | [Timer RG2 Buffer Operation PWM Mode](./rl78_g2x/rl78_g24/timer_rg2_buffer_operation_pwm_mode) | RL78/G24のタイマRG2をPWMモード(バッファ動作)で使用するプロジェクトです。 |
 | Timer | [Timer RG2 Phase Counting Mode](./rl78_g2x/rl78_g24/timer_rg2_phase_counting_mode) | RL78/G24のタイマRG2を位相計数モードで使用するプロジェクトです。 |
-| RTC | [Realtime Clock](./rl78_g2x/rl78_g24/realtime_clock) | RL78/G24のリアルタイム・クロックを使用するプロジェクトです。 |
-| SAU | [UART](./rl78_g2x/rl78_g24/uart) | RL78/G24のSAUによるUART通信を使用するプロジェクトです。 |
