@@ -38,7 +38,7 @@ Application Projects (AP) は、アプリケーションノートおよび実ユ
 1. 以下のいずれかの方法でプロジェクトを取得してください。
 
 - **zip ファイルをダウンロードする場合**  
-GitHub Releases から、使用したいデバイスまたはカテゴリの最新リリースノートを見つけてください。
+GitHub Releases から、最新のリリースノートを見つけてください。
 Assets セクションから ZIP ファイルをダウンロードし、必要なプロジェクトを取得してください。
 <img width="720" height="210" alt="image" src="https://github.com/user-attachments/assets/d2503727-a5cc-4f85-a4ee-79a0e60b879c" />
 
@@ -48,7 +48,8 @@ Assets セクションから ZIP ファイルをダウンロードし、必要�
   <img width="511" height="543" alt="image" src="https://github.com/user-attachments/assets/65b45fa6-403d-4d6f-9b80-eb9d889fec83" />
 
 
-2. 必要なソフトウェア、ハードウェア構成をREADMEファイルを見て用意します。
+2. 必要なソフトウェア、ハードウェア構成をAPN,READMEを参考に用意します。<br>
+   **注. READMEの生成にはAIを使用しています。ご利用の際には、必ず内容を確認してください。**
 3. IDEでインポートして動作を開始します。<br>
    以下のいずれかのIDEを使用できます。
    - [CS+](https://www.renesas.com/en/software-tool/cs)
