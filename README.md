@@ -39,7 +39,7 @@ The examples of how to find projects is shown below.<br>
 1. Obtain the project using one of the following methods.
 
 - **Downloading a ZIP file**  
-  Find the latest release for the device or category you want to use from GitHub Releases. <br>
+  Find the latest release you want to use from GitHub Releases. <br>
 Download the ZIP file from the Assets section and obtain the required project.<br>
 <img width="720" height="210" alt="image" src="https://github.com/user-attachments/assets/d2503727-a5cc-4f85-a4ee-79a0e60b879c" />
 
@@ -48,7 +48,8 @@ Download the ZIP file from the Assets section and obtain the required project.<b
   e2studio (IDE) includes Git functionality, so you can also perform the clone operation directly within e2studio.<br>
   <img width="511" height="543" alt="image" src="https://github.com/user-attachments/assets/65b45fa6-403d-4d6f-9b80-eb9d889fec83" />
 
-2. Install the required softwareand build hardware configuration by referring to the README file.
+2. Install the required software and build hardware configuration by referring to the APN or README file. <br>
+   **Note. The README file is generated using AI. Please make sure to review it before use.**
 3. Import the project into the IDE and start operation.<br>
    You can use any of the following IDEs.
    - [CS+](https://www.renesas.com/en/software-tool/cs)
