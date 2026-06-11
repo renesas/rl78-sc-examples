@@ -35,14 +35,7 @@
 |---|---|---|
 | ADC | [ADC Advanced Mode Enaled](./rl78_g24/adc_advanced_mode_enabled) | RL78/G24 ADC Advanced mode enabled example |
 | ADC | [ADC Advanced Mode disaled](./rl78_g24/adc_advanced_mode_disabled) | RL78/G24 ADC Advanced mode disabled example |
-| TAU | [Interval Timer](./rl78_g24/interval_timer) | RL78/G24 interval timer example |
-| TAU | [Pulse Interval Measurement (Period)](./rl78_g24/pulse_interval_measurement_period) | RL78/G24 pulse interval measurement (period) example |
-| TAU | [Pulse Interval Measurement (Width)](./rl78_g24/pulse_interval_measurement_width) | RL78/G24 pulse interval measurement (width) example |
-| TAU | [PWM Output](./rl78_g24/pwm_output) | RL78/G24 PWM output example |
-| Timer | [32-bit Interval Timer](./rl78_g24/32-bit_interval_timer) | RL78/G24 32-bit interval timer example |
 | Timer | [Timer RD2 Input Capture Function and Output Compare Function](./rl78_g24/timer_rd2_input_capture_function_output_compare_function) | RL78/G24 Timer RD2 input capture function and output compare function example |
 | Timer | [Timer RD2 Timer Mode PWM Function](./rl78_g24/timer_rd2_timer_mode_pwm_function) | RL78/G24 Timer RD2 timer mode PWM function example |
 | Timer | [Timer RG2 Buffer Operation PWM Mode](./rl78_g24/timer_rg2_buffer_operation_pwm_mode) | RL78/G24 Timer RG2 buffer operation PWM mode example |
 | Timer | [Timer RG2 Phase Counting Mode](./rl78_g24/timer_rg2_phase_counting_mode) | RL78/G24 Timer RG2 phase counting mode example |
-| RTC | [Realtime Clock](./rl78_g24/realtime_clock) | RL78/G24 realtime clock example |
-| SAU | [UART](./rl78_g24/uart) | RL78/G24 UART example |
