@@ -14,6 +14,7 @@ English page is [here](./README.md).<br>
 | Timer RD2 Timer Mode (PWM Function) | r01an6893 |
 | Timer RG2 Buffer Operation (PWM Mode) | r01an6785 |
 | Timer RG2 Phase Counting Mode | r01an6786 |
+| TIMER WINDOW Output using Timer RD2, Timer Array Unit and Comparator | r01an6784 |
 
 ## リンク
 - RL78/G24: https://www.renesas.com/ja/products/rl78-g24
