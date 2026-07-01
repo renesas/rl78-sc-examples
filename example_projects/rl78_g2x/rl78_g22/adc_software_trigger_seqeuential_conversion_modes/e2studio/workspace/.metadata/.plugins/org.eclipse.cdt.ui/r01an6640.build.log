@@ -1,0 +1,6 @@
+11:54:15 **** プロジェクト r01an6640 に対する構成 HardwareDebug の 逐次ビルド ****
+make -j8 all 
+'Build complete.'
+
+11:54:16 Build Finished. 0 errors, 0 warnings. (took 438ms)
+

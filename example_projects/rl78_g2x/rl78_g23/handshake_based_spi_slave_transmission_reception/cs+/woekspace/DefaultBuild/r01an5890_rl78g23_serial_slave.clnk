@@ -1,0 +1,45 @@
+-Input=DefaultBuild\main.obj
+-Input=DefaultBuild\Config_CSI00.obj
+-Input=DefaultBuild\Config_CSI00_user.obj
+-Input=DefaultBuild\Config_INTC.obj
+-Input=DefaultBuild\Config_INTC_user.obj
+-Input=DefaultBuild\r_cg_sau_common.obj
+-Input=DefaultBuild\r_cg_systeminit.obj
+-Input=DefaultBuild\hdwinit.obj
+-Input=DefaultBuild\r_bsp_init.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\r_bsp_common.obj
+-Input=DefaultBuild\r_bsp_common_ccrl.obj
+-Input=DefaultBuild\mcu_clocks.obj
+-Input=DefaultBuild\Config_PORT.obj
+-Input=DefaultBuild\Config_PORT_user.obj
+-Input=DefaultBuild\r_cg_lvd_common.obj
+-Input=DefaultBuild\r_cg_lvd_common_user.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\r01an5890_rl78g23_serial_slave.abs
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4s99.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\malloc_n.lib
+-LIBrary=C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.00\lib\rl78em4r.lib
+-OCDBG=84
+-DEBUG_MONITOR=1FF00-1FFFF
+-USER_OPT_BYTE=EFFEE8
+-LISt=DefaultBuild\r01an5890_rl78g23_serial_slave.map
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-MEMory=High
+-NOLOgo
+-end
+-Input=DefaultBuild\r01an5890_rl78g23_serial_slave.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR7F100GLG.DVF
+-OUtput=DefaultBuild\r01an5890_rl78g23_serial_slave.mot
+-FOrm=Stype
+-NOMessage
+-exit
+

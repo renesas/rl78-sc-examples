@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P137" value="INTP0"/>
+        <Setting id="P12" value="SO00"/>
+        <Setting id="P00" value="P00"/>
+        <Setting id="P11" value="SI00"/>
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P10" value="SCK00"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G23"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F100GLGxFB"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="4.0"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="4.0"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_INTC" value="CG"/>
+        <Setting id="Config_CSI00" value="CG"/>
+        <Setting id="Config_PORT" value="CG"/>
+    </Segment>
+</QE>

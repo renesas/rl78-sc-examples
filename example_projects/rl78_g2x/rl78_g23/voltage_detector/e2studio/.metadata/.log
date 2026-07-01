@@ -1,0 +1,351 @@
+!SESSION 2023-11-27 18:57:16.263 -----------------------------------------------
+eclipse.buildId=v23.10.0
+java.version=17.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2023-11-27 18:57:21.480
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.480
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.480
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.480
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2023-11-27 18:57:21.877
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.877
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core', id='com.renesas.cdt.managedbuilder.ui.commands.RenesasBuildOptionSettingsCommand', categoryId='com.renesas.cdt.quick.option.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.877
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.deviceMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-27 18:57:21.877
+!MESSAGE Commands should really have a category: plug-in='com.renesas.cdt.core.ui', id='com.renesas.cdt.core.ui.commands.toolchainVersionMigrationCommand', categoryId='com.renesas.cdt.core.ui.commands.category'
+
+!ENTRY org.eclipse.jface 2 0 2023-11-27 18:57:22.977
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-11-27 18:57:22.977
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.renesas.logging 4 0 2023-11-27 18:57:28.541
+!MESSAGE Error reading XML file
+!STACK 0
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/a5134596/.eclipse/com.renesas.platform_816018980/UsageData/1_00000000-0000-0000-0000-000000000000.set; lineNumber: 1; columnNumber: 410; 1バイトのUTF-8シーケンスのバイト1が無効です。
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:263)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:206)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.readXmlFile(ReportingLibrary.java:274)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.readUserSettings(ReportingLibrary.java:265)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.setUserSettings(ReportingLibrary.java:251)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.setUserSettings(ReportingLibrary.java:237)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$1.run(RenesasDataReporter.java:184)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: 1バイトのUTF-8シーケンスのバイト1が無効です。
+	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:702)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:568)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1699)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:520)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2665)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	... 8 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-27 18:58:09.524
+!MESSAGE 'r01an5604' がインデックス化されました (15 ソースファイル, 29 ヘッダ) 0.644 秒以内: 535 個の宣言; 918 個の参照; 0 個の未解決インクルード; 0 個の文法エラー; 0 個の未解決名 (0%)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:32.972
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.013
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.057
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.061
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.066
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.070
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$2.run(RenesasDataReporter.java:234)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 09:27:33.076
+!MESSAGE Error sending data to server
+!STACK 0
+java.net.UnknownHostException: update.renesas.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:533)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:638)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1430)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1401)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:220)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.doUploadValues(ReportingLibrary.java:531)
+	at com.renesas.logging.internal.reporter.ReportingLibrary$1.run(ReportingLibrary.java:505)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.710
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.712
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.714
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.717
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.719
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.renesas.logging 4 0 2023-11-28 10:05:55.721
+!MESSAGE Error reading usage data file
+!STACK 0
+java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.lang.String.throwMalformed(String.java:1242)
+	at java.base/java.lang.String.decodeUTF8_UTF16(String.java:1198)
+	at java.base/java.lang.String.newStringUTF8NoRepl(String.java:732)
+	at java.base/java.lang.String.newStringNoRepl1(String.java:760)
+	at java.base/java.lang.String.newStringNoRepl(String.java:742)
+	at java.base/java.lang.System$2.newStringNoRepl(System.java:2390)
+	at java.base/java.nio.file.Files.readString(Files.java:3369)
+	at java.base/java.nio.file.Files.readString(Files.java:3325)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:468)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendUserSettings(ReportingLibrary.java:447)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.sendData(ReportingLibrary.java:340)
+	at com.renesas.logging.internal.reporter.ReportingLibrary.shutdown(ReportingLibrary.java:547)
+	at com.renesas.logging.internal.reporter.RenesasDataReporter$3.lambda$0(RenesasDataReporter.java:313)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

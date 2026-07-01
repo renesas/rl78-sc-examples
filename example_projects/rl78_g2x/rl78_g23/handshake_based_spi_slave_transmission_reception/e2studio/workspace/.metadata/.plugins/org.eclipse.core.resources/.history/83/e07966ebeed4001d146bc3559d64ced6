@@ -1,0 +1,10 @@
+-asmopt=-MM
+-asmopt=-MP
+-cpu=S3
+-c
+-dev="C:/Users/a5111070/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-I "C:\Users\a5111070\Desktop\workspace\r01an5890\src\smc_gen\general"
+-I "C:\Users\a5111070\Desktop\workspace\r01an5890\src\smc_gen\r_config"
+-I "C:\Users\a5111070\Desktop\workspace\r01an5890\src\smc_gen\r_bsp" 
+-character_set=utf8
+-g

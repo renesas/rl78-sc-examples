@@ -1,0 +1,6 @@
+11:56:08 **** プロジェクト r01an5890 に対する構成 HardwareDebug の 逐次ビルド ****
+make -j8 all 
+'Build complete.'
+
+11:56:08 Build Finished. 0 errors, 0 warnings. (took 230ms)
+

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3528661621</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\cstartup.s</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_macrodriver.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd_common.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_LVD1\Config_LVD1.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_PORT\Config_PORT.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_INTC\Config_INTC.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_intc.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_port.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_INTC\Config_INTC_user.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_systeminit.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_LVD1\Config_LVD1_user.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_PORT\Config_PORT.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_PORT\Config_PORT_user.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_LVD1\Config_LVD1.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd_common.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_userdefine.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd_common_user.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\general\r_smc_entry.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_init.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\Config_INTC\Config_INTC.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all\cstartup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_LVD1\Config_LVD1_user.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\r01an5604-rl78g23-lvd.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_PORT\Config_PORT_user.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_INTC\Config_INTC_user.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\lib\hwmulrl3.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_systeminit.o</file>
+            <file>$PROJ_DIR$\Debug\List\r01an5604-rl78g23-lvd.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_PORT\Config_PORT.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\all\r_bsp_common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_config\r_bsp_config.h</file>
+            <file>$TOOLKIT_DIR$\lib\dbgrlnnf23nd.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_lvd_common_user.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\general\r_cg_lvd_common.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlrlnnf23n.a</file>
+            <file>$TOOLKIT_DIR$\inc\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_INTC\Config_INTC.o</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\platform.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\readme.txt</file>
+            <file>$PROJ_DIR$\r01an5604-rl78g23-lvd.ipcf</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_init.o</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\config\lnkr7f100glg.icf</file>
+            <file>$TOOLKIT_DIR$\inc\cfi.m</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\r_bsp\mcu\rl78_g23\vecttbl.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Renesas_SC\smc_gen\Config_LVD1\Config_LVD1.o</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\iccrl\intrinsics.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\iccrl\ior7f100g.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\register_access\iccrl\ior7f100g_ext.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.h</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\vecttbl.c</file>
+            <file>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_info.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\cstartup.s</name>
+            <outputs>
+                <tool>
+                    <name>ARL78</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ARL78</name>
+                    <file> 59</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\hdwinit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 1 56</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_LVD1\Config_LVD1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 17 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_PORT\Config_PORT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 15 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_INTC\Config_INTC_user.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 7 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\general\r_cg_systeminit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 17 9 7 8 15 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_LVD1\Config_LVD1_user.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 17 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_PORT\Config_PORT_user.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 15 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\general\r_cg_lvd_common_user.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\board\generic_rl78_g23\r_bsp_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\Config_INTC\Config_INTC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 7 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\r01an5604-rl78g23-lvd.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 58 50 32 63 28 38 30 26 27 40 31 39 55 46 45 36 61 44 35 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 1 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20 56 19 17 9 7 8 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\mcu_clocks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\smc_gen\r_bsp\mcu\rl78_g23\vecttbl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCRL78</name>
+                    <file> 51 12 69 62 33 41 52 57 49 34 25 42 47 64 43 66 68 65 70 72 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 37 29</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

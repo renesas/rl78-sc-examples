@@ -1,0 +1,12 @@
+-cpu=S3
+-c
+-dev="C:/Users/a5089302/.eclipse/com.renesas.platform_564589838/DebugComp/RL78/RL78/Common/DR7F100GBG.DVF"
+-MAKEUD="C:\Users\a5089302\Desktop\r01an5627\e2studio\an5627\HardwareDebug\src\smc_gen\r_bsp\board\generic_rl78_g23"
+-I "C:\Program Files (x86)\Renesas\RL78\1_10_0\inc"
+-I "C:\Users\a5089302\Desktop\r01an5627\e2studio\an5627\src\smc_gen\r_bsp"
+-I "C:\Users\a5089302\Desktop\r01an5627\e2studio\an5627\src\smc_gen\r_config"
+-I "C:\Users\a5089302\Desktop\r01an5627\e2studio\an5627\src\smc_gen\general"
+-I "C:\Users\a5089302\Desktop\r01an5627\e2studio\an5627\src\smc_gen\Config_PORT" 
+-character_set=utf8
+-lang=c99
+-g

@@ -1,0 +1,81 @@
+Renesas Optimizing Linker (V3.05.00 )             02-Oct-2023 14:34:13
+
+*** Options ***
+
+-subcommand=Linkerr01an5625_rl78g23_port.tmp
+-MAKEUD=C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5625-rl78g23-port\HardwareDebug/r01an5625_rl78g23_port_l.ud
+-device="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-list="r01an5625_rl78g23_port.map"
+-nooptimize
+-entry=_start
+-auto_section_layout
+-security_id=00000000000000000000
+-debug_monitor=1FE00-1FFFF
+-user_opt_byte=EF3AE8
+-ocdbg=84
+-ocdtr
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an5625_rl78g23_port.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC_user.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g23\mcu_clocks.obj"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\rl78em4s99.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\rl78em4r.lib"
+-library="C:\Program Files (x86)\Renesas\RL78\1_12_0\lib\malloc_n.lib"
+-output="r01an5625_rl78g23_port.abs"
+-debug
+-nocompress
+-memory=high
+-rom=.data=.dataR,.sdata=.sdataR
+-nomessage
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  00000082         1   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  0000019b        c4   1
+.textf
+                                  0000019c  00000335       19a   1
+.const
+                                  00003000  00003055        56   2
+.monitor2
+                                  0001fe00  0001ffff       200   1
+.bss
+                                  000fbf00  000fbf00         0   2
+.dataR
+                                  000fbf00  000fbf00         1   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2

@@ -1,0 +1,52 @@
+#Generating source browse information for project r01an5546-rl78g23-mainclk
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build Config_ADC.pbi : index Config_ADC.xcl
+build Config_ADC_user.pbi : index Config_ADC_user.xcl
+build Config_INTC.pbi : index Config_INTC.xcl
+build Config_INTC_user.pbi : index Config_INTC_user.xcl
+build Config_ITL000_ITL001_ITL012_ITL013.pbi : index Config_ITL000_ITL001_ITL012_ITL013.xcl
+build Config_ITL000_ITL001_ITL012_ITL013_user.pbi : index Config_ITL000_ITL001_ITL012_ITL013_user.xcl
+build Config_PORT.pbi : index Config_PORT.xcl
+build Config_PORT_user.pbi : index Config_PORT_user.xcl
+build Config_RTC.pbi : index Config_RTC.xcl
+build Config_RTC_user.pbi : index Config_RTC_user.xcl
+build r_cg_ad_common.pbi : index r_cg_ad_common.xcl
+build r_cg_itl_common.pbi : index r_cg_itl_common.xcl
+build r_cg_itl_common_user.pbi : index r_cg_itl_common_user.xcl
+build r_cg_rtc_common.pbi : index r_cg_rtc_common.xcl
+build r_cg_systeminit.pbi : index r_cg_systeminit.xcl
+build hdwinit.pbi : index hdwinit.xcl
+build r_bsp_init.pbi : index r_bsp_init.xcl
+build r_bsp_common.pbi : index r_bsp_common.xcl
+build mcu_clocks.pbi : index mcu_clocks.xcl
+build vecttbl.pbi : index vecttbl.xcl
+build main.pbi : index main.xcl
+build r01an5546-rl78g23-mainclk_part0.pbi : link Config_ADC.pbi Config_ADC_user.pbi Config_INTC.pbi Config_INTC_user.pbi Config_ITL000_ITL001_ITL012_ITL013.pbi
+build r01an5546-rl78g23-mainclk_part1.pbi : link Config_ITL000_ITL001_ITL012_ITL013_user.pbi Config_PORT.pbi Config_PORT_user.pbi Config_RTC.pbi Config_RTC_user.pbi
+build r01an5546-rl78g23-mainclk_part2.pbi : link r_cg_ad_common.pbi r_cg_itl_common.pbi r_cg_itl_common_user.pbi r_cg_rtc_common.pbi r_cg_systeminit.pbi
+build r01an5546-rl78g23-mainclk_part3.pbi : link hdwinit.pbi r_bsp_init.pbi r_bsp_common.pbi mcu_clocks.pbi vecttbl.pbi
+build r01an5546-rl78g23-mainclk_part4.pbi : link main.pbi
+build r01an5546-rl78g23-mainclk.pbd : link r01an5546-rl78g23-mainclk_part0.pbi r01an5546-rl78g23-mainclk_part1.pbi r01an5546-rl78g23-mainclk_part2.pbi r01an5546-rl78g23-mainclk_part3.pbi r01an5546-rl78g23-mainclk_part4.pbi
+build r01an5546-rl78g23-mainclk.pbw : browsedata r01an5546-rl78g23-mainclk.pbd
+
+

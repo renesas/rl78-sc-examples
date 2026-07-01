@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P00" value="IVCMP1"/>
+        <Setting id="P15" value="TRDIOB0"/>
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P17" value="TO02"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P50" value="TOOLRxD"/>
+        <Setting id="P30" value="VCOUT1"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P51" value="TOOLTxD"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G24"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F101GLGxFB"/>
+        <Setting id="PinCount" value="64"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="2.7"/>
+        <Setting id="FMAIN" value="48000.0"/>
+        <Setting id="FHOCO" value="8000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="2.7"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FTIMER" value="96000.0"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="48000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="Config_TAU0_0" value="CG"/>
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_TRD0" value="CG"/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_DAC1" value="CG"/>
+        <Setting id="Config_COMP1" value="CG"/>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.pulseoutput" id="Config_TAU0_0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="EdgeSelect" value="rising"/>
+            <Setting id="IntervalUnit" value="us"/>
+            <Setting id="InputSrc" value="Trdiob0"/>
+            <Setting id="EnNoise" value="Disable"/>
+            <Setting id="MasterIntEnable" value="Disable"/>
+            <Setting id="MasterIntPriority" value="Level3"/>
+            <Setting id="Prescaler" value="FCLK1"/>
+            <Setting id="Operation" value="CK0"/>
+            <Setting id="SelSlave" value="slavechannel2"/>
+            <Setting id="SelTrg" value="Ext"/>
+            <Setting id="DelayTime" value="10"/>
+            <Segment id="Slave1">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="PulWdtUnit" value="us"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="pulwidth" value="50"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+            <Segment id="Slave2">
+                <Setting id="OutputDisable" value="Disable"/>
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="PulWdtUnit" value="us"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="pulwidth" value="100"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Disable"/>
+            </Segment>
+            <Segment id="Slave3">
+                <Setting id="salveoutputinitial" value="outputinitial0"/>
+                <Setting id="PulWdtUnit" value="us"/>
+                <Setting id="salveoutputlevel" value="outputah"/>
+                <Setting id="pulwidth" value="50"/>
+                <Setting id="slaveIntPriority" value="Level3"/>
+                <Setting id="SlaveIntEnable" value="Enable"/>
+            </Segment>
+        </Segment>
+        <Segment component="r_bsp1.60" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.pwm" id="Config_TRD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="TRDIOD0Duty" value="50"/>
+            <Setting id="TRDIOD0InitialLevel" value="low"/>
+            <Setting id="TRDIOC0InitialLevel" value="low"/>
+            <Setting id="TRDIOB0InitialLevel" value="low"/>
+            <Setting id="count0Operation" value="continue"/>
+            <Setting id="PWMperiodUnit" value="us"/>
+            <Setting id="interruptCompareA0" value="disable"/>
+            <Setting id="TRDIOB0Cutoff" value="disable"/>
+            <Setting id="TRDIOC0Cutoff" value="disable"/>
+            <Setting id="TRDIOD0Cutoff" value="disable"/>
+            <Setting id="interruptCompareC0" value="enable"/>
+            <Setting id="clockSource" value="clk"/>
+            <Setting id="clockEdge" value="rising"/>
+            <Setting id="INTTRD0Priority" value="Level3"/>
+            <Setting id="TRDIOB0Output" value="enable"/>
+            <Setting id="TRDIOC0Output" value="disable"/>
+            <Setting id="TRDIOD0Output" value="disable"/>
+            <Setting id="TRDIOB0ActiveLevel" value="high"/>
+            <Setting id="TRDIOC0ActiveLevel" value="low"/>
+            <Setting id="PWMperiod" value="300"/>
+            <Setting id="INTP0Cutoff" value="disable"/>
+            <Setting id="interruptCompareB0" value="disable"/>
+            <Setting id="ELC0Cutoff" value="disable"/>
+            <Setting id="interruptCompareD0" value="enable"/>
+            <Setting id="TRDGRD0Select" value="general"/>
+            <Setting id="TRDIOD0ActiveLevel" value="low"/>
+            <Setting id="TRDIOB0Duty" value="30"/>
+            <Setting id="TRDIOC0Duty" value="50"/>
+            <Setting id="TRDGRC0Select" value="general"/>
+            <Setting id="interruptOverflow0" value="disable"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_2910"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.da" id="Config_DAC1" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="ConOpMdSet" value="NorMd"/>
+            <Setting id="ConValOpt" value="512"/>
+            <Setting id="ConMdSet" value="10bits"/>
+            <Setting id="AnaOutSet" value="disable"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.comparator" id="Config_COMP1" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="EdgeSelect" value="Rising"/>
+            <Setting id="DigitalFilter" value="Enable"/>
+            <Setting id="IntForRXTimer" value="Disable"/>
+            <Setting id="COMPInt" value="Disable"/>
+            <Setting id="VCOutEnable" value="Enable"/>
+            <Setting id="Priority" value="Level3"/>
+            <Setting id="TimerWindowEnable" value="Enable"/>
+            <Setting id="Polarity" value="Normal"/>
+            <Setting id="SampleClock" value="FCLK"/>
+            <Setting id="RefVoltage" value="DA_Ouput1"/>
+        </Segment>
+    </Segment>
+</QE>

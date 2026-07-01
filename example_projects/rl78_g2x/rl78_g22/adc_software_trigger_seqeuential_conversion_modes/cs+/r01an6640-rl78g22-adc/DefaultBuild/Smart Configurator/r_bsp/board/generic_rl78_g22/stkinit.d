@@ -1,0 +1,1 @@
+Smart\ Configurator/r_bsp/board/generic_rl78_g22/stkinit.obj Smart\ Configurator/r_bsp/board/generic_rl78_g22/stkinit.d: C:/Users/a5111070/Documents/r01an6640-rl78g22-adc/src/smc_gen/r_bsp/board/generic_rl78_g22/stkinit.asm

@@ -1,0 +1,28 @@
+# RL78/G23 CPU Clock Changing and Standby Settings
+
+日本語版は[こちら](./READMEJP.md)
+
+## Overview
+This application note describes how to change the RL78/G23’s CPU clock and set it to standby (changing operation modes). This application uses switch input to change the CPU clock and the operation mode, while controlling 5 LEDs to indicate the CPU clock status and the operation mode.
+
+## Software/Tool Version
+| Software/Tool | Version |
+|----|----|
+| CS+ (IDE) | E8.09.00 |
+| e2 studio (IDE) | V2023-04 (23.4.0) |
+| CC-RL (C compiler) | V1.12.00 |
+| IAR Embedded Workbench | V4.21.2 |
+| IAR Compiler | V4.21.2.2420 |
+| Smart Configurator | V1.6.0 |
+| BSP | V1.60 |
+
+## Hardware Configuration
+- RL78/G23-64p Fast Prototyping Board (RTK7RLG230CLG000BJ)
+- LEDs
+- Switch
+
+## Applicable Devices
+- RL78/G23
+
+## Link of APN
+[RL78/G23 CPU Clock Changing and Standby Settings](https://www.renesas.com/en/document/apn/rl78g23-cpu-clock-changing-and-standby-settings)

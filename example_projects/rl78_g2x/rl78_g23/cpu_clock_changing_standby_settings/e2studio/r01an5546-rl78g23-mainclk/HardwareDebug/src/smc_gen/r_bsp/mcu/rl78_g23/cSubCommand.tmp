@@ -1,0 +1,16 @@
+-cpu=S3
+-c
+-dev="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-MAKEUD="C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\HardwareDebug\src\smc_gen\r_bsp\mcu\rl78_g23"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\r_config"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\general"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\r_bsp"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\Config_RTC"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\Config_ITL000_ITL001_ITL012_ITL013"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\Config_PORT"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\Config_INTC"
+-I "C:\Users\a5090549\Desktop\Workspace\e2studio\r01an5546-rl78g23-mainclk\src\smc_gen\Config_ADC" 
+-character_set=utf8
+-lang=c99
+-g
+-Onothing 

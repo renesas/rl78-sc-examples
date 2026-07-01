@@ -1,0 +1,221 @@
+品質記録情報
+2023年10月2日 15:42:18
+
+------ ビルド開始(r01an5537-rl78g23-power-save, DefaultBuild) ------
+------ ビルド終了(エラー:0個, 警告:0個)(r01an5537-rl78g23-power-save, DefaultBuild) ------
+
+
+--- SHA1 hash value of output files ---
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5537-rl78g23-power-save\DefaultBuild\r01an5537-rl78g23-power-save.abs: 36249fef54e6df4dca3ff2d5ac63f1e08220e88d
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5537-rl78g23-power-save\DefaultBuild\r01an5537-rl78g23-power-save.mot: 70b8d1a1ff9db1a5ee94b4a3eeeb5a4ce65d1868
+
+
+--- システム情報 ---
+*OS バージョン
+ Microsoft Windows 10 Enterprise (-, 10.0.19044, WOW64)
+*言語
+ 日本語 (日本)
+*.NET Framework バージョン
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (528372)
+
+--- アプリケーション情報 ---
+*製品名
+ CS+ for CC
+*パッケージ・バージョン
+ V8.09.00  [12 Dec 2022]
+*バージョン
+ V9.09.00.06 [12 Dec 2022]
+*アセンブリ・バージョン
+ 3.12.10.1
+*拠点情報
+ Japan
+*製品ライセンス
+ Compiler Professional V1 for RL78 (CC-RL) ノードロック・ライセンス(permanent); 
+*実行場所
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*メモリ使用量
+ *プライベート・ワーキング・セット
+  192 MB
+ *GDIオブジェクト数
+  2078
+ *USERオブジェクト数
+  965
+ *開いているファイル
+  3 editors, 3 files, 16 KB
+
+--- ビルド・ツール・プラグイン情報 ---
+RH850ビルド・ツールCC-RH用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.10.12
+ *DLL ファイル名
+  BuildToolCCRH.dll
+RL78ビルド・ツールCC-RL用プラグイン
+ *バージョン
+  V8.09.00.01 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolCCRL.dll
+RXビルド・ツールCC-RX用プラグイン
+ *バージョン
+  V8.09.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  BuildToolCCRX.dll
+RH850ビルド・ツールGHS CCRH850用プラグイン
+ *バージョン
+  V1.07.00.00 [07 Oct 2022]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  BuildToolGHSCCRH850.dll
+
+--- デバッグ・ツール・プラグイン情報 ---
+デバッガ・コレクション・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  2.12.10.1
+ *DLL ファイル名
+  DebugToolCollection.dll
+
+--- その他のプラグイン情報 ---
+コード生成プラグイン
+ *バージョン
+  V4.08.06.01 [28 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  CodePart.dll
+コード生成／端子図プラグイン
+ *バージョン
+  V2.10.07.02 [08 Nov 2021]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  CodePart2.dll
+デバッグ・コンソール・プラグイン
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  8.9.0.0
+ *DLL ファイル名
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *バージョン
+  V9.09.00.01 [18 Oct 2022]
+ *アセンブリ・バージョン
+  1.15.10.16
+ *DLL ファイル名
+  InCarTools.dll
+端子配置プラグイン
+ *バージョン
+  V1.54.01.01 [31 Jul 2014]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PinConfig.dll
+プログラム解析プラグイン
+ *バージョン
+  V4.12.00.01 [14 Apr 2021]
+ *アセンブリ・バージョン
+  3.12.11.9
+ *DLL ファイル名
+  ProgramAnalyzer.dll
+IronPythonコンソール・プラグイン
+ *バージョン
+  V1.45.00.03 [22 Nov 2022]
+ *アセンブリ・バージョン
+  1.6.10.23
+ *DLL ファイル名
+  PythonConsole.dll
+エディタ・パネル
+ *バージョン
+  V1.19.00.01 [24 Oct 2022]
+ *アセンブリ・バージョン
+  1.1.0.0
+ *DLL ファイル名
+  SEditor.dll
+RL78用スマート・コンフィグレータ通信プラグイン
+ *バージョン
+  V1.00.05.04 [01 Mar 2023]
+ *アセンブリ・バージョン
+  1.0.0.0
+ *DLL ファイル名
+  SmcCodePartRL78.dll
+スタック見積もりツール
+ *バージョン
+  V1.05.00.02 [30 Jul 2014]
+ *アセンブリ・バージョン
+  1.30.11.15
+ *DLL ファイル名
+  Stk.dll
+アップデート・マネージャ・プラグイン
+ *バージョン
+  V2.03.00.02 [29 Oct 2018]
+ *アセンブリ・バージョン
+  1.13.6.20
+ *DLL ファイル名
+  Update.dll
+
+デバッグ・ツール共通インタフェース
+ *バージョン
+  V8.09.00.03 [24 Nov 2022]
+ *アセンブリ・バージョン
+  3.12.10.1
+ *DLL ファイル名
+  CommonDebuggerInterface.dll
+デバイス情報共通インタフェース
+ *バージョン
+  V9.09.00.01 [18 Oct 2022]
+ *アセンブリ・バージョン
+  3.0.0.0
+ *DLL ファイル名
+  DeviceInformation.dll
+
+--- メイン・プロジェクト情報 ---
+C:\Users\a5090549\Desktop\Workspace\CS+\r01an5537-rl78g23-power-save\r01an5537-rl78g23-power-save.mtpj
+マイクロコントローラ情報
+ *R7F100GLGxFA
+  *ファイル名: バージョン
+   RL78_Productlist.xml: V8.090001
+   R7F100GLGxFA_common.xml: V1.10.00.XX.XX
+   DR7F100GLG.DVF: V1.10
+   -: -
+   -: -
+  
+
+ビルド・ツール情報
+ *CC-RL
+   * プラグイン(*.dll)のバージョン
+     V8.09.00.03 [04 Nov 2022]
+   * コンパイラ・パッケージのバージョン
+     V1.12.00
+  
+ * SMS Assemblerのバージョン
+   V1.00.00.01 [29 May 2020]
+ 
+
+デバッグ・ツール情報
+ *RL78 E2 Lite
+  Debugger Library V8.09.00.03 [24 Nov 2022]
+  
+
+その他のツール情報
+ *なし
+
+ *なし
+
+ *なし
+
+ *プログラム解析
+  *バージョン
+   V4.12.00.01 [14 Apr 2021]
+
+ *スマート・コンフィグレータ
+ *なし
+
+

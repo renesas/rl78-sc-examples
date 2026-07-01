@@ -1,0 +1,39 @@
+-MAKEUD="C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\HardwareDebug/r01an5604_l.ud" 
+-device="C:/Users/a5134596/.eclipse/com.renesas.platform_816018980/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF" 
+-list 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=1FE00-1FFFF 
+-user_opt_byte=EFFFE8 
+-ocdbg=84 
+-ocdtr 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\main.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC_user.obj"
+-input=".\src/smc_gen/Config_LVD1\Config_LVD1.obj"
+-input=".\src/smc_gen/Config_LVD1\Config_LVD1_user.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_g23\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_g23\mcu_clocks.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library="C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4s99.lib"
+-library="C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\rl78em4r.lib"
+-library="C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.12.01\lib\malloc_n.lib"
+-output="r01an5604.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
