@@ -1,0 +1,100 @@
+14:27:07 **** プロジェクト r01an7189 に対する構成 HardwareDebug の ビルド ****
+make -r --output-sync -j8 all 
+Scanning and building file: ../src/smc_gen/r_bsp/board/generic_rl78_g22/hdwinit.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/r_bsp/board/generic_rl78_g22/r_bsp_init.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_PORT/Config_PORT.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_PORT/Config_PORT_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_ELC/Config_ELC.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_ELC/Config_ELC_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/r_bsp/mcu/rl78_g22/mcu_clocks.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_INTC/Config_INTC.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_INTC/Config_INTC_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_ITL000_ITL001/Config_ITL000_ITL001.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_ITL000_ITL001/Config_ITL000_ITL001_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/main.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/r_pincfg/Pin.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_PCLBUZ0/Config_PCLBUZ0.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_PCLBUZ0/Config_PCLBUZ0_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_itl_common.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_itl_common_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_lvd_common.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_lvd_common_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_systeminit.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/general/r_cg_tau_common.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/r_bsp_common.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_TAU0_0/Config_TAU0_0.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/Config_TAU0_0/Config_TAU0_0_user.c
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+W0511187:CC-RL V1のオプション"-Odefault"の評価期間の有効期限が切れています。暗黙に"-Olite"指定に変更します。引き続き"-Odefault"を利用したい場合は製品の購入を検討ください。明示的に"-Olite"か"-Onothing"を指定することで、この警告は消えます。
+Scanning and building file: ../src/smc_gen/r_bsp/mcu/all/cstart.asm
+
+Invoking: Linker
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Finished building:
+
+
+Renesas Optimizing Linker Completed
+
+Invoking: Converter
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Building target:
+
+Finished building target:
+Renesas Optimizing Linker Completed
+
+Loading input file r01an7189.abs
+Parsing the ELF input file.....
+18 segments required LMA fixes
+Converting the DWARF information....
+Constructing the output ELF image....
+Saving the ELF output file r01an7189.x
+Build complete.
+
+14:27:24 Build Finished. 0 errors, 50 warnings. (took 17s.34ms)
+

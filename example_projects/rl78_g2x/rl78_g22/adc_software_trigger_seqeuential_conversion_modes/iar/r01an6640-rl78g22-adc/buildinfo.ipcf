@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- IAR Project Connection File -->
+<iarProjectConnection version="1.0" name="Renesas_SC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IarProjectConnection_1.0.xsd">
+<includePath>
+    <path>$PROJ_DIR$\src\smc_gen\Config_ADC</path>
+    <path>$PROJ_DIR$\src\smc_gen\general</path>
+    <path>$PROJ_DIR$\src\smc_gen\r_bsp</path>
+    <path>$PROJ_DIR$\src\smc_gen\r_config</path>
+</includePath>
+<asmIncludePath>
+    <path>$PROJ_DIR$\src\smc_gen\r_config</path>
+</asmIncludePath>
+<customBuildTools>
+    <customBuildTool atRoot="true" name="smsasm tool">
+        <!-- Custom build
+tool for entire project-->
+        <fileExtensions>.smsasm</fileExtensions>
+        <command>C:\Program Files (x86)\Renesas Electronics\SMS\bin\smsasm.exe $FILE_FNAME$ -o$FILE_BNAME$.h</command>
+        <output>
+            <path>$FILE_BPATH$.h</path>
+        </output>
+        <hasPrio>true</hasPrio>
+    </customBuildTool>
+</customBuildTools>
+<files>
+<group name="smc_gen">
+    <group name ="Config_ADC">
+        <path>.\src\smc_gen\Config_ADC\Config_ADC.c</path>
+    </group>
+    <group name ="Config_ADC">
+        <path>.\src\smc_gen\Config_ADC\Config_ADC.h</path>
+    </group>
+    <group name ="Config_ADC">
+        <path>.\src\smc_gen\Config_ADC\Config_ADC_user.c</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_ad.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_ad_common.c</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_ad_common.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_lvd.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_lvd_common.c</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_lvd_common.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_lvd_common_user.c</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_macrodriver.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_systeminit.c</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_cg_userdefine.h</path>
+    </group>
+    <group name ="general">
+        <path>.\src\smc_gen\general\r_smc_entry.h</path>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.c</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\hdwinit.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_ccrl.inc</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_iccrl.inc</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_config_reference_llvm.inc</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="board">
+            <group name ="generic_rl78_g22">
+                <path>.\src\smc_gen\r_bsp\board\generic_rl78_g22\r_bsp_init.c</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="doc">
+            <group name ="en">
+                <path>.\src\smc_gen\r_bsp\doc\en\r01an5522ej0140-rl78-bsp.pdf</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="doc">
+            <group name ="ja">
+                <path>.\src\smc_gen\r_bsp\doc\ja\r01an5522jj0140-rl78-bsp.pdf</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\cstartup.s</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\fsp_common_api.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_bsp_common.c</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_bsp_common.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_bsp_common_iar.asm</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_fsp_error.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="all">
+                <path>.\src\smc_gen\r_bsp\mcu\all\r_rtos.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.c</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_clocks.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\mcu_info.h</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <group name ="register_access">
+                    <group name ="iccrl">
+                        <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\register_access\iccrl\intrinsics.h</path>
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <group name ="register_access">
+                    <group name ="iccrl">
+                        <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\register_access\iccrl\iodefine.h</path>
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <group name ="register_access">
+                    <group name ="iccrl">
+                        <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\register_access\iccrl\iodefine_ext.h</path>
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <group name ="mcu">
+            <group name ="rl78_g22">
+                <path>.\src\smc_gen\r_bsp\mcu\rl78_g22\vecttbl.c</path>
+            </group>
+        </group>
+    </group>
+    <group name ="r_bsp">
+        <path>.\src\smc_gen\r_bsp\platform.h</path>
+    </group>
+    <group name ="r_bsp">
+        <path>.\src\smc_gen\r_bsp\readme.txt</path>
+    </group>
+    <group name ="r_config">
+        <path>.\src\smc_gen\r_config\r_bsp_config.h</path>
+    </group>
+    <group name ="r_config">
+        <path>.\src\smc_gen\r_config\r_bsp_config.inc</path>
+    </group>
+</group>
+</files>
+</iarProjectConnection>

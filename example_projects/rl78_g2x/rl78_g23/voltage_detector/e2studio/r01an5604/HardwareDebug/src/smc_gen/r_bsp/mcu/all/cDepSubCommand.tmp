@@ -1,0 +1,15 @@
+-MM
+-MP
+-cpu=S3
+-dev="C:/Users/a5134596/.eclipse/com.renesas.platform_816018980/DebugComp/RL78/RL78/Common/DR7F100GLG.DVF"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\general"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\r_config"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\r_bsp"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\r_pincfg"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\Config_INTC"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\Config_PORT"
+-I "C:\Users\a5134596\Desktop\pass\r01an5604xx\0102\r01an5604xx0102-rl78g23\workspace\e2studio\r01an5604\src\smc_gen\Config_LVD1"
+-character_set=utf8
+-lang=c99
+-g

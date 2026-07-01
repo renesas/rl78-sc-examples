@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>r01an5560-rl78g23-pin</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.renesas.cdt.managedbuild.renesas.misrachecker.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>LCM_driver.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/LCM_driver/LCM_driver.c</locationURI>
+		</link>
+		<link>
+			<name>LCM_driver.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/LCM_driver/LCM_driver.h</locationURI>
+		</link>
+		<link>
+			<name>LCM_driver_config.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/LCM_driver/LCM_driver_config.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_IICA0</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_LVD0</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_RTC</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_config</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_IICA0/Config_IICA0.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_IICA0/Config_IICA0.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_IICA0/Config_IICA0.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_IICA0/Config_IICA0.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_IICA0/Config_IICA0_user.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_IICA0/Config_IICA0_user.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_LVD0/Config_LVD0.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_LVD0/Config_LVD0.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_LVD0/Config_LVD0.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_LVD0/Config_LVD0.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_LVD0/Config_LVD0_user.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_LVD0/Config_LVD0_user.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_RTC/Config_RTC.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_RTC/Config_RTC.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_RTC/Config_RTC.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_RTC/Config_RTC.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/Config_RTC/Config_RTC_user.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/Config_RTC/Config_RTC_user.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_iica.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_iica.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_iica_common.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_iica_common.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_iica_common.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_iica_common.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_lvd.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_lvd.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_lvd_common.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_lvd_common.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_lvd_common.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_lvd_common.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_lvd_common_user.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_lvd_common_user.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_macrodriver.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_macrodriver.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_rtc.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_rtc.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_rtc_common.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_rtc_common.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_rtc_common.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_rtc_common.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_systeminit.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_systeminit.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_cg_userdefine.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_cg_userdefine.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/general/r_smc_entry.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/general/r_smc_entry.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/doc</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/platform.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/platform.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/readme.txt</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/readme.txt</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_config/r_bsp_config.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_config/r_bsp_config.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/doc/en</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/doc/ja</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/all</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/hdwinit.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/hdwinit.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/hdwinit.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/hdwinit.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/r_bsp.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/r_bsp.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/r_bsp_config_reference.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/r_bsp_config_reference.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/r_bsp_init.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/r_bsp_init.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/board/generic_rl78_g23/stkinit.asm</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/board/generic_rl78_g23/stkinit.asm</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/doc/en/r01an5522ej0100-rl78.pdf</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/doc/en/r01an5522ej0100-rl78.pdf</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/doc/ja/r01an5522jj0100-rl78.pdf</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/doc/ja/r01an5522jj0100-rl78.pdf</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/all/cstart.asm</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/all/cstart.asm</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/all/r_bsp_common.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/all/r_bsp_common.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/all/r_bsp_common.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/all/r_bsp_common.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/all/r_bsp_rl78_compiler.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/all/r_bsp_rl78_compiler.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/mcu_clocks.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/rl78_g23/mcu_clocks.c</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/mcu_clocks.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/rl78_g23/mcu_clocks.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/mcu_info.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/rl78_g23/mcu_info.h</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/register_access</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/register_access/ccrl</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Smart Configurator/r_bsp/mcu/rl78_g23/register_access/ccrl/iodefine.h</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/src/smc_gen/r_bsp/mcu/rl78_g23/register_access/ccrl/iodefine.h</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
