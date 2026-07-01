@@ -18,21 +18,21 @@ For details on how to use each project and the required software and hardware, p
 | Realtime Clock | r01an5618 |
 | UART Communication | r01an6645 |
 | Serial Interface UARTA | r01an5598 |
-| UART Reception in STOP Mode Using the UARTA Function | R01AN6646 |
-| Setting the Window Comparator | R01AN5648 |
-| I2C Supporting Multiple Slave Address (Master) | R01AN5825 |
-| I2C Supporting Multiple Master Address (Master) | R01AN5670 |
-| How to Use the Output Current Control Ports | R01AN5625 |
-| Handshake-based SPI Slave Transmission/Reception | R01AN5890 |
-| Handshake-based SPI Master Transmission/Reception | R01AN5889 |
-| 40mA Port Output | R01AN5627 |
-| Voltage Detector | R01AN5604 |
-| Using VBAT Pin | R01AN5560 |
-| LOCO Clock Frequency Correction | R01AN5557 |
-| MOCO Clock Frequency Correction | R01AN5556 |
-| HOCO Clock Frequency Correction | R01AN5555 |
-| CPU Clock Changing and Standby Settings | R01AN5546 |
-| Operation State Switching | R01AN5537 |
+| UART Reception in STOP Mode Using the UARTA Function | r01an6646 |
+| Setting the Window Comparator | r01an5648 |
+| I2C Supporting Multiple Slave Address (Master) | r01an5825 |
+| I2C Supporting Multiple Master Address (Master) | r01an5670 |
+| How to Use the Output Current Control Ports | r01an5625 |
+| Handshake-based SPI Slave Transmission/Reception | r01an5890 |
+| Handshake-based SPI Master Transmission/Reception | r01an5889 |
+| 40mA Port Output | r01an5627 |
+| Voltage Detector | r01an5604 |
+| Using VBAT Pin | r01an5560 |
+| LOCO Clock Frequency Correction | r01an5557 |
+| MOCO Clock Frequency Correction | r01an5556 |
+| HOCO Clock Frequency Correction | r01an5555 |
+| CPU Clock Changing and Standby Settings | r01an5546 |
+| Operation State Switching | r01an5537 |
 
 ## Links
 - RL78/G23: https://www.renesas.com/en/products/rl78-g23
