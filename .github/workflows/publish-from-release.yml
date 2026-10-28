@@ -1,4 +1,4 @@
-name: Publish from Release Assets (rl78-sc-examples)
+name: Publish from Release Assets (test_repository)
 
 on:
   release:
@@ -20,9 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update
-          sudo apt-get install -y jq python3
-          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
-          sudo chmod +x /usr/local/bin/yq
+          sudo apt-get install -y jq python3 python3-yaml
 
       - name: Download all release assets (zip only) [via API]
         env:
@@ -70,7 +68,7 @@ jobs:
           set -euo pipefail
 
           python3 - <<'PY'
-          import os, re, shutil, zipfile, pathlib, subprocess, json, sys
+          import os, re, shutil, zipfile, pathlib, subprocess, json, sys, yaml
 
           ROOT = pathlib.Path(".").resolve()
           INBOX = ROOT / "_inbox"
@@ -101,23 +99,48 @@ jobs:
                   shutil.rmtree(d)
 
           def require_readmes(project_dir: pathlib.Path):
-              md = project_dir / "README.md"
-              jp = project_dir / "READMEJP.md"
-              if not md.exists() or not jp.exists():
-                  raise RuntimeError(f"Missing README files in {project_dir}. Need README.md and READMEJP.md")
+              readme_found = False
+
+              for f in project_dir.iterdir():
+
+                  if not f.is_file():
+                      continue
+
+                  if "readme" in f.name.lower():
+                      readme_found = True
+                      break
+
+              if not readme_found:
+                  raise RuntimeError(
+                      f"No README file found in {project_dir}"
+                  )
 
           # series map
           MAP_FILE = ROOT / "example_projects" / "series_map.yml"
           if not MAP_FILE.exists():
               raise RuntimeError("example_projects/series_map.yml not found.")
 
-          series_map_json = subprocess.check_output(["yq","-o=json",".", str(MAP_FILE)], text=True)
-          series_map = json.loads(series_map_json)
+          with open(MAP_FILE, "r", encoding="utf-8") as f:
+              series_map = yaml.safe_load(f)
+
+          print("MAP_FILE =", MAP_FILE)
+          print("series_map =", series_map)
+          print("keys =", list(series_map.keys()))
+          
+          print("series_map type =", type(series_map))
 
           def series_from_device_key(device_key: str) -> str:
+
+              print("device_key =", repr(device_key))
+
               s = series_map.get(device_key)
-              if not s:
-                  raise RuntimeError(f"Device key '{device_key}' is not defined in series_map.yml")
+
+              if s is None:
+                  raise RuntimeError(
+                      f"Device key '{device_key}' is not defined. "
+                      f"Available keys: {list(series_map.keys())}"
+                  )
+
               return s
 
           outer_zips = sorted(INBOX.glob("*.zip"))
