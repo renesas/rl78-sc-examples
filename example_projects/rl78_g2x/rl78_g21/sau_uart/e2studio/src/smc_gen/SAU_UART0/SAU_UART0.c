@@ -1,0 +1,216 @@
+/*
+* Copyright (c) 2021 - 2026 Renesas Electronics Corporation and/or its affiliates
+*
+* SPDX-License-Identifier: BSD-3-Clause
+*/
+
+/***********************************************************************************************************************
+* File Name        : SAU_UART0.c
+* Component Version: 1.12.0
+* Device(s)        : R7F103GLJxFB
+* Description      : This file implements device driver for SAU_UART0.
+***********************************************************************************************************************/
+/***********************************************************************************************************************
+Includes
+***********************************************************************************************************************/
+#include "r_cg_macrodriver.h"
+#include "r_cg_userdefine.h"
+#include "SAU_UART0.h"
+/* Start user code for include. Do not edit comment generated here */
+/* End user code. Do not edit comment generated here */
+
+/***********************************************************************************************************************
+Pragma directive
+***********************************************************************************************************************/
+/* Start user code for pragma. Do not edit comment generated here */
+/* End user code. Do not edit comment generated here */
+
+/***********************************************************************************************************************
+Global variables and functions
+***********************************************************************************************************************/
+volatile uint8_t * gp_uart0_tx_address;    /* uart0 transmit buffer address */
+volatile uint16_t g_uart0_tx_count;        /* uart0 transmit data number */
+volatile uint8_t * gp_uart0_rx_address;    /* uart0 receive buffer address */
+volatile uint16_t g_uart0_rx_count;        /* uart0 receive data number */
+uint16_t g_uart0_rx_length;                /* uart0 receive data length */
+/* Start user code for global. Do not edit comment generated here */
+/* End user code. Do not edit comment generated here */
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Create
+* Description  : This function initializes the UART0 module.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void R_SAU_UART0_Create(void)
+{
+    uint8_t temp = SPS0L;
+
+    temp &= _F0_SAU_CK00_CLEAR;
+    temp |= _02_SAU_CK00_FCLK_2;
+    SPS0L = temp;
+    ST0L_bit.no0 = 1U;    /* disable UART0 transmit */
+    ST0L_bit.no1 = 1U;    /* disable UART0 receive */
+    STMK0 = 1U;    /* disable INTST0 interrupt */
+    STIF0 = 0U;    /* clear INTST0 interrupt flag */
+    SRMK0 = 1U;    /* disable INTSR0 interrupt */
+    SRIF0 = 0U;    /* clear INTSR0 interrupt flag */
+    SREMK0 = 1U;    /* disable INTSRE0 interrupt */
+    SREIF0 = 0U;    /* clear INTSRE0 interrupt flag */
+    /* Set INTST0 low priority */
+    STPR10 = 1U;
+    STPR00 = 1U;
+    /* Set INTSR0 low priority */
+    SRPR10 = 1U;
+    SRPR00 = 1U;
+    /* Set INTSRE0 low priority */
+    SREPR10 = 1U;
+    SREPR00 = 1U;
+    SMR00 = _0020_SAU_SMRMN_INITIALVALUE | _0000_SAU_CLOCK_SELECT_CK00 | _0000_SAU_TRIGGER_SOFTWARE | 
+            _0002_SAU_MODE_UART | _0001_SAU_BUFFER_EMPTY;
+    SCR00 = _0004_SAU_SCRMN_INITIALVALUE | _8000_SAU_TRANSMISSION | _0000_SAU_INTSRE_MASK | _0000_SAU_PARITY_NONE | 
+            _0080_SAU_LSB | _0010_SAU_STOP_1 | _0003_SAU_LENGTH_8;
+    SDR00 = _4400_SAU0_CH0_TRANSMIT_DIVISOR;
+    NFEN0_bit.no0 = 1U;    /* RXD0 noise filter on */
+    SIR01L = _04_SAU_SIRMN_FECTMN | _02_SAU_SIRMN_PECTMN | _01_SAU_SIRMN_OVCTMN;    /* clear error flag */
+    SMR01 = _0020_SAU_SMRMN_INITIALVALUE | _0000_SAU_CLOCK_SELECT_CK00 | _0100_SAU_TRIGGER_RXD | _0000_SAU_EDGE_FALL | 
+            _0002_SAU_MODE_UART | _0000_SAU_TRANSFER_END;
+    SCR01 = _0004_SAU_SCRMN_INITIALVALUE | _4000_SAU_RECEPTION | _0400_SAU_INTSRE_ENABLE | _0000_SAU_PARITY_NONE | 
+            _0080_SAU_LSB | _0010_SAU_STOP_1 | _0003_SAU_LENGTH_8;
+    SDR01 = _4400_SAU0_CH1_RECEIVE_DIVISOR;
+    SO0 |= _0001_SAU_CH0_DATA_OUTPUT_1;
+    SOL0L |= _00_SAU_CHANNEL0_NORMAL;    /* output level normal */
+    SOE0L_bit.no0 = 1U;    /* enable UART0 output */
+    /* Set TxD0 pin */
+    P1 |= 0x04U;
+    PM1 &= 0xFBU;
+    /* Set RxD0 pin */
+    PM1 |= 0x02U;
+
+    R_SAU_UART0_Create_UserInit();
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Start
+* Description  : This function starts UART0 module operation.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void R_SAU_UART0_Start(void)
+{
+    SO0 |= _0001_SAU_CH0_DATA_OUTPUT_1;    /* output level normal */
+    SOE0L_bit.no0 = 1U;    /* enable UART0 output */
+    SS0L_bit.no0 = 1U; /* enable UART0 transmit */
+    SS0L_bit.no1 = 1U; /* enable UART0 receive */
+    STIF0 = 0U;    /* clear INTST0 interrupt flag */
+    SRIF0 = 0U;    /* clear INTSR0 interrupt flag */
+    SREIF0 = 0U;    /* clear INTSRE0 interrupt flag */
+    STMK0 = 0U;    /* enable INTST0 interrupt */
+    SRMK0 = 0U;    /* enable INTSR0 interrupt */
+    SREMK0 = 0U;    /* enable INTSRE0 interrupt */
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Stop
+* Description  : This function stops UART0 module operation.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void R_SAU_UART0_Stop(void)
+{
+    STMK0 = 1U;    /* disable INTST0 interrupt */
+    SRMK0 = 1U;    /* disable INTSR0 interrupt */
+    SREMK0 = 1U;    /* disable INTSRE0 interrupt */
+    ST0L_bit.no0 = 1U; /* disable UART0 transmit */
+    ST0L_bit.no1 = 1U; /* disable UART0 receive */
+    SOE0L_bit.no0 = 0U;    /* disable UART0 output */
+    STIF0 = 0U;    /* clear INTST0 interrupt flag */
+    SRIF0 = 0U;    /* clear INTSR0 interrupt flag */
+    SREIF0 = 0U;    /* clear INTSRE0 interrupt flag */
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Send
+* Description  : This function sends UART0 data.
+* Arguments    : tx_buf -
+*                    transfer buffer pointer
+*                tx_num -
+*                    buffer size
+* Return Value : status -
+*                    MD_OK or MD_ARGERROR
+***********************************************************************************************************************/
+MD_STATUS R_SAU_UART0_Send(uint8_t * const tx_buf, uint16_t tx_num)
+{
+    MD_STATUS status = MD_OK;
+
+    if (tx_num < 1U)
+    {
+        status = MD_ARGERROR;
+    }
+    else
+    {
+        gp_uart0_tx_address = tx_buf;
+        g_uart0_tx_count = tx_num;
+        SMR00 |= _0001_SAU_BUFFER_EMPTY;
+        STMK0 = 1U;    /* disable INTST0 interrupt */
+        TXD0 = *gp_uart0_tx_address;
+        gp_uart0_tx_address++;
+        g_uart0_tx_count--;
+        STMK0 = 0U;    /* enable INTST0 interrupt */
+    }
+
+    return (status);
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Receive
+* Description  : This function receives UART0 data.
+* Arguments    : rx_buf -
+*                    receive buffer pointer
+*                rx_num -
+*                    buffer size
+* Return Value : status -
+*                    MD_OK or MD_ARGERROR
+***********************************************************************************************************************/
+MD_STATUS R_SAU_UART0_Receive(uint8_t * const rx_buf, uint16_t rx_num)
+{
+    MD_STATUS status = MD_OK;
+
+    if (rx_num < 1U)
+    {
+        status = MD_ARGERROR;
+    }
+    else
+    {
+        g_uart0_rx_count = 0U;
+        g_uart0_rx_length = rx_num;
+        gp_uart0_rx_address = rx_buf;
+    }
+
+    return (status);
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Loopback_Enable
+* Description  : This function enables the UART0 loopback function.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void R_SAU_UART0_Loopback_Enable(void)
+{
+    ULBS0 = 1U;
+}
+
+/***********************************************************************************************************************
+* Function Name: R_SAU_UART0_Loopback_Disable
+* Description  : This function disables the UART0 loopback function.
+* Arguments    : None
+* Return Value : None
+***********************************************************************************************************************/
+void R_SAU_UART0_Loopback_Disable(void)
+{
+    ULBS0 = 0U;
+}
+
+/* Start user code for adding. Do not edit comment generated here */
+/* End user code. Do not edit comment generated here */

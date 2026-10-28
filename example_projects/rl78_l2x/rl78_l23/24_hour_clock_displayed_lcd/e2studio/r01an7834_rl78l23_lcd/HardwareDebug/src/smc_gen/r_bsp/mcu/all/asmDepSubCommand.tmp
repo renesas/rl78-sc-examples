@@ -1,0 +1,17 @@
+-asmopt=-MM
+-asmopt=-MP
+-cpu=S3
+-c
+-dev="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100LPL.DVF"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\r_config"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\r_bsp"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\general"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\r_pincfg"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\Config_INTC"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\Config_IT01"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\Config_LCD"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\Config_IT00"
+-I "C:\workspace\e2studio\r01an7834_rl78l23_lcd\src\smc_gen\Config_RTC"
+-character_set=utf8
+-g

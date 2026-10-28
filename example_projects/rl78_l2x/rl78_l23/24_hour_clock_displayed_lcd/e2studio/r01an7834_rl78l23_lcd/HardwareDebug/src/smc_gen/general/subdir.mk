@@ -1,0 +1,33 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables
+C_SRCS += \
+../src/smc_gen/general/r_cg_it8bit_common.c \
+../src/smc_gen/general/r_cg_lvd_common.c \
+../src/smc_gen/general/r_cg_lvd_common_user.c \
+../src/smc_gen/general/r_cg_rtc_common.c \
+../src/smc_gen/general/r_cg_systeminit.c 
+
+COMPILER_OBJS += \
+src/smc_gen/general/r_cg_it8bit_common.obj \
+src/smc_gen/general/r_cg_lvd_common.obj \
+src/smc_gen/general/r_cg_lvd_common_user.obj \
+src/smc_gen/general/r_cg_rtc_common.obj \
+src/smc_gen/general/r_cg_systeminit.obj 
+
+C_DEPS += \
+src/smc_gen/general/r_cg_it8bit_common.d \
+src/smc_gen/general/r_cg_lvd_common.d \
+src/smc_gen/general/r_cg_lvd_common_user.d \
+src/smc_gen/general/r_cg_rtc_common.d \
+src/smc_gen/general/r_cg_systeminit.d 
+
+# Each subdirectory must supply rules for building sources it contributes
+src/smc_gen/general/%.obj: ../src/smc_gen/general/%.c 
+	@echo 'Scanning and building file: $<'
+	ccrl -subcommand="src\smc_gen\general\cDepSubCommand.tmp" -o "$(@:%.obj=%.d)" -MT="$(@:%.obj=%.obj)" -MT="$(@:%.obj=%.d)" -msg_lang=english "$<"
+	ccrl -subcommand="src\smc_gen\general\cSubCommand.tmp" -msg_lang=english -o "$(@:%.d=%.obj)" "$<"
+
+
