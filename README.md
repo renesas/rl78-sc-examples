@@ -59,7 +59,8 @@ Download the ZIP file from the Assets section and obtain the required project.<b
 ## Target devices
 - RL78/G1x (Coming soon)
 - RL78/G2x
-- RL78/Lxx (Coming soon)
+- RL78/L1x (Coming soon)
+- RL78/L2x
 - RL78/I1x (Coming soon)
 - RL78/H1D (Coming soon)
  
