@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P144" value="SEG54"/>
+        <Setting id="P143" value="SEG53"/>
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P145" value="SEG55"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P85" value="VL4"/>
+        <Setting id="P40" value="TOOL0"/>
+        <Setting id="P87" value="VL1"/>
+        <Setting id="P86" value="VL2"/>
+        <Setting id="P05" value="SEG48"/>
+        <Setting id="P04" value="SEG47"/>
+        <Setting id="P07" value="SEG50"/>
+        <Setting id="P06" value="SEG49"/>
+        <Setting id="P130" value="SEG28"/>
+        <Setting id="P137" value="INTP0"/>
+        <Setting id="P90" value="COM0"/>
+        <Setting id="P92" value="COM2"/>
+        <Setting id="P70" value="SEG12"/>
+        <Setting id="P91" value="COM1"/>
+        <Setting id="P94" value="SEG0"/>
+        <Setting id="P50" value="SEG4"/>
+        <Setting id="P72" value="SEG14"/>
+        <Setting id="P93" value="COM3"/>
+        <Setting id="P71" value="SEG13"/>
+        <Setting id="P96" value="SEG2"/>
+        <Setting id="P52" value="SEG6"/>
+        <Setting id="P74" value="SEG16"/>
+        <Setting id="P30" value="SEG20"/>
+        <Setting id="P95" value="SEG1"/>
+        <Setting id="P51" value="SEG5"/>
+        <Setting id="P73" value="SEG15"/>
+        <Setting id="P54" value="SEG8"/>
+        <Setting id="P10" value="SEG35"/>
+        <Setting id="P97" value="SEG3"/>
+        <Setting id="P53" value="SEG7"/>
+        <Setting id="P75" value="SEG17"/>
+        <Setting id="P31" value="SEG21"/>
+        <Setting id="P12" value="SEG37"/>
+        <Setting id="P11" value="SEG36"/>
+        <Setting id="P14" value="SEG39"/>
+        <Setting id="P13" value="SEG38"/>
+        <Setting id="P142" value="SEG52"/>
+        <Setting id="P141" value="SEG51"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78L2x"/>
+        <Setting id="Group" value="RL78L23"/>
+        <Setting id="Board" value="カスタムユーザボード"/>
+        <Setting id="PartNo" value="R7F100LPLxFB"/>
+        <Setting id="PinCount" value="100"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="FHOCO" value="32000.0"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="2.4"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FTIMER" value="32000.0"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_INTC" value="CG"/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="Config_RTC" value="CG"/>
+        <Setting id="Config_LCD" value="CG"/>
+        <Setting id="Config_IT01" value="CG"/>
+        <Setting id="Config_IT00" value="CG"/>
+        <Segment component="r_bsp1.90" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.intp" id="Config_INTC" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Segment id="INTP0">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="enable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP2">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP1">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP4">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP3">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP6">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP5">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+            <Segment id="INTP7">
+                <Setting id="validedge" value="falling"/>
+                <Setting id="edgeDetect" value="disable"/>
+                <Setting id="enableEliminateDigitalFilter" value="disable"/>
+                <Setting id="enableRestartKB3" value="disable"/>
+                <Setting id="enableNoiseFilter" value="enable"/>
+                <Setting id="sampleSel" value="fclk_fpll_fhoco"/>
+                <Setting id="enableINTP" value="disable"/>
+                <Setting id="intpPriority" value="Level3"/>
+                <Setting id="outPolarity" value="norm"/>
+            </Segment>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_1860"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.rtc" id="Config_RTC" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="alarminit" value="uncheck"/>
+            <Setting id="saturday" value="uncheck"/>
+            <Setting id="period" value="per1m"/>
+            <Setting id="hourmode" value="24hour"/>
+            <Setting id="thursday" value="uncheck"/>
+            <Setting id="enable1hzout" value="uncheck"/>
+            <Setting id="alarminittime" value="12,0"/>
+            <Setting id="alarmint" value="uncheck"/>
+            <Setting id="priority" value="Level3"/>
+            <Setting id="clocksource" value="subclock"/>
+            <Setting id="setinitvalue" value="check"/>
+            <Setting id="sunday" value="uncheck"/>
+            <Setting id="inittime" value="0,0,0"/>
+            <Setting id="tuesday" value="uncheck"/>
+            <Setting id="constperiodint" value="check"/>
+            <Setting id="initdate" value="2025,1,1"/>
+            <Setting id="wednesday" value="uncheck"/>
+            <Setting id="friday" value="uncheck"/>
+            <Setting id="alarmdetect" value="uncheck"/>
+            <Setting id="monday" value="uncheck"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lcd" id="Config_LCD" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="SEG20" value="Check"/>
+            <Setting id="SEG9" value="Uncheck"/>
+            <Setting id="DataArea" value="AlternateAB"/>
+            <Setting id="SEG7" value="Check"/>
+            <Setting id="SEG23" value="Uncheck"/>
+            <Setting id="SEG8" value="Check"/>
+            <Setting id="SEG24" value="Uncheck"/>
+            <Setting id="SEG5" value="Check"/>
+            <Setting id="SEG21" value="Check"/>
+            <Setting id="SEG6" value="Check"/>
+            <Setting id="SEG22" value="Uncheck"/>
+            <Setting id="SEG27" value="Uncheck"/>
+            <Setting id="SEG1/COM5" value="Check"/>
+            <Setting id="SEG28" value="Check"/>
+            <Setting id="SEG25" value="Uncheck"/>
+            <Setting id="SEG26" value="Uncheck"/>
+            <Setting id="FrameFreq" value="85.333"/>
+            <Setting id="SEG29" value="Uncheck"/>
+            <Setting id="SEG52" value="Check"/>
+            <Setting id="SEG53" value="Check"/>
+            <Setting id="SEG50" value="Check"/>
+            <Setting id="VL1Voltage" value="101Vol"/>
+            <Setting id="SEG51" value="Check"/>
+            <Setting id="SEG12" value="Check"/>
+            <Setting id="SEG13" value="Check"/>
+            <Setting id="SEG10" value="Uncheck"/>
+            <Setting id="SEG54" value="Check"/>
+            <Setting id="SEG11" value="Uncheck"/>
+            <Setting id="SEG55" value="Check"/>
+            <Setting id="SEG16" value="Check"/>
+            <Setting id="SEG17" value="Check"/>
+            <Setting id="SEG14" value="Check"/>
+            <Setting id="SEG15" value="Check"/>
+            <Setting id="SEG18" value="Uncheck"/>
+            <Setting id="SEG19" value="Uncheck"/>
+            <Setting id="WaveForm" value="WaveA"/>
+            <Setting id="SEG4" value="Check"/>
+            <Setting id="SEG0/COM4" value="Check"/>
+            <Setting id="VolGenerator" value="IntVoltageVL1"/>
+            <Setting id="SEG3/COM7" value="Check"/>
+            <Setting id="SEG41" value="Uncheck"/>
+            <Setting id="SEG42" value="Uncheck"/>
+            <Setting id="SEG40" value="Uncheck"/>
+            <Setting id="SEG45" value="Uncheck"/>
+            <Setting id="SEG46" value="Uncheck"/>
+            <Setting id="SEG43" value="Uncheck"/>
+            <Setting id="SEG44" value="Uncheck"/>
+            <Setting id="SEG49" value="Check"/>
+            <Setting id="SEG47" value="Check"/>
+            <Setting id="SEG48" value="Check"/>
+            <Setting id="LcdClockDiv" value="fSXRDiv128"/>
+            <Setting id="InitialValBoost" value="Lower42"/>
+            <Setting id="SEG30" value="Uncheck"/>
+            <Setting id="SEG31" value="Uncheck"/>
+            <Setting id="VL2Voltage" value="202Vol"/>
+            <Setting id="VL4Voltage" value="3.03"/>
+            <Setting id="SEG2/COM6" value="Check"/>
+            <Setting id="SEG34" value="Uncheck"/>
+            <Setting id="SEG35" value="Check"/>
+            <Setting id="SEG32" value="Uncheck"/>
+            <Setting id="LcdClockSrc" value="ClockSXR"/>
+            <Setting id="SEG33" value="Uncheck"/>
+            <Setting id="SEG38" value="Check"/>
+            <Setting id="SEG39" value="Check"/>
+            <Setting id="SEG36" value="Check"/>
+            <Setting id="SEG37" value="Check"/>
+            <Setting id="DisplayMode" value="TimeSlicesNum"/>
+            <Setting id="AltTimeSel" value="TimeHalfSecond"/>
+            <Setting id="SlicesBias" value="4OneThird"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.intervaltimer" id="Config_IT01" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="IntervalUnit" value="ms"/>
+            <Setting id="InterruptEnable" value="enable"/>
+            <Setting id="Priority" value="Level3"/>
+            <Setting id="FilterMode" value="8bitCountMode"/>
+            <Setting id="ClockSource" value="FSXP5"/>
+            <Setting id="IntervalValue" value="250"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.intervaltimer" id="Config_IT00" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="IntervalUnit" value="ms"/>
+            <Setting id="InterruptEnable" value="enable"/>
+            <Setting id="Priority" value="Level3"/>
+            <Setting id="FilterMode" value="8bitCountMode"/>
+            <Setting id="ClockSource" value="FSXP3"/>
+            <Setting id="IntervalValue" value="10"/>
+        </Segment>
+    </Segment>
+</QE>

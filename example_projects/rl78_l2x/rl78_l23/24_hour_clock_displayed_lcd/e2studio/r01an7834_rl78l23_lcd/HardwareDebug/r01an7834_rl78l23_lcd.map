@@ -1,0 +1,494 @@
+Renesas Optimizing Linker (V3.07.00 )             18-Jun-2025 09:53:53
+
+*** Options ***
+
+-subcommand=Linkerr01an7834_rl78l23_lcd.tmp
+-MAKEUD="C:\workspace\e2studio\r01an7834_rl78l23_lcd\HardwareDebug/r01an7834_rl78l23_lcd_l.ud" 
+-device="C:/Users/a5090549/.eclipse/com.renesas.platform_1435879475/DebugComp/RL78/RL78/Common/DR7F100LPL.DVF" 
+-list 
+-show=symbol 
+-nooptimize 
+-entry=_start 
+-auto_section_layout 
+-security_id=00000000000000000000 
+-debug_monitor=7FE00-7FFFF 
+-user_opt_byte=EFFEE8 
+-ocdbg=84 
+-stride_ocdtr_area 
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_l23\stkinit.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\cstart.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common_ccrl.obj"
+-input=".\src\r01an7834_rl78l23_lcd.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC.obj"
+-input=".\src/smc_gen/Config_INTC\Config_INTC_user.obj"
+-input=".\src/smc_gen/Config_IT00\Config_IT00.obj"
+-input=".\src/smc_gen/Config_IT00\Config_IT00_user.obj"
+-input=".\src/smc_gen/Config_IT01\Config_IT01.obj"
+-input=".\src/smc_gen/Config_IT01\Config_IT01_user.obj"
+-input=".\src/smc_gen/Config_LCD\Config_LCD.obj"
+-input=".\src/smc_gen/Config_LCD\Config_LCD_user.obj"
+-input=".\src/smc_gen/Config_RTC\Config_RTC.obj"
+-input=".\src/smc_gen/Config_RTC\Config_RTC_user.obj"
+-input=".\src/smc_gen/general\r_cg_it8bit_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common.obj"
+-input=".\src/smc_gen/general\r_cg_lvd_common_user.obj"
+-input=".\src/smc_gen/general\r_cg_rtc_common.obj"
+-input=".\src/smc_gen/general\r_cg_systeminit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_l23\hdwinit.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rl78_l23\r_bsp_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rl78_l23\mcu_clocks.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library=".\r01an7834_rl78l23_lcd.lib"
+-output="r01an7834_rl78l23_lcd.abs" 
+-debug 
+-nocompress 
+-memory=high 
+-rom=.data=.dataR,.sdata=.sdataR 
+-nomessage 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+.vect
+                                  00000000  0000007f        80   0
+.constf
+                                  00000080  00000080         0   2
+.init_array
+                                  00000080  00000080         0   2
+.sdata
+                                  00000080  00000080         0   2
+.data
+                                  00000082  0000008b         a   2
+.option_byte
+                                  000000c0  000000c3         4   1
+.security_id
+                                  000000c4  000000cd         a   1
+.RLIB
+                                  000000c4  000000c4         0   1
+.SLIB
+                                  000000c4  000000c4         0   1
+.monitor1
+                                  000000ce  000000d7         a   1
+.text
+                                  000000d8  000001fd       126   1
+.textf
+                                  000001fe  00000ef7       cfa   1
+.const
+                                  00003000  00003127       128   2
+.monitor2
+                                  0007fe00  0007ffff       200   1
+.bss
+                                  000f7f00  000f7f00         1   2
+.dataR
+                                  000f7f02  000f7f0b         a   2
+.sbss
+                                  000ffe20  000ffe20         0   2
+.sdataR
+                                  000ffe20  000ffe20         0   2
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=.vect
+FILE=rlink_generates_04
+                                  00000000  0000007f        80
+
+SECTION=.data
+FILE=.\src\r01an7834_rl78l23_lcd.obj
+                                  00000082  00000088         7
+FILE=.\src\smc_gen\Config_IT00\Config_IT00_user.obj
+                                  0000008a  0000008b         2
+
+SECTION=.option_byte
+FILE=rlink_generates_01
+                                  000000c0  000000c3         4
+
+SECTION=.security_id
+FILE=rlink_generates_03
+                                  000000c4  000000cd         a
+
+SECTION=.monitor1
+FILE=rlink_generates_02
+                                  000000ce  000000d7         a
+
+SECTION=.text
+FILE=.\src\smc_gen\r_bsp\mcu\all\cstart.obj
+                                  000000d8  0000014e        77
+  _start
+                                  000000d8         0   entry,g         * 
+  _exit
+                                  0000014c         0   none ,g         * 
+  _atexit
+                                  0000014e         0   none ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common_ccrl.obj
+                                  0000014f  0000015a         c
+  _delay_wait
+                                  0000014f         0   none ,g         * 
+  loop
+                                  0000014f         0   none ,l         * 
+  check
+                                  00000156         0   none ,l         * 
+  _exit
+                                  0000015a         0   none ,l         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC_user.obj
+                                  0000015b  00000174        1a
+  _r_Config_INTC_intp0_interrupt@1
+                                  0000015b        1a   func ,l         * 
+FILE=.\src\smc_gen\Config_IT00\Config_IT00_user.obj
+                                  00000175  000001c4        50
+  _r_Config_IT00_interrupt@1
+                                  00000175        50   func ,l         * 
+FILE=.\src\smc_gen\Config_IT01\Config_IT01_user.obj
+                                  000001c5  000001d4        10
+  _r_Config_IT01_interrupt@1
+                                  000001c5        10   func ,l         * 
+FILE=.\src\smc_gen\Config_RTC\Config_RTC_user.obj
+                                  000001d5  000001fd        29
+  _r_Config_RTC_interrupt@1
+                                  000001d5        29   func ,l         * 
+
+SECTION=.textf
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_l23\stkinit.obj
+                                  000001fe  00000241        44
+  _stkinit
+                                  000001fe         0   none ,g         * 
+  LSTINIT1
+                                  0000020c         0   none ,l         * 
+  LSTINIT2
+                                  00000236         0   none ,l         * 
+  LSTINIT3
+                                  00000241         0   none ,l         * 
+FILE=.\src\r01an7834_rl78l23_lcd.obj
+                                  00000242  0000048b       24a
+  _main
+                                  00000242        37   func ,g         * 
+  _r_main_userinit
+                                  00000279        16   func ,g         * 
+  _r_handle_watch_display
+                                  0000028f        1d   func ,g         * 
+  _r_handle_time_adjust
+                                  000002ac        2c   func ,g         * 
+  _r_time_show
+                                  000002d8        5a   func ,g         * 
+  _r_handle_blink
+                                  00000332        2d   func ,g         * 
+  _r_increment_time
+                                  0000035f        1a   func ,g         * 
+  _r_lcd_show
+                                  00000379        34   func ,g         * 
+  _r_lcd_blinking_show
+                                  000003ad        34   func ,g         * 
+  _r_rtc_get_counter_value
+                                  000003e1        4a   func ,g         * 
+  _r_rtc_set_counter_value
+                                  0000042b        61   func ,g         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC.obj
+                                  0000048c  000004b2        27
+  _R_Config_INTC_Create
+                                  0000048c        19   func ,g         * 
+  _R_Config_INTC_INTP0_Start
+                                  000004a5         7   func ,g         * 
+  _R_Config_INTC_INTP0_Stop
+                                  000004ac         7   func ,g         * 
+FILE=.\src\smc_gen\Config_INTC\Config_INTC_user.obj
+                                  000004b3  000004b3         1
+  _R_Config_INTC_Create_UserInit
+                                  000004b3         1   func ,g         * 
+FILE=.\src\smc_gen\Config_IT00\Config_IT00.obj
+                                  000004b4  000004f5        42
+  _R_Config_IT00_Create
+                                  000004b4        2c   func ,g         * 
+  _R_Config_IT00_Start
+                                  000004e0         b   func ,g         * 
+  _R_Config_IT00_Stop
+                                  000004eb         b   func ,g         * 
+FILE=.\src\smc_gen\Config_IT00\Config_IT00_user.obj
+                                  000004f6  000004f6         1
+  _R_Config_IT00_Create_UserInit
+                                  000004f6         1   func ,g         * 
+FILE=.\src\smc_gen\Config_IT01\Config_IT01.obj
+                                  000004f7  00000538        42
+  _R_Config_IT01_Create
+                                  000004f7        2c   func ,g         * 
+  _R_Config_IT01_Start
+                                  00000523         b   func ,g         * 
+  _R_Config_IT01_Stop
+                                  0000052e         b   func ,g         * 
+FILE=.\src\smc_gen\Config_IT01\Config_IT01_user.obj
+                                  00000539  00000539         1
+  _R_Config_IT01_Create_UserInit
+                                  00000539         1   func ,g         * 
+FILE=.\src\smc_gen\Config_LCD\Config_LCD.obj
+                                  0000053a  00000771       238
+  _R_Config_LCD_Create
+                                  0000053a       1d3   func ,g         * 
+  _R_Config_LCD_Start
+                                  0000070d         4   func ,g         * 
+  _R_Config_LCD_Stop
+                                  00000711         4   func ,g         * 
+  _R_Config_LCD_Voltage_On
+                                  00000715        31   func ,g         * 
+  _R_Config_LCD_Voltage_Off
+                                  00000746        15   func ,g         * 
+  _R_Config_LCD_Set_DisplayData
+                                  0000075b        17   func ,g         * 
+FILE=.\src\smc_gen\Config_LCD\Config_LCD_user.obj
+                                  00000772  00000772         1
+  _R_Config_LCD_Create_UserInit
+                                  00000772         1   func ,g         * 
+FILE=.\src\smc_gen\Config_RTC\Config_RTC.obj
+                                  00000773  000009e9       277
+  _R_Config_RTC_Create
+                                  00000773        39   func ,g         * 
+  _R_Config_RTC_Start
+                                  000007ac         b   func ,g         * 
+  _R_Config_RTC_Stop
+                                  000007b7         b   func ,g         * 
+  _R_Config_RTC_Set_HourSystem
+                                  000007c2        95   func ,g         * 
+  _R_Config_RTC_Get_CounterValue
+                                  00000857        a7   func ,g         * 
+  _R_Config_RTC_Set_CounterValue
+                                  000008fe        b5   func ,g         * 
+  _R_Config_RTC_Set_ConstPeriodInterruptOn
+                                  000009b3        26   func ,g         * 
+  _R_Config_RTC_Set_ConstPeriodInterruptOff
+                                  000009d9        11   func ,g         * 
+FILE=.\src\smc_gen\Config_RTC\Config_RTC_user.obj
+                                  000009ea  00000a08        1f
+  _R_Config_RTC_Create_UserInit
+                                  000009ea         1   func ,g         * 
+  _r_Config_RTC_callback_constperiod@1
+                                  000009eb         1   func ,l         * 
+  _r_rtc_operation_start
+                                  000009ec        1d   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_it8bit_common.obj
+                                  00000a09  00000a87        7f
+  _R_IT0_Create
+                                  00000a09         c   func ,g         * 
+  _R_IT1_Create
+                                  00000a15         5   func ,g         * 
+  _R_IT2_Create
+                                  00000a1a         5   func ,g         * 
+  _R_IT3_Create
+                                  00000a1f         5   func ,g         * 
+  _R_IT4_Create
+                                  00000a24         5   func ,g         * 
+  _R_IT5_Create
+                                  00000a29         5   func ,g         * 
+  _R_IT6_Create
+                                  00000a2e         5   func ,g         * 
+  _R_IT7_Create
+                                  00000a33         5   func ,g         * 
+  _R_IT0_Set_PowerOn
+                                  00000a38         5   func ,g         * 
+  _R_IT0_Set_PowerOff
+                                  00000a3d         5   func ,g         * 
+  _R_IT1_Set_PowerOn
+                                  00000a42         5   func ,g         * 
+  _R_IT1_Set_PowerOff
+                                  00000a47         5   func ,g         * 
+  _R_IT2_Set_PowerOn
+                                  00000a4c         5   func ,g         * 
+  _R_IT2_Set_PowerOff
+                                  00000a51         5   func ,g         * 
+  _R_IT3_Set_PowerOn
+                                  00000a56         5   func ,g         * 
+  _R_IT3_Set_PowerOff
+                                  00000a5b         5   func ,g         * 
+  _R_IT4_Set_PowerOn
+                                  00000a60         5   func ,g         * 
+  _R_IT4_Set_PowerOff
+                                  00000a65         5   func ,g         * 
+  _R_IT5_Set_PowerOn
+                                  00000a6a         5   func ,g         * 
+  _R_IT5_Set_PowerOff
+                                  00000a6f         5   func ,g         * 
+  _R_IT6_Set_PowerOn
+                                  00000a74         5   func ,g         * 
+  _R_IT6_Set_PowerOff
+                                  00000a79         5   func ,g         * 
+  _R_IT7_Set_PowerOn
+                                  00000a7e         5   func ,g         * 
+  _R_IT7_Set_PowerOff
+                                  00000a83         5   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_rtc_common.obj
+                                  00000a88  00000a91         a
+  _R_RTC_Set_PowerOn
+                                  00000a88         5   func ,g         * 
+  _R_RTC_Set_PowerOff
+                                  00000a8d         5   func ,g         * 
+FILE=.\src\smc_gen\general\r_cg_systeminit.obj
+                                  00000a92  00000ab6        25
+  _R_Systeminit
+                                  00000a92        25   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_l23\hdwinit.obj
+                                  00000ab7  00000ac0         a
+  _hdwinit
+                                  00000ab7         a   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\board\generic_rl78_l23\r_bsp_init.obj
+                                  00000ac1  00000af5        35
+  _bsp_init_system
+                                  00000ac1        31   func ,g         * 
+  _bsp_init_hardware
+                                  00000af2         4   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\all\r_bsp_common.obj
+                                  00000af6  00000af9         4
+  _R_BSP_GetFclkFreqHz
+                                  00000af6         4   func ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_l23\mcu_clocks.obj
+                                  00000afa  00000bc3        ca
+  _get_fclk_freq_hz
+                                  00000afa        67   func ,g         * 
+  _mcu_clock_setup
+                                  00000b61        63   func ,g         * 
+FILE=.\src\smc_gen\r_pincfg\Pin.obj
+                                  00000bc4  00000ef7       334
+  _R_Pins_Create
+                                  00000bc4       334   func ,g         * 
+
+SECTION=.const
+FILE=.\src\r01an7834_rl78l23_lcd.obj
+                                  00003000  00003097        98
+  _g_show_segdata
+                                  00003000        3c   data ,g         * 
+  _g_blinking_show_segdata
+                                  0000303c        3c   data ,g         * 
+  _g_digit_segdata
+                                  00003078        20   data ,g         * 
+FILE=.\src\smc_gen\r_bsp\mcu\rl78_l23\mcu_clocks.obj
+                                  00003098  00003127        90
+  _g_fih_hz
+                                  00003098        80   data ,g         * 
+  _g_fim_hz
+                                  00003118        10   data ,g         * 
+
+SECTION=.monitor2
+FILE=rlink_generates_02
+                                  0007fe00  0007ffff       200
+
+SECTION=.bss
+FILE=.\src\smc_gen\Config_RTC\Config_RTC.obj
+                                  000f7f00  000f7f00         1
+  _g_rtc_interrupt_flag
+                                  000f7f00         1   data ,g         * 
+
+SECTION=.dataR
+FILE=.\src\r01an7834_rl78l23_lcd.obj
+                                  000f7f02  000f7f08         7
+  _g_watch_status
+                                  000f7f02         1   data ,g         * 
+  _g_time_setting_flag
+                                  000f7f03         1   data ,g         * 
+  _g_mode_change_flag
+                                  000f7f04         1   data ,g         * 
+  _g_blink_flag
+                                  000f7f05         1   data ,g         * 
+  _g_lcd_second
+                                  000f7f06         1   data ,g         * 
+  _g_lcd_minute
+                                  000f7f07         1   data ,g         * 
+  _g_lcd_hour
+                                  000f7f08         1   data ,g         * 
+FILE=.\src\smc_gen\Config_IT00\Config_IT00_user.obj
+                                  000f7f0a  000f7f0b         2
+  _g_interrupt_cnt
+                                  000f7f0a         2   data ,g         * 
+
+Absolute value symbols
+FILE=rlink_generates_05
+  __s.textf
+                                  000001fe         0   none ,g         * 
+  __e.textf
+                                  00000ef8         0   none ,g         * 
+  __s.text
+                                  000000d8         0   none ,g         * 
+  __e.text
+                                  000001fe         0   none ,g         * 
+  __s.const
+                                  00003000         0   none ,g         * 
+  __e.const
+                                  00003128         0   none ,g         * 
+  __s.constf
+                                  00000080         0   none ,g         * 
+  __e.constf
+                                  00000080         0   none ,g         * 
+  __s.data
+                                  00000082         0   none ,g         * 
+  __e.data
+                                  0000008c         0   none ,g         * 
+  __s.sdata
+                                  00000080         0   none ,g         * 
+  __e.sdata
+                                  00000080         0   none ,g         * 
+  __s.bss
+                                  000f7f00         0   none ,g         * 
+  __e.bss
+                                  000f7f01         0   none ,g         * 
+  __s.sbss
+                                  000ffe20         0   none ,g         * 
+  __e.sbss
+                                  000ffe20         0   none ,g         * 
+  __s.dataR
+                                  000f7f02         0   none ,g         * 
+  __e.dataR
+                                  000f7f0c         0   none ,g         * 
+  __s.sdataR
+                                  000ffe20         0   none ,g         * 
+  __e.sdataR
+                                  000ffe20         0   none ,g         * 
+  __s.init_array
+                                  00000080         0   none ,g         * 
+  __e.init_array
+                                  00000080         0   none ,g         * 
+  __s.RLIB
+                                  000000c4         0   none ,g         * 
+  __e.RLIB
+                                  000000c4         0   none ,g         * 
+  __s.SLIB
+                                  000000c4         0   none ,g         * 
+  __e.SLIB
+                                  000000c4         0   none ,g         * 
+  __s.option_byte
+                                  000000c0         0   none ,g         * 
+  __e.option_byte
+                                  000000c4         0   none ,g         * 
+  __s.monitor1
+                                  000000ce         0   none ,g         * 
+  __e.monitor1
+                                  000000d8         0   none ,g         * 
+  __s.monitor2
+                                  0007fe00         0   none ,g         * 
+  __e.monitor2
+                                  00080000         0   none ,g         * 
+  __s.security_id
+                                  000000c4         0   none ,g         * 
+  __e.security_id
+                                  000000ce         0   none ,g         * 
+  __s.vect
+                                  00000000         0   none ,g         * 
+  __e.vect
+                                  00000080         0   none ,g         * 
+  __RAM_ADDR_START
+                                  000f7f00         0   none ,g         * 
+  __RAM_ADDR_END
+                                  000ffee0         0   none ,g         * 
+  __STACK_ADDR_START
+                                  000ffe20         0   none ,g         * 
+  __STACK_ADDR_END
+                                  000f8700         0   none ,g         * 
+
+*** Unfilled Areas ***
+
+AREA                                START    END
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

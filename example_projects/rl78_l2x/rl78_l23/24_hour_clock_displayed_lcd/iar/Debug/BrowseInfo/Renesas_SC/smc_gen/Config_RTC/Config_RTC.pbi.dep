@@ -1,0 +1,32 @@
+C:\workspace\IAR\Debug\BrowseInfo\Renesas_SC\smc_gen\Config_RTC\Config_RTC.pbi: \
+  C:\workspace\IAR\src\smc_gen\Config_RTC\Config_RTC.c \
+  C:\workspace\IAR\src\smc_gen\general\r_cg_macrodriver.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\platform.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\.\board\generic_rl78_l23\r_bsp.h \
+  C:\workspace\IAR\src\smc_gen\r_config\r_bsp_config.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\all\r_bsp_rl78_compiler.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\all\r_bsp_common.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\stdbool.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\stdio.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\ysizet.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\stddef.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\all\r_rtos.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\all\fsp_common_api.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\c\assert.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\all\r_fsp_error.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\rl78_l23\register_access\iccrl\iodefine.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\rl78_l23\register_access\iccrl\iodefine_ext.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\rl78_l23\register_access\iccrl\intrinsics.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\rl78_l23\mcu_clocks.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\mcu\rl78_l23\mcu_info.h \
+  C:\workspace\IAR\src\smc_gen\r_bsp\board\generic_rl78_l23\hdwinit.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\rl78\inc\intrinsics.h \
+  C:\workspace\IAR\src\smc_gen\general\r_cg_userdefine.h \
+  C:\workspace\IAR\src\smc_gen\Config_RTC\Config_RTC.h \
+  C:\workspace\IAR\src\smc_gen\general\r_cg_rtc.h

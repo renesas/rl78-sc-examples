@@ -1,0 +1,24 @@
+# ninja log v6
+4	482	7742425566667985	C:/workspace/IAR/Debug/BrowseInfo/Config_INTC_8319561985345916479.dir/Config_INTC.c.json	6607069267192c3
+483	631	7742425571451369	C:/workspace/IAR/Debug/BrowseInfo/Config_INTC_10341945270143555295.dir/Config_INTC_user.c.json	5bff6ef250034e01
+632	779	7742425572936576	C:/workspace/IAR/Debug/BrowseInfo/Config_IT00_10033337271863246048.dir/Config_IT00.c.json	618a48cbfd1809cb
+780	928	7742425574416353	C:/workspace/IAR/Debug/BrowseInfo/Config_IT00_1745654321734746552.dir/Config_IT00_user.c.json	1fc757a14d8347a
+929	1082	7742425575910342	C:/workspace/IAR/Debug/BrowseInfo/Config_IT01_16411602056889032885.dir/Config_IT01.c.json	46937191c2618cd7
+1084	1236	7742425577457852	C:/workspace/IAR/Debug/BrowseInfo/Config_IT01_4117673675807542053.dir/Config_IT01_user.c.json	58bdd86361823ecc
+1237	1388	7742425578987295	C:/workspace/IAR/Debug/BrowseInfo/Config_LCD_7070873712812902790.dir/Config_LCD.c.json	cac9f2e3cffd68a6
+1389	1541	7742425580507350	C:/workspace/IAR/Debug/BrowseInfo/Config_LCD_14881395537121934652.dir/Config_LCD_user.c.json	360980804d54ebb9
+1542	1693	7742425582035055	C:/workspace/IAR/Debug/BrowseInfo/Config_RTC_6954076388923429147.dir/Config_RTC.c.json	a7706e305300756f
+1694	1839	7742425583553621	C:/workspace/IAR/Debug/BrowseInfo/Config_RTC_8003322280573343214.dir/Config_RTC_user.c.json	eac504064bf5f4f3
+1839	1982	7742425585006392	C:/workspace/IAR/Debug/BrowseInfo/general_12092452569679991876.dir/r_cg_it8bit_common.c.json	9321f2c00945b81f
+1982	2128	7742425586444378	C:/workspace/IAR/Debug/BrowseInfo/general_11827449661743568847.dir/r_cg_lvd_common.c.json	b194f044da222554
+2129	2275	7742425587907556	C:/workspace/IAR/Debug/BrowseInfo/general_9031875555692805783.dir/r_cg_lvd_common_user.c.json	558c0ea63a593ad2
+2275	2420	7742425589366984	C:/workspace/IAR/Debug/BrowseInfo/general_14183587418719822038.dir/r_cg_rtc_common.c.json	bdf826e363d5a66a
+2420	2568	7742425590818432	C:/workspace/IAR/Debug/BrowseInfo/general_9005850668147862652.dir/r_cg_systeminit.c.json	153ad16c3c3cdad
+2569	2715	7742425592305487	C:/workspace/IAR/Debug/BrowseInfo/generic_rl78_l23_12765587984069072345.dir/hdwinit.c.json	5c2684084dbf83df
+2715	2859	7742425593768126	C:/workspace/IAR/Debug/BrowseInfo/generic_rl78_l23_3194886997237020839.dir/r_bsp_init.c.json	3def708f985471c9
+2860	3006	7742425595214383	C:/workspace/IAR/Debug/BrowseInfo/all_10872803486091110578.dir/r_bsp_common.c.json	38d9f637ec15de61
+3006	3152	7742425596686431	C:/workspace/IAR/Debug/BrowseInfo/rl78_l23_10296416878659184491.dir/mcu_clocks.c.json	364bcf5a73991f1b
+3153	3300	7742425598143533	C:/workspace/IAR/Debug/BrowseInfo/rl78_l23_14078822730059610636.dir/vecttbl.c.json	870adcf5a6298ea
+3301	3446	7742425599626007	C:/workspace/IAR/Debug/BrowseInfo/r_pincfg_11521156181818516607.dir/Pin.c.json	46268b641c973492
+3446	3597	7742425601078448	C:/workspace/IAR/Debug/BrowseInfo/main.c.json	3c3173ea5b33d7d8
+3597	3956	7742425602595698	C:/workspace/IAR/Debug/compile_commands.json	68279445c7f17dae

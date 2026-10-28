@@ -1,0 +1,1 @@
+<?xml version="1.0" ?><eventpoints><eventCombination action="EB" function="B_OR"><oaEventpoint accessType="R" accessSize="BYTE" bus="CPU"><startAddress>0xf0100</startAddress><timerID><![CDATA[]]></timerID><comment>SSR00L</comment><enabled>true</enabled></oaEventpoint></eventCombination></eventpoints>

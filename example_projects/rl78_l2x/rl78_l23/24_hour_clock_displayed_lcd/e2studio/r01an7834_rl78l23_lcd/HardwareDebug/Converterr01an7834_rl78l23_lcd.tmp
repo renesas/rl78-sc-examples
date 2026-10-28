@@ -1,0 +1,6 @@
+-MAKEUD="C:\workspace\e2studio\r01an7834_rl78l23_lcd\HardwareDebug\\r01an7834_rl78l23_lcd_c.ud" 
+-form=stype 
+-output="r01an7834_rl78l23_lcd.mot" 
+-byte_count=10 
+-nomessage 
+-nologo

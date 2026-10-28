@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QE>
+    <Segment id="Project">
+        <Setting id="SrcGeneratedPath" value="src/smc_gen"/>
+    </Segment>
+    <Segment id="Pin">
+        <Setting id="P12" value="TxD0"/>
+        <Setting id="P11" value="TOOLRxD"/>
+        <Setting id="P03" value="RxD1"/>
+        <Setting id="P02" value="TxD1"/>
+        <Setting id="P124" value="XT2"/>
+        <Setting id="P123" value="XT1"/>
+        <Setting id="P40" value="TOOL0"/>
+    </Segment>
+    <Segment id="Device">
+        <Setting id="Series" value="RL78G2x"/>
+        <Setting id="Group" value="RL78G23"/>
+        <Setting id="Board" value="RL78G23-128p_FastPrototypingBoard"/>
+        <Setting id="PartNo" value="R7F100GSNxFB"/>
+        <Setting id="PinCount" value="128"/>
+    </Segment>
+    <Segment id="Clock">
+        <Setting id="FSXL" value="32.768"/>
+        <Setting id="EVDD" value="1.8"/>
+        <Setting id="FMAIN" value="32000.0"/>
+        <Setting id="FSXP" value="32.768"/>
+        <Setting id="FSXR" value="32.768"/>
+        <Setting id="VDD" value="1.8"/>
+        <Setting id="FIL" value="32.768"/>
+        <Setting id="FIHP" value="32000.0"/>
+        <Setting id="FCLK" value="32000.0"/>
+    </Segment>
+    <Segment id="Component">
+        <Setting id="r_bsp" value=""/>
+        <Setting id="Config_LVD0" value="CG"/>
+        <Setting id="SAU_UART1" value="CG"/>
+        <Setting id="SAU_UART0" value="CG"/>
+        <Segment component="r_bsp2.00" id="r_bsp" source="com.renesas.smc.tools.swcomponent.rl78.sis.source">
+            <Setting id="BSP_CFG_PARAM_CHECKING_ENABLE" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_PRE_C_FUNCTION" value="my_sw_warmstart_prec_function"/>
+            <Setting id="BSP_CFG_CLOCK_OPERATION_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_SET_CLOCK_SOURCE_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_WDT_REFRESH_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_GET_FREQ_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_INIT_FUNCTION" value="my_sw_wdt_refresh_init_function"/>
+            <Setting id="BSP_CFG_INVALID_MEMORY_ACCESS_DETECTION_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_PRE_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_SOFTWARE_DELAY_API_FUNCTIONS_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_USER_WDT_REFRESH_SETTING_FUNCTION" value="my_sw_wdt_refresh_setting_function"/>
+            <Setting id="BSP_CFG_CHIP_STATE_CTRL_GUARD" value="0"/>
+            <Setting id="BSP_CFG_CHANGE_CLOCK_SETTING_API_FUNCTIONS_DISABLE" value="1"/>
+            <Setting id="BSP_CFG_DATA_FLASH_ACCESS_ENABLE" value="0"/>
+            <Setting id="BSP_CFG_STARTUP_DISABLE" value="0"/>
+            <Setting id="BSP_CFG_PORT_FUNCTION_GUARD" value="0"/>
+            <Setting id="BSP_CFG_USER_WARM_START_POST_C_FUNCTION" value="my_sw_warmstart_postc_function"/>
+            <Setting id="BSP_CFG_CONFIGURATOR_SELECT" value="1"/>
+            <Setting id="BSP_CFG_USER_WARM_START_CALLBACK_POST_INITC_ENABLED" value="0"/>
+            <Setting id="BSP_CFG_RAM_GUARD_FUNC" value="0"/>
+            <Setting id="BSP_CFG_INT_FUNCTION_GUARD" value="0"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.lvd" id="Config_LVD0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="operationMode" value="resetMode"/>
+            <Setting id="interruptVoltage" value="lvd_1650"/>
+            <Setting id="resetVoltage" value="lvd_1860"/>
+            <Setting id="priority" value="Level3"/>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.uart" id="SAU_UART1" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="Mode" value="both"/>
+            <Segment id="receive">
+                <Setting id="rxPriority" value="Level3"/>
+                <Setting id="paritySetting" value="none"/>
+                <Setting id="rxErrorPriority" value="Level3"/>
+                <Setting id="dataLength" value="8bits"/>
+                <Setting id="baudrateSetting" value="115200"/>
+                <Setting id="Operation" value="CK0"/>
+                <Setting id="rxErrorCallback" value="enable"/>
+                <Setting id="rxErrorFunction" value="enable"/>
+                <Setting id="stopBitSetting" value="1bit"/>
+                <Setting id="rxCallback" value="enable"/>
+                <Setting id="directionSetting" value="lsb"/>
+                <Setting id="Prescaler" value="FCLK2"/>
+                <Setting id="dataLevelSetting" value="normal"/>
+            </Segment>
+            <Segment id="transmit">
+                <Setting id="transferSetting" value="continuousMode"/>
+                <Setting id="paritySetting" value="none"/>
+                <Setting id="stopBitSetting" value="1bit"/>
+                <Setting id="dataLength" value="8bits"/>
+                <Setting id="directionSetting" value="lsb"/>
+                <Setting id="txPriority" value="Level3"/>
+                <Setting id="Prescaler" value="FCLK2"/>
+                <Setting id="baudrateSetting" value="115200"/>
+                <Setting id="txCallback" value="enable"/>
+                <Setting id="Operation" value="CK0"/>
+                <Setting id="dataLevelSetting" value="normal"/>
+            </Segment>
+        </Segment>
+        <Segment component="com.renesas.smc.tools.swcomponent.codegenerator.rl78.uart" id="SAU_UART0" source="com.renesas.smc.tools.swcomponent.codegenerator.source">
+            <Setting id="Mode" value="both"/>
+            <Segment id="receive">
+                <Setting id="rxPriority" value="Level3"/>
+                <Setting id="paritySetting" value="none"/>
+                <Setting id="rxErrorPriority" value="Level3"/>
+                <Setting id="dataLength" value="8bits"/>
+                <Setting id="baudrateSetting" value="115200"/>
+                <Setting id="Operation" value="CK0"/>
+                <Setting id="rxErrorCallback" value="enable"/>
+                <Setting id="rxErrorFunction" value="enable"/>
+                <Setting id="stopBitSetting" value="1bit"/>
+                <Setting id="rxCallback" value="enable"/>
+                <Setting id="directionSetting" value="lsb"/>
+                <Setting id="Prescaler" value="FCLK2"/>
+                <Setting id="dataLevelSetting" value="normal"/>
+            </Segment>
+            <Segment id="transmit">
+                <Setting id="transferSetting" value="continuousMode"/>
+                <Setting id="paritySetting" value="none"/>
+                <Setting id="stopBitSetting" value="1bit"/>
+                <Setting id="TxD0Setting" value="disable"/>
+                <Setting id="dataLength" value="8bits"/>
+                <Setting id="directionSetting" value="lsb"/>
+                <Setting id="txPriority" value="Level3"/>
+                <Setting id="Prescaler" value="FCLK2"/>
+                <Setting id="baudrateSetting" value="115200"/>
+                <Setting id="txCallback" value="enable"/>
+                <Setting id="Operation" value="CK0"/>
+                <Setting id="dataLevelSetting" value="normal"/>
+            </Segment>
+        </Segment>
+    </Segment>
+</QE>

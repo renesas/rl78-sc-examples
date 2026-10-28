@@ -1,0 +1,257 @@
+/**********************************************************************************************************************
+ * DISCLAIMER
+ * This software is supplied by Renesas Electronics Corporation and is only intended for use with Renesas products. No
+ * other uses are authorized. This software is owned by Renesas Electronics Corporation and is protected under all
+ * applicable laws, including copyright laws.
+ * THIS SOFTWARE IS PROVIDED "AS IS" AND RENESAS MAKES NO WARRANTIES REGARDING
+ * THIS SOFTWARE, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. ALL SUCH WARRANTIES ARE EXPRESSLY DISCLAIMED. TO THE MAXIMUM
+ * EXTENT PERMITTED NOT PROHIBITED BY LAW, NEITHER RENESAS ELECTRONICS CORPORATION NOR ANY OF ITS AFFILIATED COMPANIES
+ * SHALL BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES FOR ANY REASON RELATED TO
+ * THIS SOFTWARE, EVEN IF RENESAS OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ * Renesas reserves the right, without notice, to make changes to this software and to discontinue the availability of
+ * this software. By using this software, you agree to the additional terms and conditions found by accessing the
+ * following link:
+ * http://www.renesas.com/disclaimer
+ *
+ * Copyright (C) 2020-2022 Renesas Electronics Corporation. All rights reserved.
+ *********************************************************************************************************************/
+/***********************************************************************************************************************
+* File Name    : main.c
+* Device(s)    : R7F100LPL
+* Description  : This file implements main function.
+***********************************************************************************************************************/
+
+/***********************************************************************************************************************
+Includes
+***********************************************************************************************************************/
+#include "r_smc_entry.h"
+#include "string.h"
+
+/***********************************************************************************************************************
+Global variables and functions
+***********************************************************************************************************************/
+uint8_t g_watch_status = 0;				/* Stores mode values for clock display, hour adjustment, and minute adjustment. */
+uint8_t g_time_setting_flag = 0;			/* Flag for short switch press. */
+uint8_t g_mode_change_flag = 0;			/* Flag for long switch press. */
+uint8_t g_blink_flag = 0;					/* Flag used to blink the display. */
+uint8_t g_lcd_second  = 0;				/* Store the seconds value of the clock */
+uint8_t g_lcd_minute = 0;				/* Store the minutes value of the clock */
+uint8_t g_lcd_hour = 0;					/* Store the hours value of the clock */
+extern volatile uint8_t g_rtc_interrupt_flag;	/* rtc interrupt user flag */
+/***********************************************************************************************************************
+* Function Name: main
+* Description  : This function implements main function.
+***********************************************************************************************************************/
+void main(void)
+{
+    r_main_userinit();
+    
+    while (1U)
+    {
+        EI();
+        STOP();
+        DI();
+        
+        switch (g_watch_status)
+        {
+            case WATCH_DISPLAY:		/* Display the clock. */
+                R_Config_IT01_Stop();
+                r_handle_watch_display();
+                break;
+                
+            case HOUR_ADJUST:		/* Adjust the hour. */
+                R_Config_IT01_Start();
+                r_handle_time_adjust(&g_lcd_hour, MAX_HOUR, 1);
+                break;
+                
+            case MINUTE_ADJUST:		/* Adjust the minute. */
+                r_handle_time_adjust(&g_lcd_minute, MAX_MIN, 4);
+                break;
+                
+            default:
+                break;
+        }
+    }
+}
+/***********************************************************************************************************************
+* Function Name: r_main_userInit
+* Description  : This function adds user code before implementing main function.
+***********************************************************************************************************************/
+void r_main_userinit(void)
+{
+    R_Config_LCD_Voltage_On();
+    R_Config_LCD_Start();			/* Start LCD */
+    r_time_show(g_watch_status);		/* Update the LCD display. */
+    r_rtc_operation_start();			/* Start RTC*/
+    R_Config_INTC_INTP0_Start();	/* Start INTP0 */
+}
+
+/***********************************************************************************************************************
+* Function Name: r_handle_watch_display
+* Description  : This function updates the LCD clock display when a periodic RTC interrupt occurs or when the mode is switched.
+***********************************************************************************************************************/
+void r_handle_watch_display(void)
+{
+    if ((FLAG_SET == g_mode_change_flag) || (FLAG_SET == g_rtc_interrupt_flag))
+    {								/* Perform processing triggered by the RTC periodic interrupt or a long switch press. */
+        r_rtc_get_counter_value();		/* Read the RTC register values. */
+        r_time_show(g_watch_status);	/* Update the LCD display. */
+        g_mode_change_flag = FLAG_CLEAR;
+        g_rtc_interrupt_flag = FLAG_CLEAR;
+    }
+}
+
+/***********************************************************************************************************************
+* Function Name: r_handle_time_adjust
+* Description  : This function updates the LCD display while adjusting the hour and minute.
+***********************************************************************************************************************/
+void r_handle_time_adjust(uint8_t *val, uint8_t max_val, uint8_t blink_digit)
+{
+    if (FLAG_SET == g_mode_change_flag)	/* Execute processing when the mode is switched by a long press of the switch. */
+    {
+        r_rtc_get_counter_value();			/* Read the RTC register values. */
+        r_time_show(g_watch_status);		/* Update the LCD display. */
+        g_mode_change_flag = FLAG_CLEAR;
+        g_time_setting_flag = FLAG_CLEAR;
+        return;
+    }
+    
+    if (FLAG_SET == g_time_setting_flag)	/* Execute processing when the switch is short-pressed. */
+    {
+        r_increment_time(val, max_val);		/* Increments the corresponding hour or minute value. */
+        r_time_show(g_watch_status);		/* Update the LCD display. */
+        g_time_setting_flag = FLAG_CLEAR;
+        return;
+    }
+    
+    if (BLINK_HANDLED == r_handle_blink(blink_digit))	/* Blink the hour on the LCD. */
+    {
+        return;
+    }
+}
+
+/***********************************************************************************************************************
+* Function Name: r_time_show
+* Description  : This function displays the time on the LCD.
+***********************************************************************************************************************/
+void r_time_show(uint8_t blinking_colon)
+{
+    r_lcd_show((g_lcd_minute % 10), 4);	/* Display the minute digits on the LCD. */
+    r_lcd_show((g_lcd_minute / 10), 3);		/* Display the minute digits on the LCD. */
+    
+    if (WATCH_DISPLAY == blinking_colon)
+    {
+        r_lcd_blinking_show(14, 2);			/* Blink the colon on the LCD. */
+    }
+    else
+    {
+        r_lcd_show(14, 2);					/* Turn on the colon on the LCD. */
+    }
+    r_lcd_show((g_lcd_hour   % 10), 1);		/* Display the hour digits on the LCD. */
+    r_lcd_show((g_lcd_hour   / 10), 0);		/* Display the hour digits on the LCD. */
+}
+
+/***********************************************************************************************************************
+* Function Name: r_handle_blink
+* Description  : This function blinks the corresponding digit on the LCD.
+***********************************************************************************************************************/
+uint8_t r_handle_blink(uint8_t blink_digit)
+{
+    if (BLINK_OFF == g_blink_flag)
+    {
+        r_lcd_show(12, blink_digit);		/* Turn off the corresponding digit on the LCD. */
+        r_lcd_show(12, blink_digit - 1);	/* Turn off the corresponding digit on the LCD. */
+        return BLINK_HANDLED;
+    }
+    else if (BLINK_ON == g_blink_flag)
+    {
+        r_rtc_get_counter_value();		/* Read the RTC register values. */
+        r_time_show(g_watch_status);	/* Update the LCD display. */
+        return BLINK_HANDLED;
+    }
+    return BLINK_SKIPPED;
+}
+
+/***********************************************************************************************************************
+* Function Name: r_increment_time
+* Description  : This function reads the register value from the RTC, 
+                 increments the corresponding register value, and then writes it back to the RTC.
+***********************************************************************************************************************/
+void r_increment_time(uint8_t *time_val, uint8_t max_val)
+{
+    r_rtc_get_counter_value();	/* Read the RTC register values. */
+    (*time_val)++;
+    if (*time_val > max_val)
+    {
+        *time_val = 0;
+    }
+    g_lcd_second = 0;
+    r_rtc_set_counter_value();		/* Write the RTC register values. */
+}
+
+/***********************************************************************************************************************
+* Function Name: r_lcd_show
+* Description  : This function sets the LCD display data to the PFSEGx registers.
+***********************************************************************************************************************/
+void r_lcd_show(uint8_t value, uint8_t digit)
+{
+    for(uint8_t i = 0; i < 4; i++)
+    {
+        R_Config_LCD_Set_DisplayData (g_digit_segdata[digit][i], g_show_segdata[value][i]);
+    }
+}
+
+/***********************************************************************************************************************
+* Function Name: r_lcd_blinking_show
+* Description  : This function sets the LCD display data to the PFSEGx registers.
+***********************************************************************************************************************/
+void r_lcd_blinking_show(uint8_t value, uint8_t digit)
+{
+    for(uint8_t i = 0; i < 4; i++)
+    {
+        R_Config_LCD_Set_DisplayData (g_digit_segdata[digit][i], g_blinking_show_segdata[value][i]);
+    }
+}
+
+/***********************************************************************************************************************
+* Function Name: r_rtc_get_counter_value
+* Description  : This function reads the register values from the RTC.
+***********************************************************************************************************************/
+void r_rtc_get_counter_value(void)
+{
+    RWAIT = 1;		/* Update the time */
+    while (0 == RWST)
+    {
+        NOP();
+    }
+    g_lcd_second = ((SEC  >> 4) * 10) + (SEC & 0xF);
+    g_lcd_minute = ((MIN  >> 4) * 10) + (MIN & 0xF);
+    g_lcd_hour   = ((HOUR >> 4) * 10) + (HOUR & 0xF);
+    RWAIT = 0;
+    while (1 == RWST)
+    {
+        NOP();
+    }
+}
+
+/***********************************************************************************************************************
+* Function Name: r_rtc_set_counter_value
+* Description  : This function writes register values to the RTC.
+***********************************************************************************************************************/
+void r_rtc_set_counter_value(void)
+{
+    RWAIT = 1;		/* Update the time */
+    while (0 == RWST)
+    {
+        NOP();
+    }
+    SEC  = ((g_lcd_second / 10) << 4) + (g_lcd_second % 10);
+    MIN  = ((g_lcd_minute / 10) << 4) + (g_lcd_minute % 10);
+    HOUR = ((g_lcd_hour   / 10) << 4) + (g_lcd_hour   % 10);
+    RWAIT = 0;
+    while (1 == RWST)
+    {
+        NOP();
+    }
+}   

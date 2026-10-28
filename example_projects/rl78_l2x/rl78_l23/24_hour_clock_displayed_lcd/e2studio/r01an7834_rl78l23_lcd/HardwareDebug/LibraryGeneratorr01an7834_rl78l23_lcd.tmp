@@ -1,0 +1,5 @@
+-MAKEUD_LBG="C:\workspace\e2studio\r01an7834_rl78l23_lcd\HardwareDebug\r01an7834_rl78l23_lcd_lbg.ud" 
+-cpu=S3 
+-output=r01an7834_rl78l23_lcd.lib 
+-nologo 
+-lang=c99
