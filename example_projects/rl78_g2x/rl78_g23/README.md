@@ -5,6 +5,19 @@ This directory provides example projects for the RL78/G23.<br>
 For details on how to use each project and the required software and hardware, please refer to the APN or the README in each project folder.
  <br>
 
+-------------------------------------------------------------------------------------------------------------
+Note: <br>
+When migrating this sample code to an R7F104G product, after changing the target device, check the pin, clock, and peripheral function settings in Smart Configurator, and be sure to regenerate the code.
+
+Regenerating the code generates the required configuration code for the port-related registers whose initial settings need to be changed for R7F104G products.
+
+For instructions on how to change the target device and use Smart Configurator, refer to the following documents.
+-	[Change the microcontroller | V8.05.00](https://tool-support.renesas.com/autoupdate/support/onlinehelp/csp/V8.05.00/CS+.chm/po-ProjectOperation.chm/Output/po_function_pset_micon-nav-3.html)
+- [e² studio Tips - How to change the device in the project | Renesas](https://www.renesas.com/en/video/e-studio-tips-how-change-device-project)
+- [RL78 Smart Configurator User's Guide: CS+](https://www.renesas.com/en/document/man/rl78-smart-configurator-users-guide-cs)
+- [RL78 Smart Configurator User's Guide: e² studio](https://www.renesas.com/en/document/man/rl78-smart-configurator-users-guide-e-studio)
+-------------------------------------------------------------------------------------------------------------
+
 ## Mapping Table
 | Content | App Note Number |
 |--------|--------|
@@ -33,6 +46,15 @@ For details on how to use each project and the required software and hardware, p
 | HOCO Clock Frequency Correction | r01an5555 |
 | CPU Clock Changing and Standby Settings | r01an5546 |
 | Operation State Switching | r01an5537 |
+| EP Quick Start | r01an8400* |
+| EP ADC | r01an8401* |
+| EP TAU | r01an8407* |
+| EP I2C | r01an8404* |
+| EP SPI | r01an8405* |
+| EP UART | r01an8406* |
+| EP Serial Interface UARTA | r01an8408* |
+| EP Serial Interface IICA Master | r01an8402* |
+*: No application note is available for these projects. The applicable APN numbers are provided for reference.
 
 ## Links
 - RL78/G23: https://www.renesas.com/en/products/rl78-g23
