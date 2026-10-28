@@ -1,5 +1,18 @@
 # RL78/G2x information
 English page is [here](./README.md).<br>
+
+## RL78/G21
+| カテゴリ | フォルダ | 概要 |
+|---|---|---|
+| Quick Start | [Quick Start](./rl78_g21/quickstart) | RL78/G21のLED blinkyを行うプロジェクトです。 |
+| ADC | [AD Converter](./rl78_g21/adc) | RL78/G21のA/Dコンバータを使用するプロジェクトです。 |
+| TAU | [Timer Array Unit](./rl78_g21/tau) | RL78/G21のTAUを使用するプロジェクトです。 |
+| SAU | [I2C](./rl78_g21/sau_i2c_master) | RL78/G21のSAUによるI2C通信を使用するプロジェクトです。 |
+| SAU | [SPI](./rl78_g21/sau_spi_master) | RL78/G21のSAUによるSPI通信を使用するプロジェクトです。 |
+| SAU | [UART](./rl78_g21/sau_uart_master) | RL78/G21のUARTによるSPI通信を使用するプロジェクトです。 |
+| Serial Interface | [UARTA](./rl78_g21/uarta) | RL78/G21のシリアル・インターフェースUARTAを使用するプロジェクトです。 |
+| Serial Interface | [IICA Master](./rl78_g21/iic_master_iica) | RL78/G21のシリアル・インターフェースIICA(マスタ送受信)を使用するプロジェクトです。 |
+
 ## RL78/G22
 | カテゴリ | フォルダ | 概要 |
 |---|---|---|
@@ -19,12 +32,15 @@ English page is [here](./README.md).<br>
 ## RL78/G23
 | カテゴリ | フォルダ | 概要 |
 |---|---|---|
+| Quick Start | [Quick Start](./rl78_g23/ep_quickstart) | RL78/G23のLED blinkyを行うExample Projectです。 |
 | ADC | [ADC Scan Mode](./rl78_g23/adc_scan_mode) | RL78/G23のA/Dコンバータをスキャンモード(ソフトウェア・トリガ・ノーウェイト・モード、連続変換モード)で使用するプロジェクトです。 |
 | ADC | [ADC Software Trigger Wait Mode](./rl78_g23/adc_software_trigger_wait_mode) | RL78/G23のA/Dコンバータをソフトウェア・トリガ・ウェイト・モード(セレクト・モード、ワンショット変換モード)で使用するプロジェクトです。|
+| ADC | [EP ADC](./rl78_g23/ep_adc) | RL78/G23のADCウィンドウ・コンペア・モードを使用するExample Projectです。 |
 | TAU | [Interval Timer](./rl78_g23/interval_timer) | RL78/G23のTAUによるインターバル・タイマ機能を使用するプロジェクトです。 |
 | TAU | [Pulse Interval Measurement (Period)](./rl78_g23/pulse_interval_measurement_period) | RL78/G23のTAUによるパルス間隔測定(周期)機能を使用するプロジェクトです。 |
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g23/pulse_interval_measurement_width) | RL78/G23のTAUによるパルス間隔測定(幅)機能を使用するプロジェクトです。 |
 | TAU | [PWM Output](./rl78_g23/pwm_output) | RL78/G23のTAUによるPWM出力機能を使用するプロジェクトです。 |
+| TAU | [EP Timer Array Unit](./rl78_g23/ep_tau) | RL78/G23のTAUを使用するExample Projectです。 |
 | Timer | [32-bit Interval Timer](./rl78_g23/32-bit_interval_timer) | RL78/G23の32ビット・インターバル・タイマを使用するプロジェクトです。 |
 | Clock | [CPU Clock Changing and Standby Settings](./rl78_g23/cpu_clock_changing_standby_settings) | RL78/G23のクロック切り替えとスタンバイ設定をするプロジェクトです。 |
 | Clock | [HOCO Frequency Correction](./rl78_g23/hoco_clock_frequency_correction) | RL78/G23のHOCO周波数補正を行うプロジェクトです。 |
@@ -36,8 +52,13 @@ English page is [here](./README.md).<br>
 | SAU | [Handshake SPI Slave](./rl78_g23/handshake_based_spi_slave_transmission_reception) | RL78/G23のハンドシェイク対応SPIスレーブ送受信を行うプロジェクトです。 |
 | SAU | [I2C Multiple Slave Address (Master)](./rl78_g23/i2c_supporting_multiple_slave_address_master) | RL78/G23の複数スレーブ・アドレス対応I2C (マスタ)を行うプロジェクトです。 |
 | SAU | [I2C Multiple Slave Address (Slave)](./rl78_g23/i2c_supporting_multiple_slave_address_slave) | RL78/G23の複数スレーブ・アドレス対応I2C (スレーブ)を行うプロジェクトです。 |
+| SAU | [EP I2C](./rl78_g23/ep_sau_i2c_master) | RL78/G23のSAUによるI2C通信を使用するExample Projectです。 |
+| SAU | [EP SPI](./rl78_g23/ep_sau_spi_master) | RL78/G23のSAUによるSPI通信を使用するExample Projectです。 |
+| SAU | [EP UART](./rl78_g23/ep_sau_uart_master) | RL78/G23のSAUによるUART通信を使用するExample Projectです。 |
 | Serial Interface | [UARTA](./rl78_g23/uarta) | RL78/G23のシリアル・インターフェースUARTAを使用するプロジェクトです。 |
 | Serial Interface | [UART Reception in STOP Mode](./rl78_g23/uart_reception_stop_mode_using_uarta) | RL78/G23のUARTA を使用したSTOP モード時のUART 受信を行うプロジェクトです。 |
+| Serial Interface | [EP UARTA](./rl78_g23/ep_uarta) | RL78/G23のシリアル・インターフェースUARTAを使用するExample Projectです。 |
+| Serial Interface | [EP IICA Master](./rl78_g23/ep_iic_master_iica) | RL78/G23のシリアル・インターフェースIICA(マスタ送受信)を使用するExample Projectです。 |
 | Power Management | [Operation State Switching](./rl78_g23/operation_state_switching) | RL78/G23のオペレーション・ステートの切り替えを行うプロジェクトです。 |
 | Power Management | [Using VBAT Pin](./rl78_g23/using_vbat_pin) | RL78/G23のVBAT 端子の使い方を示すプロジェクトです。 |
 | Port | [Output Current Control Ports](./rl78_g23/output_current_control_ports) | RL78/G23の出力電流制御ポートの使い方を示すプロジェクトです。 |
