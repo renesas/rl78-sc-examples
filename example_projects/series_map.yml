@@ -2,6 +2,7 @@
 # Device key -> series directory
 
 # ---- G2x series ----
+g21: g2x
 g22: g2x
 g23: g2x
 g24: g2x
@@ -15,10 +16,14 @@ g14: g1x
 g15: g1x
 g16: g1x
 
-# ---- L series ----
-l12: lxx
-l13: lxx
-l23: lxx
+# ---- L1x series ----
+l12: l1x
+l13: l1x
+
+
+# ---- L2x series ----
+l23: l2x
+
 
 # ---- I series ----
 i1a: i1x
