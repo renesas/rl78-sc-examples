@@ -5,6 +5,18 @@ English page is [here](./README.md).<br>
 プロジェクトの使い方、用意するソフトウェア/ハードウェアについては、各APN、プロジェクトフォルダ内READMEをご参照ください。 
  <br>
  
+-------------------------------------------------------------------------------------------------------------
+Note: <br>
+本サンプルコードをR7F104G製品へ移行する場合、対象デバイスを変更した後に、スマート・コンフィグレータで端子、クロックおよび使用する周辺機能の設定を確認し、必ずコードを再生成してください。<br>
+コードを再生成することで、R7F104G製品で初期値から変更が必要なポート関連レジスタの設定コードが生成されます。
+
+対象デバイスの変更方法およびスマート・コンフィグレータの操作方法については、以下の資料を参照してください。
+-	[マイクロコントローラを変更する | V8.05.00](https://tool-support.renesas.com/autoupdate/support/onlinehelp/ja-JP/csp/V8.05.00/CS+.chm/po-ProjectOperation.chm/Output/po_function_pset_micon-nav-3.html)
+- [e² studio Tips - プロジェクトに設定されたデバイスを変更する方法 | Renesas ルネサス](https://www.renesas.com/ja/video/e-studio-tips-how-change-device-project)
+- [RL78 スマート・コンフィグレータユーザーガイド：CS+編](https://www.renesas.com/ja/document/man/rl78-smart-configurator-users-guide-cs?srsltid=AU7gw4Vf6CpRW-GQqD07IhZix8vxX6OqeIVmCRcsClgdMvfkM5oNOy8R)
+- [RL78 スマート・コンフィグレータユーザーガイド: e² studio編](https://www.renesas.com/ja/document/man/rl78-smart-configurator-users-guide-e-studio?r=1622856)
+-------------------------------------------------------------------------------------------------------------
+ 
 ## 対応表
 | 内容 | アプリケーションノート番号 |
 |--------|--------|
@@ -33,6 +45,16 @@ English page is [here](./README.md).<br>
 | HOCO Clock Frequency Correction | r01an5555 |
 | CPU Clock Changing and Standby Settings | r01an5546 |
 | Operation State Switching | r01an5537 |
+| EP Quick Start | r01an8400* |
+| EP ADC | r01an8401* |
+| EP TAU | r01an8407* |
+| EP I2C | r01an8404* |
+| EP SPI | r01an8405* |
+| EP UART | r01an8406* |
+| EP Serial Interface UARTA | r01an8408* |
+| EP Serial Interface IICA Master | r01an8402* |
+
+*: これらのプロジェクトにはAPNが用意されていません。参照できるAPN番号を示していますので、参考にしてください。
 
 ## リンク
 - RL78/G23: https://www.renesas.com/ja/products/rl78-g23
