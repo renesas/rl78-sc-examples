@@ -54,6 +54,7 @@ For instructions on how to change the target device and use Smart Configurator, 
 | EP UART | r01an8406* |
 | EP Serial Interface UARTA | r01an8408* |
 | EP Serial Interface IICA Master | r01an8402* |
+
 *: No application note is available for these projects. The applicable APN numbers are provided for reference.
 
 ## Links
