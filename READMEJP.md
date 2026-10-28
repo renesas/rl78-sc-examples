@@ -59,7 +59,8 @@ Assets セクションから ZIP ファイルをダウンロードし、必要�
 ## 対象デバイス
 - RL78/G1x (Comming soon)
 - RL78/G2x
-- RL78/Lxx (Comming soon)
+- RL78/L1x (Comming soon)
+- RL78/L2x
 - RL78/I1x (Comming soon)
 - RL78/H1D (Comming soon)
 
