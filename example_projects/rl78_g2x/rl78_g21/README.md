@@ -19,5 +19,5 @@ For details on how to use each project and the required software and hardware, p
 
 ## Links
 - RL78/G21: https://www.renesas.com/en/products/rl78-g21
-- RL78/G21 User's Manual: 
-- FPB RL78/G21: 
+- RL78/G21 User's Manual: https://www.renesas.com/en/document/mah/rl78g21-hardware-manual
+- FPB RL78/G21: https://www.renesas.com/en/design-resources/boards-kits/fpb-rl78g21
