@@ -1,6 +1,18 @@
 # RL78/G2x information
 日本語版は[こちら](./READMEJP.md)
 
+## RL78/G21
+| Peripheral | Folder | Description |
+|---|---|---|
+| Quick Start | [Quick Start](./rl78_g21/quickstart) | RL78/G21 LED blinky example |
+| ADC | [AD Converter](./rl78_g21/adc) | RL78/G21 AD converter example |
+| TAU | [Timer Array Unit](./rl78_g21/tau) | RL78/G21 timer array unit example |
+| SAU | [I2C](./rl78_g21/sau_i2c_master) | RL78/G21 I2C example |
+| SAU | [SPI](./rl78_g21/sau_spi_master) | RL78/G21 SPI example |
+| SAU | [UART](./rl78_g21/sau_uart_master) | RL78/G21 UART example |
+| Serial Interface | [UARTA](./rl78_g21/uarta) | RL78/G21 UARTA example |
+| Serial Interface | [IICA Master](./rl78_g21/iic_master_iica) | RL78/G21 IICA for master example |
+
 ## RL78/G22
 | Peripheral | Folder | Description |
 |---|---|---|
@@ -19,12 +31,15 @@
 ## RL78/G23
 | Peripheral | Folder | Description |
 |---|---|---|
+| Quick Start | [Quick Start](./rl78_g23/ep_quickstart) | RL78/G23 LED blinky example |
 | ADC | [ADC Scan Mode](./rl78_g23/adc_scan_mode) | RL78/G23 ADC scan mode (in addition to sequential conversion mode and software trigger no-wait mode) example |
 | ADC | [ADC Software Trigger Wait Mode](./rl78_g23/adc_software_trigger_wait_mode) | RL78/G23 ADC software trigger wait mode (in addition to select mode and one-shot conversion mode) example |
+| ADC | [EP ADC](./rl78_g23/ep_adc) | RL78/G23 ADC window compare mode example project |
 | TAU | [Interval Timer](./rl78_g23/interval_timer) | RL78/G23 interval timer example |
 | TAU | [Pulse Interval Measurement (Period)](./rl78_g23/pulse_interval_measurement_period) | RL78/G23 pulse interval measurement (period) example |
 | TAU | [Pulse Interval Measurement (Width)](./rl78_g23/pulse_interval_measurement_width) | RL78/G23 pulse interval measurement (width) example |
 | TAU | [PWM Output](./rl78_g23/pwm_output) | RL78/G23 PWM output example |
+| TAU | [EP Timer Array Unit](./rl78_g23/ep_tau) | RL78/G23 timer array unit example project |
 | Timer | [32-bit Interval Timer](./rl78_g23/32-bit_interval_timer) | RL78/G23 32-bit interval timer example |
 | Clock | [CPU Clock Changing and Standby Settings](./rl78_g23/cpu_clock_changing_standby_settings) | RL78/G23 clock changing and standby settings example |
 | Clock | [HOCO Frequency Correction](./rl78_g23/hoco_frequency_correction) | RL78/G23 HOCO clock frequency correction example |
@@ -36,8 +51,13 @@
 | SAU | [Handshake SPI Slave](./rl78_g23/handshake_based_spi_slave_transmission_reception) | RL78/G23 handshake SPI slave example |
 | SAU | [I2C Multiple Slave Address (Master)](./rl78_g23/i2c_supporting_multiple_slave_address_master) | RL78/G23 I2C multiple slave address master example|
 | SAU | [I2C Multiple Slave Address (Slave)](./rl78_g23/i2c_supporting_multiple_slave_address_slave) | RL78/G23 I2C multiple slave address slave example |
+| SAU | [EP I2C](./rl78_g23/ep_sau_i2c_master) | RL78/G23 I2C example project |
+| SAU | [EP SPI](./rl78_g23/ep_sau_spi_master) | RL78/G23 SPI example project |
+| SAU | [EP UART](./rl78_g23/ep_sau_uart_master) | RL78/G23 UART example project |
 | Serial Interface | [UARTA](./rl78_g23/uarta) | RL78/G23 UARTA example |
 | Serial Interface | [UART Reception in STOP Mode](./rl78_g23/uart_reception_stop_mode_using_uarta) | RL78/G23 UART reception in STOP mode example |
+| Serial Interface | [EP UARTA](./rl78_g23/ep_uarta) | RL78/G23 UARTA example project |
+| Serial Interface | [EP IICA Master](./rl78_g23/ep_iic_master_iica) | RL78/G23 IICA for master example project |
 | Power Management | [Operation State Switching](./rl78_g23/operation_state_switching) | RL78/G23 operation state switching example |
 | Power Management | [Using VBAT Pin](./rl78_g23/using_vbat_pin) | RL78/G23 VBAT pin example |
 | Port | [Output Current Control Ports](./rl78_g23/output_current_control_ports) | RL78/G23 output current control ports example |
