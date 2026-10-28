@@ -18,6 +18,6 @@ English page is [here](./README.md).<br>
 | Serial Interface IICA Master | r01an8402 |
 
 ## Links
-- RL78/G21: https://www.renesas.com/en/products/rl78-g21
-- RL78/G21 ユーザーズマニュアル: 
-- FPB RL78/G21: 
+- RL78/G21: https://www.renesas.com/ja/products/rl78-g21
+- RL78/G21 ユーザーズマニュアル: https://www.renesas.com/ja/document/mah/rl78g21-hardware-manual
+- FPB RL78/G21: https://www.renesas.com/ja/design-resources/boards-kits/fpb-rl78g21
